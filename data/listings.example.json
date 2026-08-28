@@ -1,0 +1,13 @@
+[
+  {
+    "city_slug": "dayton-oh",
+    "service_slug": "ac-repair",
+    "name": "Example HVAC Co",
+    "areas_served": ["Dayton", "Kettering"],
+    "phone": "(555) 014-0000",
+    "license_id": "OH-000000",
+    "blurb": "Sample only. Do not copy these values onto a live page.",
+    "tier": "featured",
+    "profile_url": ""
+  }
+]
