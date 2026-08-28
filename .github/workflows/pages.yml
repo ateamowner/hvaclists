@@ -31,9 +31,11 @@ jobs:
         run: |
           test -f out/CNAME
           test -f out/.nojekyll
+          test -f out/googled3ae2edf58b5b2f8.html
           test -d out/dayton-oh
           test -d out/dayton-oh/ac-repair
           test "$(tr -d '[:space:]' < out/CNAME)" = "hvaclists.com"
+          test "$(tr -d '\n' < out/googled3ae2edf58b5b2f8.html)" = "google-site-verification: googled3ae2edf58b5b2f8.html"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
