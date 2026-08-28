@@ -40,6 +40,8 @@ This repository publishes its own Pages site from `main` via `.github/workflows/
 
 Required repo settings (once): **Settings → Pages → Source = GitHub Actions**. Custom domain: `hvaclists.com`. `CNAME` is committed as `hvaclists.com` (repo root and `public/CNAME`).
 
+Pages source was set to GitHub Actions and the custom domain to hvaclists.com on 2026-08-28.
+
 This workflow does **not** change [treelist.ai](https://treelist.ai) DNS or the TreeList / SolarLists repos.
 
 ## Porkbun DNS (hvaclists.com only — do not apply)
