@@ -9,7 +9,7 @@ const FEATURED_CHECKOUT_URL =
 
 export const metadata: Metadata = {
   title: `For HVAC companies — ${site.name}`,
-  description: `How contractors buy ${site.name} listings and exclusive leads. Featured — paid placement is $99/month self-serve. Exclusive is email-quote only. The homeowner form has no credit-card field.`,
+  description: `How contractors buy ${site.name} Featured — paid placement. $99/month self-serve on Stripe. Not exclusive. No lead-count SLA. The homeowner form has no credit-card field.`,
 };
 
 export default function ForProsPage() {
@@ -19,10 +19,10 @@ export default function ForProsPage() {
         For HVAC companies
       </h1>
       <p className="mt-4 text-lg leading-8">
-        {site.name} sells listings and exclusive lead routing on city × service
-        URLs. Homeowners see a directory, not a fake contractor homepage. You
-        are not buying a website. You are buying a labeled place on a page
-        people already use to request a callback.
+        {site.name} sells labeled listings on city × service URLs. Homeowners
+        see a directory, not a fake contractor homepage. You are not buying a
+        website. You are buying a labeled place on a page people already use to
+        request a callback.
       </p>
       <Disclosure className="mt-4" />
 
@@ -43,8 +43,7 @@ export default function ForProsPage() {
           <p className="mt-1 text-sm leading-6 text-muted-foreground">
             A paid upgrade. It is visually labeled “Featured — paid placement”
             so homeowners can tell it is an ad. Featured sits above standard.
-            This is not exclusive. There is no exclusive SLA and no lead-count
-            guarantee.
+            This is not exclusive. There is no lead-count SLA.
           </p>
           <p className="mt-3 text-sm leading-6">
             HVACLists Featured — paid placement. $99/month subscription.
@@ -56,23 +55,6 @@ export default function ForProsPage() {
           >
             Subscribe — $99/month
           </a>
-        </li>
-        <li className="rounded-lg border border-border bg-card p-4">
-          <p className="font-semibold">Exclusive leads</p>
-          <p className="mt-1 text-sm leading-6 text-muted-foreground">
-            Category priority on one city × service URL (for example, Dayton AC
-            repair). Exclusive is labeled “Exclusive — paid placement.” Quote
-            form traffic on that URL is routed to you first while the term is
-            active. Exclusive stays email-quote only. There is no exclusive
-            checkout on this page and no exclusive SLA published here.
-          </p>
-          <p className="mt-3 text-sm leading-6">
-            Email for a quote:{" "}
-            <a href={`mailto:${site.email}`} className="underline">
-              {site.email}
-            </a>
-            .
-          </p>
         </li>
       </ul>
 
@@ -99,17 +81,14 @@ export default function ForProsPage() {
         <a href={FEATURED_CHECKOUT_URL} className="underline">
           this Stripe checkout
         </a>
-        . Featured is not exclusive, has no exclusive SLA, and has no
-        lead-count guarantee.
+        . Featured is not exclusive. There is no lead-count SLA.
       </p>
       <p className="mt-3 leading-7">
-        Exclusive leads: email for a quote. There is no exclusive checkout.
-        Standard listing city rates are not published on this page — email for
-        a Miami Valley market and a term. Do not send card numbers to the
-        homeowner form.
+        Standard listing city rates are not published on this page. Do not send
+        card numbers to the homeowner form.
       </p>
       <p className="mt-3 leading-7">
-        Email:{" "}
+        Contact:{" "}
         <a href={`mailto:${site.email}`} className="underline">
           {site.email}
         </a>
