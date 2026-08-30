@@ -3,9 +3,13 @@ import Link from "next/link";
 import { Disclosure } from "@/components/disclosure";
 import { liveCitySlugs, servicePath, site } from "@/config/site";
 
+/** Live Stripe Payment Link. Do not recreate or change this product in Stripe. */
+const FEATURED_CHECKOUT_URL =
+  "https://buy.stripe.com/00w4gAfl34z2bSJ97Fdwc0c";
+
 export const metadata: Metadata = {
   title: `For HVAC companies — ${site.name}`,
-  description: `How contractors buy ${site.name} listings and exclusive leads. Standard, featured, and exclusive. No credit card on this page.`,
+  description: `How contractors buy ${site.name} listings and exclusive leads. Featured — paid placement is $99/month self-serve. Exclusive is email-quote only. The homeowner form has no credit-card field.`,
 };
 
 export default function ForProsPage() {
@@ -35,11 +39,23 @@ export default function ForProsPage() {
           </p>
         </li>
         <li className="rounded-lg border border-border bg-card p-4">
-          <p className="font-semibold">Featured listing</p>
+          <p className="font-semibold">Featured — paid placement</p>
           <p className="mt-1 text-sm leading-6 text-muted-foreground">
             A paid upgrade. It is visually labeled “Featured — paid placement”
             so homeowners can tell it is an ad. Featured sits above standard.
+            This is not exclusive. There is no exclusive SLA and no lead-count
+            guarantee.
           </p>
+          <p className="mt-3 text-sm leading-6">
+            HVACLists Featured — paid placement. $99/month subscription.
+            Checkout is on Stripe, not on the homeowner quote form.
+          </p>
+          <a
+            href={FEATURED_CHECKOUT_URL}
+            className="mt-4 inline-flex h-11 items-center justify-center rounded-lg bg-primary px-5 text-base font-medium text-primary-foreground hover:bg-primary/90"
+          >
+            Subscribe — $99/month
+          </a>
         </li>
         <li className="rounded-lg border border-border bg-card p-4">
           <p className="font-semibold">Exclusive leads</p>
@@ -47,7 +63,15 @@ export default function ForProsPage() {
             Category priority on one city × service URL (for example, Dayton AC
             repair). Exclusive is labeled “Exclusive — paid placement.” Quote
             form traffic on that URL is routed to you first while the term is
-            active.
+            active. Exclusive stays email-quote only. There is no exclusive
+            checkout on this page and no exclusive SLA published here.
+          </p>
+          <p className="mt-3 text-sm leading-6">
+            Email for a quote:{" "}
+            <a href={`mailto:${site.email}`} className="underline">
+              {site.email}
+            </a>
+            .
           </p>
         </li>
       </ul>
@@ -59,7 +83,7 @@ export default function ForProsPage() {
         The form collects name, phone, email, ZIP, service type, timing,
         optional property type and message, SMS consent, and required privacy
         consent. Hidden fields carry page URL, city, state, and service. There
-        is no credit-card field on {site.name}.
+        is no credit-card field on the homeowner quote form.
       </p>
       <p className="mt-3 leading-7">
         Every request posts to Formsubmit and emails {site.leadsEmail}. If a
@@ -70,8 +94,18 @@ export default function ForProsPage() {
 
       <h2 className="mt-10 font-heading text-2xl font-semibold">Pricing</h2>
       <p className="mt-3 leading-7">
-        City rates are not published on this page. Email and we will quote a
-        Miami Valley market and a term. Do not send card numbers to the
+        Featured — paid placement is $99/month, self-serve. Use the Subscribe
+        button above or{" "}
+        <a href={FEATURED_CHECKOUT_URL} className="underline">
+          this Stripe checkout
+        </a>
+        . Featured is not exclusive, has no exclusive SLA, and has no
+        lead-count guarantee.
+      </p>
+      <p className="mt-3 leading-7">
+        Exclusive leads: email for a quote. There is no exclusive checkout.
+        Standard listing city rates are not published on this page — email for
+        a Miami Valley market and a term. Do not send card numbers to the
         homeowner form.
       </p>
       <p className="mt-3 leading-7">
