@@ -33,8 +33,8 @@ export default function HomePage() {
             its own URL. Featured spots are paid and labeled.
           </p>
           <p className="mt-3 max-w-2xl text-base leading-7 text-muted-foreground">
-            Homeowners use the form. Companies buy a listing or exclusive leads
-            on the{" "}
+            Homeowners use the form. Companies buy a Featured — paid placement
+            listing on the{" "}
             <Link href="/for-pros/" className="underline underline-offset-2">
               For Pros
             </Link>{" "}
