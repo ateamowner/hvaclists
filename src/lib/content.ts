@@ -11,7 +11,7 @@ import { uniqueLocalCopy } from "@/lib/local-copy";
 export type Faq = { question: string; answer: string };
 
 export function introParagraphs(city: City, service: Service): string[] {
-  const directory = `${site.disclosure} Featured and exclusive spots on this page are paid placements and are labeled as such. If the listings block is empty, use the form anyway. We route the request — or hold it until a company that covers your ZIP is available.`;
+  const directory = `${site.disclosure} Featured — paid placement spots on this page are labeled as such. If the listings block is empty, use the form anyway. We route the request — or hold it until a company that covers your ZIP is available.`;
 
   return [
     `This page is ${site.name}'s ${city.name}, ${city.stateAbbr} listing for ${service.name.toLowerCase()}. ${directory}`,
@@ -124,11 +124,11 @@ export function faqs(city: City, service: Service): Faq[] {
   return [
     {
       question: `Is ${site.name} an HVAC contractor in ${city.name}?`,
-      answer: `No. ${site.name} is a directory and lead-routing site. We do not repair AC, service furnaces, or install systems. Companies can buy a listing on this URL. Featured and exclusive spots are paid and labeled. ${site.disclosure}`,
+      answer: `No. ${site.name} is a directory and lead-routing site. We do not repair AC, service furnaces, or install systems. Companies can buy a listing on this URL. Featured — paid placement is labeled. ${site.disclosure}`,
     },
     {
-      question: `Why are some listings marked Featured or Exclusive?`,
-      answer: `Those are paid placements. A featured spot is a paid, labeled upgrade. An exclusive spot means a company bought category priority on this URL. Standard listings, when we have them, are not marked as paid upgrades. We do not invent companies to fill empty slots.`,
+      question: `Why are some listings marked Featured?`,
+      answer: `Those are paid placements. A Featured — paid placement is a labeled upgrade so you can tell it is an ad. Standard listings, when we have them, are not marked as paid upgrades. We do not invent companies to fill empty slots.`,
     },
     {
       question: `What does ${service.name.toLowerCase()} cost in ${city.name}?`,
@@ -163,7 +163,7 @@ export function hubFaqs(city: City): Faq[] {
     },
     {
       question: `Are featured listings ads?`,
-      answer: `Featured and exclusive spots are paid placements and are labeled on the service pages. We do not invent company names to fill a page.`,
+      answer: `Featured — paid placement spots are labeled on the service pages. We do not invent company names to fill a page.`,
     },
     {
       question: `Where is the quote form?`,
