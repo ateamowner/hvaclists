@@ -171,7 +171,7 @@ export function hubFaqs(city: City): Faq[] {
     },
     {
       question: `How do contractors get on this ${city.name} page?`,
-      answer: `See the For Pros page. Companies can buy a standard listing, a labeled featured spot, or exclusive leads for a city and service. There is no credit-card form on this site.`,
+      answer: `See the For Pros page. Companies can buy a labeled Featured — paid placement. There is no credit-card field on the homeowner form.`,
     },
   ];
 }
