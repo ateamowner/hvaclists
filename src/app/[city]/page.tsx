@@ -16,7 +16,7 @@ import {
   services,
   site,
 } from "@/config/site";
-import { hubFaqs, hubIntro } from "@/lib/content";
+import { hubFaqs, hubIntro, serviceCardBlurb } from "@/lib/content";
 import {
   faqPageSchema,
   hubBreadcrumbs,
@@ -103,7 +103,7 @@ export default async function CityHubPage({
                     Best {service.name} in {city.name} — {site.year}
                   </span>
                   <span className="mt-1 block text-sm text-muted-foreground">
-                    {service.blurb}
+                    {serviceCardBlurb(city, service)}
                   </span>
                 </Link>
               </li>

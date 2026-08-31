@@ -397,6 +397,25 @@ export const cities: City[] = [
     localNote:
       "A Main Street two-story is a different access and duct problem than a later Tipp subdivision ranch, even when both sit on AES Ohio.",
   },
+  {
+    slug: "knoxville-tn",
+    name: "Knoxville",
+    state: "Tennessee",
+    stateAbbr: "TN",
+    status: "live",
+    nearbySlugs: [],
+    setting:
+      "Knoxville sits in the Tennessee Valley, with older Fort Sanders and downtown housing on one side and later west Knoxville subdivisions on the other. Knoxville Utilities Board (KUB) is the usual local utility on the bill; TVA generation is what most East Tennessee electric rates are built on.",
+    utility: "Knoxville Utilities Board (KUB) / TVA on the bill",
+    housing:
+      "Older Fort Sanders and downtown houses — tight lots, student-era duplexes, and mechanical closets that predate central air — versus west Knoxville subdivisions with later pads and simpler attics.",
+    winter:
+      "East Tennessee winters are milder than a long ice event, but freeze nights still stop older furnaces, freeze condensate, and show up as no-heat calls after a clear, cold night.",
+    summer:
+      "Humid Knoxville summers load coils and make a tired condenser run all afternoon. An older Fort Sanders house holds moisture differently than a west Knoxville subdivision ranch.",
+    localNote:
+      "Confirm KUB or the utility printed on your bill before anyone talks efficiency. Fort Sanders access and a west Knoxville street are different jobs. We do not invent a Knoxville-only dollar figure.",
+  },
 ];
 
 export const liveCitySlugs = cities

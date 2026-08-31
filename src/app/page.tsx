@@ -8,6 +8,7 @@ import {
   servicePath,
   services,
   site,
+  type City,
 } from "@/config/site";
 
 export const metadata: Metadata = {
@@ -55,42 +56,40 @@ export default function HomePage() {
         <QuoteFormLoader />
       </section>
 
-      <section id="cities" className="mt-14">
-        <h2 className="font-heading text-2xl font-semibold">
-          Dayton / Miami Valley cities
-        </h2>
-        <p className="mt-2 max-w-2xl text-base text-muted-foreground">
-          Live markets. Nearby-city pages exist so internal links do not 404.
-        </p>
-        <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {live.map((city) => (
-            <li
-              key={city.slug}
-              className="flex flex-col rounded-lg border border-border bg-card p-5"
-            >
-              <h3 className="font-heading text-xl font-semibold">
-                {city.name}, {city.stateAbbr}
-              </h3>
-              <p className="mt-2 flex-1 text-sm leading-6 text-muted-foreground">
-                {city.setting}
-              </p>
-              <p className="mt-4">
-                <Link
-                  href={servicePath(city, "ac-repair")}
-                  className="font-medium underline underline-offset-2"
-                >
-                  Best AC Repair in {city.name} — {site.year}
-                </Link>
-              </p>
-              <p className="mt-2">
-                <Link href={`/${city.slug}/`} className="text-sm hover:underline">
-                  All {city.name} services
-                </Link>
-              </p>
-            </li>
-          ))}
-        </ul>
-      </section>
+      <div id="cities">
+        <section className="mt-14">
+          <h2 className="font-heading text-2xl font-semibold">
+            Dayton / Miami Valley cities
+          </h2>
+          <p className="mt-2 max-w-2xl text-base text-muted-foreground">
+            Live markets. Nearby-city pages exist so internal links do not 404.
+          </p>
+          <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {live
+              .filter((city) => city.stateAbbr === "OH")
+              .map((city) => (
+                <CityCard key={city.slug} city={city} />
+              ))}
+          </ul>
+        </section>
+
+        <section className="mt-14">
+          <h2 className="font-heading text-2xl font-semibold">
+            Tennessee cities
+          </h2>
+          <p className="mt-2 max-w-2xl text-base text-muted-foreground">
+            Live markets. Nearby links only point at cities that already exist on
+            this site — Knoxville has no in-repo neighbor yet.
+          </p>
+          <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {live
+              .filter((city) => city.stateAbbr === "TN")
+              .map((city) => (
+                <CityCard key={city.slug} city={city} />
+              ))}
+          </ul>
+        </section>
+      </div>
 
       <section className="mt-14">
         <h2 className="font-heading text-2xl font-semibold">
@@ -127,5 +126,31 @@ export default function HomePage() {
         </ul>
       </section>
     </div>
+  );
+}
+
+function CityCard({ city }: { city: City }) {
+  return (
+    <li className="flex flex-col rounded-lg border border-border bg-card p-5">
+      <h3 className="font-heading text-xl font-semibold">
+        {city.name}, {city.stateAbbr}
+      </h3>
+      <p className="mt-2 flex-1 text-sm leading-6 text-muted-foreground">
+        {city.setting}
+      </p>
+      <p className="mt-4">
+        <Link
+          href={servicePath(city, "ac-repair")}
+          className="font-medium underline underline-offset-2"
+        >
+          Best AC Repair in {city.name} — {site.year}
+        </Link>
+      </p>
+      <p className="mt-2">
+        <Link href={`/${city.slug}/`} className="text-sm hover:underline">
+          All {city.name} services
+        </Link>
+      </p>
+    </li>
   );
 }

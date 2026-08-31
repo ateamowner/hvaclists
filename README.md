@@ -102,8 +102,9 @@ Until a listing is live on a URL, we still take the request and hold it.
 - [/vandalia-oh/ac-repair](/vandalia-oh/ac-repair) — Best AC Repair in Vandalia — 2026
 - [/springfield-oh/ac-repair](/springfield-oh/ac-repair) — Best AC Repair in Springfield — 2026
 - [/tipp-city-oh/ac-repair](/tipp-city-oh/ac-repair) — Best AC Repair in Tipp City — 2026
+- [/knoxville-tn/ac-repair](/knoxville-tn/ac-repair) — Best AC Repair in Knoxville — 2026
 
-City hubs: `/dayton-oh`, `/kettering-oh`, `/beavercreek-oh`, `/centerville-oh`, `/huber-heights-oh`, `/fairborn-oh`, `/miamisburg-oh`, `/xenia-oh`, `/vandalia-oh`, `/springfield-oh`, `/tipp-city-oh`.
+City hubs: `/dayton-oh`, `/kettering-oh`, `/beavercreek-oh`, `/centerville-oh`, `/huber-heights-oh`, `/fairborn-oh`, `/miamisburg-oh`, `/xenia-oh`, `/vandalia-oh`, `/springfield-oh`, `/tipp-city-oh`, `/knoxville-tn`.
 
 Services: `ac-repair`, `furnace`, `hvac-installation`, `emergency-hvac`.
 
