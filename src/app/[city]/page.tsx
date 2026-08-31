@@ -9,6 +9,7 @@ import { JsonLd } from "@/components/json-ld";
 import { QuoteFormLoader } from "@/components/quote-form-loader";
 import {
   cities,
+  cityPath,
   getCity,
   getService,
   servicePath,
@@ -42,7 +43,7 @@ export async function generateMetadata({
   return {
     title,
     description,
-    alternates: { canonical: `/${city.slug}` },
+    alternates: { canonical: cityPath(city) },
   };
 }
 
@@ -71,7 +72,7 @@ export default async function CityHubPage({
       <Breadcrumbs
         items={[
           { href: "/", label: "Home" },
-          { href: `/${city.slug}`, label: `${city.name}, ${city.stateAbbr}` },
+          { href: cityPath(city), label: `${city.name}, ${city.stateAbbr}` },
         ]}
       />
 

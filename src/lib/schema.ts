@@ -1,4 +1,12 @@
-import { lockedH1, site, type City, type Service } from "@/config/site";
+import {
+  absoluteUrl,
+  cityPath,
+  lockedH1,
+  servicePath,
+  site,
+  type City,
+  type Service,
+} from "@/config/site";
 import type { Faq } from "@/lib/content";
 
 export function publisherLocalBusiness(city: City) {
@@ -8,7 +16,7 @@ export function publisherLocalBusiness(city: City) {
     name: site.legalName,
     alternateName: site.name,
     description: `${site.name} is a directory that publishes city pages for HVAC and routes quote requests to listed companies. ${site.disclosure}`,
-    url: site.url,
+    url: absoluteUrl("/"),
     email: site.email,
     areaServed: {
       "@type": "City",
@@ -45,7 +53,7 @@ export function breadcrumbSchema(items: { name: string; path: string }[]) {
       "@type": "ListItem",
       position: index + 1,
       name: item.name,
-      item: `${site.url}${item.path}`,
+      item: absoluteUrl(item.path),
     })),
   };
 }
@@ -53,15 +61,15 @@ export function breadcrumbSchema(items: { name: string; path: string }[]) {
 export function servicePageBreadcrumbs(city: City, service: Service) {
   return breadcrumbSchema([
     { name: "Home", path: "/" },
-    { name: `${city.name}, ${city.stateAbbr}`, path: `/${city.slug}` },
-    { name: service.name, path: `/${city.slug}/${service.slug}` },
+    { name: `${city.name}, ${city.stateAbbr}`, path: cityPath(city) },
+    { name: service.name, path: servicePath(city, service) },
   ]);
 }
 
 export function hubBreadcrumbs(city: City) {
   return breadcrumbSchema([
     { name: "Home", path: "/" },
-    { name: `${city.name}, ${city.stateAbbr}`, path: `/${city.slug}` },
+    { name: `${city.name}, ${city.stateAbbr}`, path: cityPath(city) },
   ]);
 }
 
