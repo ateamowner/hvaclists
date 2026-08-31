@@ -13,6 +13,8 @@ export const site = {
   /** Native HTML POST to Formsubmit. No fetch/XHR, no API key. */
   formAction: "https://formsubmit.co/owner@ateamcontractings.com",
   formRedirect: "https://hvaclists.com/request-sent/",
+  /** Live Stripe Payment Link for Featured. Do not recreate or change this product. */
+  featuredCheckoutUrl: "https://buy.stripe.com/00w4gAfl34z2bSJ97Fdwc0c",
   tagline: "A directory of HVAC companies. Not a contractor.",
   year: 2026,
   description:
@@ -419,9 +421,28 @@ export function getParentCity(city: City): City | undefined {
   return city.parentSlug ? getCity(city.parentSlug) : undefined;
 }
 
+/** Site-relative path with a trailing slash. Home is `/`. Hash-only paths are unchanged. */
+export function withTrailingSlash(path: string): string {
+  if (!path || path === "/") return "/";
+  if (path.startsWith("#") || path.startsWith("mailto:") || path.startsWith("tel:")) {
+    return path;
+  }
+  const [withoutHash, hash] = path.split("#");
+  const [withoutQuery, query] = withoutHash.split("?");
+  const slashed = withoutQuery.endsWith("/") ? withoutQuery : `${withoutQuery}/`;
+  return `${slashed}${query ? `?${query}` : ""}${hash ? `#${hash}` : ""}`;
+}
+
+/** Absolute site URL with a trailing slash (homepage is `https://hvaclists.com/`). */
+export function absoluteUrl(path = "/"): string {
+  const origin = site.url.replace(/\/$/, "");
+  const rel = withTrailingSlash(path);
+  return `${origin}${rel}`;
+}
+
 export function cityPath(city: City | string): string {
   const slug = typeof city === "string" ? city : city.slug;
-  return `/${slug}`;
+  return withTrailingSlash(`/${slug}`);
 }
 
 export function servicePath(
@@ -430,7 +451,7 @@ export function servicePath(
 ): string {
   const citySlug = typeof city === "string" ? city : city.slug;
   const serviceSlug = typeof service === "string" ? service : service.slug;
-  return `/${citySlug}/${serviceSlug}`;
+  return withTrailingSlash(`/${citySlug}/${serviceSlug}`);
 }
 
 export function lockedH1(service: Service, city: City): string {

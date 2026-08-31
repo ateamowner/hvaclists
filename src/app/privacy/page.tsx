@@ -5,6 +5,7 @@ import { site } from "@/config/site";
 export const metadata: Metadata = {
   title: `Privacy — ${site.name}`,
   description: `How ${site.name} collects quote-form data and shares it with HVAC companies.`,
+  alternates: { canonical: "/privacy/" },
 };
 
 export default function PrivacyPage() {

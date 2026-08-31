@@ -3,13 +3,10 @@ import Link from "next/link";
 import { Disclosure } from "@/components/disclosure";
 import { liveCitySlugs, servicePath, site } from "@/config/site";
 
-/** Live Stripe Payment Link. Do not recreate or change this product in Stripe. */
-const FEATURED_CHECKOUT_URL =
-  "https://buy.stripe.com/00w4gAfl34z2bSJ97Fdwc0c";
-
 export const metadata: Metadata = {
   title: `For HVAC companies — ${site.name}`,
   description: `How contractors buy ${site.name} Featured — paid placement. $99/month self-serve on Stripe. Not exclusive. No lead-count SLA. The homeowner form has no credit-card field.`,
+  alternates: { canonical: "/for-pros/" },
 };
 
 export default function ForProsPage() {
@@ -50,7 +47,7 @@ export default function ForProsPage() {
             Checkout is on Stripe, not on the homeowner quote form.
           </p>
           <a
-            href={FEATURED_CHECKOUT_URL}
+            href={site.featuredCheckoutUrl}
             className="mt-4 inline-flex h-11 items-center justify-center rounded-lg bg-primary px-5 text-base font-medium text-primary-foreground hover:bg-primary/90"
           >
             Subscribe — $99/month
@@ -78,7 +75,7 @@ export default function ForProsPage() {
       <p className="mt-3 leading-7">
         Featured — paid placement is $99/month, self-serve. Use the Subscribe
         button above or{" "}
-        <a href={FEATURED_CHECKOUT_URL} className="underline">
+        <a href={site.featuredCheckoutUrl} className="underline">
           this Stripe checkout
         </a>
         . Featured is not exclusive. There is no lead-count SLA.
