@@ -21,16 +21,40 @@ export function introParagraphs(city: City, service: Service): string[] {
   ];
 }
 
+/** Regional phrase so Ohio pages still say Miami Valley; other live cities use their own region. */
+export function regionLabel(city: City): string {
+  if (city.stateAbbr === "OH") return "Miami Valley";
+  if (city.stateAbbr === "TN") return "East Tennessee";
+  return city.state;
+}
+
 function serviceIntro(city: City, service: Service): string {
   switch (service.slug) {
     case "ac-repair":
-      return `${city.name} homeowners use this URL to request a callback when cooling is short-cycling, icing, or not keeping up with Miami Valley summer AC load. ${site.name} does not send a tech of its own.`;
+      return `${city.name} homeowners use this URL to request a callback when cooling is short-cycling, icing, or not keeping up with ${regionLabel(city)} summer AC load. ${site.name} does not send a tech of its own.`;
     case "furnace":
-      return `Use this ${city.name} page when heat will not start, you smell something off, or an older furnace needs a honest repair-versus-replace talk after ice season. Ask for a written scope that names the heat exchanger.`;
+      return `Use this ${city.name} page when heat will not start, you smell something off, or an older furnace needs a honest repair-versus-replace talk after ${city.stateAbbr === "OH" ? "ice season" : "a freeze night"}. Ask for a written scope that names the heat exchanger.`;
     case "hvac-installation":
       return `This ${city.name} page is for a full system or matched furnace-and-AC changeout. A written scope should cover load, duct, pad, and flue — not a same-day upsell.`;
     case "emergency-hvac":
       return `Use this ${city.name} page for no heat in a freeze, no cooling in a heat wave, or a leak or smell that cannot wait. Say so on the form. Emergency work is priced and scheduled differently than a planned visit.`;
+    default:
+      return service.blurb;
+  }
+}
+
+/** Hub service-card blurb. Ohio cities keep the shared Miami Valley service.blurb. */
+export function serviceCardBlurb(city: City, service: Service): string {
+  if (city.stateAbbr === "OH") return service.blurb;
+  switch (service.slug) {
+    case "ac-repair":
+      return `A cooling system that is not keeping up, short-cycling, or icing in ${city.name} humidity — diagnosis and a written repair scope.`;
+    case "furnace":
+      return `Heat that will not start after a freeze night, a cracked-heat-exchanger worry, or an older furnace that needs a honest repair-vs-replace talk.`;
+    case "hvac-installation":
+      return `A full system or matched furnace-and-AC changeout: load, duct, and a written scope — not a same-day upsell.`;
+    case "emergency-hvac":
+      return `No heat after a freeze night, no cooling in a humid heat wave, or a smell or leak that cannot wait for a weekday slot.`;
     default:
       return service.blurb;
   }
@@ -62,7 +86,7 @@ export function howToChoose(
       },
       {
         title: "Local jobs",
-        body: `Ask for recent addresses in ${city.name} or the surrounding Miami Valley towns — not a generic photo set. Ice, older furnaces, and summer AC load change the job.`,
+        body: `Ask for recent addresses in ${city.name} or the surrounding ${regionLabel(city)} towns — not a generic photo set. Ice, older furnaces, and summer AC load change the job.`,
       },
       {
         title: "Written scope",

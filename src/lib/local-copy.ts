@@ -99,6 +99,15 @@ const copy: Record<string, string> = {
     "A Main Street two-story is a different access and duct problem than a later Tipp ranch, even when both sit on AES Ohio. We do not publish a Miami County dollar figure.",
   "tipp-city-oh:emergency-hvac":
     "No heat in a Tipp City freeze — downtown or subdivision — is emergency routing. Say which so the company that calls you can plan the street. HVACLists does not send a truck.",
+
+  "knoxville-tn:ac-repair":
+    "Knoxville AC repair often starts on a Fort Sanders or downtown house whose evaporator has run through humid Tennessee Valley summers, or on a west Knoxville subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. KUB / TVA on the bill is not a Knoxville repair price we invented.",
+  "knoxville-tn:furnace":
+    "Freeze nights in Knoxville take down older Fort Sanders furnaces and condensate lines that sat idle most of a mild winter. West Knoxville units are often newer but still fail on a sudden cold snap. Heat-exchanger condition is the question — not a city-only dollar figure.",
+  "knoxville-tn:hvac-installation":
+    "A Knoxville changeout has to name load and duct on older downtown or Fort Sanders stock versus a later west Knoxville subdivision. KUB interconnection is not the issue — match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
+  "knoxville-tn:emergency-hvac":
+    "Use this Knoxville page when there is no heat after a freeze night or no cooling in a humid heat wave. Say so on the form. Emergency work is a different queue than a planned visit on a west Knoxville street.",
 };
 
 export function uniqueLocalCopy(city: City, service: Service): string {
