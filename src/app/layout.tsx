@@ -58,6 +58,21 @@ export default function RootLayout({
       lang="en"
       className={`${sans.variable} ${serif.variable} h-full scroll-smooth antialiased`}
     >
+      <head>
+        {/*
+          Bing Webmaster Tools (msvalidate.01):
+          Anthony must add hvaclists.com in Bing Webmaster Tools and paste the
+          real verification code here as:
+            <meta name="msvalidate.01" content="PASTE_CODE_FROM_BING" />
+          Do not invent a code.
+        */}
+        {/*
+          Google site verification:
+          HTML file already ships at /googled3ae2edf58b5b2f8.html.
+          If Bing/Google asks for a meta tag instead, paste the real
+          google-site-verification content here. Do not invent a code.
+        */}
+      </head>
       <body className="flex min-h-full flex-col bg-background text-foreground">
         <style>{`:root { ${themeVars}; }`}</style>
         <SiteHeader />
