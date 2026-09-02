@@ -32,10 +32,15 @@ jobs:
           test -f out/CNAME
           test -f out/.nojekyll
           test -f out/googled3ae2edf58b5b2f8.html
+          test -f out/2bbc8f603bf008512f92e8dd0bf19ae1.txt
           test -d out/dayton-oh
           test -d out/dayton-oh/ac-repair
           test "$(tr -d '[:space:]' < out/CNAME)" = "hvaclists.com"
           test "$(tr -d '\n' < out/googled3ae2edf58b5b2f8.html)" = "google-site-verification: googled3ae2edf58b5b2f8.html"
+          test "$(tr -d '\n\r' < out/2bbc8f603bf008512f92e8dd0bf19ae1.txt)" = "2bbc8f603bf008512f92e8dd0bf19ae1"
+          grep -q '<loc>https://hvaclists.com/</loc>' out/sitemap.xml
+          grep -q '<loc>https://hvaclists.com/dayton-oh/ac-repair/</loc>' out/sitemap.xml
+          ! grep -qE '<loc>https://hvaclists.com</loc>' out/sitemap.xml
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -50,3 +55,10 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4
+      - name: Ping IndexNow
+        continue-on-error: true
+        run: node scripts/ping-indexnow.mjs
+        env:
+          SITEMAP_URL: https://hvaclists.com/sitemap.xml
+          INDEXNOW_HOST: hvaclists.com

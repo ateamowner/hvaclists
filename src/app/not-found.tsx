@@ -1,5 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { cities, liveCitySlugs, servicePath, site } from "@/config/site";
+
+export const metadata: Metadata = {
+  title: `Page not found | ${site.name}`,
+};
 
 export default function NotFound() {
   const live = cities.filter((city) => liveCitySlugs.includes(city.slug));

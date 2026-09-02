@@ -28,15 +28,16 @@ npm start
 
 `npm start` serves the `out/` folder with `serve`. The live site does not run `next start`.
 
-After `npm run build`, `out/` must contain `CNAME` (`hvaclists.com`), `.nojekyll`, `dayton-oh/`, and city × service folders such as `dayton-oh/ac-repair/`.
+After `npm run build`, `out/` must contain `CNAME` (`hvaclists.com`), `.nojekyll`, `dayton-oh/`, city × service folders such as `dayton-oh/ac-repair/`, and the IndexNow key file `2bbc8f603bf008512f92e8dd0bf19ae1.txt`.
 
 ## GitHub Pages
 
 This repository publishes its own Pages site from `main` via `.github/workflows/pages.yml`:
 
 1. `npm ci` and `npm run build` (`output: "export"`)
-2. Confirm `out/CNAME`, `out/.nojekyll`, `out/dayton-oh/`, and `out/dayton-oh/ac-repair/`
+2. Confirm `out/CNAME`, `out/.nojekyll`, `out/dayton-oh/`, `out/dayton-oh/ac-repair/`, and `out/2bbc8f603bf008512f92e8dd0bf19ae1.txt`
 3. `upload-pages-artifact` then `deploy-pages`
+4. After deploy, `scripts/ping-indexnow.mjs` POSTs sitemap `<loc>` URLs to [IndexNow](https://www.indexnow.org/documentation). The key is public by design; no secret env var.
 
 Required repo settings (once): **Settings → Pages → Source = GitHub Actions**. Custom domain: `hvaclists.com`. `CNAME` is committed as `hvaclists.com` (repo root and `public/CNAME`).
 
@@ -75,6 +76,14 @@ Optional IPv6 (GitHub Pages AAAA), if you want them:
 | AAAA | `@` | `2606:50c0:8001::153` |
 | AAAA | `@` | `2606:50c0:8002::153` |
 | AAAA | `@` | `2606:50c0:8003::153` |
+
+## IndexNow and Bing Webmaster
+
+IndexNow key file (this host only): [`public/2bbc8f603bf008512f92e8dd0bf19ae1.txt`](https://hvaclists.com/2bbc8f603bf008512f92e8dd0bf19ae1.txt). GitHub Pages must serve that path as **plain text containing only the key**.
+
+**Anthony:** add `hvaclists.com` in [Bing Webmaster Tools](https://www.bing.com/webmasters) and paste the real `msvalidate.01` code into the HTML comment slot in `src/app/layout.tsx`. Do not invent verification codes. Google HTML verification is already at `public/googled3ae2edf58b5b2f8.html`.
+
+Sitemap locs stay slash-canonical (homepage `https://hvaclists.com/`). Do not revert to no-slash.
 
 ## Quote form and `LEADS_EMAIL`
 
