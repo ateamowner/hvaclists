@@ -100,6 +100,15 @@ const copy: Record<string, string> = {
   "tipp-city-oh:emergency-hvac":
     "No heat in a Tipp City freeze — downtown or subdivision — is emergency routing. Say which so the company that calls you can plan the street. HVACLists does not send a truck.",
 
+  "oakwood-oh:ac-repair":
+    "Oakwood AC repair usually starts on an early 20th-century Tudor, colonial, or foursquare whose condenser sits under mature shade immediately south of Dayton. Ice on the coil in July is a diagnosis. Tight lots and AES Ohio peak bills do not create an Oakwood-only repair price.",
+  "oakwood-oh:furnace":
+    "Older Oakwood furnaces in unfinished basements or short crawlspaces take ice-season abuse: cracked heat exchangers, failed inducers, and condensate that freezes in a polar snap. AES Ohio is the bill; the furnace age is the question. We do not invent an Oakwood-only dollar figure.",
+  "oakwood-oh:hvac-installation":
+    "An Oakwood changeout has to name load and duct on a Tudor or foursquare, not a later Kettering ranch slab. Tight lots and remaining flue still belong in the scope. AES Ohio interconnection is not the issue. National published ranges are the only numbers on this page.",
+  "oakwood-oh:emergency-hvac":
+    "Use this Oakwood page when there is no heat in a freeze or no cooling in a heat wave. Tree-lined lots do not skip ice. Say so on the form. Emergency work is a different queue than a planned visit on an inner-ring two-story.",
+
   "knoxville-tn:ac-repair":
     "Knoxville AC repair often starts on a Fort Sanders or downtown house whose evaporator has run through humid Tennessee Valley summers, or on a west Knoxville subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. KUB / TVA on the bill is not a Knoxville repair price we invented.",
   "knoxville-tn:furnace":

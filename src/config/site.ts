@@ -130,10 +130,10 @@ export const cities: City[] = [
     status: "live",
     nearbySlugs: [
       "kettering-oh",
+      "oakwood-oh",
       "beavercreek-oh",
       "centerville-oh",
       "huber-heights-oh",
-      "fairborn-oh",
     ],
     setting:
       "Dayton sits in the Miami Valley with older city lots, bungalows, two-stories, and mid-century houses. AES Ohio is the usual electric utility on the bill.",
@@ -155,10 +155,10 @@ export const cities: City[] = [
     status: "live",
     nearbySlugs: [
       "dayton-oh",
+      "oakwood-oh",
       "centerville-oh",
       "beavercreek-oh",
       "miamisburg-oh",
-      "xenia-oh",
     ],
     setting:
       "Kettering is a southern Dayton suburb of post-war streets, ranches, and split-levels. AES Ohio serves most homes.",
@@ -206,9 +206,9 @@ export const cities: City[] = [
     nearbySlugs: [
       "dayton-oh",
       "kettering-oh",
+      "oakwood-oh",
       "miamisburg-oh",
       "beavercreek-oh",
-      "xenia-oh",
     ],
     setting:
       "Centerville mixes a historic downtown with 1970s–90s colonials in and around Washington Township. AES Ohio is the usual electric utility.",
@@ -396,6 +396,31 @@ export const cities: City[] = [
       "Downtown two-stories stack cooling load; later Tipp subdivision ranches are simpler but still see Miami Valley August peaks.",
     localNote:
       "A Main Street two-story is a different access and duct problem than a later Tipp subdivision ranch, even when both sit on AES Ohio.",
+  },
+  {
+    slug: "oakwood-oh",
+    name: "Oakwood",
+    state: "Ohio",
+    stateAbbr: "OH",
+    status: "live",
+    nearbySlugs: [
+      "dayton-oh",
+      "kettering-oh",
+      "centerville-oh",
+      "beavercreek-oh",
+      "miamisburg-oh",
+    ],
+    setting:
+      "Oakwood is a small inner-ring city immediately south of Dayton, with tree-lined streets and early 20th-century two-stories. AES Ohio is the usual electric utility.",
+    utility: "AES Ohio",
+    housing:
+      "Tudor, colonial, and foursquare houses on shaded lots — unfinished basements or short crawlspaces, not a 1990s slab subdivision.",
+    winter:
+      "Mature shade and older crawlspaces freeze first after a Miami Valley ice event; older furnaces and condensate lines on early 20th-century stock take the hit.",
+    summer:
+      "Tree-lined streets shade condensers the way Kettering maples do, but a Tudor attic and tighter lot change airflow. August AC load on older brick is a capacity question, not an Oakwood price.",
+    localNote:
+      "A foursquare mechanical closet is a different access and duct problem than a later Kettering ranch, even when both sit on AES Ohio. We do not invent an Oakwood-only dollar figure.",
   },
   {
     slug: "knoxville-tn",
