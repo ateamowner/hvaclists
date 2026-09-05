@@ -27,10 +27,11 @@ export function StickyMobileCta() {
   }, [pathname]);
 
   if (isForProsPath(pathname) || isPrivacyPath(pathname)) return null;
-  if (quoteInView) return null;
 
   return (
-    <div className="fixed inset-x-0 bottom-0 z-50 border-t border-border bg-card/95 p-3 shadow-[0_-8px_24px_rgba(21,32,43,0.08)] backdrop-blur md:hidden">
+    <div
+      className={`fixed inset-x-0 bottom-0 z-50 border-t border-border bg-card/95 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-[0_-8px_24px_rgba(21,32,43,0.08)] backdrop-blur md:hidden ${quoteInView ? "hidden" : ""}`}
+    >
       <a
         href={quoteHref(pathname)}
         className="inline-flex h-11 w-full items-center justify-center rounded-lg bg-primary text-[15px] leading-5 font-medium text-primary-foreground hover:bg-primary/90"
