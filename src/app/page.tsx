@@ -15,7 +15,7 @@ import {
   site,
   type City,
 } from "@/config/site";
-import { homepageFaqs } from "@/lib/content";
+import { homeFaqs } from "@/lib/content";
 import {
   faqPageSchema,
   organizationSchema,
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const live = cities.filter((city) => liveCitySlugs.includes(city.slug));
-  const questions = homepageFaqs();
+  const questions = homeFaqs();
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6">
