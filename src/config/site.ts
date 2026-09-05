@@ -21,6 +21,7 @@ export const site = {
     "HVACLists is a lead-generation directory for HVAC companies. We publish a unique page per city, label paid placements, and route quote requests. We are not an HVAC contractor.",
   disclosure:
     "HVACLists is a directory of HVAC companies. Paid spots are labeled. We are not an HVAC contractor.",
+  /** HVAC niche palette — keep these tokens on a shell copy to another directory. */
   theme: {
     background: "#eef2f6",
     foreground: "#15202b",

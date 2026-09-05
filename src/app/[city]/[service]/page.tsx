@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { CostGuide } from "@/components/cost-guide";
 import { Disclosure } from "@/components/disclosure";
 import { FaqList } from "@/components/faq-list";
+import { HeroSplit } from "@/components/hero-split";
 import { HowToChoose } from "@/components/how-to-choose";
 import {
   NearbyCityLinks,
@@ -12,6 +13,7 @@ import {
 import { JsonLd } from "@/components/json-ld";
 import { ListingsBlock } from "@/components/listings-block";
 import { QuoteFormLoader } from "@/components/quote-form-loader";
+import { TrustStrip } from "@/components/trust-strip";
 import {
   cities,
   cityPath,
@@ -90,6 +92,7 @@ export default async function ServicePage({
   const cost = costGuideCopy(city);
   const questions = faqs(city, service);
   const listings = getListings(city.slug, service.slug);
+  const empty = listings.length === 0;
 
   return (
     <article className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
@@ -109,8 +112,8 @@ export default async function ServicePage({
         ]}
       />
 
-      <div className="mt-4 grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem] lg:grid-rows-[auto_1fr]">
-        <header className="lg:col-start-1">
+      <div className="mt-4">
+        <HeroSplit form={<QuoteFormLoader city={city} service={service} />}>
           <p className="text-sm font-medium text-primary">
             {city.name}, {city.stateAbbr}
           </p>
@@ -126,21 +129,19 @@ export default async function ServicePage({
               {paragraph}
             </p>
           ))}
-        </header>
-
-        <aside className="lg:col-start-2 lg:row-span-2 lg:self-start lg:sticky lg:top-6">
-          <QuoteFormLoader city={city} service={service} />
-        </aside>
-
-        <div className="lg:col-start-1">
-          <HowToChoose content={choose} />
-          <CostGuide content={cost} />
-          <FaqList faqs={questions} />
-          <ListingsBlock listings={listings} />
-          <RelatedServiceLinks city={city} current={service} />
-          <NearbyCityLinks city={city} serviceSlug={service.slug} />
-        </div>
+        </HeroSplit>
       </div>
+
+      <TrustStrip className="mt-10" />
+
+      {empty ? <ListingsBlock listings={listings} /> : null}
+
+      <HowToChoose content={choose} />
+      <CostGuide content={cost} />
+      <FaqList faqs={questions} />
+      {empty ? null : <ListingsBlock listings={listings} />}
+      <RelatedServiceLinks city={city} current={service} />
+      <NearbyCityLinks city={city} serviceSlug={service.slug} />
     </article>
   );
 }

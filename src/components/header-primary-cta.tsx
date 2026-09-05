@@ -2,15 +2,15 @@
 
 import { usePathname } from "next/navigation";
 import { site } from "@/config/site";
+import { isForProsPath, quoteHref } from "@/lib/shell";
 
 const buttonClassName =
-  "inline-flex h-10 items-center rounded-md bg-primary px-3 text-primary-foreground hover:bg-primary/90";
+  "inline-flex h-10 items-center rounded-lg bg-primary px-3.5 font-medium text-primary-foreground hover:bg-primary/90";
 
 export function HeaderPrimaryCta() {
   const pathname = usePathname();
-  const onForPros = pathname === "/for-pros" || pathname === "/for-pros/";
 
-  if (onForPros) {
+  if (isForProsPath(pathname)) {
     return (
       <a href={site.featuredCheckoutUrl} className={buttonClassName}>
         Subscribe — $99/month
@@ -19,7 +19,7 @@ export function HeaderPrimaryCta() {
   }
 
   return (
-    <a href="#quote" className={buttonClassName}>
+    <a href={quoteHref(pathname)} className={buttonClassName}>
       Get a quote
     </a>
   );

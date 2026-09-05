@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
+import { ForProsBand } from "@/components/for-pros-band";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { StickyMobileCta } from "@/components/sticky-mobile-cta";
 import { site } from "@/config/site";
 import "./globals.css";
 
@@ -76,8 +78,10 @@ export default function RootLayout({
       <body className="flex min-h-full flex-col bg-background text-foreground">
         <style>{`:root { ${themeVars}; }`}</style>
         <SiteHeader />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 pb-20 md:pb-0">{children}</main>
+        <ForProsBand />
         <SiteFooter />
+        <StickyMobileCta />
       </body>
     </html>
   );

@@ -4,9 +4,11 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { Disclosure } from "@/components/disclosure";
 import { FaqList } from "@/components/faq-list";
+import { HeroSplit } from "@/components/hero-split";
 import { NearbyCityLinks } from "@/components/internal-links";
 import { JsonLd } from "@/components/json-ld";
 import { QuoteFormLoader } from "@/components/quote-form-loader";
+import { TrustStrip } from "@/components/trust-strip";
 import {
   cities,
   cityPath,
@@ -76,8 +78,14 @@ export default async function CityHubPage({
         ]}
       />
 
-      <div className="mt-4 grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem]">
-        <div>
+      <div className="mt-4">
+        <HeroSplit
+          form={
+            acRepair ? (
+              <QuoteFormLoader city={city} service={acRepair} />
+            ) : null
+          }
+        >
           <p className="text-sm font-medium text-primary">{city.state}</p>
           <h1 className="mt-2 font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
             HVAC in {city.name}, {city.stateAbbr}
@@ -88,37 +96,34 @@ export default async function CityHubPage({
             </p>
           ))}
           <Disclosure className="mt-4" />
-
-          <h2 className="mt-8 font-heading text-xl font-semibold">
-            Services in {city.name}
-          </h2>
-          <ul className="mt-3 grid gap-3">
-            {services.map((service) => (
-              <li key={service.slug}>
-                <Link
-                  href={servicePath(city, service)}
-                  className="block rounded-lg border border-border bg-card px-4 py-3 hover:border-primary"
-                >
-                  <span className="font-medium">
-                    Best {service.name} in {city.name} — {site.year}
-                  </span>
-                  <span className="mt-1 block text-sm text-muted-foreground">
-                    {serviceCardBlurb(city, service)}
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-
-          <FaqList faqs={questions} />
-          <NearbyCityLinks city={city} />
-        </div>
-        <aside className="lg:sticky lg:top-6 lg:self-start">
-          {acRepair ? (
-            <QuoteFormLoader city={city} service={acRepair} />
-          ) : null}
-        </aside>
+        </HeroSplit>
       </div>
+
+      <TrustStrip className="mt-10" />
+
+      <h2 className="mt-10 font-heading text-xl font-semibold">
+        Services in {city.name}
+      </h2>
+      <ul className="mt-3 grid gap-3">
+        {services.map((service) => (
+          <li key={service.slug}>
+            <Link
+              href={servicePath(city, service)}
+              className="block rounded-[16px] border border-border bg-card px-4 py-3 hover:border-primary"
+            >
+              <span className="font-medium">
+                Best {service.name} in {city.name} — {site.year}
+              </span>
+              <span className="mt-1 block text-sm text-muted-foreground">
+                {serviceCardBlurb(city, service)}
+              </span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+
+      <FaqList faqs={questions} />
+      <NearbyCityLinks city={city} />
     </article>
   );
 }

@@ -84,6 +84,7 @@ type QuoteFormProps = {
   compact?: boolean;
 };
 
+/** Form v2 — required first, optionals behind More details. Same Formsubmit action. */
 export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps) {
   const formRef = useRef<HTMLFormElement>(null);
   const lastKeyRef = useRef("");
@@ -153,7 +154,7 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
           }
         }, 50);
       }}
-      className="rounded-lg border border-border bg-card p-5 shadow-sm"
+      className="rounded-[16px] border border-border bg-card p-5 shadow-[0_8px_24px_rgba(21,32,43,0.12)]"
     >
       <h2 className="font-heading text-lg font-semibold sm:text-xl">
         Request a callback
@@ -164,17 +165,6 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
       </p>
 
       <div className={`mt-4 grid gap-3 ${compact ? "" : "sm:grid-cols-2"}`}>
-        <Field label="Name" htmlFor="name" className={compact ? "" : "sm:col-span-2"}>
-          <input
-            id="name"
-            name="name"
-            required
-            autoComplete="name"
-            className={fieldClassName}
-            value={draft.name}
-            onChange={(event) => onTextChange("name", event.target.value)}
-          />
-        </Field>
         <Field label="Phone" htmlFor="phone">
           <input
             id="phone"
@@ -228,7 +218,11 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
             ))}
           </select>
         </Field>
-        <Field label="Timing" htmlFor="timing">
+        <Field
+          label="Timing"
+          htmlFor="timing"
+          className={compact ? "" : "sm:col-span-2"}
+        >
           <select
             id="timing"
             name="timing"
@@ -244,47 +238,72 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
             ))}
           </select>
         </Field>
-        <Field label="Property type (optional)" htmlFor="property_type">
-          <select
-            id="property_type"
-            name="property_type"
-            className={fieldClassName}
-            value={draft.property_type}
-            onChange={(event) => update("property_type", event.target.value)}
-          >
-            {formPropertyTypes.map((item) => (
-              <option key={item.value || "empty"} value={item.value}>
-                {item.label}
-              </option>
-            ))}
-          </select>
-        </Field>
       </div>
 
-      <Field label="Message (optional)" htmlFor="message" className="mt-3">
-        <textarea
-          id="message"
-          name="message"
-          rows={4}
-          className="min-h-24 w-full rounded-lg border border-input bg-card px-2.5 py-2 text-base outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 md:text-sm"
-          placeholder="What needs work, access notes, or a furnace/AC age."
-          value={draft.message}
-          onChange={(event) => onTextChange("message", event.target.value)}
-        />
-      </Field>
+      <details className="mt-3 rounded-lg border border-border bg-muted/40 px-3 py-2">
+        <summary className="cursor-pointer text-sm font-medium">
+          More details
+        </summary>
+        <div className={`mt-3 grid gap-3 ${compact ? "" : "sm:grid-cols-2"}`}>
+          <Field
+            label="Name (optional)"
+            htmlFor="name"
+            className={compact ? "" : "sm:col-span-2"}
+          >
+            <input
+              id="name"
+              name="name"
+              autoComplete="name"
+              className={fieldClassName}
+              value={draft.name}
+              onChange={(event) => onTextChange("name", event.target.value)}
+            />
+          </Field>
+          <Field
+            label="Property type (optional)"
+            htmlFor="property_type"
+            className={compact ? "" : "sm:col-span-2"}
+          >
+            <select
+              id="property_type"
+              name="property_type"
+              className={fieldClassName}
+              value={draft.property_type}
+              onChange={(event) => update("property_type", event.target.value)}
+            >
+              {formPropertyTypes.map((item) => (
+                <option key={item.value || "empty"} value={item.value}>
+                  {item.label}
+                </option>
+              ))}
+            </select>
+          </Field>
+        </div>
+        <Field label="Message (optional)" htmlFor="message" className="mt-3">
+          <textarea
+            id="message"
+            name="message"
+            rows={4}
+            className="min-h-24 w-full rounded-lg border border-input bg-card px-2.5 py-2 text-base outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 md:text-sm"
+            placeholder="What needs work, access notes, or a furnace/AC age."
+            value={draft.message}
+            onChange={(event) => onTextChange("message", event.target.value)}
+          />
+        </Field>
+        <label className="mt-3 flex items-start gap-2 text-sm">
+          <input
+            type="checkbox"
+            name="sms_consent"
+            value="true"
+            className="mt-1 size-4 accent-primary"
+            checked={draft.sms_consent}
+            onChange={(event) => update("sms_consent", event.target.checked)}
+          />
+          <span>You may text me about this request at the number I provided.</span>
+        </label>
+      </details>
 
-      <label className="mt-4 flex items-start gap-2 text-sm">
-        <input
-          type="checkbox"
-          name="sms_consent"
-          value="true"
-          className="mt-1 size-4 accent-primary"
-          checked={draft.sms_consent}
-          onChange={(event) => update("sms_consent", event.target.checked)}
-        />
-        <span>You may text me about this request at the number I provided.</span>
-      </label>
-      <label className="mt-2 flex items-start gap-2 text-sm">
+      <label className="mt-4 flex items-start gap-2 rounded-lg border border-border bg-accent/70 px-3 py-2.5 text-sm">
         <input
           type="checkbox"
           name="privacy_consent"
