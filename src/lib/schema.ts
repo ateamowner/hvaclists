@@ -41,12 +41,12 @@ export function organizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": organizationId(),
-    name: site.legalName,
-    url: absoluteUrl("/"),
-    email: site.email,
+    "@id": "https://hvaclists.com/#organization",
+    name: "HVACLists",
+    url: "https://hvaclists.com/",
+    email: "owner@ateamcontractings.com",
     description:
-      "Lead-generation directory. Paid placements labeled. Not a contractor.",
+      "Lead-generation directory for HVAC companies. Paid placements are labeled. Not an HVAC contractor.",
   };
 }
 
