@@ -35,7 +35,11 @@ export default function HomePage() {
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6">
       <JsonLd
-        data={[organizationSchema(), websiteSchema(), faqPageSchema(questions)]}
+        data={[
+          websiteSchema(),
+          organizationSchema(),
+          faqPageSchema(questions),
+        ]}
       />
       <HeroSplit form={<QuoteFormLoader />}>
         <p className="text-sm font-medium text-primary">{site.tagline}</p>
@@ -99,6 +103,8 @@ export default function HomePage() {
 
       <ForProsBand />
 
+      <FaqList faqs={questions} />
+
       <section className="mt-14">
         <h2 className="font-heading text-2xl font-semibold">
           What is on a city page
@@ -133,8 +139,6 @@ export default function HomePage() {
           ))}
         </ul>
       </section>
-
-      <FaqList faqs={questions} />
     </div>
   );
 }

@@ -9,10 +9,16 @@ import {
 } from "@/config/site";
 import type { Faq } from "@/lib/content";
 
+export function organizationId() {
+  return `${absoluteUrl("/")}#organization`;
+}
+
+/** City/hub publisher. Organization, not LocalBusiness — this directory is not a contractor. */
 export function publisherLocalBusiness(city: City) {
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "Organization",
+    "@id": organizationId(),
     name: site.legalName,
     alternateName: site.name,
     description: `${site.name} is a directory that publishes city pages for HVAC and routes quote requests to listed companies. ${site.disclosure}`,
@@ -30,18 +36,17 @@ export function publisherLocalBusiness(city: City) {
   };
 }
 
-/** Homepage only. Directory publisher — no reviews, ratings, or AggregateRating. */
+/** Homepage only. Directory publisher — no phone, address, reviews, or AggregateRating. */
 export function organizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": `${absoluteUrl("/")}#organization`,
+    "@id": organizationId(),
     name: site.legalName,
-    alternateName: site.name,
     url: absoluteUrl("/"),
     email: site.email,
-    description: site.description,
-    knowsAbout: "HVAC directory",
+    description:
+      "Lead-generation directory. Paid placements labeled. Not a contractor.",
   };
 }
 
@@ -50,12 +55,11 @@ export function websiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": `${absoluteUrl("/")}#website`,
     name: site.name,
     url: absoluteUrl("/"),
     description: site.description,
     publisher: {
-      "@id": `${absoluteUrl("/")}#organization`,
+      "@id": organizationId(),
     },
   };
 }

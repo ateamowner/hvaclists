@@ -179,7 +179,7 @@ export function faqs(city: City, service: Service): Faq[] {
 export function homeFaqs(): Faq[] {
   return [
     {
-      question: "Is HVACLists an HVAC contractor?",
+      question: "Is HVACLists an HVAC company?",
       answer:
         "No. HVACLists is a lead-generation directory. We do not send a truck. Featured — paid placement spots are paid and labeled.",
     },
