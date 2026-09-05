@@ -2,7 +2,11 @@
  * Shared directory conversion shell — trust strip.
  * Copy is fixed: No credit card · Paid spots labeled · Local city pages.
  */
-const items = ["No credit card", "Paid spots labeled", "Local city pages"] as const;
+const items = [
+  "No credit card",
+  "Paid spots labeled",
+  "Local city pages",
+] as const;
 
 export function TrustStrip({ className = "" }: { className?: string }) {
   return (

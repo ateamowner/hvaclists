@@ -87,11 +87,11 @@ export default async function CityHubPage({
           }
         >
           <p className="text-sm font-medium text-primary">{city.state}</p>
-          <h1 className="mt-2 font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
+          <h1 className="mt-2 font-heading tracking-tight">
             HVAC in {city.name}, {city.stateAbbr}
           </h1>
           {intro.map((paragraph) => (
-            <p key={paragraph} className="mt-4 text-base leading-7">
+            <p key={paragraph} className="mt-4">
               {paragraph}
             </p>
           ))}

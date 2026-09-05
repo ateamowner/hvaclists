@@ -11,9 +11,7 @@ export const metadata: Metadata = {
 export default function RequestSentPage() {
   return (
     <article className="mx-auto w-full max-w-xl px-4 py-16 sm:px-6">
-      <h1 className="font-heading text-3xl font-semibold tracking-tight">
-        Request sent. We have it.
-      </h1>
+      <h1 className="font-heading tracking-tight">Request sent. We have it.</h1>
       <p className="mt-4 leading-7 text-muted-foreground">
         {site.name} is a directory. Your request went to {site.leadsEmail}. When
         a company that covers your ZIP is available, they call you — not a{" "}

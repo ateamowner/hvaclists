@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
+import { Inter, Source_Serif_4 } from "next/font/google";
 import { ForProsBand } from "@/components/for-pros-band";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
@@ -7,9 +7,9 @@ import { StickyMobileCta } from "@/components/sticky-mobile-cta";
 import { site } from "@/config/site";
 import "./globals.css";
 
-const sans = Source_Sans_3({
+const sans = Inter({
   subsets: ["latin"],
-  variable: "--font-source-sans",
+  variable: "--font-inter",
   display: "swap",
 });
 

@@ -23,7 +23,7 @@ export function SiteHeader() {
             Cities
           </Link>
           <Link href="/for-pros/" className="hover:underline">
-            For Pros
+            For pros
           </Link>
           <HeaderPrimaryCta />
         </nav>

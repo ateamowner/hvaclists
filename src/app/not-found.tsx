@@ -12,7 +12,7 @@ export default function NotFound() {
   return (
     <article className="mx-auto w-full max-w-xl px-4 py-16 sm:px-6">
       <p className="text-sm font-medium text-primary">404</p>
-      <h1 className="mt-2 font-heading text-3xl font-semibold tracking-tight">
+      <h1 className="mt-2 font-heading tracking-tight">
         That URL is not in the directory
       </h1>
       <p className="mt-4 leading-7 text-muted-foreground">

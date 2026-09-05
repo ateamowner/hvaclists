@@ -11,7 +11,10 @@ export function HeroSplit({
   form: React.ReactNode;
 }) {
   return (
-    <section className="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,24rem)]">
+    <section
+      id="hero"
+      className="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,24rem)]"
+    >
       <div>{children}</div>
       <div className="lg:sticky lg:top-24 lg:self-start">{form}</div>
     </section>

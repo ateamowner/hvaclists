@@ -117,7 +117,7 @@ export default async function ServicePage({
           <p className="text-sm font-medium text-primary">
             {city.name}, {city.stateAbbr}
           </p>
-          <h1 className="mt-2 font-heading text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+          <h1 className="mt-2 font-heading tracking-tight text-balance">
             {heading}
           </h1>
           <p className="mt-3 rounded-md border border-border bg-muted/60 px-3 py-2 text-sm">
@@ -125,7 +125,7 @@ export default async function ServicePage({
           </p>
           <Disclosure className="mt-3" />
           {intro.map((paragraph) => (
-            <p key={paragraph} className="mt-4 text-base leading-7">
+            <p key={paragraph} className="mt-4">
               {paragraph}
             </p>
           ))}

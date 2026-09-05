@@ -12,10 +12,8 @@ export const metadata: Metadata = {
 export default function ForProsPage() {
   return (
     <article className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
-      <h1 className="font-heading text-4xl font-semibold tracking-tight">
-        For HVAC companies
-      </h1>
-      <p className="mt-4 text-lg leading-8">
+      <h1 className="font-heading tracking-tight">For HVAC companies</h1>
+      <p className="mt-4">
         {site.name} sells labeled listings on city × service URLs. Homeowners
         see a directory, not a fake contractor homepage. You are not buying a
         website. You are buying a labeled place on a page people already use to
@@ -48,7 +46,7 @@ export default function ForProsPage() {
           </p>
           <a
             href={site.featuredCheckoutUrl}
-            className="mt-4 inline-flex h-11 items-center justify-center rounded-lg bg-primary px-5 text-base font-medium text-primary-foreground hover:bg-primary/90"
+            className="mt-4 inline-flex h-11 items-center justify-center rounded-lg bg-primary px-5 text-[15px] leading-5 font-medium text-primary-foreground hover:bg-primary/90"
           >
             Subscribe — $99/month
           </a>
@@ -59,8 +57,8 @@ export default function ForProsPage() {
         How leads work
       </h2>
       <p className="mt-3 leading-7">
-        The form collects required phone, email, ZIP, service type, timing, and
-        privacy consent. Name, property type, message, and SMS consent sit
+        The form collects required phone, email, ZIP, service type, timing, SMS
+        consent, and privacy consent. Name, property type, and message sit
         behind More details. Hidden fields carry page URL, city, state, and
         service. There is no credit-card field on the homeowner quote form.
       </p>
