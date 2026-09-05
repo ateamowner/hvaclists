@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Disclosure } from "@/components/disclosure";
+import { ForProsBand } from "@/components/for-pros-band";
 import { HeroSplit } from "@/components/hero-split";
 import { QuoteFormLoader } from "@/components/quote-form-loader";
 import { TrustStrip } from "@/components/trust-strip";
@@ -57,7 +58,7 @@ export default function HomePage() {
           <p className="mt-2 max-w-2xl text-base text-muted-foreground">
             Live markets. Nearby-city pages exist so internal links do not 404.
           </p>
-          <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {live
               .filter((city) => city.stateAbbr === "OH")
               .map((city) => (
@@ -74,7 +75,7 @@ export default function HomePage() {
             Live markets. Nearby links only point at cities that already exist on
             this site — Knoxville has no in-repo neighbor yet.
           </p>
-          <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {live
               .filter((city) => city.stateAbbr === "TN")
               .map((city) => (
@@ -83,6 +84,8 @@ export default function HomePage() {
           </ul>
         </section>
       </div>
+
+      <ForProsBand />
 
       <section className="mt-14">
         <h2 className="font-heading text-2xl font-semibold">

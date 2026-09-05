@@ -2,33 +2,32 @@
 
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { isForProsPath, quoteHref } from "@/lib/shell";
+import { isForProsPath, isPrivacyPath, quoteHref } from "@/lib/shell";
 
 /**
- * Shared directory conversion shell — sticky mobile Get a quote CTA.
- * Appears after the hero scrolls off screen. Links to #quote.
+ * Sticky mobile CTA — only <768. Hides when #quote is at least 40% in view.
+ * Never on /for-pros/ or /privacy/.
  */
 export function StickyMobileCta() {
   const pathname = usePathname();
-  const [heroGone, setHeroGone] = useState(false);
+  const [quoteInView, setQuoteInView] = useState(false);
 
   useEffect(() => {
-    const hero = document.getElementById("hero");
-    if (!hero) {
-      setHeroGone(false);
+    const form = document.getElementById("quote");
+    if (!form) {
+      setQuoteInView(false);
       return;
     }
     const observer = new IntersectionObserver(
-      ([entry]) => setHeroGone(!entry.isIntersecting),
-      { threshold: 0 }
+      ([entry]) => setQuoteInView(entry.intersectionRatio >= 0.4),
+      { threshold: [0, 0.4, 1] }
     );
-    observer.observe(hero);
+    observer.observe(form);
     return () => observer.disconnect();
   }, [pathname]);
 
-  if (isForProsPath(pathname)) return null;
-  if (pathname === "/request-sent" || pathname === "/request-sent/") return null;
-  if (!heroGone) return null;
+  if (isForProsPath(pathname) || isPrivacyPath(pathname)) return null;
+  if (quoteInView) return null;
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-50 border-t border-border bg-card/95 p-3 shadow-[0_-8px_24px_rgba(21,32,43,0.08)] backdrop-blur md:hidden">

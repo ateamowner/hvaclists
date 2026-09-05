@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter, Source_Serif_4 } from "next/font/google";
-import { ForProsBand } from "@/components/for-pros-band";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { StickyMobileCta } from "@/components/sticky-mobile-cta";
@@ -79,7 +78,6 @@ export default function RootLayout({
         <style>{`:root { ${themeVars}; }`}</style>
         <SiteHeader />
         <main className="flex-1 pb-20 md:pb-0">{children}</main>
-        <ForProsBand />
         <SiteFooter />
         <StickyMobileCta />
       </body>

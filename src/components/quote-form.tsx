@@ -159,13 +159,10 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
       <h2 className="font-heading text-lg font-semibold sm:text-xl">
         Request a callback
       </h2>
-      <p className="mt-1 text-sm text-muted-foreground">
-        No credit card. We route this to a company that covers your ZIP — or
-        hold it until one is available.
-      </p>
+      <p className="mt-1 text-sm text-muted-foreground">No credit card.</p>
 
-      <div className={`mt-4 grid gap-3 ${compact ? "" : "sm:grid-cols-2"}`}>
-        <Field label="Phone" htmlFor="phone">
+      <div className={`mt-4 grid gap-3 ${compact ? "" : "md:grid-cols-2"}`}>
+        <Field label="Phone*" htmlFor="phone">
           <input
             id="phone"
             name="phone"
@@ -178,7 +175,7 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
             onChange={(event) => onTextChange("phone", event.target.value)}
           />
         </Field>
-        <Field label="Email" htmlFor="email">
+        <Field label="Email*" htmlFor="email">
           <input
             id="email"
             name="email"
@@ -190,7 +187,7 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
             onChange={(event) => onTextChange("email", event.target.value)}
           />
         </Field>
-        <Field label="ZIP" htmlFor="zip">
+        <Field label="ZIP*" htmlFor="zip">
           <input
             id="zip"
             name="zip"
@@ -202,7 +199,7 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
             onChange={(event) => onTextChange("zip", event.target.value)}
           />
         </Field>
-        <Field label="Service" htmlFor="service_type">
+        <Field label="Service*" htmlFor="service_type">
           <select
             id="service_type"
             name="service_type"
@@ -219,9 +216,9 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
           </select>
         </Field>
         <Field
-          label="Timing"
+          label="Timing*"
           htmlFor="timing"
-          className={compact ? "" : "sm:col-span-2"}
+          className={compact ? "" : "md:col-span-2"}
         >
           <select
             id="timing"
@@ -244,11 +241,11 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
         <summary className="cursor-pointer text-sm font-medium">
           More details
         </summary>
-        <div className={`mt-3 grid gap-3 ${compact ? "" : "sm:grid-cols-2"}`}>
+        <div className={`mt-3 grid gap-3 ${compact ? "" : "md:grid-cols-2"}`}>
           <Field
-            label="Name (optional)"
+            label="Name"
             htmlFor="name"
-            className={compact ? "" : "sm:col-span-2"}
+            className={compact ? "" : "md:col-span-2"}
           >
             <input
               id="name"
@@ -260,9 +257,9 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
             />
           </Field>
           <Field
-            label="Property type (optional)"
+            label="Property type"
             htmlFor="property_type"
-            className={compact ? "" : "sm:col-span-2"}
+            className={compact ? "" : "md:col-span-2"}
           >
             <select
               id="property_type"
@@ -279,7 +276,7 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
             </select>
           </Field>
         </div>
-        <Field label="Message (optional)" htmlFor="message" className="mt-3">
+        <Field label="Message" htmlFor="message" className="mt-3">
           <textarea
             id="message"
             name="message"
@@ -297,15 +294,11 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
           type="checkbox"
           name="sms_consent"
           value="true"
-          required
           className="mt-1 size-4 accent-primary"
           checked={draft.sms_consent}
           onChange={(event) => update("sms_consent", event.target.checked)}
         />
-        <span>
-          You may text me about this request at the number I provided.
-          Required.
-        </span>
+        <span>You may text me about this request at the number I provided.</span>
       </label>
       <label className="mt-2 flex items-start gap-2 rounded-lg border border-border bg-accent/70 px-3 py-2.5 text-[13px] leading-[18px]">
         <input
@@ -318,11 +311,11 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
           onChange={(event) => update("privacy_consent", event.target.checked)}
         />
         <span>
-          I agree to the{" "}
+          Privacy* — I agree to the{" "}
           <Link href="/privacy/" className="underline underline-offset-2">
             privacy policy
           </Link>
-          . Required.
+          .
         </span>
       </label>
 

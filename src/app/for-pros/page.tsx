@@ -57,10 +57,11 @@ export default function ForProsPage() {
         How leads work
       </h2>
       <p className="mt-3 leading-7">
-        The form collects required phone, email, ZIP, service type, timing, SMS
-        consent, and privacy consent. Name, property type, and message sit
-        behind More details. Hidden fields carry page URL, city, state, and
-        service. There is no credit-card field on the homeowner quote form.
+        The form collects required phone, email, ZIP, service type, timing, and
+        privacy consent. SMS consent is on the form. Name, property type, and
+        message sit behind More details. Hidden fields carry page URL, city,
+        state, and service. There is no credit-card field on the homeowner
+        quote form.
       </p>
       <p className="mt-3 leading-7">
         Every request posts to Formsubmit and emails {site.leadsEmail}. If a
