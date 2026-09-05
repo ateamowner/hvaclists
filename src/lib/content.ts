@@ -175,6 +175,28 @@ export function faqs(city: City, service: Service): Faq[] {
   ];
 }
 
+/** Homepage FAQ — visible copy and FAQPage JSON-LD must stay in lockstep. */
+export function homepageFaqs(): Faq[] {
+  return [
+    {
+      question: `Is ${site.name} an HVAC contractor?`,
+      answer: `No. ${site.name} is a lead-generation directory for HVAC companies. We do not send a truck, repair AC, service furnaces, or install systems. ${site.disclosure}`,
+    },
+    {
+      question: `Why are some listings marked Featured?`,
+      answer: `Those are paid placements. A Featured — paid placement is a labeled upgrade so you can tell it is an ad. Standard listings, when we have them, are not marked as paid upgrades. We do not invent companies to fill empty slots.`,
+    },
+    {
+      question: `What happens after I submit the form?`,
+      answer: `The static form posts to Formsubmit and emails ${site.leadsEmail}. We store the request and route it to a company that covers your ZIP and service type when one is available. Expect a phone call from a local HVAC company — not from a ${site.name} tech. Until a listing goes live on a URL, we still take the request and hold it.`,
+    },
+    {
+      question: `Are the city pages real?`,
+      answer: `Yes. Each city on this homepage has its own URL — Dayton / Miami Valley markets and Knoxville, Tennessee. Each has a hub plus AC repair, furnace, HVAC installation, and emergency HVAC pages. Nearby-city pages exist so internal links do not 404. We do not invent company names, star ratings, or city-specific prices.`,
+    },
+  ];
+}
+
 export function hubFaqs(city: City): Faq[] {
   return [
     {

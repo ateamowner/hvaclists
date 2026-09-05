@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Disclosure } from "@/components/disclosure";
+import { FaqList } from "@/components/faq-list";
 import { ForProsBand } from "@/components/for-pros-band";
 import { HeroSplit } from "@/components/hero-split";
+import { JsonLd } from "@/components/json-ld";
 import { QuoteFormLoader } from "@/components/quote-form-loader";
 import { TrustStrip } from "@/components/trust-strip";
 import {
@@ -13,6 +15,12 @@ import {
   site,
   type City,
 } from "@/config/site";
+import { homepageFaqs } from "@/lib/content";
+import {
+  faqPageSchema,
+  organizationSchema,
+  websiteSchema,
+} from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: `${site.name} — HVAC directory`,
@@ -22,9 +30,13 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const live = cities.filter((city) => liveCitySlugs.includes(city.slug));
+  const questions = homepageFaqs();
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6">
+      <JsonLd
+        data={[organizationSchema(), websiteSchema(), faqPageSchema(questions)]}
+      />
       <HeroSplit form={<QuoteFormLoader />}>
         <p className="text-sm font-medium text-primary">{site.tagline}</p>
         <h1 className="mt-2 font-heading tracking-tight text-balance">
@@ -121,6 +133,8 @@ export default function HomePage() {
           ))}
         </ul>
       </section>
+
+      <FaqList faqs={questions} />
     </div>
   );
 }

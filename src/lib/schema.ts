@@ -30,6 +30,36 @@ export function publisherLocalBusiness(city: City) {
   };
 }
 
+/** Homepage only. Directory publisher — no reviews, ratings, or AggregateRating. */
+export function organizationSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${absoluteUrl("/")}#organization`,
+    name: site.legalName,
+    alternateName: site.name,
+    url: absoluteUrl("/"),
+    email: site.email,
+    description: site.description,
+    knowsAbout: "HVAC directory",
+  };
+}
+
+/** Homepage only. No SearchAction — this site has no site search. */
+export function websiteSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${absoluteUrl("/")}#website`,
+    name: site.name,
+    url: absoluteUrl("/"),
+    description: site.description,
+    publisher: {
+      "@id": `${absoluteUrl("/")}#organization`,
+    },
+  };
+}
+
 export function faqPageSchema(faqs: Faq[]) {
   return {
     "@context": "https://schema.org",
