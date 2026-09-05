@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Disclosure } from "@/components/disclosure";
+import { HeroSplit } from "@/components/hero-split";
 import { QuoteFormLoader } from "@/components/quote-form-loader";
+import { TrustStrip } from "@/components/trust-strip";
 import {
   cities,
   liveCitySlugs,
@@ -22,39 +24,30 @@ export default function HomePage() {
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6">
-      <section className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem]">
-        <div>
-          <p className="text-sm font-medium text-primary">{site.tagline}</p>
-          <h1 className="mt-2 font-heading text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
-            Find HVAC by city. Request a quote. Skip the fake shop page.
-          </h1>
-          <p className="mt-4 max-w-2xl text-lg leading-8">
-            {site.name} is a lead-generation directory for HVAC companies. We
-            are not a contractor. We do not send a truck, and we do not invent
-            company names, star ratings, or city-specific prices. Each city has
-            its own URL. Featured spots are paid and labeled.
-          </p>
-          <p className="mt-3 max-w-2xl text-base leading-7 text-muted-foreground">
-            Homeowners use the form. Companies buy a Featured — paid placement
-            listing on the{" "}
-            <Link href="/for-pros/" className="underline underline-offset-2">
-              For Pros
-            </Link>{" "}
-            page. Until a listing goes live on a URL, we still take the request
-            and hold it.
-          </p>
-          <p className="mt-6">
-            <Link
-              href="/for-pros/"
-              className="inline-flex h-11 items-center justify-center rounded-lg bg-primary px-5 text-base font-medium text-primary-foreground hover:bg-primary/90"
-            >
-              Featured — $99/month
-            </Link>
-          </p>
-          <Disclosure className="mt-3 max-w-2xl" />
-        </div>
-        <QuoteFormLoader />
-      </section>
+      <HeroSplit form={<QuoteFormLoader />}>
+        <p className="text-sm font-medium text-primary">{site.tagline}</p>
+        <h1 className="mt-2 font-heading text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
+          Find HVAC by city. Request a quote. Skip the fake shop page.
+        </h1>
+        <p className="mt-4 max-w-2xl text-lg leading-8">
+          {site.name} is a lead-generation directory for HVAC companies. We
+          are not a contractor. We do not send a truck, and we do not invent
+          company names, star ratings, or city-specific prices. Each city has
+          its own URL. Featured spots are paid and labeled.
+        </p>
+        <p className="mt-3 max-w-2xl text-base leading-7 text-muted-foreground">
+          Homeowners use the form. Companies buy a Featured — paid placement
+          listing on the{" "}
+          <Link href="/for-pros/" className="underline underline-offset-2">
+            For Pros
+          </Link>{" "}
+          page. Until a listing goes live on a URL, we still take the request
+          and hold it.
+        </p>
+        <Disclosure className="mt-3 max-w-2xl" />
+      </HeroSplit>
+
+      <TrustStrip className="mt-10" />
 
       <div id="cities">
         <section className="mt-14">
@@ -102,11 +95,11 @@ export default function HomePage() {
             "How to choose: license, local jobs, written scope, reviews with addresses, who shows up, warranty, emergency vs planned",
             "National cost ranges cited to Angi — not a local survey",
             "Five FAQs that match the on-page questions in FAQPage JSON-LD",
-            "Listings from a data file, or an empty state with the quote form",
+            "Listings from a data file, or an empty state with the quote form plus a Featured and For Pros path — no invented companies",
           ].map((item) => (
             <li
               key={item}
-              className="rounded-lg border border-border bg-card px-4 py-3 text-sm leading-6"
+              className="rounded-[16px] border border-border bg-card px-4 py-3 text-sm leading-6"
             >
               {item}
             </li>
@@ -131,7 +124,7 @@ export default function HomePage() {
 
 function CityCard({ city }: { city: City }) {
   return (
-    <li className="flex flex-col rounded-lg border border-border bg-card p-5">
+    <li className="flex flex-col rounded-[16px] border border-border bg-card p-5">
       <h3 className="font-heading text-xl font-semibold">
         {city.name}, {city.stateAbbr}
       </h3>
