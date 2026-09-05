@@ -175,6 +175,37 @@ export function faqs(city: City, service: Service): Faq[] {
   ];
 }
 
+/** Homepage FAQ — visible copy and FAQPage JSON-LD must stay in lockstep. */
+export function homeFaqs(): Faq[] {
+  return [
+    {
+      question: "Is HVACLists an HVAC contractor?",
+      answer:
+        "No. HVACLists is a lead-generation directory. We do not send a truck. Featured — paid placement spots are paid and labeled.",
+    },
+    {
+      question: "Why are some listings marked Featured?",
+      answer:
+        "Featured — paid placement is a labeled paid upgrade. It is not exclusive and has no lead-count guarantee.",
+    },
+    {
+      question: "What happens after I submit the form?",
+      answer:
+        "We route the request to a company that covers your ZIP, or hold it until one is available. Requests go to owner@ateamcontractings.com. We do not invent companies to fill empty slots.",
+    },
+    {
+      question: "Do you invent star ratings or city-specific prices?",
+      answer:
+        "No. We do not invent company names, star ratings, or city-specific prices. Cost guides cite national published ranges only.",
+    },
+    {
+      question: "Which cities do you cover?",
+      answer:
+        "Dayton / Miami Valley cities plus live markets such as Knoxville, TN. Each city has its own URL — use the homepage city list.",
+    },
+  ];
+}
+
 export function hubFaqs(city: City): Faq[] {
   return [
     {

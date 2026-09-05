@@ -9,10 +9,16 @@ import {
 } from "@/config/site";
 import type { Faq } from "@/lib/content";
 
+export function organizationId() {
+  return `${absoluteUrl("/")}#organization`;
+}
+
+/** City/hub publisher. Organization, not LocalBusiness — this directory is not a contractor. */
 export function publisherLocalBusiness(city: City) {
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "Organization",
+    "@id": organizationId(),
     name: site.legalName,
     alternateName: site.name,
     description: `${site.name} is a directory that publishes city pages for HVAC and routes quote requests to listed companies. ${site.disclosure}`,
@@ -27,6 +33,34 @@ export function publisherLocalBusiness(city: City) {
       },
     },
     knowsAbout: "HVAC directory",
+  };
+}
+
+/** Homepage only. Directory publisher — no phone, address, reviews, or AggregateRating. */
+export function organizationSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://hvaclists.com/#organization",
+    name: "HVACLists",
+    url: "https://hvaclists.com/",
+    email: "owner@ateamcontractings.com",
+    description:
+      "Lead-generation directory for HVAC companies. Paid placements are labeled. Not an HVAC contractor.",
+  };
+}
+
+/** Homepage only. No SearchAction — this site has no site search. */
+export function websiteSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: site.name,
+    url: absoluteUrl("/"),
+    description: site.description,
+    publisher: {
+      "@id": organizationId(),
+    },
   };
 }
 
