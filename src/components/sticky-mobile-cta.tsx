@@ -2,46 +2,42 @@
 
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { site } from "@/config/site";
-import { isForProsPath, quoteHref } from "@/lib/shell";
+import { isForProsPath, isPrivacyPath, quoteHref } from "@/lib/shell";
 
 /**
- * Shared directory conversion shell — sticky mobile Get a quote CTA.
- * Hides while the on-page form is in view so it does not cover submit.
+ * Sticky mobile CTA — only <768. Hides when #quote is at least 40% in view.
+ * Never on /for-pros/ or /privacy/.
  */
 export function StickyMobileCta() {
   const pathname = usePathname();
-  const [formInView, setFormInView] = useState(false);
+  const [quoteInView, setQuoteInView] = useState(false);
 
   useEffect(() => {
     const form = document.getElementById("quote");
     if (!form) {
-      setFormInView(false);
+      setQuoteInView(false);
       return;
     }
     const observer = new IntersectionObserver(
-      ([entry]) => setFormInView(entry.isIntersecting),
-      { threshold: 0.15 }
+      ([entry]) => setQuoteInView(entry.intersectionRatio >= 0.4),
+      { threshold: [0, 0.4, 1] }
     );
     observer.observe(form);
     return () => observer.disconnect();
   }, [pathname]);
 
-  if (isForProsPath(pathname)) return null;
-  if (pathname === "/request-sent" || pathname === "/request-sent/") return null;
-  if (formInView) return null;
+  if (isForProsPath(pathname) || isPrivacyPath(pathname)) return null;
 
   return (
-    <div className="fixed inset-x-0 bottom-0 z-50 border-t border-border bg-card/95 p-3 shadow-[0_-8px_24px_rgba(21,32,43,0.08)] backdrop-blur md:hidden">
+    <div
+      className={`fixed inset-x-0 bottom-0 z-50 border-t border-border bg-card/95 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-[0_-8px_24px_rgba(21,32,43,0.08)] backdrop-blur md:hidden ${quoteInView ? "hidden" : ""}`}
+    >
       <a
         href={quoteHref(pathname)}
-        className="inline-flex h-11 w-full items-center justify-center rounded-lg bg-primary text-base font-medium text-primary-foreground hover:bg-primary/90"
+        className="inline-flex h-11 w-full items-center justify-center rounded-lg bg-primary text-[15px] leading-5 font-medium text-primary-foreground hover:bg-primary/90"
       >
         Get a quote
       </a>
-      <p className="mt-1 text-center text-xs text-muted-foreground">
-        No credit card. {site.name} is a directory.
-      </p>
     </div>
   );
 }

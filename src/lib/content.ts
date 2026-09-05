@@ -191,7 +191,7 @@ export function hubFaqs(city: City): Faq[] {
     },
     {
       question: `Where is the quote form?`,
-      answer: `On this hub and on every ${city.name} service page. Same fields. Required: phone, email, ZIP, service type, timing, and your agreement to the privacy policy. Name and other notes are optional under More details.`,
+      answer: `On this hub and on every ${city.name} service page. Same fields. Required: phone, email, ZIP, service type, timing, SMS consent, and your agreement to the privacy policy. Name and other notes are optional under More details.`,
     },
     {
       question: `How do contractors get on this ${city.name} page?`,

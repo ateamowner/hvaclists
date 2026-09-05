@@ -11,9 +11,7 @@ export const metadata: Metadata = {
 export default function PrivacyPage() {
   return (
     <article className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
-      <h1 className="font-heading text-4xl font-semibold tracking-tight">
-        Privacy
-      </h1>
+      <h1 className="font-heading tracking-tight">Privacy</h1>
       <p className="mt-4 text-sm text-muted-foreground">Effective {site.year}.</p>
       <Disclosure className="mt-4" />
       <p className="mt-4 leading-7">
@@ -25,10 +23,10 @@ export default function PrivacyPage() {
       <h2 className="mt-8 font-heading text-2xl font-semibold">What we collect</h2>
       <p className="mt-3 leading-7">
         From the quote form, required: phone, email, ZIP, service type, timing,
-        and privacy consent. Optional fields under More details: name, property
-        type, message, and SMS consent. Hidden fields may include page URL,
-        city, city slug, state, service, listing id, source, gclid, utm_source,
-        utm_medium, and utm_campaign.
+        and privacy consent. SMS consent is visible on the form. Optional
+        fields under More details: name, property type, and message. Hidden
+        fields may include page URL, city, city slug, state, service, listing
+        id, source, gclid, utm_source, utm_medium, and utm_campaign.
       </p>
 
       <h2 className="mt-8 font-heading text-2xl font-semibold">How we use it</h2>

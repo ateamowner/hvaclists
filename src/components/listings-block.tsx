@@ -99,43 +99,27 @@ export function ListingsBlock({ listings }: { listings: Listing[] }) {
   );
 }
 
-/** Empty city × service: form first, then labeled Featured path. No invented contractors. */
+/** Empty city × service — exact copy and Featured badge from the SHIP #1 brief. */
 export function EmptyListingState() {
   return (
-    <div className="mt-4 rounded-[16px] border border-dashed border-border bg-card p-5 shadow-[0_8px_24px_rgba(21,32,43,0.08)]">
-      <p className="text-base font-medium">No live listings on this URL yet.</p>
-      <p className="mt-2 text-sm leading-6 text-muted-foreground">
-        We do not invent contractors to fill the page. Use the form — we still
-        take the request and hold it until a company that covers your ZIP is
-        available.
+    <div className="mt-4 rounded-[16px] border border-dashed border-border bg-card p-5">
+      <p>
+        No live listings on this URL yet. Use the form — we take the request
+        and hold it. We do not invent companies.
       </p>
-      <p className="mt-4">
-        <a
-          href="#quote"
-          className="inline-flex h-11 items-center justify-center rounded-lg bg-primary px-5 text-base font-medium text-primary-foreground hover:bg-primary/90"
-        >
-          Get a quote
-        </a>
+      <p className="mt-3">
+        <span className="mr-2 inline-flex rounded-full bg-accent px-2 py-0.5 text-[13px] leading-[18px] font-semibold text-accent-foreground">
+          Featured — paid placement
+        </span>
       </p>
-      <p className="mt-5 text-sm font-medium">Featured — paid placement</p>
-      <p className="mt-1 text-sm leading-6 text-muted-foreground">
-        HVAC companies can buy a labeled Featured spot on this URL. $99/month
-        on Stripe. Not exclusive. No lead-count SLA.
-      </p>
-      <div className="mt-3 flex flex-wrap gap-3">
-        <a
-          href={site.featuredCheckoutUrl}
-          className="inline-flex h-11 items-center justify-center rounded-lg bg-primary px-5 text-base font-medium text-primary-foreground hover:bg-primary/90"
-        >
-          Featured — $99/month
-        </a>
+      <p className="mt-3">
         <Link
           href="/for-pros/"
-          className="inline-flex h-11 items-center justify-center rounded-lg border border-border bg-card px-5 text-base font-medium hover:bg-muted/60"
+          className="inline-flex h-11 items-center justify-center rounded-lg bg-primary px-5 text-[15px] leading-5 font-medium text-primary-foreground hover:bg-primary/90"
         >
-          For Pros
+          Get Featured — $99/month
         </Link>
-      </div>
+      </p>
     </div>
   );
 }

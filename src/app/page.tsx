@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Disclosure } from "@/components/disclosure";
+import { ForProsBand } from "@/components/for-pros-band";
 import { HeroSplit } from "@/components/hero-split";
 import { QuoteFormLoader } from "@/components/quote-form-loader";
 import { TrustStrip } from "@/components/trust-strip";
@@ -26,20 +27,20 @@ export default function HomePage() {
     <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6">
       <HeroSplit form={<QuoteFormLoader />}>
         <p className="text-sm font-medium text-primary">{site.tagline}</p>
-        <h1 className="mt-2 font-heading text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
+        <h1 className="mt-2 font-heading tracking-tight text-balance">
           Find HVAC by city. Request a quote. Skip the fake shop page.
         </h1>
-        <p className="mt-4 max-w-2xl text-lg leading-8">
+        <p className="mt-4 max-w-2xl text-muted-foreground">
           {site.name} is a lead-generation directory for HVAC companies. We
           are not a contractor. We do not send a truck, and we do not invent
           company names, star ratings, or city-specific prices. Each city has
           its own URL. Featured spots are paid and labeled.
         </p>
-        <p className="mt-3 max-w-2xl text-base leading-7 text-muted-foreground">
+        <p className="mt-3 max-w-2xl text-muted-foreground">
           Homeowners use the form. Companies buy a Featured — paid placement
           listing on the{" "}
           <Link href="/for-pros/" className="underline underline-offset-2">
-            For Pros
+            For pros
           </Link>{" "}
           page. Until a listing goes live on a URL, we still take the request
           and hold it.
@@ -57,7 +58,7 @@ export default function HomePage() {
           <p className="mt-2 max-w-2xl text-base text-muted-foreground">
             Live markets. Nearby-city pages exist so internal links do not 404.
           </p>
-          <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {live
               .filter((city) => city.stateAbbr === "OH")
               .map((city) => (
@@ -74,7 +75,7 @@ export default function HomePage() {
             Live markets. Nearby links only point at cities that already exist on
             this site — Knoxville has no in-repo neighbor yet.
           </p>
-          <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {live
               .filter((city) => city.stateAbbr === "TN")
               .map((city) => (
@@ -83,6 +84,8 @@ export default function HomePage() {
           </ul>
         </section>
       </div>
+
+      <ForProsBand />
 
       <section className="mt-14">
         <h2 className="font-heading text-2xl font-semibold">
@@ -128,20 +131,13 @@ function CityCard({ city }: { city: City }) {
       <h3 className="font-heading text-xl font-semibold">
         {city.name}, {city.stateAbbr}
       </h3>
-      <p className="mt-2 flex-1 text-sm leading-6 text-muted-foreground">
-        {city.setting}
-      </p>
+      <p className="mt-2 line-clamp-1 text-muted-foreground">{city.setting}</p>
       <p className="mt-4">
         <Link
           href={servicePath(city, "ac-repair")}
           className="font-medium underline underline-offset-2"
         >
           Best AC Repair in {city.name} — {site.year}
-        </Link>
-      </p>
-      <p className="mt-2">
-        <Link href={`/${city.slug}/`} className="text-sm hover:underline">
-          All {city.name} services
         </Link>
       </p>
     </li>

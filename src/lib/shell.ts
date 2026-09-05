@@ -37,3 +37,7 @@ export function quoteHref(pathname: string): string {
 export function isForProsPath(pathname: string): boolean {
   return pathname === "/for-pros" || pathname === "/for-pros/";
 }
+
+export function isPrivacyPath(pathname: string): boolean {
+  return pathname === "/privacy" || pathname === "/privacy/";
+}
