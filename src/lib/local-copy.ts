@@ -109,6 +109,15 @@ const copy: Record<string, string> = {
   "oakwood-oh:emergency-hvac":
     "Use this Oakwood page when there is no heat in a freeze or no cooling in a heat wave. Tree-lined lots do not skip ice. Say so on the form. Emergency work is a different queue than a planned visit on an inner-ring two-story.",
 
+  "west-carrollton-oh:ac-repair":
+    "West Carrollton AC repair usually starts on a 1950s–70s ranch or older downtown house along the I-75 / Dixie Drive corridor, where river humidity and a side-yard condenser have run every Miami Valley August. Ice on the coil in July is a diagnosis. AES Ohio peak bills do not create a West Carrollton-only repair price.",
+  "west-carrollton-oh:furnace":
+    "West Carrollton furnaces sit in river-valley crawlspaces and garage closets on the I-75 / Dixie Drive corridor, south of Dayton and north of Miamisburg. Ice-season no-heat on postwar stock is a heat-exchanger and condensate question. AES Ohio is the usual bill. We do not invent a West Carrollton-only dollar figure.",
+  "west-carrollton-oh:hvac-installation":
+    "A West Carrollton install is often one pad on a Dixie Drive ranch plus remaining duct in a short crawlspace. Downtown Central Avenue two-stories are tighter. River-valley lots stage easier than a hillside bluff. We will not invent an I-75-corridor surcharge.",
+  "west-carrollton-oh:emergency-hvac":
+    "No heat on a West Carrollton ranch after a Miami Valley ice event — or no cooling in river humidity — is emergency routing. Say whether the house sits on a crawl or a downtown lot so the company that calls you can plan I-75 / Dixie access. HVACLists does not send a truck.",
+
   "knoxville-tn:ac-repair":
     "Knoxville AC repair often starts on a Fort Sanders or downtown house whose evaporator has run through humid Tennessee Valley summers, or on a west Knoxville subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. KUB / TVA on the bill is not a Knoxville repair price we invented.",
   "knoxville-tn:furnace":

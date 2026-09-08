@@ -132,9 +132,9 @@ export const cities: City[] = [
     nearbySlugs: [
       "kettering-oh",
       "oakwood-oh",
+      "west-carrollton-oh",
       "beavercreek-oh",
       "centerville-oh",
-      "huber-heights-oh",
     ],
     setting:
       "Dayton sits in the Miami Valley with older city lots, bungalows, two-stories, and mid-century houses. AES Ohio is the usual electric utility on the bill.",
@@ -157,8 +157,8 @@ export const cities: City[] = [
     nearbySlugs: [
       "dayton-oh",
       "oakwood-oh",
+      "west-carrollton-oh",
       "centerville-oh",
-      "beavercreek-oh",
       "miamisburg-oh",
     ],
     setting:
@@ -281,9 +281,9 @@ export const cities: City[] = [
     status: "live",
     nearbySlugs: [
       "dayton-oh",
+      "west-carrollton-oh",
       "centerville-oh",
       "kettering-oh",
-      "vandalia-oh",
       "xenia-oh",
     ],
     setting:
@@ -408,7 +408,7 @@ export const cities: City[] = [
       "dayton-oh",
       "kettering-oh",
       "centerville-oh",
-      "beavercreek-oh",
+      "west-carrollton-oh",
       "miamisburg-oh",
     ],
     setting:
@@ -422,6 +422,31 @@ export const cities: City[] = [
       "Tree-lined streets shade condensers the way Kettering maples do, but a Tudor attic and tighter lot change airflow. August AC load on older brick is a capacity question, not an Oakwood price.",
     localNote:
       "A foursquare mechanical closet is a different access and duct problem than a later Kettering ranch, even when both sit on AES Ohio. We do not invent an Oakwood-only dollar figure.",
+  },
+  {
+    slug: "west-carrollton-oh",
+    name: "West Carrollton",
+    state: "Ohio",
+    stateAbbr: "OH",
+    status: "live",
+    nearbySlugs: [
+      "dayton-oh",
+      "miamisburg-oh",
+      "kettering-oh",
+      "oakwood-oh",
+      "centerville-oh",
+    ],
+    setting:
+      "West Carrollton sits on the Great Miami River immediately south of Dayton and north of Miamisburg, along the I-75 / Dixie Drive corridor. AES Ohio is the usual electric utility.",
+    utility: "AES Ohio",
+    housing:
+      "Postwar 1950s–70s ranches and split-levels plus older downtown stock on flatter river-valley lots — crawlspaces and unfinished basements, not a Tudor street or a hillside two-story.",
+    winter:
+      "River-valley crawlspaces and unheated garage walls freeze first after a Miami Valley ice event; furnaces and condensate lines on postwar Dixie Drive stock take the hit.",
+    summer:
+      "River humidity along I-75 loads coils harder than a tree-lined inner-ring street. August AC load on a West Carrollton ranch is a condensate and capacity question, not a city price.",
+    localNote:
+      "A Dixie Drive ranch on a river-valley lot is a different access and duct problem than a hillside downtown or an early-20th-century foursquare, even when both sit on AES Ohio. We do not invent a West Carrollton-only dollar figure.",
   },
   {
     slug: "knoxville-tn",
