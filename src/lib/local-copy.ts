@@ -126,6 +126,15 @@ const copy: Record<string, string> = {
     "A Knoxville changeout has to name load and duct on older downtown or Fort Sanders stock versus a later west Knoxville subdivision. KUB interconnection is not the issue — match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
   "knoxville-tn:emergency-hvac":
     "Use this Knoxville page when there is no heat after a freeze night or no cooling in a humid heat wave. Say so on the form. Emergency work is a different queue than a planned visit on a west Knoxville street.",
+
+  "madison-wi:ac-repair":
+    "Madison AC repair often starts on a near-east or isthmus house whose evaporator has run through humid lake summers, or on a west-side subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. MG&E on the bill is not a Madison repair price we invented.",
+  "madison-wi:furnace":
+    "Deep-freeze nights in Madison take down older near-east furnaces and condensate lines; ice dams on isthmus roofs are a first-visit question. West-side units are often newer but still fail when intake screens ice over. Heat-exchanger condition is the question — not a city-only dollar figure.",
+  "madison-wi:hvac-installation":
+    "A Madison changeout has to name load and duct on older near-east or isthmus stock versus a later west-side subdivision. MG&E interconnection is not the issue — match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
+  "madison-wi:emergency-hvac":
+    "Use this Madison page when there is no heat after a deep freeze or no cooling in a humid lake heat wave. Say so on the form. Emergency work is a different queue than a planned visit on a west-side street.",
 };
 
 export function uniqueLocalCopy(city: City, service: Service): string {
