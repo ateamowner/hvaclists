@@ -25,6 +25,7 @@ export function introParagraphs(city: City, service: Service): string[] {
 export function regionLabel(city: City): string {
   if (city.stateAbbr === "OH") return "Miami Valley";
   if (city.stateAbbr === "TN") return "East Tennessee";
+  if (city.stateAbbr === "WI") return "southern Wisconsin";
   return city.state;
 }
 

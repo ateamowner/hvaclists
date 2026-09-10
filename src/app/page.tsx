@@ -99,6 +99,23 @@ export default function HomePage() {
               ))}
           </ul>
         </section>
+
+        <section className="mt-14">
+          <h2 className="font-heading text-2xl font-semibold">
+            Wisconsin cities
+          </h2>
+          <p className="mt-2 max-w-2xl text-base text-muted-foreground">
+            Live markets. Nearby links only point at cities that already exist on
+            this site — Madison has no in-repo neighbor yet.
+          </p>
+          <ul className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {live
+              .filter((city) => city.stateAbbr === "WI")
+              .map((city) => (
+                <CityCard key={city.slug} city={city} />
+              ))}
+          </ul>
+        </section>
       </div>
 
       <ForProsBand />

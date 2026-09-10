@@ -467,6 +467,25 @@ export const cities: City[] = [
     localNote:
       "Confirm KUB or the utility printed on your bill before anyone talks efficiency. Fort Sanders access and a west Knoxville street are different jobs. We do not invent a Knoxville-only dollar figure.",
   },
+  {
+    slug: "madison-wi",
+    name: "Madison",
+    state: "Wisconsin",
+    stateAbbr: "WI",
+    status: "live",
+    nearbySlugs: [],
+    setting:
+      "Madison sits on an isthmus between lakes, with older near-east housing on one side and later west-side subdivisions on the other. Madison Gas and Electric (MG&E) is the usual local utility on the bill.",
+    utility: "Madison Gas and Electric (MG&E)",
+    housing:
+      "Older near-east houses — tight lots, bungalows, and mechanical closets that have seen decades of ice dams — versus later west-side subdivisions with later pads and simpler attics.",
+    winter:
+      "Madison winters are a deep freeze: ice dams, frozen condensate, and no-heat calls after a polar snap. Older near-east furnaces take the hit first; west-side units still fail when intake screens ice over.",
+    summer:
+      "Humid Madison summers off the lakes load coils and make a tired condenser run all afternoon. An older near-east house holds moisture differently than a later west-side subdivision ranch.",
+    localNote:
+      "Confirm MG&E or the utility printed on your bill before anyone talks efficiency. Near-east access and a west-side street are different jobs. We do not invent a Madison-only dollar figure.",
+  },
 ];
 
 export const liveCitySlugs = cities
