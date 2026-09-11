@@ -133,7 +133,7 @@ export const cities: City[] = [
       "kettering-oh",
       "oakwood-oh",
       "west-carrollton-oh",
-      "beavercreek-oh",
+      "trotwood-oh",
       "centerville-oh",
     ],
     setting:
@@ -234,7 +234,7 @@ export const cities: City[] = [
       "vandalia-oh",
       "fairborn-oh",
       "springfield-oh",
-      "kettering-oh",
+      "trotwood-oh",
     ],
     setting:
       "Huber Heights is a northern Dayton suburb known for brick ranches on AES Ohio. Lots are often wider than inner-city Dayton.",
@@ -332,7 +332,7 @@ export const cities: City[] = [
     nearbySlugs: [
       "dayton-oh",
       "huber-heights-oh",
-      "springfield-oh",
+      "trotwood-oh",
       "fairborn-oh",
       "tipp-city-oh",
     ],
@@ -384,7 +384,7 @@ export const cities: City[] = [
       "vandalia-oh",
       "huber-heights-oh",
       "springfield-oh",
-      "fairborn-oh",
+      "trotwood-oh",
     ],
     setting:
       "Tipp City sits in Miami County north of Dayton along the I-75 corridor, with a compact historic downtown and later subdivisions. AES Ohio is the usual electric utility.",
@@ -434,7 +434,7 @@ export const cities: City[] = [
       "miamisburg-oh",
       "kettering-oh",
       "oakwood-oh",
-      "centerville-oh",
+      "trotwood-oh",
     ],
     setting:
       "West Carrollton sits on the Great Miami River immediately south of Dayton and north of Miamisburg, along the I-75 / Dixie Drive corridor. AES Ohio is the usual electric utility.",
@@ -447,6 +447,31 @@ export const cities: City[] = [
       "River humidity along I-75 loads coils harder than a tree-lined inner-ring street. August AC load on a West Carrollton ranch is a condensate and capacity question, not a city price.",
     localNote:
       "A Dixie Drive ranch on a river-valley lot is a different access and duct problem than a hillside downtown or an early-20th-century foursquare, even when both sit on AES Ohio. We do not invent a West Carrollton-only dollar figure.",
+  },
+  {
+    slug: "trotwood-oh",
+    name: "Trotwood",
+    state: "Ohio",
+    stateAbbr: "OH",
+    status: "live",
+    nearbySlugs: [
+      "dayton-oh",
+      "vandalia-oh",
+      "huber-heights-oh",
+      "tipp-city-oh",
+      "west-carrollton-oh",
+    ],
+    setting:
+      "Trotwood sits on the northwest Dayton inner-ring along the Salem Avenue / SR 49 corridor, on flatter lots than a Miamisburg hillside. AES Ohio is the usual electric utility.",
+    utility: "AES Ohio",
+    housing:
+      "Postwar 1950s–70s ranches and modest two-stories on flatter lots — crawlspaces and garage closets, not a Tudor street or a river-bluff two-story.",
+    winter:
+      "Flatter-lot crawlspaces and unheated garage walls freeze first after a Miami Valley ice event; furnaces and condensate lines on postwar Salem Avenue stock take the hit.",
+    summer:
+      "More open northwest lots load coils harder than a tree-lined inner-ring street. August AC load on a Trotwood ranch is a condensate and capacity question, not a city price.",
+    localNote:
+      "A Salem Avenue ranch on a flatter northwest lot is a different access and duct problem than a hillside downtown or an early-20th-century foursquare, even when both sit on AES Ohio. We do not invent a Trotwood-only dollar figure.",
   },
   {
     slug: "knoxville-tn",
