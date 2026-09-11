@@ -3,9 +3,9 @@ import Link from "next/link";
 /** Homepage For HVAC companies band. CTA goes to /for-pros/. */
 export function ForProsBand() {
   return (
-    <section className="mt-14 rounded-[16px] border border-border bg-accent px-4 py-8 sm:px-6">
+    <section className="mt-14 rounded-[14px] border border-border bg-card px-4 py-8 shadow-[0_12px_32px_rgba(19,32,43,.10)] sm:px-6">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <h2 className="font-heading text-xl font-semibold text-accent-foreground">
+        <h2 className="font-heading text-xl font-semibold">
           For HVAC companies
         </h2>
         <Link

@@ -21,20 +21,20 @@ export const site = {
     "HVAC company directory with city pages, labeled paid placements, and quote routing. We are not an HVAC contractor.",
   disclosure:
     "HVACLists is a directory of HVAC companies. Paid spots are labeled. We are not an HVAC contractor.",
-  /** HVAC niche palette — keep these tokens on a shell copy to another directory. */
+  /** HVAC niche palette — consumer shell v3. Keep these tokens on a shell copy. */
   theme: {
-    background: "#eef2f6",
+    background: "#F3F6F8",
     foreground: "#15202b",
-    card: "#f8fafc",
-    primary: "#0f4c81",
+    card: "#FBFCFE",
+    primary: "#0F4C81",
     primaryForeground: "#f4f8fc",
     muted: "#dce3eb",
     mutedForeground: "#3d4a57",
-    accent: "#d4e8f5",
-    accentForeground: "#12324d",
-    border: "#b8c5d1",
+    accent: "#C4A46A",
+    accentForeground: "#15202b",
+    border: "#C9D3DC",
     featured: "#b45309",
-    ring: "#0f4c81",
+    ring: "#0F4C81",
   },
 } as const;
 
