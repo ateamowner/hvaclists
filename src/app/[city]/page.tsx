@@ -109,7 +109,7 @@ export default async function CityHubPage({
           <li key={service.slug}>
             <Link
               href={servicePath(city, service)}
-              className="block rounded-[16px] border border-border bg-card px-4 py-3 hover:border-primary"
+              className="block rounded-[14px] border border-border bg-card px-4 py-3 hover:border-primary"
             >
               <span className="font-medium">
                 Best {service.name} in {city.name} — {site.year}

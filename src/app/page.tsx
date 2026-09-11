@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { CitySearchGrid } from "@/components/city-search-grid";
 import { Disclosure } from "@/components/disclosure";
 import { FaqList } from "@/components/faq-list";
 import { ForProsBand } from "@/components/for-pros-band";
@@ -13,7 +13,6 @@ import {
   servicePath,
   services,
   site,
-  type City,
 } from "@/config/site";
 import { homeFaqs } from "@/lib/content";
 import {
@@ -42,81 +41,33 @@ export default function HomePage() {
         ]}
       />
       <HeroSplit form={<QuoteFormLoader />}>
-        <p className="text-sm font-medium text-primary">{site.tagline}</p>
-        <h1 className="mt-2 font-heading tracking-tight text-balance">
-          Find HVAC by city. Request a quote. Skip the fake shop page.
+        <h1 className="font-heading tracking-tight text-balance">
+          AC out? Start with a real local request.
         </h1>
         <p className="mt-4 max-w-2xl text-muted-foreground">
-          {site.name} is a lead-generation directory for HVAC companies. We
-          are not a contractor. We do not send a truck, and we do not invent
-          company names, star ratings, or city-specific prices. Each city has
-          its own URL. Featured spots are paid and labeled.
-        </p>
-        <p className="mt-3 max-w-2xl text-muted-foreground">
-          Homeowners use the form. Companies buy a Featured — paid placement
-          listing on the{" "}
-          <Link href="/for-pros/" className="underline underline-offset-2">
-            For pros
-          </Link>{" "}
-          page. Until a listing goes live on a URL, we still take the request
-          and hold it.
+          {site.name} is a directory, not a contractor. Paid spots are labeled.
         </p>
         <Disclosure className="mt-3 max-w-2xl" />
       </HeroSplit>
 
       <TrustStrip className="mt-10" />
 
-      <div id="cities">
-        <section className="mt-14">
-          <h2 className="font-heading text-2xl font-semibold">
-            Dayton / Miami Valley cities
-          </h2>
-          <p className="mt-2 max-w-2xl text-base text-muted-foreground">
-            Live markets. Nearby-city pages exist so internal links do not 404.
-          </p>
-          <ul className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {live
-              .filter((city) => city.stateAbbr === "OH")
-              .map((city) => (
-                <CityCard key={city.slug} city={city} />
-              ))}
-          </ul>
-        </section>
-
-        <section className="mt-14">
-          <h2 className="font-heading text-2xl font-semibold">
-            Tennessee cities
-          </h2>
-          <p className="mt-2 max-w-2xl text-base text-muted-foreground">
-            Live markets. Nearby links only point at cities that already exist on
-            this site — Knoxville has no in-repo neighbor yet.
-          </p>
-          <ul className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {live
-              .filter((city) => city.stateAbbr === "TN")
-              .map((city) => (
-                <CityCard key={city.slug} city={city} />
-              ))}
-          </ul>
-        </section>
-
-        <section className="mt-14">
-          <h2 className="font-heading text-2xl font-semibold">
-            Wisconsin cities
-          </h2>
-          <p className="mt-2 max-w-2xl text-base text-muted-foreground">
-            Live markets. Nearby links only point at cities that already exist on
-            this site — Madison has no in-repo neighbor yet.
-          </p>
-          <ul className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {live
-              .filter((city) => city.stateAbbr === "WI")
-              .map((city) => (
-                <CityCard key={city.slug} city={city} />
-              ))}
-          </ul>
-        </section>
-      </div>
+      <section id="cities" className="mt-14">
+        <h2 className="font-heading text-2xl font-semibold">Cities</h2>
+        <p className="mt-2 max-w-2xl text-base text-muted-foreground">
+          Live markets only. Search by city name — we do not invent listings.
+        </p>
+        <div className="mt-6">
+          <CitySearchGrid
+            cities={live.map((city) => ({
+              slug: city.slug,
+              name: city.name,
+              stateAbbr: city.stateAbbr,
+              href: servicePath(city, "ac-repair"),
+            }))}
+          />
+        </div>
+      </section>
 
       <ForProsBand />
 
@@ -137,7 +88,7 @@ export default function HomePage() {
           ].map((item) => (
             <li
               key={item}
-              className="rounded-[16px] border border-border bg-card px-4 py-3 text-sm leading-6"
+              className="rounded-[14px] border border-border bg-card px-4 py-3 text-sm leading-6"
             >
               {item}
             </li>
@@ -157,24 +108,5 @@ export default function HomePage() {
         </ul>
       </section>
     </div>
-  );
-}
-
-function CityCard({ city }: { city: City }) {
-  return (
-    <li className="flex flex-col rounded-[16px] border border-border bg-card p-5">
-      <h3 className="font-heading text-xl font-semibold">
-        {city.name}, {city.stateAbbr}
-      </h3>
-      <p className="mt-2 line-clamp-1 text-muted-foreground">{city.setting}</p>
-      <p className="mt-4">
-        <Link
-          href={servicePath(city, "ac-repair")}
-          className="font-medium underline underline-offset-2"
-        >
-          Best AC Repair in {city.name} — {site.year}
-        </Link>
-      </p>
-    </li>
   );
 }

@@ -26,7 +26,7 @@ export function ListingsBlock({ listings }: { listings: Listing[] }) {
           {listings.map((listing) => (
             <li
               key={`${listing.tier}-${listing.name}`}
-              className="rounded-[16px] border border-border bg-card p-4 shadow-[0_8px_24px_rgba(21,32,43,0.08)]"
+              className="rounded-[14px] border border-border bg-card p-4 shadow-[0_12px_32px_rgba(19,32,43,.10)]"
             >
               <div className="flex flex-wrap items-center gap-2">
                 {listing.tier !== "standard" ? (
@@ -99,25 +99,37 @@ export function ListingsBlock({ listings }: { listings: Listing[] }) {
   );
 }
 
-/** Empty city × service — exact copy and Featured badge from the SHIP #1 brief. */
+/** Empty city × service — premium hold state. Form first; Featured stays labeled. */
 export function EmptyListingState() {
   return (
-    <div className="mt-4 rounded-[16px] border border-dashed border-border bg-card p-5">
-      <p>
-        No live listings on this URL yet. Use the form — we take the request
-        and hold it. We do not invent companies.
+    <div className="mt-4 rounded-[14px] border border-border bg-card p-5 shadow-[0_12px_32px_rgba(19,32,43,.10)]">
+      <p className="font-heading text-lg font-semibold">
+        No public list here yet — your request still gets held for a match.
       </p>
-      <p className="mt-3">
-        <span className="mr-2 inline-flex rounded-full bg-accent px-2 py-0.5 text-[13px] leading-[18px] font-semibold text-accent-foreground">
+      <p className="mt-2 text-sm text-muted-foreground">
+        Usually follow up within one business day
+      </p>
+      <p className="mt-4">
+        <a
+          href="#quote"
+          className="inline-flex h-11 items-center justify-center rounded-[14px] bg-primary px-5 text-[15px] leading-5 font-medium text-primary-foreground hover:bg-primary/90"
+        >
+          Request a callback
+        </a>
+      </p>
+      <p className="mt-4 text-sm text-muted-foreground">
+        <span className="mr-2 inline-flex rounded-full border border-border bg-card px-2 py-0.5 text-[13px] leading-[18px] font-semibold text-foreground">
+          <span
+            aria-hidden="true"
+            className="mr-1.5 inline-block size-1.5 rounded-full bg-accent align-middle"
+          />
           Featured — paid placement
         </span>
+        Paid spots are labeled. We do not invent companies.
       </p>
-      <p className="mt-3">
-        <Link
-          href="/for-pros/"
-          className="inline-flex h-11 items-center justify-center rounded-lg bg-primary px-5 text-[15px] leading-5 font-medium text-primary-foreground hover:bg-primary/90"
-        >
-          Get Featured — $99/month
+      <p className="mt-3 text-sm">
+        <Link href="/for-pros/" className="underline underline-offset-2">
+          For pros — Get Featured
         </Link>
       </p>
     </div>
