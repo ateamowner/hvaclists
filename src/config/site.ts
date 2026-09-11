@@ -511,6 +511,44 @@ export const cities: City[] = [
     localNote:
       "Confirm MG&E or the utility printed on your bill before anyone talks efficiency. Near-east access and a west-side street are different jobs. We do not invent a Madison-only dollar figure.",
   },
+  {
+    slug: "syracuse-ny",
+    name: "Syracuse",
+    state: "New York",
+    stateAbbr: "NY",
+    status: "live",
+    nearbySlugs: [],
+    setting:
+      "Syracuse sits in Central New York south of Lake Ontario, with older Eastwood, Strathmore, and University Hill housing on one side and later suburban-edge streets on the other. National Grid is the usual local utility on the bill. Lake-effect snow off Ontario is the winter fact that shapes most HVAC calls.",
+    utility: "National Grid",
+    housing:
+      "Older Eastwood, Strathmore, and University Hill houses — tight lots, two-stories, and mechanical closets that have seen decades of lake-effect ice — versus later suburban-edge pads and simpler attics.",
+    winter:
+      "Syracuse winters are lake-effect: heavy snow, ice dams, frozen condensate, and no-heat calls after a band sits over the city. Older Eastwood and Strathmore furnaces take the hit first; later units still fail when intake screens ice over.",
+    summer:
+      "Humid Central New York summers load coils and make a tired condenser run all afternoon. An older Eastwood or University Hill house holds moisture differently than a later suburban-edge ranch.",
+    localNote:
+      "Confirm National Grid or the utility printed on your bill before anyone talks efficiency. Eastwood access and a suburban-edge street are different jobs. We do not invent a Syracuse-only dollar figure.",
+  },
+  {
+    slug: "toledo-oh",
+    name: "Toledo",
+    state: "Ohio",
+    stateAbbr: "OH",
+    status: "live",
+    nearbySlugs: [],
+    setting:
+      "Toledo sits on the Maumee River in northwest Ohio, with older Old West End and downtown housing on one side and later west Toledo and South Toledo subdivisions on the other. Toledo Edison (FirstEnergy) is the usual local utility on the bill.",
+    utility: "Toledo Edison (FirstEnergy)",
+    housing:
+      "Older Old West End and downtown houses — tight lots, Victorians, and mechanical closets that predate central air — versus later west Toledo and South Toledo subdivisions with later pads and simpler attics.",
+    winter:
+      "Northwest Ohio winters off the Maumee and Lake Erie bring ice, freeze–thaw, and no-heat calls after a lake-effect band. Older Old West End furnaces take the hit first; later west Toledo units still fail when condensate lines freeze.",
+    summer:
+      "Humid Maumee summers load coils and make a tired condenser run all afternoon. An older Old West End house holds moisture differently than a later west Toledo subdivision ranch.",
+    localNote:
+      "Confirm Toledo Edison or the utility printed on your bill before anyone talks efficiency. Old West End access and a west Toledo street are different jobs. We do not invent a Toledo-only dollar figure.",
+  },
 ];
 
 export const liveCitySlugs = cities

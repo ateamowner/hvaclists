@@ -144,6 +144,24 @@ const copy: Record<string, string> = {
     "A Madison changeout has to name load and duct on older near-east or isthmus stock versus a later west-side subdivision. MG&E interconnection is not the issue — match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
   "madison-wi:emergency-hvac":
     "Use this Madison page when there is no heat after a deep freeze or no cooling in a humid lake heat wave. Say so on the form. Emergency work is a different queue than a planned visit on a west-side street.",
+
+  "syracuse-ny:ac-repair":
+    "Syracuse AC repair often starts on an Eastwood, Strathmore, or University Hill house whose evaporator has run through humid Central New York summers, or on a suburban-edge condenser that short-cycles in July. Ice on the coil is a diagnosis. National Grid on the bill is not a Syracuse repair price we invented.",
+  "syracuse-ny:furnace":
+    "Lake-effect nights in Syracuse take down older Eastwood and Strathmore furnaces and condensate lines; ice dams on University Hill roofs are a first-visit question. Later suburban-edge units are often newer but still fail when intake screens ice over. Heat-exchanger condition is the question — not a city-only dollar figure.",
+  "syracuse-ny:hvac-installation":
+    "A Syracuse changeout has to name load and duct on older Eastwood, Strathmore, or University Hill stock versus a later suburban-edge subdivision. National Grid interconnection is not the issue — match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
+  "syracuse-ny:emergency-hvac":
+    "Use this Syracuse page when there is no heat after a lake-effect band or no cooling in a humid Central New York heat wave. Say so on the form. Emergency work is a different queue than a planned visit on a suburban-edge street.",
+
+  "toledo-oh:ac-repair":
+    "Toledo AC repair often starts on an Old West End or downtown house whose evaporator has run through humid Maumee summers, or on a west Toledo subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. Toledo Edison on the bill is not a Toledo repair price we invented.",
+  "toledo-oh:furnace":
+    "Ice and freeze–thaw nights in Toledo take down older Old West End furnaces and condensate lines; Maumee-adjacent crawlspaces freeze first. West Toledo and South Toledo units are often newer but still fail on a sudden lake-effect snap. Heat-exchanger condition is the question — not a city-only dollar figure.",
+  "toledo-oh:hvac-installation":
+    "A Toledo changeout has to name load and duct on older downtown or Old West End stock versus a later west Toledo or South Toledo subdivision. Toledo Edison interconnection is not the issue — match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
+  "toledo-oh:emergency-hvac":
+    "Use this Toledo page when there is no heat after a northwest Ohio ice event or no cooling in a humid Maumee heat wave. Say so on the form. Emergency work is a different queue than a planned visit on a west Toledo street.",
 };
 
 export function uniqueLocalCopy(city: City, service: Service): string {
