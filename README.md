@@ -113,10 +113,11 @@ Until a listing is live on a URL, we still take the request and hold it.
 - [/tipp-city-oh/ac-repair](/tipp-city-oh/ac-repair) — Best AC Repair in Tipp City — 2026
 - [/oakwood-oh/ac-repair](/oakwood-oh/ac-repair) — Best AC Repair in Oakwood — 2026
 - [/west-carrollton-oh/ac-repair](/west-carrollton-oh/ac-repair) — Best AC Repair in West Carrollton — 2026
+- [/trotwood-oh/ac-repair](/trotwood-oh/ac-repair) — Best AC Repair in Trotwood — 2026
 - [/knoxville-tn/ac-repair](/knoxville-tn/ac-repair) — Best AC Repair in Knoxville — 2026
 - [/madison-wi/ac-repair](/madison-wi/ac-repair) — Best AC Repair in Madison — 2026
 
-City hubs: `/dayton-oh`, `/kettering-oh`, `/beavercreek-oh`, `/centerville-oh`, `/huber-heights-oh`, `/fairborn-oh`, `/miamisburg-oh`, `/xenia-oh`, `/vandalia-oh`, `/springfield-oh`, `/tipp-city-oh`, `/oakwood-oh`, `/west-carrollton-oh`, `/knoxville-tn`, `/madison-wi`.
+City hubs: `/dayton-oh`, `/kettering-oh`, `/beavercreek-oh`, `/centerville-oh`, `/huber-heights-oh`, `/fairborn-oh`, `/miamisburg-oh`, `/xenia-oh`, `/vandalia-oh`, `/springfield-oh`, `/tipp-city-oh`, `/oakwood-oh`, `/west-carrollton-oh`, `/trotwood-oh`, `/knoxville-tn`, `/madison-wi`.
 
 Services: `ac-repair`, `furnace`, `hvac-installation`, `emergency-hvac`.
 

@@ -118,6 +118,15 @@ const copy: Record<string, string> = {
   "west-carrollton-oh:emergency-hvac":
     "No heat on a West Carrollton ranch after a Miami Valley ice event — or no cooling in river humidity — is emergency routing. Say whether the house sits on a crawl or a downtown lot so the company that calls you can plan I-75 / Dixie access. HVACLists does not send a truck.",
 
+  "trotwood-oh:ac-repair":
+    "Trotwood AC repair usually starts on a 1950s–70s ranch or modest two-story along the Salem Avenue / SR 49 corridor, northwest of Dayton, where a side-yard condenser has run every Miami Valley August. Ice on the coil in July is a diagnosis. AES Ohio peak bills do not create a Trotwood-only repair price.",
+  "trotwood-oh:furnace":
+    "Trotwood furnaces sit in flatter-lot crawlspaces and garage closets on the Salem Avenue / SR 49 corridor, northwest of Dayton. Ice-season no-heat on postwar stock is a heat-exchanger and condensate question. AES Ohio is the usual bill. We do not invent a Trotwood-only dollar figure.",
+  "trotwood-oh:hvac-installation":
+    "A Trotwood install is often one pad on a Salem Avenue ranch plus remaining duct in a short crawlspace. Modest two-stories are tighter. Flatter lots stage easier than a Miamisburg hillside. We will not invent an SR 49-corridor surcharge.",
+  "trotwood-oh:emergency-hvac":
+    "No heat on a Trotwood ranch after a Miami Valley ice event — or no cooling on a northwest flatter lot — is emergency routing. Say whether the house sits on a crawl or a modest two-story so the company that calls you can plan Salem Avenue / SR 49 access. HVACLists does not send a truck.",
+
   "knoxville-tn:ac-repair":
     "Knoxville AC repair often starts on a Fort Sanders or downtown house whose evaporator has run through humid Tennessee Valley summers, or on a west Knoxville subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. KUB / TVA on the bill is not a Knoxville repair price we invented.",
   "knoxville-tn:furnace":
