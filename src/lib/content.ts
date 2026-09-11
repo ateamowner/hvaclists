@@ -21,11 +21,13 @@ export function introParagraphs(city: City, service: Service): string[] {
   ];
 }
 
-/** Regional phrase so Ohio pages still say Miami Valley; other live cities use their own region. */
+/** Regional phrase so Miami Valley Ohio pages stay local; isolated markets use their own region. */
 export function regionLabel(city: City): string {
+  if (city.slug === "toledo-oh") return "northwest Ohio";
   if (city.stateAbbr === "OH") return "Miami Valley";
   if (city.stateAbbr === "TN") return "East Tennessee";
   if (city.stateAbbr === "WI") return "southern Wisconsin";
+  if (city.stateAbbr === "NY") return "Central New York";
   return city.state;
 }
 
@@ -44,9 +46,9 @@ function serviceIntro(city: City, service: Service): string {
   }
 }
 
-/** Hub service-card blurb. Ohio cities keep the shared Miami Valley service.blurb. */
+/** Hub service-card blurb. Miami Valley Ohio cities keep the shared service.blurb. */
 export function serviceCardBlurb(city: City, service: Service): string {
-  if (city.stateAbbr === "OH") return service.blurb;
+  if (city.stateAbbr === "OH" && city.slug !== "toledo-oh") return service.blurb;
   switch (service.slug) {
     case "ac-repair":
       return `A cooling system that is not keeping up, short-cycling, or icing in ${city.name} humidity — diagnosis and a written repair scope.`;
