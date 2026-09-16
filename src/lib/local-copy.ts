@@ -127,6 +127,15 @@ const copy: Record<string, string> = {
   "trotwood-oh:emergency-hvac":
     "No heat on a Trotwood ranch after a Miami Valley ice event — or no cooling on a northwest flatter lot — is emergency routing. Say whether the house sits on a crawl or a modest two-story so the company that calls you can plan Salem Avenue / SR 49 access. HVACLists does not send a truck.",
 
+  "englewood-oh:ac-repair":
+    "Englewood AC repair usually starts on a National Road two-story or a later I-70-adjacent subdivision house, northwest of Dayton where US-40 meets the interstate. Ice on the coil in July is a diagnosis. AES Ohio peak bills do not create an Englewood-only repair price.",
+  "englewood-oh:furnace":
+    "Englewood furnaces sit in National Road crawlspaces downtown and in garage utility walls on later I-70 lots. Ice-season no-heat on the older core is a heat-exchanger and condensate question; later slabs fail at hose bibs and unheated garage walls. AES Ohio is the usual bill. We do not invent an Englewood-only dollar figure.",
+  "englewood-oh:hvac-installation":
+    "An Englewood install has to name load and duct on an older US-40 two-story versus a later I-70 subdivision slab. Downtown mechanical closets are tighter; interstate-adjacent pads stage easier. We will not invent a National Road surcharge.",
+  "englewood-oh:emergency-hvac":
+    "No heat on a National Road crawlspace after a Miami Valley ice event — or no cooling on an I-70-adjacent lot — is emergency routing. Say whether the house sits in the US-40 downtown core or a later subdivision so the company that calls you can plan I-70 / National Road access. HVACLists does not send a truck.",
+
   "knoxville-tn:ac-repair":
     "Knoxville AC repair often starts on a Fort Sanders or downtown house whose evaporator has run through humid Tennessee Valley summers, or on a west Knoxville subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. KUB / TVA on the bill is not a Knoxville repair price we invented.",
   "knoxville-tn:furnace":
