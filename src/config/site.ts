@@ -134,7 +134,7 @@ export const cities: City[] = [
       "oakwood-oh",
       "west-carrollton-oh",
       "trotwood-oh",
-      "centerville-oh",
+      "englewood-oh",
     ],
     setting:
       "Dayton sits in the Miami Valley with older city lots, bungalows, two-stories, and mid-century houses. AES Ohio is the usual electric utility on the bill.",
@@ -233,7 +233,7 @@ export const cities: City[] = [
       "dayton-oh",
       "vandalia-oh",
       "fairborn-oh",
-      "springfield-oh",
+      "englewood-oh",
       "trotwood-oh",
     ],
     setting:
@@ -333,7 +333,7 @@ export const cities: City[] = [
       "dayton-oh",
       "huber-heights-oh",
       "trotwood-oh",
-      "fairborn-oh",
+      "englewood-oh",
       "tipp-city-oh",
     ],
     setting:
@@ -383,7 +383,7 @@ export const cities: City[] = [
       "dayton-oh",
       "vandalia-oh",
       "huber-heights-oh",
-      "springfield-oh",
+      "englewood-oh",
       "trotwood-oh",
     ],
     setting:
@@ -459,7 +459,7 @@ export const cities: City[] = [
       "vandalia-oh",
       "huber-heights-oh",
       "tipp-city-oh",
-      "west-carrollton-oh",
+      "englewood-oh",
     ],
     setting:
       "Trotwood sits on the northwest Dayton inner-ring along the Salem Avenue / SR 49 corridor, on flatter lots than a Miamisburg hillside. AES Ohio is the usual electric utility.",
@@ -472,6 +472,31 @@ export const cities: City[] = [
       "More open northwest lots load coils harder than a tree-lined inner-ring street. August AC load on a Trotwood ranch is a condensate and capacity question, not a city price.",
     localNote:
       "A Salem Avenue ranch on a flatter northwest lot is a different access and duct problem than a hillside downtown or an early-20th-century foursquare, even when both sit on AES Ohio. We do not invent a Trotwood-only dollar figure.",
+  },
+  {
+    slug: "englewood-oh",
+    name: "Englewood",
+    state: "Ohio",
+    stateAbbr: "OH",
+    status: "live",
+    nearbySlugs: [
+      "vandalia-oh",
+      "trotwood-oh",
+      "dayton-oh",
+      "huber-heights-oh",
+      "tipp-city-oh",
+    ],
+    setting:
+      "Englewood sits northwest of Dayton where I-70 meets the National Road (US-40), with a small older downtown core along US-40 next to later interstate-adjacent subdivisions — not a Salem Avenue ranch town, not an airport-corridor tri-level suburb, and not a south I-75 river-valley city. AES Ohio is the usual electric utility.",
+    utility: "AES Ohio",
+    housing:
+      "Older National Road two-stories and modest downtown stock versus later I-70-adjacent subdivisions — basements or crawlspaces in the core, slabs and garage utility walls on later streets.",
+    winter:
+      "National Road crawlspaces freeze first after a Miami Valley polar-vortex; later lots fail at hose bibs and unheated garage walls — a different pattern than a Trotwood Salem-corridor ranch.",
+    summer:
+      "I-70-adjacent pads sit in more sun and interstate wind than the older US-40 downtown core. August AC load on a National Road two-story stacks upstairs; later subdivision slabs fail at a tired condenser on an unshaded lot. That is a coil and capacity question, not an Englewood price.",
+    localNote:
+      "A National Road downtown two-story is a different access and duct problem than a later I-70 subdivision slab or garage-wall closet, even when both sit on AES Ohio. We do not invent an Englewood-only dollar figure.",
   },
   {
     slug: "knoxville-tn",
