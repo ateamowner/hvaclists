@@ -136,6 +136,15 @@ const copy: Record<string, string> = {
   "englewood-oh:emergency-hvac":
     "No heat on a National Road crawlspace after a Miami Valley ice event — or no cooling on an I-70-adjacent lot — is emergency routing. Say whether the house sits in the US-40 downtown core or a later subdivision so the company that calls you can plan I-70 / National Road access. HVACLists does not send a truck.",
 
+  "riverside-oh:ac-repair":
+    "Riverside AC repair usually starts on a Springfield Street two-story or a Wright-Patterson-adjacent ranch along Airway Road or Harshman, east of Dayton on the Mad River side of the fence-line. Ice on the coil in July is a diagnosis. AES Ohio peak bills do not create a Riverside-only repair price.",
+  "riverside-oh:furnace":
+    "Riverside furnaces sit in crawlspaces and garage closets on Page Manor-era and postwar Airway / Harshman streets, against the Wright-Patt fence-line. Ice-season no-heat on east-Dayton stock is a heat-exchanger and condensate question. AES Ohio is the usual bill. We do not invent a Riverside-only dollar figure.",
+  "riverside-oh:hvac-installation":
+    "A Riverside install has to name load and duct on a Springfield Street (SR 4) two-story versus a later east-side infill pad near the base. Downtown-adjacent mechanical closets are tighter; Airway-adjacent lots stage easier than a Huffman Dam slope. We will not invent a Wright-Patterson-adjacent surcharge.",
+  "riverside-oh:emergency-hvac":
+    "No heat on a Mad River crawlspace after a Miami Valley ice event — or no cooling on a Wright-Patt-adjacent lot — is emergency routing. Say whether the house sits on Springfield Street, Airway / Harshman, or later infill so the company that calls you can plan SR 4 / east-Dayton access. HVACLists does not send a truck.",
+
   "knoxville-tn:ac-repair":
     "Knoxville AC repair often starts on a Fort Sanders or downtown house whose evaporator has run through humid Tennessee Valley summers, or on a west Knoxville subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. KUB / TVA on the bill is not a Knoxville repair price we invented.",
   "knoxville-tn:furnace":

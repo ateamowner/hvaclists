@@ -133,7 +133,7 @@ export const cities: City[] = [
       "kettering-oh",
       "oakwood-oh",
       "west-carrollton-oh",
-      "trotwood-oh",
+      "riverside-oh",
       "englewood-oh",
     ],
     setting:
@@ -159,7 +159,7 @@ export const cities: City[] = [
       "oakwood-oh",
       "west-carrollton-oh",
       "centerville-oh",
-      "miamisburg-oh",
+      "riverside-oh",
     ],
     setting:
       "Kettering is a southern Dayton suburb of post-war streets, ranches, and split-levels. AES Ohio serves most homes.",
@@ -184,7 +184,7 @@ export const cities: City[] = [
       "kettering-oh",
       "fairborn-oh",
       "xenia-oh",
-      "centerville-oh",
+      "riverside-oh",
     ],
     setting:
       "Beavercreek sits east of Dayton near Wright-Patterson Air Force Base, with later subdivisions and wider lots than the city core. AES Ohio is the typical utility.",
@@ -233,7 +233,7 @@ export const cities: City[] = [
       "dayton-oh",
       "vandalia-oh",
       "fairborn-oh",
-      "englewood-oh",
+      "riverside-oh",
       "trotwood-oh",
     ],
     setting:
@@ -258,7 +258,7 @@ export const cities: City[] = [
       "dayton-oh",
       "beavercreek-oh",
       "huber-heights-oh",
-      "springfield-oh",
+      "riverside-oh",
       "xenia-oh",
     ],
     setting:
@@ -497,6 +497,31 @@ export const cities: City[] = [
       "I-70-adjacent pads sit in more sun and interstate wind than the older US-40 downtown core. August AC load on a National Road two-story stacks upstairs; later subdivision slabs fail at a tired condenser on an unshaded lot. That is a coil and capacity question, not an Englewood price.",
     localNote:
       "A National Road downtown two-story is a different access and duct problem than a later I-70 subdivision slab or garage-wall closet, even when both sit on AES Ohio. We do not invent an Englewood-only dollar figure.",
+  },
+  {
+    slug: "riverside-oh",
+    name: "Riverside",
+    state: "Ohio",
+    stateAbbr: "OH",
+    status: "live",
+    nearbySlugs: [
+      "dayton-oh",
+      "huber-heights-oh",
+      "fairborn-oh",
+      "beavercreek-oh",
+      "kettering-oh",
+    ],
+    setting:
+      "Riverside sits on Dayton's east inner-ring along the Springfield Street (SR 4) / Airway Road / Harshman corridor, against the Wright-Patterson fence-line and the Mad River / Huffman Dam valley — not a National Road / I-70 northwest town, not a Salem Avenue ranch suburb, and not a south I-75 river-valley city. AES Ohio is the usual electric utility.",
+    utility: "AES Ohio",
+    housing:
+      "1940s–60s military-adjacent stock and Page Manor-era streets versus later east-side infill — crawlspaces and garage closets near the base, tighter lots along Springfield Street, not a later Beavercreek subdivision or a Huber brick-ranch grid.",
+    winter:
+      "Mad River flats and open base-adjacent lots freeze first after a Miami Valley ice event; older furnaces and condensate lines on postwar Airway / Harshman stock take the hit — a different pattern than an Englewood National Road crawlspace or a Trotwood Salem-corridor ranch.",
+    summer:
+      "Wright-Patt-adjacent pads sit in more sun and runway-corridor wind than a tree-lined inner-ring street. August AC load on a Springfield Street two-story stacks upstairs; later infill fails at a tired condenser on an unshaded lot. That is a coil and capacity question, not a Riverside price.",
+    localNote:
+      "A Page Manor-era or Springfield Street house is a different access and duct problem than a later Beavercreek subdivision or a Huber Heights brick ranch, even when both sit on AES Ohio. We do not invent a Riverside-only dollar figure.",
   },
   {
     slug: "knoxville-tn",
