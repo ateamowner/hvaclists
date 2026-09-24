@@ -116,12 +116,13 @@ Until a listing is live on a URL, we still take the request and hold it.
 - [/trotwood-oh/ac-repair](/trotwood-oh/ac-repair) — Best AC Repair in Trotwood — 2026
 - [/englewood-oh/ac-repair](/englewood-oh/ac-repair) — Best AC Repair in Englewood — 2026
 - [/riverside-oh/ac-repair](/riverside-oh/ac-repair) — Best AC Repair in Riverside — 2026
+- [/moraine-oh/ac-repair](/moraine-oh/ac-repair) — Best AC Repair in Moraine — 2026
 - [/knoxville-tn/ac-repair](/knoxville-tn/ac-repair) — Best AC Repair in Knoxville — 2026
 - [/madison-wi/ac-repair](/madison-wi/ac-repair) — Best AC Repair in Madison — 2026
 - [/syracuse-ny/ac-repair](/syracuse-ny/ac-repair) — Best AC Repair in Syracuse — 2026
 - [/toledo-oh/ac-repair](/toledo-oh/ac-repair) — Best AC Repair in Toledo — 2026
 
-City hubs: `/dayton-oh`, `/kettering-oh`, `/beavercreek-oh`, `/centerville-oh`, `/huber-heights-oh`, `/fairborn-oh`, `/miamisburg-oh`, `/xenia-oh`, `/vandalia-oh`, `/springfield-oh`, `/tipp-city-oh`, `/oakwood-oh`, `/west-carrollton-oh`, `/trotwood-oh`, `/englewood-oh`, `/riverside-oh`, `/knoxville-tn`, `/madison-wi`, `/syracuse-ny`, `/toledo-oh`.
+City hubs: `/dayton-oh`, `/kettering-oh`, `/beavercreek-oh`, `/centerville-oh`, `/huber-heights-oh`, `/fairborn-oh`, `/miamisburg-oh`, `/xenia-oh`, `/vandalia-oh`, `/springfield-oh`, `/tipp-city-oh`, `/oakwood-oh`, `/west-carrollton-oh`, `/trotwood-oh`, `/englewood-oh`, `/riverside-oh`, `/moraine-oh`, `/knoxville-tn`, `/madison-wi`, `/syracuse-ny`, `/toledo-oh`.
 
 Services: `ac-repair`, `furnace`, `hvac-installation`, `emergency-hvac`.
 

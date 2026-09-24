@@ -134,7 +134,7 @@ export const cities: City[] = [
       "oakwood-oh",
       "west-carrollton-oh",
       "riverside-oh",
-      "englewood-oh",
+      "moraine-oh",
     ],
     setting:
       "Dayton sits in the Miami Valley with older city lots, bungalows, two-stories, and mid-century houses. AES Ohio is the usual electric utility on the bill.",
@@ -159,7 +159,7 @@ export const cities: City[] = [
       "oakwood-oh",
       "west-carrollton-oh",
       "centerville-oh",
-      "riverside-oh",
+      "moraine-oh",
     ],
     setting:
       "Kettering is a southern Dayton suburb of post-war streets, ranches, and split-levels. AES Ohio serves most homes.",
@@ -284,7 +284,7 @@ export const cities: City[] = [
       "west-carrollton-oh",
       "centerville-oh",
       "kettering-oh",
-      "xenia-oh",
+      "moraine-oh",
     ],
     setting:
       "Miamisburg follows the Great Miami River south of Dayton, with hillside lots and a historic downtown. AES Ohio is the typical utility.",
@@ -434,7 +434,7 @@ export const cities: City[] = [
       "miamisburg-oh",
       "kettering-oh",
       "oakwood-oh",
-      "trotwood-oh",
+      "moraine-oh",
     ],
     setting:
       "West Carrollton sits on the Great Miami River immediately south of Dayton and north of Miamisburg, along the I-75 / Dixie Drive corridor. AES Ohio is the usual electric utility.",
@@ -522,6 +522,31 @@ export const cities: City[] = [
       "Wright-Patt-adjacent pads sit in more sun and runway-corridor wind than a tree-lined inner-ring street. August AC load on a Springfield Street two-story stacks upstairs; later infill fails at a tired condenser on an unshaded lot. That is a coil and capacity question, not a Riverside price.",
     localNote:
       "A Page Manor-era or Springfield Street house is a different access and duct problem than a later Beavercreek subdivision or a Huber Heights brick ranch, even when both sit on AES Ohio. We do not invent a Riverside-only dollar figure.",
+  },
+  {
+    slug: "moraine-oh",
+    name: "Moraine",
+    state: "Ohio",
+    stateAbbr: "OH",
+    status: "live",
+    nearbySlugs: [
+      "dayton-oh",
+      "west-carrollton-oh",
+      "kettering-oh",
+      "miamisburg-oh",
+      "oakwood-oh",
+    ],
+    setting:
+      "Moraine is Dayton's south inner-ring city on the Dixie Drive and I-75 corridor, on the Great Miami River industrial flats — west of Kettering and Oakwood, north of West Carrollton and Miamisburg. Sellman, Pinnacle, Moraine Road, and Dryden Road sit beside the former GM Moraine Assembly and Delphi plants, not the Wright-Patterson / Springfield Street fence-line, not the National Road / I-70 northwest edge, and not the Salem Avenue ranch corridor. AES Ohio is the usual electric utility.",
+    utility: "AES Ohio",
+    housing:
+      "Postwar ranch and tri-level houses on Dixie and industrial-adjacent streets, plus later south-Dayton infill. Crawlspaces and garage closets are the usual mechanicals — not an Oakwood Tudor basement and not a Centerville colonial attic.",
+    winter:
+      "River-flat and industrial-corridor houses freeze first after Miami Valley ice. Condensate on older furnaces in crawlspaces and garage closets is the recurring no-heat note — a different failure than an east-side base-adjacent lot or a northwest National Road core.",
+    summer:
+      "I-75 and Dixie pads take more sun and highway wind than a shaded inner-ring street. Upstairs AC load on two-stories stacks in August; a tired condenser on an unshaded industrial-adjacent lot is a coil and capacity question, not a Moraine price.",
+    localNote:
+      "A house on Sellman, Pinnacle, Moraine Road, or Dryden next to the former assembly corridor is a different access and duct job than a Kettering ranch or a later south-Dayton infill pad, even when both sit on AES Ohio. We do not invent a Moraine-only dollar figure.",
   },
   {
     slug: "knoxville-tn",

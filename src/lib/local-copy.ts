@@ -145,6 +145,15 @@ const copy: Record<string, string> = {
   "riverside-oh:emergency-hvac":
     "No heat on a Mad River crawlspace after a Miami Valley ice event — or no cooling on a Wright-Patt-adjacent lot — is emergency routing. Say whether the house sits on Springfield Street, Airway / Harshman, or later infill so the company that calls you can plan SR 4 / east-Dayton access. HVACLists does not send a truck.",
 
+  "moraine-oh:ac-repair":
+    "Moraine cooling calls usually start on a postwar ranch or tri-level near Dixie Drive — Sellman, Pinnacle, Moraine Road, or Dryden — where an unshaded pad takes I-75 sun and highway wind. July coil ice is a diagnosis on river-flat stock. AES Ohio usage does not create a Moraine-only repair price.",
+  "moraine-oh:furnace":
+    "Older furnaces in Moraine crawlspaces and garage closets, on industrial-adjacent streets south of Dayton, lose condensate after the first Miami Valley ice. Heat-exchanger condition on postwar ranch and tri-level stock is the question. AES Ohio is the usual bill. We do not invent a Moraine-only dollar figure.",
+  "moraine-oh:hvac-installation":
+    "A Moraine changeout has to name load and duct on a postwar ranch or tri-level beside the former GM Moraine Assembly and Delphi corridor versus a later south-Dayton infill pad. Garage closets are tight; Dixie lots stage in highway wind. We will not invent an industrial-flats surcharge.",
+  "moraine-oh:emergency-hvac":
+    "No heat in a river-flat crawlspace after Miami Valley ice — or no cooling on an I-75 / Dixie pad in a heat wave — is emergency routing. Say whether the house is near Sellman, Pinnacle, Moraine Road, or Dryden so the company that calls can plan south inner-ring access. HVACLists does not send a truck.",
+
   "knoxville-tn:ac-repair":
     "Knoxville AC repair often starts on a Fort Sanders or downtown house whose evaporator has run through humid Tennessee Valley summers, or on a west Knoxville subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. KUB / TVA on the bill is not a Knoxville repair price we invented.",
   "knoxville-tn:furnace":
