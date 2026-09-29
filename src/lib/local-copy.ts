@@ -154,6 +154,16 @@ const copy: Record<string, string> = {
   "moraine-oh:emergency-hvac":
     "No heat in a river-flat crawlspace after Miami Valley ice — or no cooling on an I-75 / Dixie pad in a heat wave — is emergency routing. Say whether the house is near Sellman, Pinnacle, Moraine Road, or Dryden so the company that calls can plan south inner-ring access. HVACLists does not send a truck.",
 
+
+  "bellbrook-oh:ac-repair":
+    "Bellbrook AC repair usually starts on a Franklin Street village two-story or a later Sugarcreek Township subdivision house toward Centerville, southeast of Dayton on the Little Sugar Creek side of Greene County. Ice on the coil in July is a diagnosis. AES Ohio peak bills do not create a Bellbrook-only repair price.",
+  "bellbrook-oh:furnace":
+    "Bellbrook furnaces sit in unfinished basements and short crawlspaces along Franklin Street and Feedwire Road, or in garage utility walls on later Sugarcreek Township lots. Ice-season no-heat on older village stock is a heat-exchanger and condensate question; later slabs fail at hose bibs and unheated garage walls. AES Ohio is the usual bill. We do not invent a Bellbrook-only dollar figure.",
+  "bellbrook-oh:hvac-installation":
+    "A Bellbrook install has to name load and duct on an older Franklin Street / Little Sugar Creek two-story versus a later Sugarcreek Township subdivision slab toward Centerville. Downtown-adjacent mechanical closets are tighter; later pads stage easier. We will not invent an eastern Greene County surcharge.",
+  "bellbrook-oh:emergency-hvac":
+    "No heat in a Franklin Street basement after a Miami Valley ice event — or no cooling on a Sugarcreek Township lot in a heat wave — is emergency routing. Say whether the house sits in the village core or a later subdivision toward Centerville so the company that calls you can plan Feedwire / Franklin Street access. HVACLists does not send a truck.",
+
   "knoxville-tn:ac-repair":
     "Knoxville AC repair often starts on a Fort Sanders or downtown house whose evaporator has run through humid Tennessee Valley summers, or on a west Knoxville subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. KUB / TVA on the bill is not a Knoxville repair price we invented.",
   "knoxville-tn:furnace":
