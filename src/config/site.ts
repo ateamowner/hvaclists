@@ -133,7 +133,7 @@ export const cities: City[] = [
       "kettering-oh",
       "oakwood-oh",
       "west-carrollton-oh",
-      "riverside-oh",
+      "bellbrook-oh",
       "moraine-oh",
     ],
     setting:
@@ -157,7 +157,7 @@ export const cities: City[] = [
     nearbySlugs: [
       "dayton-oh",
       "oakwood-oh",
-      "west-carrollton-oh",
+      "bellbrook-oh",
       "centerville-oh",
       "moraine-oh",
     ],
@@ -184,7 +184,7 @@ export const cities: City[] = [
       "kettering-oh",
       "fairborn-oh",
       "xenia-oh",
-      "riverside-oh",
+      "bellbrook-oh",
     ],
     setting:
       "Beavercreek sits east of Dayton near Wright-Patterson Air Force Base, with later subdivisions and wider lots than the city core. AES Ohio is the typical utility.",
@@ -208,7 +208,7 @@ export const cities: City[] = [
       "dayton-oh",
       "kettering-oh",
       "oakwood-oh",
-      "miamisburg-oh",
+      "bellbrook-oh",
       "beavercreek-oh",
     ],
     setting:
@@ -308,7 +308,7 @@ export const cities: City[] = [
       "beavercreek-oh",
       "fairborn-oh",
       "centerville-oh",
-      "springfield-oh",
+      "bellbrook-oh",
       "dayton-oh",
     ],
     setting:
@@ -547,6 +547,31 @@ export const cities: City[] = [
       "I-75 and Dixie pads take more sun and highway wind than a shaded inner-ring street. Upstairs AC load on two-stories stacks in August; a tired condenser on an unshaded industrial-adjacent lot is a coil and capacity question, not a Moraine price.",
     localNote:
       "A house on Sellman, Pinnacle, Moraine Road, or Dryden next to the former assembly corridor is a different access and duct job than a Kettering ranch or a later south-Dayton infill pad, even when both sit on AES Ohio. We do not invent a Moraine-only dollar figure.",
+  },
+  {
+    slug: "bellbrook-oh",
+    name: "Bellbrook",
+    state: "Ohio",
+    stateAbbr: "OH",
+    status: "live",
+    nearbySlugs: [
+      "centerville-oh",
+      "kettering-oh",
+      "beavercreek-oh",
+      "xenia-oh",
+      "dayton-oh",
+    ],
+    setting:
+      "Bellbrook is an eastern Greene County suburb southeast of Dayton, Kettering, and Centerville, on the Sugarcreek Township side of Little Sugar Creek. AES Ohio is the usual electric utility. Historic downtown houses along Franklin Street and the Feedwire Road corridor sit next to later subdivision streets toward Centerville — not a Dixie Drive / I-75 industrial flat like Moraine, not a Wright-Patterson / Springfield Street fence-line like Riverside, and not a National Road / I-70 northwest town. Winter freeze hits unfinished basements on the older village stock first, then hose bibs and unheated garage walls on later lots.",
+    utility: "AES Ohio",
+    housing:
+      "Older village two-stories and modest downtown houses along Franklin Street sit next to later Sugarcreek Township subdivision lots toward Centerville — unfinished basements or short crawlspaces in the historic core, slabs and garage utility walls on later streets. Not an Oakwood Tudor basement and not a Centerville colonial attic as the default.",
+    winter:
+      "Older village basements and crawlspaces along Franklin Street and Little Sugar Creek freeze first after a Miami Valley ice event; later subdivision lots toward Centerville fail at hose bibs and unheated garage walls — a different pattern than a Moraine river-flat crawlspace or a Riverside Mad River / base-adjacent lot.",
+    summer:
+      "Little Sugar Creek and Franklin Street two-stories stack upstairs cooling load in August; later Sugarcreek Township pads take more sun than the shaded village core. A tired condenser on an unshaded subdivision lot is a coil and capacity question, not a Bellbrook price.",
+    localNote:
+      "A Franklin Street or Feedwire Road village house is a different access and duct problem than a later Sugarcreek Township slab toward Centerville, even when both sit on AES Ohio. We do not invent a Bellbrook-only dollar figure.",
   },
   {
     slug: "knoxville-tn",
