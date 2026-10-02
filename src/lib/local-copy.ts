@@ -164,6 +164,16 @@ const copy: Record<string, string> = {
   "bellbrook-oh:emergency-hvac":
     "No heat in a Franklin Street basement after a Miami Valley ice event — or no cooling on a Sugarcreek Township lot in a heat wave — is emergency routing. Say whether the house sits in the village core or a later subdivision toward Centerville so the company that calls you can plan Feedwire / Franklin Street access. HVACLists does not send a truck.",
 
+
+  "springboro-oh:ac-repair":
+    "Springboro AC repair usually starts on a Main Street / OH-73 village two-story or a later Clearcreek Township subdivision house toward Centerville and the Austin Road / I-75 interchange, south of Dayton on the Warren County side. Ice on the coil in July is a diagnosis. AES Ohio peak bills do not create a Springboro-only repair price.",
+  "springboro-oh:furnace":
+    "Springboro furnaces sit in unfinished basements and short crawlspaces along Main Street / OH-73, or in garage utility walls on later Clearcreek Township lots toward Centerville and Austin Road. Ice-season no-heat on older village stock is a heat-exchanger and condensate question; later slabs fail at hose bibs and unheated garage walls. AES Ohio is the usual bill. We do not invent a Springboro-only dollar figure.",
+  "springboro-oh:hvac-installation":
+    "A Springboro install has to name load and duct on an older Main Street / OH-73 two-story versus a later Clearcreek Township subdivision slab toward Centerville or Austin Road / I-75. Downtown-adjacent mechanical closets are tighter; later pads stage easier. We will not invent a southern Warren County surcharge.",
+  "springboro-oh:emergency-hvac":
+    "No heat in a Main Street / OH-73 basement after a Miami Valley ice event — or no cooling on a Clearcreek Township lot in a heat wave — is emergency routing. Say whether the house sits in the village core or a later subdivision toward Centerville or Austin Road so the company that calls you can plan OH-73 / I-75 access. HVACLists does not send a truck.",
+
   "knoxville-tn:ac-repair":
     "Knoxville AC repair often starts on a Fort Sanders or downtown house whose evaporator has run through humid Tennessee Valley summers, or on a west Knoxville subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. KUB / TVA on the bill is not a Knoxville repair price we invented.",
   "knoxville-tn:furnace":
