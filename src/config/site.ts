@@ -234,7 +234,7 @@ export const cities: City[] = [
       "vandalia-oh",
       "fairborn-oh",
       "riverside-oh",
-      "trotwood-oh",
+      "troy-oh",
     ],
     setting:
       "Huber Heights is a northern Dayton suburb known for brick ranches on AES Ohio. Lots are often wider than inner-city Dayton.",
@@ -332,7 +332,7 @@ export const cities: City[] = [
     nearbySlugs: [
       "dayton-oh",
       "huber-heights-oh",
-      "trotwood-oh",
+      "troy-oh",
       "englewood-oh",
       "tipp-city-oh",
     ],
@@ -384,7 +384,7 @@ export const cities: City[] = [
       "vandalia-oh",
       "huber-heights-oh",
       "englewood-oh",
-      "trotwood-oh",
+      "troy-oh",
     ],
     setting:
       "Tipp City sits in Miami County north of Dayton along the I-75 corridor, with a compact historic downtown and later subdivisions. AES Ohio is the usual electric utility.",
@@ -481,7 +481,7 @@ export const cities: City[] = [
     status: "live",
     nearbySlugs: [
       "vandalia-oh",
-      "trotwood-oh",
+      "troy-oh",
       "dayton-oh",
       "huber-heights-oh",
       "tipp-city-oh",
@@ -597,6 +597,31 @@ export const cities: City[] = [
       "Main Street / OH-73 two-stories stack upstairs cooling load in August; later Clearcreek Township pads toward Austin Road / I-75 take more sun and highway wind than the shaded village core. A tired condenser on an unshaded subdivision lot is a coil and capacity question, not a Springboro price.",
     localNote:
       "A Main Street / OH-73 village house is a different access and duct problem than a later Clearcreek Township slab toward Centerville or Austin Road, even when both sit on AES Ohio. We do not invent a Springboro-only dollar figure.",
+  },
+  {
+    slug: "troy-oh",
+    name: "Troy",
+    state: "Ohio",
+    stateAbbr: "OH",
+    status: "live",
+    nearbySlugs: [
+      "tipp-city-oh",
+      "vandalia-oh",
+      "huber-heights-oh",
+      "englewood-oh",
+      "dayton-oh",
+    ],
+    setting:
+      "Troy is the Miami County seat north of Tipp City on the I-75 corridor, built around a downtown Public Square and the Great Miami River levee. AES Ohio is the usual electric utility. Victorian and early-1900s houses on the blocks off the square and West Main Street sit next to later subdivision streets out toward the I-75 / OH-41 and OH-55 interchanges — not Tipp City's canal-era Main Street, not a Huber Heights brick-ranch grid, and not a south I-75 Warren County village like Springboro. Winter freeze hits stone and block basements in the older core first, then hose bibs and unheated garage walls on later lots.",
+    utility: "AES Ohio",
+    housing:
+      "Older two-and-a-half-story houses with stone or block basements around the Public Square and West Main Street sit next to 1960s–2000s ranches, split-levels, and colonials on later streets toward the I-75 interchanges — tight basement stairs and older duct runs downtown, slabs and garage utility walls on later lots. Not a Tipp City canal-era two-story and not a Huber Heights brick ranch as the default.",
+    winter:
+      "Stone and block basements near the Public Square and the Great Miami River freeze first after a Miami Valley ice event; open subdivision lots out toward I-75 catch more wind-driven snow and fail at hose bibs and unheated garage walls — a different pattern than a Tipp City downtown flue path or a Springboro village crawlspace.",
+    summer:
+      "Tall downtown houses off the square stack upstairs cooling load in August; later pads near the I-75 / OH-41 interchange take more sun and highway wind than the tree-lined older blocks. A tired condenser on an unshaded subdivision lot is a coil and capacity question, not a Troy price.",
+    localNote:
+      "A Public Square or West Main Street house with a stone basement is a different access and duct problem than a later Troy subdivision slab near the I-75 interchanges, even when both sit on AES Ohio. We do not invent a Troy-only dollar figure.",
   },
   {
     slug: "knoxville-tn",

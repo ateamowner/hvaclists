@@ -174,6 +174,15 @@ const copy: Record<string, string> = {
   "springboro-oh:emergency-hvac":
     "No heat in a Main Street / OH-73 basement after a Miami Valley ice event — or no cooling on a Clearcreek Township lot in a heat wave — is emergency routing. Say whether the house sits in the village core or a later subdivision toward Centerville or Austin Road so the company that calls you can plan OH-73 / I-75 access. HVACLists does not send a truck.",
 
+  "troy-oh:ac-repair":
+    "Troy AC repair usually starts on a tall older house off the Public Square or West Main Street, or on a later Miami County subdivision house out toward the I-75 / OH-41 interchange, north of Tipp City. Ice on the coil in July is a diagnosis. AES Ohio peak bills do not create a Troy-only repair price.",
+  "troy-oh:furnace":
+    "Troy furnaces sit in stone and block basements near the Public Square and the Great Miami River, or in garage utility walls on later lots toward the I-75 interchanges. Ice-season no-heat on older downtown stock is a heat-exchanger and flue question; later slabs fail at hose bibs and unheated garage walls. AES Ohio is the usual bill. We do not invent a Troy-only dollar figure.",
+  "troy-oh:hvac-installation":
+    "A Troy install has to name load and duct on an older two-and-a-half-story off the square versus a later subdivision slab near I-75 / OH-41 or OH-55. Tight basement stairs downtown make equipment swaps slower; later pads stage easier. We will not invent a Miami County surcharge.",
+  "troy-oh:emergency-hvac":
+    "No heat in a Troy basement after a Miami Valley ice event — or no cooling on an open subdivision lot in a heat wave — is emergency routing. Say whether the house sits near the Public Square or out toward the I-75 interchanges so the company that calls you can plan the access. HVACLists does not send a truck.",
+
   "knoxville-tn:ac-repair":
     "Knoxville AC repair often starts on a Fort Sanders or downtown house whose evaporator has run through humid Tennessee Valley summers, or on a west Knoxville subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. KUB / TVA on the bill is not a Knoxville repair price we invented.",
   "knoxville-tn:furnace":
