@@ -330,7 +330,7 @@ export const cities: City[] = [
     stateAbbr: "OH",
     status: "live",
     nearbySlugs: [
-      "dayton-oh",
+      "clayton-oh",
       "huber-heights-oh",
       "troy-oh",
       "englewood-oh",
@@ -382,7 +382,7 @@ export const cities: City[] = [
     nearbySlugs: [
       "dayton-oh",
       "vandalia-oh",
-      "huber-heights-oh",
+      "clayton-oh",
       "englewood-oh",
       "troy-oh",
     ],
@@ -458,7 +458,7 @@ export const cities: City[] = [
       "dayton-oh",
       "vandalia-oh",
       "huber-heights-oh",
-      "tipp-city-oh",
+      "clayton-oh",
       "englewood-oh",
     ],
     setting:
@@ -483,7 +483,7 @@ export const cities: City[] = [
       "vandalia-oh",
       "troy-oh",
       "dayton-oh",
-      "huber-heights-oh",
+      "clayton-oh",
       "tipp-city-oh",
     ],
     setting:
@@ -622,6 +622,31 @@ export const cities: City[] = [
       "Tall downtown houses off the square stack upstairs cooling load in August; later pads near the I-75 / OH-41 interchange take more sun and highway wind than the tree-lined older blocks. A tired condenser on an unshaded subdivision lot is a coil and capacity question, not a Troy price.",
     localNote:
       "A Public Square or West Main Street house with a stone basement is a different access and duct problem than a later Troy subdivision slab near the I-75 interchanges, even when both sit on AES Ohio. We do not invent a Troy-only dollar figure.",
+  },
+  {
+    slug: "clayton-oh",
+    name: "Clayton",
+    state: "Ohio",
+    stateAbbr: "OH",
+    status: "live",
+    nearbySlugs: [
+      "englewood-oh",
+      "trotwood-oh",
+      "dayton-oh",
+      "vandalia-oh",
+      "tipp-city-oh",
+    ],
+    setting:
+      "Clayton is in northwest Montgomery County, in the Northmont area, and most homes are on AES Ohio. The city was formed in 1998 from the old village of Clayton and Randolph Township. For heating and cooling, that means two common jobs: older farmhouses near Old Salem Road, and later subdivision houses toward I-70, Englewood, Union, and Trotwood.",
+    utility: "AES Ohio",
+    housing:
+      "Clayton farmhouses often have crawlspaces, old basements, and ductwork added long after they were built. The later subdivisions are mostly 1980s–2000s ranches, two-stories, and colonials.",
+    winter:
+      "In an ice storm, wind off the open fields chills farmhouse crawlspaces and long duct runs first. Newer houses more often lose heat to a frozen condensate line or a cold garage furnace closet.",
+    summer:
+      "In August, unshaded farmhouses run warm upstairs, and newer houses in full sun wear out condensers. That is a coil and capacity question, not a Clayton price.",
+    localNote:
+      "Need HVAC repair in Clayton? Tell us if the house is an older farmhouse near Old Salem Road or a later Northmont subdivision house near I-70, what fuel heats it, and about how old the furnace and AC are. That tells the company that calls you what access, ductwork, and parts to plan for. Both kinds of house are usually on AES Ohio, and we do not invent a Clayton-only dollar figure.",
   },
   {
     slug: "knoxville-tn",
