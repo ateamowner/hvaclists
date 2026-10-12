@@ -183,6 +183,15 @@ const copy: Record<string, string> = {
   "troy-oh:emergency-hvac":
     "No heat in a Troy basement after a Miami Valley ice event — or no cooling on an open subdivision lot in a heat wave — is emergency routing. Say whether the house sits near the Public Square or out toward the I-75 interchanges so the company that calls you can plan the access. HVACLists does not send a truck.",
 
+  "clayton-oh:ac-repair":
+    "For AC repair in Clayton, tell us what the AC is doing (not cooling, short-cycling, or icing) and what kind of house it is. An older farmhouse near Old Salem Road often has ductwork added long after it was built, so upstairs rooms run warm. A later Northmont subdivision house toward I-70 and Englewood usually has a simpler system sitting in full sun. Ask for a written diagnosis before parts get swapped. We do not invent a Clayton-only repair price.",
+  "clayton-oh:furnace":
+    "For furnace repair in Clayton, tell us what the furnace is doing (no heat, short-cycling, or an odd smell) and what fuel it burns. An older farmhouse near Old Salem Road often has the furnace in a crawlspace or old basement, and some run on propane. A later Northmont subdivision house toward I-70 usually has it in a basement or garage closet. Ask for a written heat-exchanger and flue check before any repair. We do not invent a Clayton-only dollar figure.",
+  "clayton-oh:hvac-installation":
+    "For a new HVAC system in Clayton, the install should be sized to your house, not a guess. An older Randolph Township farmhouse needs a load and duct check because add-on ducts and tight crawlspaces slow the swap. A later Northmont subdivision house near I-70 toward Englewood, Union, or Trotwood is usually easier to stage. Ask for a written scope. We will not invent a Montgomery County surcharge.",
+  "clayton-oh:emergency-hvac":
+    "For emergency HVAC in Clayton, mark the form as urgent: no heat after a Miami Valley ice storm, or no cooling in a heat wave. An older farmhouse on a rural-edge lot near Old Salem Road can take longer to reach and work on than a later street toward I-70 and Englewood, so say which one you have. Ask what the emergency visit costs before anyone comes out. HVACLists does not send a truck.",
+
   "knoxville-tn:ac-repair":
     "Knoxville AC repair often starts on a Fort Sanders or downtown house whose evaporator has run through humid Tennessee Valley summers, or on a west Knoxville subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. KUB / TVA on the bill is not a Knoxville repair price we invented.",
   "knoxville-tn:furnace":
