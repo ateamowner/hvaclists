@@ -192,6 +192,16 @@ const copy: Record<string, string> = {
   "clayton-oh:emergency-hvac":
     "For emergency HVAC in Clayton, mark the form as urgent: no heat after a Miami Valley ice storm, or no cooling in a heat wave. An older farmhouse on a rural-edge lot near Old Salem Road can take longer to reach and work on than a later street toward I-70 and Englewood, so say which one you have. Ask what the emergency visit costs before anyone comes out. HVACLists does not send a truck.",
 
+
+  "brookville-oh:ac-repair":
+    "For AC repair in Brookville, tell us what the AC is doing (not cooling, short-cycling, or icing) and what kind of house it is. An older downtown house around Market Street or a Perry Township farmhouse often has ductwork added long after it was built, so upstairs rooms run warm. A later subdivision house near the I-70 / SR 49 interchange usually has a simpler system sitting in full sun and highway wind. Ask for a written diagnosis before parts get swapped. We do not invent a Brookville-only repair price.",
+  "brookville-oh:furnace":
+    "For furnace repair in Brookville, tell us what the furnace is doing (no heat, short-cycling, or an odd smell) and what fuel it burns. An older downtown or farmhouse unit often sits in a crawlspace or unfinished basement, and some rural-edge houses run on propane. A later subdivision house near I-70 usually has it in a basement or garage closet. Ask for a written heat-exchanger and flue check before any repair. We do not invent a Brookville-only dollar figure.",
+  "brookville-oh:hvac-installation":
+    "For a new HVAC system in Brookville, the install should be sized to your house, not a guess. An older downtown or Perry Township farmhouse needs a load and duct check because add-on ducts and tight crawlspaces slow the swap. A later subdivision house near the I-70 / SR 49 interchange toward Englewood or Clayton is usually easier to stage. Ask for a written scope. We will not invent a western Montgomery County surcharge.",
+  "brookville-oh:emergency-hvac":
+    "For emergency HVAC in Brookville, mark the form as urgent: no heat after a Miami Valley ice storm, or no cooling in a heat wave. An older downtown crawlspace or rural-edge farmhouse can take longer to reach and work on than a later street near I-70, so say which one you have. Ask what the emergency visit costs before anyone comes out. HVACLists does not send a truck.",
+
   "knoxville-tn:ac-repair":
     "Knoxville AC repair often starts on a Fort Sanders or downtown house whose evaporator has run through humid Tennessee Valley summers, or on a west Knoxville subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. KUB / TVA on the bill is not a Knoxville repair price we invented.",
   "knoxville-tn:furnace":

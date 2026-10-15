@@ -134,7 +134,7 @@ export const cities: City[] = [
       "west-carrollton-oh",
       "bellbrook-oh",
       "moraine-oh",
-      "springboro-oh",
+      "brookville-oh",
     ],
     setting:
       "Dayton sits in the Miami Valley with older city lots, bungalows, two-stories, and mid-century houses. AES Ohio is the usual electric utility on the bill.",
@@ -457,7 +457,7 @@ export const cities: City[] = [
     nearbySlugs: [
       "dayton-oh",
       "vandalia-oh",
-      "huber-heights-oh",
+      "brookville-oh",
       "clayton-oh",
       "englewood-oh",
     ],
@@ -484,7 +484,7 @@ export const cities: City[] = [
       "troy-oh",
       "dayton-oh",
       "clayton-oh",
-      "tipp-city-oh",
+      "brookville-oh",
     ],
     setting:
       "Englewood sits northwest of Dayton where I-70 meets the National Road (US-40), with a small older downtown core along US-40 next to later interstate-adjacent subdivisions — not a Salem Avenue ranch town, not an airport-corridor tri-level suburb, and not a south I-75 river-valley city. AES Ohio is the usual electric utility.",
@@ -634,7 +634,7 @@ export const cities: City[] = [
       "trotwood-oh",
       "dayton-oh",
       "vandalia-oh",
-      "tipp-city-oh",
+      "brookville-oh",
     ],
     setting:
       "Clayton is in northwest Montgomery County, in the Northmont area, and most homes are on AES Ohio. The city was formed in 1998 from the old village of Clayton and Randolph Township. For heating and cooling, that means two common jobs: older farmhouses near Old Salem Road, and later subdivision houses toward I-70, Englewood, Union, and Trotwood.",
@@ -647,6 +647,31 @@ export const cities: City[] = [
       "In August, unshaded farmhouses run warm upstairs, and newer houses in full sun wear out condensers. That is a coil and capacity question, not a Clayton price.",
     localNote:
       "Need HVAC repair in Clayton? Tell us if the house is an older farmhouse near Old Salem Road or a later Northmont subdivision house near I-70, what fuel heats it, and about how old the furnace and AC are. That tells the company that calls you what access, ductwork, and parts to plan for. Both kinds of house are usually on AES Ohio, and we do not invent a Clayton-only dollar figure.",
+  },
+
+  {
+    slug: "brookville-oh",
+    name: "Brookville",
+    state: "Ohio",
+    stateAbbr: "OH",
+    status: "live",
+    nearbySlugs: [
+      "clayton-oh",
+      "englewood-oh",
+      "trotwood-oh",
+      "dayton-oh",
+    ],
+    setting:
+      "Brookville is a small western Montgomery County city on I-70 at the SR 49 exit, about 15 miles west of downtown Dayton in the old Perry Township farm belt. AES Ohio is typical. A compact older downtown around Market Street sits next to later subdivision streets and rural-edge lots out toward the Preble County line — not Clayton's merged Randolph Township subdivisions, not Englewood's National Road core, and not Trotwood's Salem Avenue inner-ring ranches. For heating and cooling, that means two common jobs: older downtown and farmhouse systems with crawlspaces or unfinished basements, and later subdivision houses near the interchange.",
+    utility: "AES Ohio",
+    housing:
+      "Older downtown houses with crawlspaces and unfinished basements, Perry Township farmhouses on larger parcels, and later subdivision ranches and two-stories near the I-70 / SR 49 interchange — tight older access and add-on ducts versus slabs and garage utility walls on newer streets.",
+    winter:
+      "Downtown crawlspaces and long duct runs on rural-edge farmhouses chill first after a Miami Valley ice storm; later subdivision lots near I-70 more often lose heat to a frozen condensate line or a cold garage furnace closet — not a Clayton township, Englewood National Road, or Trotwood Salem-corridor pattern.",
+    summer:
+      "In August, unshaded farmhouses and tall older downtown houses run warm upstairs, and later pads near I-70 take full sun and highway wind on the condenser. That is a coil and capacity question, not a Brookville price.",
+    localNote:
+      "Need HVAC repair in Brookville? Tell us if the house is an older downtown or Perry Township farmhouse near Market Street, or a later subdivision house near the I-70 / SR 49 interchange, what fuel heats it, and about how old the furnace and AC are. That tells the company that calls you what access, ductwork, and parts to plan for. Both kinds of house are usually on AES Ohio, and we do not invent a Brookville-only dollar figure.",
   },
   {
     slug: "knoxville-tn",
