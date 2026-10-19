@@ -8,6 +8,7 @@ import {
   type Service,
 } from "@/config/site";
 import type { Faq } from "@/lib/content";
+import type { Listing } from "@/types/listing";
 
 export function organizationId() {
   return `${absoluteUrl("/")}#organization`;
@@ -109,4 +110,37 @@ export function hubBreadcrumbs(city: City) {
 
 export function servicePageHeadline(city: City, service: Service) {
   return lockedH1(service, city);
+}
+
+/** ItemList of real listed HVAC companies — never AggregateRating. Empty → omit. */
+export function listingsItemListSchema(
+  city: City,
+  service: Service,
+  listings: Listing[]
+) {
+  if (!listings.length) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${service.name} companies in ${city.name}, ${city.stateAbbr}`,
+    numberOfItems: listings.length,
+    itemListElement: listings.map((listing, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "HVACBusiness",
+        name: listing.name,
+        telephone: listing.phone,
+        description: listing.blurb,
+        ...(listing.profile_url ? { url: listing.profile_url } : {}),
+        ...(listing.license_id
+          ? { identifier: listing.license_id }
+          : {}),
+        areaServed: listing.areas_served.map((area) => ({
+          "@type": "City",
+          name: area,
+        })),
+      },
+    })),
+  };
 }

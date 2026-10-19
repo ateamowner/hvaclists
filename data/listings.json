@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "city_slug": "dayton-oh",
+    "service_slug": "ac-repair",
+    "name": "Day's Heating & Cooling, LLC",
+    "areas_served": ["Dayton", "Huber Heights", "Fairborn", "Riverside"],
+    "phone": "(937) 620-6889",
+    "license_id": "City of Dayton Heating Reg. 011120",
+    "blurb": "Huber Heights–based family shop covering Dayton AC repair. Active on the City of Dayton Registered Heating Contractors list (as of 6/4/2026, Lic No 011120). Phone from days-hvac.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://days-hvac.com/",
+    "tier": "standard",
+    "profile_url": "https://days-hvac.com/"
+  },
+  {
+    "city_slug": "dayton-oh",
+    "service_slug": "ac-repair",
+    "name": "Crabtree Heating & Air Conditioning, Inc.",
+    "areas_served": ["Dayton", "Vandalia", "Englewood", "Tipp City"],
+    "phone": "(937) 898-1184",
+    "license_id": "City of Dayton Heating Reg. 010861",
+    "blurb": "Independent Dayton HVAC shop (Titus Ave area). Active on the City of Dayton Registered Heating Contractors list (as of 6/4/2026, Lic No 010861). Phone from crabtreeheating.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://www.crabtreeheating.com/",
+    "tier": "standard",
+    "profile_url": "https://www.crabtreeheating.com/"
+  },
+  {
+    "city_slug": "dayton-oh",
+    "service_slug": "ac-repair",
+    "name": "McAfee Heating & Air",
+    "areas_served": ["Dayton", "Kettering", "Centerville", "Beavercreek"],
+    "phone": "(937) 438-1976",
+    "license_id": "City of Dayton Heating Reg. 1552",
+    "blurb": "Kettering-based HVAC company serving Dayton-area AC repair. Active on the City of Dayton Registered Heating Contractors list (as of 6/4/2026, Lic No 1552). Phone from mcair.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://www.mcair.com/",
+    "tier": "standard",
+    "profile_url": "https://www.mcair.com/"
+  }
+]
