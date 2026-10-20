@@ -20,11 +20,17 @@ import {
   organizationSchema,
   websiteSchema,
 } from "@/lib/schema";
+import { shareMeta } from "@/lib/share-meta";
+
+const title = `Best HVAC Companies in Dayton & Miami Valley | ${site.name}`;
+const description =
+  site.description;
 
 export const metadata: Metadata = {
-  title: `${site.name} — HVAC directory`,
-  description: site.description,
+  title,
+  description,
   alternates: { canonical: "/" },
+  ...shareMeta(title, description, "/"),
 };
 
 export default function HomePage() {
