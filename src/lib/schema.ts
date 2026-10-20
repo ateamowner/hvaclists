@@ -136,6 +136,18 @@ export function listingsItemListSchema(
         ...(listing.license_id
           ? { identifier: listing.license_id }
           : {}),
+        ...(listing.address
+          ? {
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: listing.address.street,
+                addressLocality: listing.address.locality,
+                addressRegion: listing.address.region,
+                postalCode: listing.address.postal_code,
+                addressCountry: "US",
+              },
+            }
+          : {}),
         areaServed: listing.areas_served.map((area) => ({
           "@type": "City",
           name: area,

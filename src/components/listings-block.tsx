@@ -81,6 +81,23 @@ export function ListingsBlock({ listings }: { listings: Listing[] }) {
                   </div>
                 ) : null}
               </dl>
+              {listing.sources && listing.sources.length > 0 ? (
+                <p className="mt-2 text-xs text-muted-foreground">
+                  Sources:{" "}
+                  {listing.sources.map((url, i) => (
+                    <span key={url}>
+                      {i > 0 ? " · " : null}
+                      <a
+                        href={url}
+                        rel="nofollow noopener"
+                        className="underline underline-offset-2"
+                      >
+                        {new URL(url).hostname.replace(/^www\./, "")}
+                      </a>
+                    </span>
+                  ))}
+                </p>
+              ) : null}
               {listing.name ? (
                 <p className="mt-3">
                   <a
