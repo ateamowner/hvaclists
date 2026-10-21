@@ -4,14 +4,14 @@ const copy: Record<string, string> = {
   "dayton-oh:ac-repair":
     "Dayton AC repair usually starts on an older bungalow or two-story whose condenser has seen Miami Valley summers and AES Ohio peak bills. Ice on the coil in July is a diagnosis, not a city price. Tight lots and street parking change access, not the national range.",
   "dayton-oh:furnace":
-    "Older Dayton furnaces in brick and Craftsman basements take ice-season abuse: cracked heat exchangers, failed inducers, and condensate that freezes in a polar snap. AES Ohio is the bill; the furnace age is the question. We do not invent a Dayton-only dollar figure.",
+    "Older Dayton furnaces in brick and Craftsman basements take ice-season abuse: cracked heat exchangers, failed inducers, and condensate that freezes in a polar snap. The three shops listed below all sit inside Dayton or on its edge — Old Troy Pike, West Third Street, and North Gettysburg Avenue — and each is on the City of Dayton Division of Building Inspection's active heating contractor list. Ask for that registration number and whether a replacement needs a city mechanical permit. AES Ohio is the bill; the furnace age is the question. We do not invent a Dayton-only dollar figure.",
   "dayton-oh:hvac-installation":
-    "A Dayton changeout has to name load, duct leaks on a 1940s house, and whether the pad and flue still work after ice season. AES Ohio interconnection is not the issue — equipment match and attic gain are. National published ranges are the only numbers on this page.",
+    "A Dayton changeout has to name load, duct leaks on a 1940s house, and whether the pad and flue still work after ice season. A Belmont or Walnut Hills bungalow with a basement furnace and a chimney-vented water heater is a different install than a 1990s north-side two-story, so ask how the flue and any orphaned water-heater vent will be handled. The installers listed below each publish something specific about installs — a load and duct evaluation, factory-authorized equipment, or a stated labor warranty — and each is on the City of Dayton active heating contractor list. National published ranges are the only numbers on this page.",
   "dayton-oh:emergency-hvac":
     "Use this Dayton page when there is no heat in a freeze or no cooling in a heat wave. Say so on the form. Emergency work is a different queue than a planned tune-up on an Oregon District bungalow.",
 
   "kettering-oh:ac-repair":
-    "Kettering AC calls are often 1950s–70s ranches whose outdoor unit sits under maples and has run every Miami Valley August since the last owner. Short-cycling and a warm house are site conditions. AES Ohio usage does not create a Kettering-only repair price.",
+    "Kettering AC calls are often 1950s–70s ranches whose outdoor unit sits under maples and has run every Miami Valley August since the last owner. Cottonwood fluff and maple seed packed into a side-yard condenser coil can be the first finding before anyone should talk refrigerant. The three companies listed below each name Kettering in their own service area and work out of nearby Congress Park Drive, East River Road, or a 45459 satellite office. Short-cycling and a warm house are site conditions. AES Ohio usage does not create a Kettering-only repair price.",
   "kettering-oh:furnace":
     "Many Kettering ranches still heat with furnaces that predate sealed windows. Ice and a hard start in January are why people open this URL. Ask for a written heat-exchanger check — not a same-day upsell we invented.",
   "kettering-oh:hvac-installation":

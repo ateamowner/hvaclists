@@ -10,4 +10,13 @@ export type Listing = {
   profile_url: string;
   city_slug: string;
   service_slug: string;
+  /** Optional verified street address (from the city registration list or the company's own site). */
+  address?: {
+    street: string;
+    locality: string;
+    region: string;
+    postal_code: string;
+  };
+  /** Public URLs used to verify this listing (registration list, BBB, company site). */
+  sources?: string[];
 };
