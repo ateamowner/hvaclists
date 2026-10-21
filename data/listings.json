@@ -3,10 +3,15 @@
     "city_slug": "dayton-oh",
     "service_slug": "ac-repair",
     "name": "Day's Heating & Cooling, LLC",
-    "areas_served": ["Dayton", "Huber Heights", "Fairborn", "Riverside"],
+    "areas_served": [
+      "Dayton",
+      "Huber Heights",
+      "Fairborn",
+      "Riverside"
+    ],
     "phone": "(937) 620-6889",
     "license_id": "City of Dayton Heating Reg. 011120",
-    "blurb": "Huber Heights–based family shop covering Dayton AC repair. Active on the City of Dayton Registered Heating Contractors list (as of 6/4/2026, Lic No 011120). Phone from days-hvac.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://days-hvac.com/",
+    "blurb": "Huber Heights-based family shop covering Dayton AC repair. Active on the City of Dayton Registered Heating Contractors list (as of 6/4/2026, Lic No 011120). Phone from days-hvac.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://days-hvac.com/",
     "tier": "standard",
     "profile_url": "https://days-hvac.com/"
   },
@@ -14,7 +19,12 @@
     "city_slug": "dayton-oh",
     "service_slug": "ac-repair",
     "name": "Crabtree Heating & Air Conditioning, Inc.",
-    "areas_served": ["Dayton", "Vandalia", "Englewood", "Tipp City"],
+    "areas_served": [
+      "Dayton",
+      "Vandalia",
+      "Englewood",
+      "Tipp City"
+    ],
     "phone": "(937) 898-1184",
     "license_id": "City of Dayton Heating Reg. 010861",
     "blurb": "Independent Dayton HVAC shop (Titus Ave area). Active on the City of Dayton Registered Heating Contractors list (as of 6/4/2026, Lic No 010861). Phone from crabtreeheating.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://www.crabtreeheating.com/",
@@ -25,7 +35,12 @@
     "city_slug": "dayton-oh",
     "service_slug": "ac-repair",
     "name": "McAfee Heating & Air",
-    "areas_served": ["Dayton", "Kettering", "Centerville", "Beavercreek"],
+    "areas_served": [
+      "Dayton",
+      "Kettering",
+      "Centerville",
+      "Beavercreek"
+    ],
     "phone": "(937) 438-1976",
     "license_id": "City of Dayton Heating Reg. 1552",
     "blurb": "Kettering-based HVAC company serving Dayton-area AC repair. Active on the City of Dayton Registered Heating Contractors list (as of 6/4/2026, Lic No 1552). Phone from mcair.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://www.mcair.com/",
@@ -36,7 +51,9 @@
     "city_slug": "dayton-oh",
     "service_slug": "furnace",
     "name": "Quality Heating & Cooling (Quality Heating & Air, Inc.)",
-    "areas_served": ["Dayton"],
+    "areas_served": [
+      "Dayton"
+    ],
     "phone": "(937) 233-8444",
     "license_id": "City of Dayton Heating Reg. 1534 · Ohio OCILB HV.15310 (per BBB, exp. 3/31/2027)",
     "blurb": "Old Troy Pike shop on Dayton's north side, in business since 1986 and owner-run. Furnace repair, replacement, and emergency service. BBB Accredited since 2003 with an A+ rating. Active on the City of Dayton registered heating contractor list (as of 6/4/2026).",
@@ -58,7 +75,10 @@
     "city_slug": "dayton-oh",
     "service_slug": "furnace",
     "name": "Korrect Plumbing, Heating & Air Conditioning, Inc.",
-    "areas_served": ["Dayton", "Troy"],
+    "areas_served": [
+      "Dayton",
+      "Troy"
+    ],
     "phone": "(937) 837-2333",
     "license_id": "City of Dayton Heating Reg. 902",
     "blurb": "Family-owned West Third Street company serving Dayton since 1950. Repairs and installs furnaces, boilers, and heat pumps, with 24/7 emergency service and non-commissioned techs (per company site). Active on the City of Dayton registered heating contractor list (as of 6/4/2026).",
@@ -79,7 +99,9 @@
     "city_slug": "dayton-oh",
     "service_slug": "furnace",
     "name": "Kilgore's Heating & Air Conditioning",
-    "areas_served": ["Dayton"],
+    "areas_served": [
+      "Dayton"
+    ],
     "phone": "(937) 279-0555",
     "license_id": "City of Dayton Heating Reg. 009857 · OH License #19476 (per company site)",
     "blurb": "Locally owned North Gettysburg Avenue shop founded in 1984 by Jeffrey Kilgore. Residential furnace service, repair, and equipment installation (per company site). Active on the City of Dayton registered heating contractor list (as of 6/4/2026).",
@@ -100,7 +122,9 @@
     "city_slug": "dayton-oh",
     "service_slug": "hvac-installation",
     "name": "Barker Heating & Air Conditioning",
-    "areas_served": ["Dayton"],
+    "areas_served": [
+      "Dayton"
+    ],
     "phone": "(937) 222-2275",
     "license_id": "City of Dayton Heating Reg. 009877 · Ohio OCILB HV.44462 (per BBB, exp. 12/19/2026)",
     "blurb": "Woman-owned Watervliet Avenue company established in 1918 and a Bryant Factory Authorized Dealer. New installation, upgrade and replacement, and maintenance agreements for homes and light commercial (per company site). BBB Accredited since 1948 with an A+ rating. Active on the City of Dayton registered heating contractor list (as of 6/4/2026).",
@@ -122,7 +146,9 @@
     "city_slug": "dayton-oh",
     "service_slug": "hvac-installation",
     "name": "Peck Heating, Air Conditioning & Refrigeration, LLC",
-    "areas_served": ["Dayton"],
+    "areas_served": [
+      "Dayton"
+    ],
     "phone": "(937) 890-6611",
     "license_id": "City of Dayton Heating Reg. 1435",
     "blurb": "North Dixie Drive contractor with 50+ years in Dayton HVAC (per company site). Installs gas and electric furnaces, heat pumps, mini-splits, and central AC, with free estimates and a two-year labor warranty on residential cooling installations. Active on the City of Dayton registered heating contractor list (as of 6/4/2026).",
@@ -144,7 +170,10 @@
     "city_slug": "dayton-oh",
     "service_slug": "hvac-installation",
     "name": "The Furnace Man Heating & Cooling, LLC",
-    "areas_served": ["Dayton", "Beavercreek"],
+    "areas_served": [
+      "Dayton",
+      "Beavercreek"
+    ],
     "phone": "(937) 660-5473",
     "license_id": "City of Dayton Heating Reg. 1986 · Ohio OCILB HV.46663 (per BBB, exp. 3/1/2027)",
     "blurb": "Owner-run Beavercreek company (Indian Ripple Rd) in business since 2011 that serves Dayton. New central AC and furnace installs with system sizing, load calculations, and a ductwork evaluation (per company site). BBB Accredited since 2017. Active on the City of Dayton registered heating contractor list (as of 6/4/2026).",
@@ -166,7 +195,13 @@
     "city_slug": "kettering-oh",
     "service_slug": "ac-repair",
     "name": "Butler Heating & Air Conditioning",
-    "areas_served": ["Kettering", "Dayton", "Oakwood", "Miamisburg", "Huber Heights"],
+    "areas_served": [
+      "Kettering",
+      "Dayton",
+      "Oakwood",
+      "Miamisburg",
+      "Huber Heights"
+    ],
     "phone": "(937) 253-8871",
     "license_id": "City of Dayton Heating Reg. 1465 · Ohio HV47021 (per company site)",
     "blurb": "Locally owned Dayton company since 1949 with a second office on Corporate Way (45459) and Kettering on its cooling service-area list. AC repair, coil cleaning, compressor and capacitor work, plus ductless mini-split repair; Carrier dealer with an in-house sheet metal shop (per company site). BBB Accredited since 1955 with an A+ rating. Active on the City of Dayton registered heating contractor list as Butler HVAC Holding Company Inc (as of 6/4/2026).",
@@ -189,7 +224,14 @@
     "city_slug": "kettering-oh",
     "service_slug": "ac-repair",
     "name": "A-Abel Heating and Air Conditioning, Inc.",
-    "areas_served": ["Kettering", "Dayton", "Centerville", "Oakwood", "Beavercreek", "Miamisburg"],
+    "areas_served": [
+      "Kettering",
+      "Dayton",
+      "Centerville",
+      "Oakwood",
+      "Beavercreek",
+      "Miamisburg"
+    ],
     "phone": "(937) 434-4343",
     "license_id": "City of Dayton Heating Reg. 1536 · Ohio OCILB HV.21951 (per BBB, exp. 12/31/2026)",
     "blurb": "Congress Park Drive company in business since 1937 with N.A.T.E.-certified technicians; lists Kettering in its service area. Air conditioner repair and service, heat pumps, and ductless mini-splits, seven days a week (per company site). BBB Accredited since 1995. Active on the City of Dayton registered heating contractor list (as of 6/4/2026).",
@@ -211,7 +253,12 @@
     "city_slug": "kettering-oh",
     "service_slug": "ac-repair",
     "name": "Tanner Heating & Air Conditioning, Inc.",
-    "areas_served": ["Kettering", "Centerville", "Bellbrook", "Dayton"],
+    "areas_served": [
+      "Kettering",
+      "Centerville",
+      "Bellbrook",
+      "Dayton"
+    ],
     "phone": "(937) 299-2500",
     "license_id": "City of Dayton Heating Reg. 616",
     "blurb": "Family-run East River Road company serving Kettering, Centerville, and Bellbrook since 1986. AC and heat pump repair, NATE-certified technicians, and a Carrier Factory Authorized Dealer (per company site). BBB Accredited since 1991 with an A+ rating. Active on the City of Dayton registered heating contractor list (as of 6/4/2026).",
