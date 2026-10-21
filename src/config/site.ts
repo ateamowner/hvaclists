@@ -810,13 +810,32 @@ export function lockedH1(service: Service, city: City): string {
   return `Best ${service.name} in ${city.name} — ${site.year}`;
 }
 
-/** Title tag matches the H1 when it fits in 60 characters. */
+/** City hub title: descriptive and keeps "Best" (Anthony 10/16). Falls back to shorter forms for long city names. */
+export function hubTitle(city: City): string {
+  const options = [
+    `Best HVAC Companies in ${city.name}, ${city.stateAbbr}: Heating & AC Compared`,
+    `Best HVAC Companies in ${city.name}, ${city.stateAbbr}: Compare Local Pros`,
+  ];
+  return options.find((title) => title.length <= 65) ?? `Best HVAC Companies in ${city.name}, ${city.stateAbbr}`;
+}
+
+/** Search-style noun per service for title tags ("Best Plumbers", not "Best Plumbing"). */
+const serviceTitleNoun: Record<string, string> = {
+  "ac-repair": "AC Repair Companies",
+  "furnace": "Furnace Repair & Replacement",
+  "hvac-installation": "HVAC Installation Companies",
+  "emergency-hvac": "Emergency HVAC Repair",
+};
+
+/** Title tag: "Best <noun> in City, ST — year", keeping "Best" (Anthony 10/16); shorter fallbacks for long names. */
 export function pageTitle(service: Service, city: City): string {
-  const locked = lockedH1(service, city);
-  if (locked.length <= 60) return locked;
-  const withoutYear = `Best ${service.name} in ${city.name}`;
-  if (withoutYear.length <= 60) return withoutYear;
-  return `${service.name} in ${city.name} — ${site.year}`;
+  const noun = serviceTitleNoun[service.slug] ?? service.name;
+  const options = [
+    `Best ${noun} in ${city.name}, ${city.stateAbbr} — ${site.year}`,
+    `Best ${noun} in ${city.name}, ${city.stateAbbr}`,
+    `Best ${service.name} in ${city.name}, ${city.stateAbbr}`,
+  ];
+  return options.find((title) => title.length <= 65) ?? lockedH1(service, city);
 }
 
 export const costGuide = {

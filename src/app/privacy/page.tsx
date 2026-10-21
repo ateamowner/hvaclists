@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
 import { Disclosure } from "@/components/disclosure";
 import { site } from "@/config/site";
+import { shareMeta } from "@/lib/share-meta";
+
+const title = `Privacy Policy — ${site.name}`;
+const description =
+  `How ${site.name} collects quote-form data and shares it with HVAC companies.`;
 
 export const metadata: Metadata = {
-  title: `Privacy — ${site.name}`,
-  description: `How ${site.name} collects quote-form data and shares it with HVAC companies.`,
+  title,
+  description,
   alternates: { canonical: "/privacy/" },
+  ...shareMeta(title, description, "/privacy/"),
 };
 
 export default function PrivacyPage() {
