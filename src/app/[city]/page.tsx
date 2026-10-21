@@ -88,7 +88,7 @@ export default async function CityHubPage({
         >
           <p className="text-sm font-medium text-primary">{city.state}</p>
           <h1 className="mt-2 font-heading tracking-tight">
-            HVAC in {city.name}, {city.stateAbbr}
+            {`HVAC in ${city.name}, ${city.stateAbbr}`}
           </h1>
           {intro.map((paragraph) => (
             <p key={paragraph} className="mt-4">
@@ -102,7 +102,7 @@ export default async function CityHubPage({
       <TrustStrip className="mt-10" />
 
       <h2 className="mt-10 font-heading text-xl font-semibold">
-        Services in {city.name}
+        {`Services in ${city.name}`}
       </h2>
       <ul className="mt-3 grid gap-3">
         {services.map((service) => (
