@@ -2,7 +2,7 @@ import Link from "next/link";
 import { HeaderPrimaryCta } from "@/components/header-primary-cta";
 import { site } from "@/config/site";
 
-/** Shared directory conversion shell — sticky header. */
+/** Shared directory conversion shell, sticky header. */
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/90">

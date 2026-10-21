@@ -87,7 +87,7 @@ type QuoteFormProps = {
 const STEPS = ["Contact", "Job", "Confirm"] as const;
 type FormStep = (typeof STEPS)[number];
 
-/** Form v3 — progress dots, above-fold phone/ZIP/service/timing. Same Formsubmit action. */
+/** Form v3, progress dots, above-fold phone/ZIP/service/timing. Same Formsubmit action. */
 export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps) {
   const formRef = useRef<HTMLFormElement>(null);
   const lastKeyRef = useRef("");
@@ -337,7 +337,7 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
             onChange={(event) => update("privacy_consent", event.target.checked)}
           />
           <span>
-            Privacy* — I agree to the{" "}
+            Privacy*, I agree to the{" "}
             <Link href="/privacy/" className="underline underline-offset-2">
               privacy policy
             </Link>

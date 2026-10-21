@@ -11,7 +11,7 @@ import { uniqueLocalCopy } from "@/lib/local-copy";
 export type Faq = { question: string; answer: string };
 
 export function introParagraphs(city: City, service: Service): string[] {
-  const directory = `${site.disclosure} Featured — paid placement spots on this page are labeled as such. If the listings block is empty, use the form anyway. We route the request — or hold it until a company that covers your ZIP is available.`;
+  const directory = `${site.disclosure} Call a listed company directly, or send the short form and we will follow up, usually within one business day. Featured (paid placement) spots are labeled.`;
 
   return [
     `This page is ${site.name}'s ${city.name}, ${city.stateAbbr} listing for ${service.name.toLowerCase()}. ${directory}`,
@@ -38,7 +38,7 @@ function serviceIntro(city: City, service: Service): string {
     case "furnace":
       return `Use this ${city.name} page when heat will not start, you smell something off, or an older furnace needs a honest repair-versus-replace talk after ${city.stateAbbr === "OH" ? "ice season" : "a freeze night"}. Ask for a written scope that names the heat exchanger.`;
     case "hvac-installation":
-      return `This ${city.name} page is for a full system or matched furnace-and-AC changeout. A written scope should cover load, duct, pad, and flue — not a same-day upsell.`;
+      return `This ${city.name} page is for a full system or matched furnace-and-AC changeout. A written scope should cover load, duct, pad, and flue, not a same-day upsell.`;
     case "emergency-hvac":
       return `Use this ${city.name} page for no heat in a freeze, no cooling in a heat wave, or a leak or smell that cannot wait. Say so on the form. Emergency work is priced and scheduled differently than a planned visit.`;
     default:
@@ -51,11 +51,11 @@ export function serviceCardBlurb(city: City, service: Service): string {
   if (city.stateAbbr === "OH" && city.slug !== "toledo-oh") return service.blurb;
   switch (service.slug) {
     case "ac-repair":
-      return `A cooling system that is not keeping up, short-cycling, or icing in ${city.name} humidity — diagnosis and a written repair scope.`;
+      return `A cooling system that is not keeping up, short-cycling, or icing in ${city.name} humidity, diagnosis and a written repair scope.`;
     case "furnace":
       return `Heat that will not start after a freeze night, a cracked-heat-exchanger worry, or an older furnace that needs a honest repair-vs-replace talk.`;
     case "hvac-installation":
-      return `A full system or matched furnace-and-AC changeout: load, duct, and a written scope — not a same-day upsell.`;
+      return `A full system or matched furnace-and-AC changeout: load, duct, and a written scope, not a same-day upsell.`;
     case "emergency-hvac":
       return `No heat after a freeze night, no cooling in a humid heat wave, or a smell or leak that cannot wait for a weekday slot.`;
     default:
@@ -65,7 +65,7 @@ export function serviceCardBlurb(city: City, service: Service): string {
 
 export function hubIntro(city: City): string[] {
   return [
-    `This is the ${city.name}, ${city.stateAbbr} hub on ${site.name} — a directory, not a contractor homepage. From here you can open AC repair, furnace, HVAC installation, and emergency HVAC pages. Each has its own quote form.`,
+    `This is the ${city.name}, ${city.stateAbbr} hub on ${site.name}, a directory, not a contractor homepage. From here you can open AC repair, furnace, HVAC installation, and emergency HVAC pages. Each has its own quote form.`,
     city.setting,
     `${city.housing} ${city.winter} ${city.summer}`,
     city.localNote,
@@ -81,7 +81,7 @@ export function howToChoose(
   items: { title: string; body: string }[];
 } {
   return {
-    lead: `How to choose a ${service.name.toLowerCase()} company in ${city.name} — the same checks apply whether you found a listing here or a truck on the street.`,
+    lead: `How to choose a ${service.name.toLowerCase()} company in ${city.name}, the same checks apply whether you found a listing here or a truck on the street.`,
     items: [
       {
         title: "License",
@@ -89,7 +89,7 @@ export function howToChoose(
       },
       {
         title: "Local jobs",
-        body: `Ask for recent addresses in ${city.name} or the surrounding ${regionLabel(city)} towns — not a generic photo set. Ice, older furnaces, and summer AC load change the job.`,
+        body: `Ask for recent addresses in ${city.name} or the surrounding ${regionLabel(city)} towns, not a generic photo set. Ice, older furnaces, and summer AC load change the job.`,
       },
       {
         title: "Written scope",
@@ -151,11 +151,11 @@ export function faqs(city: City, service: Service): Faq[] {
   return [
     {
       question: `Is ${site.name} an HVAC contractor in ${city.name}?`,
-      answer: `No. ${site.name} is a directory and lead-routing site. We do not repair AC, service furnaces, or install systems. Companies can buy a listing on this URL. Featured — paid placement is labeled. ${site.disclosure}`,
+      answer: `No. ${site.name} is a directory. We do not repair AC, service furnaces, or install systems. Companies can buy a listing on this URL. Featured (paid placement) is labeled. ${site.disclosure}`,
     },
     {
       question: `Why are some listings marked Featured?`,
-      answer: `Those are paid placements. A Featured — paid placement is a labeled upgrade so you can tell it is an ad. Standard listings, when we have them, are not marked as paid upgrades. We do not invent companies to fill empty slots.`,
+      answer: `Those are paid placements. A Featured (paid placement) is a labeled upgrade so you can tell it is an ad. Standard listings, when we have them, are not marked as paid upgrades. We do not invent companies to fill empty slots.`,
     },
     {
       question: `What does ${service.name.toLowerCase()} cost in ${city.name}?`,
@@ -163,7 +163,7 @@ export function faqs(city: City, service: Service): Faq[] {
     },
     {
       question: `What happens after I submit the form on this ${city.name} page?`,
-      answer: `The static form posts to Formsubmit and emails ${site.leadsEmail}. We store the request and route it to a company that covers your ZIP and service type when one is available. Expect a phone call from a local HVAC company — not from a ${site.name} tech. If no company is live on this URL yet, we still take the request and hold it.`,
+      answer: `The static form posts to Formsubmit and emails ${site.leadsEmail}. We store the request and route it to a company that covers your ZIP and service type when one is available. Expect a phone call from a local HVAC company, not from a ${site.name} tech. If no company is live on this URL yet, we still take the request and follow up.`,
     },
     {
       question:
@@ -172,29 +172,29 @@ export function faqs(city: City, service: Service): Faq[] {
           : `Which towns near ${city.name} have their own ${site.name} pages?`,
       answer:
         nearbyNames.length > 0
-          ? `Yes — we keep a separate URL for nearby cities so you can open a real page instead of a comma list. From ${city.name} that includes ${joinAnd(nearbyNames)}. Each of those pages has its own quote form.`
+          ? `Yes, we keep a separate URL for nearby cities so you can open a real page instead of a comma list. From ${city.name} that includes ${joinAnd(nearbyNames)}. Each of those pages has its own quote form.`
           : `We publish one URL per city. If you do not see your town, send the form with your ZIP and we will route it.`,
     },
   ];
 }
 
-/** Homepage FAQ — visible copy and FAQPage JSON-LD must stay in lockstep. */
+/** Homepage FAQ, visible copy and FAQPage JSON-LD must stay in lockstep. */
 export function homeFaqs(): Faq[] {
   return [
     {
       question: "Is HVACLists an HVAC contractor?",
       answer:
-        "No. HVACLists is a lead-generation directory. We do not send a truck. Featured — paid placement spots are paid and labeled.",
+        "No. HVACLists is a directory. We do not send a truck. Featured (paid placement) spots are paid and labeled.",
     },
     {
       question: "Why are some listings marked Featured?",
       answer:
-        "Featured — paid placement is a labeled paid upgrade. It is not exclusive and has no lead-count guarantee.",
+        "Featured (paid placement) is a labeled paid upgrade. It is not exclusive and has no lead-count guarantee.",
     },
     {
       question: "What happens after I submit the form?",
       answer:
-        "We route the request to a company that covers your ZIP, or hold it until one is available. Requests go to owner@ateamcontractings.com. We do not invent companies to fill empty slots.",
+        "We route the request to a company that covers your ZIP, or follow up with you directly. Requests go to owner@ateamcontractings.com. We do not invent companies to fill empty slots.",
     },
     {
       question: "Do you invent star ratings or city-specific prices?",
@@ -204,7 +204,7 @@ export function homeFaqs(): Faq[] {
     {
       question: "Which cities do you cover?",
       answer:
-        "Dayton / Miami Valley cities plus live markets such as Knoxville, TN. Each city has its own URL — use the homepage city list.",
+        "Dayton / Miami Valley cities plus live markets such as Knoxville, TN. Each city has its own URL, use the homepage city list.",
     },
   ];
 }
@@ -213,7 +213,7 @@ export function hubFaqs(city: City): Faq[] {
   return [
     {
       question: `What is the ${city.name} ${site.name} hub?`,
-      answer: `This is the city index — not a contractor homepage. From here you can open ${city.name} pages for AC repair, furnace, HVAC installation, and emergency HVAC.`,
+      answer: `This is the city index, not a contractor homepage. From here you can open ${city.name} pages for AC repair, furnace, HVAC installation, and emergency HVAC.`,
     },
     {
       question: `Does ${site.name} work on HVAC systems in ${city.name}?`,
@@ -221,7 +221,7 @@ export function hubFaqs(city: City): Faq[] {
     },
     {
       question: `Are featured listings ads?`,
-      answer: `Featured — paid placement spots are labeled on the service pages. We do not invent company names to fill a page.`,
+      answer: `Featured (paid placement) spots are labeled on the service pages. We do not invent company names to fill a page.`,
     },
     {
       question: `Where is the quote form?`,
@@ -229,7 +229,7 @@ export function hubFaqs(city: City): Faq[] {
     },
     {
       question: `How do contractors get on this ${city.name} page?`,
-      answer: `See the For Pros page. Companies can buy a labeled Featured — paid placement. There is no credit-card field on the homeowner form.`,
+      answer: `See the For Pros page. Companies can buy a labeled Featured (paid placement). There is no credit-card field on the homeowner form.`,
     },
   ];
 }

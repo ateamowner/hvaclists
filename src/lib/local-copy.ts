@@ -4,23 +4,23 @@ const copy: Record<string, string> = {
   "dayton-oh:ac-repair":
     "Dayton AC repair usually starts on an older bungalow or two-story whose condenser has seen Miami Valley summers and AES Ohio peak bills. Ice on the coil in July is a diagnosis, not a city price. Tight lots and street parking change access, not the national range.",
   "dayton-oh:furnace":
-    "Older Dayton furnaces in brick and Craftsman basements take ice-season abuse: cracked heat exchangers, failed inducers, and condensate that freezes in a polar snap. The three shops listed below all sit inside Dayton or on its edge — Old Troy Pike, West Third Street, and North Gettysburg Avenue — and each is on the City of Dayton Division of Building Inspection's active heating contractor list. Ask for that registration number and whether a replacement needs a city mechanical permit. AES Ohio is the bill; the furnace age is the question. We do not invent a Dayton-only dollar figure.",
+    "Older Dayton furnaces in brick and Craftsman basements take ice-season abuse: cracked heat exchangers, failed inducers, and condensate that freezes in a polar snap. The three shops listed below all sit inside Dayton or on its edge, Old Troy Pike, West Third Street, and North Gettysburg Avenue, and each is on the City of Dayton Division of Building Inspection's active heating contractor list. Ask for that registration number and whether a replacement needs a city mechanical permit. AES Ohio is the bill; the furnace age is the question. We do not invent a Dayton-only dollar figure.",
   "dayton-oh:hvac-installation":
-    "A Dayton changeout has to name load, duct leaks on a 1940s house, and whether the pad and flue still work after ice season. A Belmont or Walnut Hills bungalow with a basement furnace and a chimney-vented water heater is a different install than a 1990s north-side two-story, so ask how the flue and any orphaned water-heater vent will be handled. The installers listed below each publish something specific about installs — a load and duct evaluation, factory-authorized equipment, or a stated labor warranty — and each is on the City of Dayton active heating contractor list. National published ranges are the only numbers on this page.",
+    "A Dayton changeout has to name load, duct leaks on a 1940s house, and whether the pad and flue still work after ice season. A Belmont or Walnut Hills bungalow with a basement furnace and a chimney-vented water heater is a different install than a 1990s north-side two-story, so ask how the flue and any orphaned water-heater vent will be handled. The installers listed below each publish something specific about installs, a load and duct evaluation, factory-authorized equipment, or a stated labor warranty, and each is on the City of Dayton active heating contractor list. National published ranges are the only numbers on this page.",
   "dayton-oh:emergency-hvac":
     "Use this Dayton page when there is no heat in a freeze or no cooling in a heat wave. Say so on the form. Emergency work is a different queue than a planned tune-up on an Oregon District bungalow.",
 
   "kettering-oh:ac-repair":
     "Kettering AC calls are often 1950s–70s ranches whose outdoor unit sits under maples and has run every Miami Valley August since the last owner. Cottonwood fluff and maple seed packed into a side-yard condenser coil can be the first finding before anyone should talk refrigerant. The three companies listed below each name Kettering in their own service area and work out of nearby Congress Park Drive, East River Road, or a 45459 satellite office. Short-cycling and a warm house are site conditions. AES Ohio usage does not create a Kettering-only repair price.",
   "kettering-oh:furnace":
-    "Many Kettering ranches still heat with furnaces that predate sealed windows. Ice and a hard start in January are why people open this URL. Ask for a written heat-exchanger check — not a same-day upsell we invented.",
+    "Many Kettering ranches still heat with furnaces that predate sealed windows. Ice and a hard start in January are why people open this URL. Ask for a written heat-exchanger check, not a same-day upsell we invented.",
   "kettering-oh:hvac-installation":
     "A Kettering ranch changeout is often one long supply run and a low attic. That is simpler geometry than a Centerville colonial, but older ducts and a tired pad still have to be in the scope. AES Ohio is the usual bill.",
   "kettering-oh:emergency-hvac":
     "A no-heat night on a Kettering ranch is an emergency form, not a Saturday trim. Say if anyone is medically fragile. We route the request; HVACLists does not send a truck.",
 
   "beavercreek-oh:ac-repair":
-    "Beavercreek condensers on later subdivisions sit in more sun and wind than a tree-lined Dayton street. Summer AC load is a coil and charge question. HOA setbacks can change where a tech stages — not a local price list.",
+    "Beavercreek condensers on later subdivisions sit in more sun and wind than a tree-lined Dayton street. Summer AC load is a coil and charge question. HOA setbacks can change where a tech stages, not a local price list.",
   "beavercreek-oh:furnace":
     "Beavercreek furnaces are often newer than Huber Heights brick-ranch stock, but ice on open lots still kills intake screens and condensate pumps. Confirm AES Ohio on the bill before anyone talks efficiency.",
   "beavercreek-oh:hvac-installation":
@@ -31,7 +31,7 @@ const copy: Record<string, string> = {
   "centerville-oh:ac-repair":
     "Centerville two-stories often lose upstairs comfort first. An aging evaporator on a colonial is a different repair than a Kettering ranch coil. AES Ohio peak days make that obvious; they do not create a Centerville survey price.",
   "centerville-oh:furnace":
-    "Complex Centerville returns and older furnaces short-cycle when ice season hits. Historic-core closets add access. Ask what is warranted on a heat exchanger — “we stand behind it” is not a warranty.",
+    "Complex Centerville returns and older furnaces short-cycle when ice season hits. Historic-core closets add access. Ask what is warranted on a heat exchanger, “we stand behind it” is not a warranty.",
   "centerville-oh:hvac-installation":
     "A four-plane colonial needs a load calc that names which floors get which airflow. Washington Township HOA rules may apply. National replacement ranges are the only dollars we cite.",
   "centerville-oh:emergency-hvac":
@@ -56,7 +56,7 @@ const copy: Record<string, string> = {
     "Wind off open corridors near the base can take a Fairborn system down. If heat or cooling is out, use emergency on the form. HVACLists still does not send a crew.",
 
   "miamisburg-oh:ac-repair":
-    "Miamisburg hillside and river humidity make coils work harder than a flat Huber ranch. Condensate and access on a steep lot are the usual notes. AES Ohio is the typical bill — not a river-view premium we invented.",
+    "Miamisburg hillside and river humidity make coils work harder than a flat Huber ranch. Condensate and access on a steep lot are the usual notes. AES Ohio is the typical bill, not a river-view premium we invented.",
   "miamisburg-oh:furnace":
     "Basement furnaces on hillside two-stories see ice-season flue and condensate problems. Staging in a freeze changes the visit, not the national furnace-repair range.",
   "miamisburg-oh:hvac-installation":
@@ -67,7 +67,7 @@ const copy: Record<string, string> = {
   "xenia-oh:ac-repair":
     "Xenia condensers on more open lots sit in sun and wind. Summer AC load is often a filter-and-coil job before anyone talks compressor. AES Ohio is the usual utility. Wind history is a reason to inspect, not a Xenia price.",
   "xenia-oh:furnace":
-    "Older Xenia furnaces that survived a wind event still need a heat-exchanger check before another ice season. Post-storm rebuilds may already have newer equipment — ask, do not assume.",
+    "Older Xenia furnaces that survived a wind event still need a heat-exchanger check before another ice season. Post-storm rebuilds may already have newer equipment, ask, do not assume.",
   "xenia-oh:hvac-installation":
     "A newer post-storm Xenia house can be a clean changeout. An unrestored older house is not. Roof and duct condition are the gate. National published ranges are the only dollars here.",
   "xenia-oh:emergency-hvac":
@@ -85,11 +85,11 @@ const copy: Record<string, string> = {
   "springfield-oh:ac-repair":
     "Springfield brick two-stories and aging central AC are a different summer job than a later Fairborn ranch. Confirm AES Ohio or the utility on the bill. We do not publish a Clark County survey price.",
   "springfield-oh:furnace":
-    "Older Springfield furnaces have seen decades of ice seasons. Heat-exchanger condition is the gate. Ask for the license the company uses in Ohio — HVACLists will not invent one.",
+    "Older Springfield furnaces have seen decades of ice seasons. Heat-exchanger condition is the gate. Ask for the license the company uses in Ohio, HVACLists will not invent one.",
   "springfield-oh:hvac-installation":
     "Industrial-era Springfield housing can hide duct and flue surprises. A written install names those. National replacement ranges ($5,000–$22,000 published) are the only dollars we cite.",
   "springfield-oh:emergency-hvac":
-    "A Clark County ice storm is a reason to use the emergency form, not a reason to invent a Springfield price. We hold the request until a company that covers your ZIP can call.",
+    "A Clark County ice storm is a reason to use the emergency form, not a reason to invent a Springfield price. We follow up until a company that covers your ZIP can call.",
 
   "tipp-city-oh:ac-repair":
     "Tipp City AC work splits between canal-era downtown two-stories and later Miami County ranches. Downtown stacks cooling load; subdivision pads are simpler. AES Ohio peak days do not create a Tipp-only repair price.",
@@ -98,7 +98,7 @@ const copy: Record<string, string> = {
   "tipp-city-oh:hvac-installation":
     "A Main Street two-story is a different access and duct problem than a later Tipp ranch, even when both sit on AES Ohio. We do not publish a Miami County dollar figure.",
   "tipp-city-oh:emergency-hvac":
-    "No heat in a Tipp City freeze — downtown or subdivision — is emergency routing. Say which so the company that calls you can plan the street. HVACLists does not send a truck.",
+    "No heat in a Tipp City freeze, downtown or subdivision, is emergency routing. Say which so the company that calls you can plan the street. HVACLists does not send a truck.",
 
   "oakwood-oh:ac-repair":
     "Oakwood AC repair usually starts on an early 20th-century Tudor, colonial, or foursquare whose condenser sits under mature shade immediately south of Dayton. Ice on the coil in July is a diagnosis. Tight lots and AES Ohio peak bills do not create an Oakwood-only repair price.",
@@ -116,7 +116,7 @@ const copy: Record<string, string> = {
   "west-carrollton-oh:hvac-installation":
     "A West Carrollton install is often one pad on a Dixie Drive ranch plus remaining duct in a short crawlspace. Downtown Central Avenue two-stories are tighter. River-valley lots stage easier than a hillside bluff. We will not invent an I-75-corridor surcharge.",
   "west-carrollton-oh:emergency-hvac":
-    "No heat on a West Carrollton ranch after a Miami Valley ice event — or no cooling in river humidity — is emergency routing. Say whether the house sits on a crawl or a downtown lot so the company that calls you can plan I-75 / Dixie access. HVACLists does not send a truck.",
+    "No heat on a West Carrollton ranch after a Miami Valley ice event, or no cooling in river humidity, is emergency routing. Say whether the house sits on a crawl or a downtown lot so the company that calls you can plan I-75 / Dixie access. HVACLists does not send a truck.",
 
   "trotwood-oh:ac-repair":
     "Trotwood AC repair usually starts on a 1950s–70s ranch or modest two-story along the Salem Avenue / SR 49 corridor, northwest of Dayton, where a side-yard condenser has run every Miami Valley August. Ice on the coil in July is a diagnosis. AES Ohio peak bills do not create a Trotwood-only repair price.",
@@ -125,7 +125,7 @@ const copy: Record<string, string> = {
   "trotwood-oh:hvac-installation":
     "A Trotwood install is often one pad on a Salem Avenue ranch plus remaining duct in a short crawlspace. Modest two-stories are tighter. Flatter lots stage easier than a Miamisburg hillside. We will not invent an SR 49-corridor surcharge.",
   "trotwood-oh:emergency-hvac":
-    "No heat on a Trotwood ranch after a Miami Valley ice event — or no cooling on a northwest flatter lot — is emergency routing. Say whether the house sits on a crawl or a modest two-story so the company that calls you can plan Salem Avenue / SR 49 access. HVACLists does not send a truck.",
+    "No heat on a Trotwood ranch after a Miami Valley ice event, or no cooling on a northwest flatter lot, is emergency routing. Say whether the house sits on a crawl or a modest two-story so the company that calls you can plan Salem Avenue / SR 49 access. HVACLists does not send a truck.",
 
   "englewood-oh:ac-repair":
     "Englewood AC repair usually starts on a National Road two-story or a later I-70-adjacent subdivision house, northwest of Dayton where US-40 meets the interstate. Ice on the coil in July is a diagnosis. AES Ohio peak bills do not create an Englewood-only repair price.",
@@ -134,7 +134,7 @@ const copy: Record<string, string> = {
   "englewood-oh:hvac-installation":
     "An Englewood install has to name load and duct on an older US-40 two-story versus a later I-70 subdivision slab. Downtown mechanical closets are tighter; interstate-adjacent pads stage easier. We will not invent a National Road surcharge.",
   "englewood-oh:emergency-hvac":
-    "No heat on a National Road crawlspace after a Miami Valley ice event — or no cooling on an I-70-adjacent lot — is emergency routing. Say whether the house sits in the US-40 downtown core or a later subdivision so the company that calls you can plan I-70 / National Road access. HVACLists does not send a truck.",
+    "No heat on a National Road crawlspace after a Miami Valley ice event, or no cooling on an I-70-adjacent lot, is emergency routing. Say whether the house sits in the US-40 downtown core or a later subdivision so the company that calls you can plan I-70 / National Road access. HVACLists does not send a truck.",
 
   "riverside-oh:ac-repair":
     "Riverside AC repair usually starts on a Springfield Street two-story or a Wright-Patterson-adjacent ranch along Airway Road or Harshman, east of Dayton on the Mad River side of the fence-line. Ice on the coil in July is a diagnosis. AES Ohio peak bills do not create a Riverside-only repair price.",
@@ -143,16 +143,16 @@ const copy: Record<string, string> = {
   "riverside-oh:hvac-installation":
     "A Riverside install has to name load and duct on a Springfield Street (SR 4) two-story versus a later east-side infill pad near the base. Downtown-adjacent mechanical closets are tighter; Airway-adjacent lots stage easier than a Huffman Dam slope. We will not invent a Wright-Patterson-adjacent surcharge.",
   "riverside-oh:emergency-hvac":
-    "No heat on a Mad River crawlspace after a Miami Valley ice event — or no cooling on a Wright-Patt-adjacent lot — is emergency routing. Say whether the house sits on Springfield Street, Airway / Harshman, or later infill so the company that calls you can plan SR 4 / east-Dayton access. HVACLists does not send a truck.",
+    "No heat on a Mad River crawlspace after a Miami Valley ice event, or no cooling on a Wright-Patt-adjacent lot, is emergency routing. Say whether the house sits on Springfield Street, Airway / Harshman, or later infill so the company that calls you can plan SR 4 / east-Dayton access. HVACLists does not send a truck.",
 
   "moraine-oh:ac-repair":
-    "Moraine cooling calls usually start on a postwar ranch or tri-level near Dixie Drive — Sellman, Pinnacle, Moraine Road, or Dryden — where an unshaded pad takes I-75 sun and highway wind. July coil ice is a diagnosis on river-flat stock. AES Ohio usage does not create a Moraine-only repair price.",
+    "Moraine cooling calls usually start on a postwar ranch or tri-level near Dixie Drive, Sellman, Pinnacle, Moraine Road, or Dryden, where an unshaded pad takes I-75 sun and highway wind. July coil ice is a diagnosis on river-flat stock. AES Ohio usage does not create a Moraine-only repair price.",
   "moraine-oh:furnace":
     "Older furnaces in Moraine crawlspaces and garage closets, on industrial-adjacent streets south of Dayton, lose condensate after the first Miami Valley ice. Heat-exchanger condition on postwar ranch and tri-level stock is the question. AES Ohio is the usual bill. We do not invent a Moraine-only dollar figure.",
   "moraine-oh:hvac-installation":
     "A Moraine changeout has to name load and duct on a postwar ranch or tri-level beside the former GM Moraine Assembly and Delphi corridor versus a later south-Dayton infill pad. Garage closets are tight; Dixie lots stage in highway wind. We will not invent an industrial-flats surcharge.",
   "moraine-oh:emergency-hvac":
-    "No heat in a river-flat crawlspace after Miami Valley ice — or no cooling on an I-75 / Dixie pad in a heat wave — is emergency routing. Say whether the house is near Sellman, Pinnacle, Moraine Road, or Dryden so the company that calls can plan south inner-ring access. HVACLists does not send a truck.",
+    "No heat in a river-flat crawlspace after Miami Valley ice, or no cooling on an I-75 / Dixie pad in a heat wave, is emergency routing. Say whether the house is near Sellman, Pinnacle, Moraine Road, or Dryden so the company that calls can plan south inner-ring access. HVACLists does not send a truck.",
 
 
   "bellbrook-oh:ac-repair":
@@ -162,7 +162,7 @@ const copy: Record<string, string> = {
   "bellbrook-oh:hvac-installation":
     "A Bellbrook install has to name load and duct on an older Franklin Street / Little Sugar Creek two-story versus a later Sugarcreek Township subdivision slab toward Centerville. Downtown-adjacent mechanical closets are tighter; later pads stage easier. We will not invent an eastern Greene County surcharge.",
   "bellbrook-oh:emergency-hvac":
-    "No heat in a Franklin Street basement after a Miami Valley ice event — or no cooling on a Sugarcreek Township lot in a heat wave — is emergency routing. Say whether the house sits in the village core or a later subdivision toward Centerville so the company that calls you can plan Feedwire / Franklin Street access. HVACLists does not send a truck.",
+    "No heat in a Franklin Street basement after a Miami Valley ice event, or no cooling on a Sugarcreek Township lot in a heat wave, is emergency routing. Say whether the house sits in the village core or a later subdivision toward Centerville so the company that calls you can plan Feedwire / Franklin Street access. HVACLists does not send a truck.",
 
 
   "springboro-oh:ac-repair":
@@ -172,7 +172,7 @@ const copy: Record<string, string> = {
   "springboro-oh:hvac-installation":
     "A Springboro install has to name load and duct on an older Main Street / OH-73 two-story versus a later Clearcreek Township subdivision slab toward Centerville or Austin Road / I-75. Downtown-adjacent mechanical closets are tighter; later pads stage easier. We will not invent a southern Warren County surcharge.",
   "springboro-oh:emergency-hvac":
-    "No heat in a Main Street / OH-73 basement after a Miami Valley ice event — or no cooling on a Clearcreek Township lot in a heat wave — is emergency routing. Say whether the house sits in the village core or a later subdivision toward Centerville or Austin Road so the company that calls you can plan OH-73 / I-75 access. HVACLists does not send a truck.",
+    "No heat in a Main Street / OH-73 basement after a Miami Valley ice event, or no cooling on a Clearcreek Township lot in a heat wave, is emergency routing. Say whether the house sits in the village core or a later subdivision toward Centerville or Austin Road so the company that calls you can plan OH-73 / I-75 access. HVACLists does not send a truck.",
 
   "troy-oh:ac-repair":
     "Troy AC repair usually starts on a tall older house off the Public Square or West Main Street, or on a later Miami County subdivision house out toward the I-75 / OH-41 interchange, north of Tipp City. Ice on the coil in July is a diagnosis. AES Ohio peak bills do not create a Troy-only repair price.",
@@ -181,7 +181,7 @@ const copy: Record<string, string> = {
   "troy-oh:hvac-installation":
     "A Troy install has to name load and duct on an older two-and-a-half-story off the square versus a later subdivision slab near I-75 / OH-41 or OH-55. Tight basement stairs downtown make equipment swaps slower; later pads stage easier. We will not invent a Miami County surcharge.",
   "troy-oh:emergency-hvac":
-    "No heat in a Troy basement after a Miami Valley ice event — or no cooling on an open subdivision lot in a heat wave — is emergency routing. Say whether the house sits near the Public Square or out toward the I-75 interchanges so the company that calls you can plan the access. HVACLists does not send a truck.",
+    "No heat in a Troy basement after a Miami Valley ice event, or no cooling on an open subdivision lot in a heat wave, is emergency routing. Say whether the house sits near the Public Square or out toward the I-75 interchanges so the company that calls you can plan the access. HVACLists does not send a truck.",
 
   "clayton-oh:ac-repair":
     "For AC repair in Clayton, tell us what the AC is doing (not cooling, short-cycling, or icing) and what kind of house it is. An older farmhouse near Old Salem Road often has ductwork added long after it was built, so upstairs rooms run warm. A later Northmont subdivision house toward I-70 and Englewood usually has a simpler system sitting in full sun. Ask for a written diagnosis before parts get swapped. We do not invent a Clayton-only repair price.",
@@ -205,36 +205,36 @@ const copy: Record<string, string> = {
   "knoxville-tn:ac-repair":
     "Knoxville AC repair often starts on a Fort Sanders or downtown house whose evaporator has run through humid Tennessee Valley summers, or on a west Knoxville subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. KUB / TVA on the bill is not a Knoxville repair price we invented.",
   "knoxville-tn:furnace":
-    "Freeze nights in Knoxville take down older Fort Sanders furnaces and condensate lines that sat idle most of a mild winter. West Knoxville units are often newer but still fail on a sudden cold snap. Heat-exchanger condition is the question — not a city-only dollar figure.",
+    "Freeze nights in Knoxville take down older Fort Sanders furnaces and condensate lines that sat idle most of a mild winter. West Knoxville units are often newer but still fail on a sudden cold snap. Heat-exchanger condition is the question, not a city-only dollar figure.",
   "knoxville-tn:hvac-installation":
-    "A Knoxville changeout has to name load and duct on older downtown or Fort Sanders stock versus a later west Knoxville subdivision. KUB interconnection is not the issue — match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
+    "A Knoxville changeout has to name load and duct on older downtown or Fort Sanders stock versus a later west Knoxville subdivision. KUB interconnection is not the issue, match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
   "knoxville-tn:emergency-hvac":
     "Use this Knoxville page when there is no heat after a freeze night or no cooling in a humid heat wave. Say so on the form. Emergency work is a different queue than a planned visit on a west Knoxville street.",
 
   "madison-wi:ac-repair":
     "Madison AC repair often starts on a near-east or isthmus house whose evaporator has run through humid lake summers, or on a west-side subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. MG&E on the bill is not a Madison repair price we invented.",
   "madison-wi:furnace":
-    "Deep-freeze nights in Madison take down older near-east furnaces and condensate lines; ice dams on isthmus roofs are a first-visit question. West-side units are often newer but still fail when intake screens ice over. Heat-exchanger condition is the question — not a city-only dollar figure.",
+    "Deep-freeze nights in Madison take down older near-east furnaces and condensate lines; ice dams on isthmus roofs are a first-visit question. West-side units are often newer but still fail when intake screens ice over. Heat-exchanger condition is the question, not a city-only dollar figure.",
   "madison-wi:hvac-installation":
-    "A Madison changeout has to name load and duct on older near-east or isthmus stock versus a later west-side subdivision. MG&E interconnection is not the issue — match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
+    "A Madison changeout has to name load and duct on older near-east or isthmus stock versus a later west-side subdivision. MG&E interconnection is not the issue, match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
   "madison-wi:emergency-hvac":
     "Use this Madison page when there is no heat after a deep freeze or no cooling in a humid lake heat wave. Say so on the form. Emergency work is a different queue than a planned visit on a west-side street.",
 
   "syracuse-ny:ac-repair":
     "Syracuse AC repair often starts on an Eastwood, Strathmore, or University Hill house whose evaporator has run through humid Central New York summers, or on a suburban-edge condenser that short-cycles in July. Ice on the coil is a diagnosis. National Grid on the bill is not a Syracuse repair price we invented.",
   "syracuse-ny:furnace":
-    "Lake-effect nights in Syracuse take down older Eastwood and Strathmore furnaces and condensate lines; ice dams on University Hill roofs are a first-visit question. Later suburban-edge units are often newer but still fail when intake screens ice over. Heat-exchanger condition is the question — not a city-only dollar figure.",
+    "Lake-effect nights in Syracuse take down older Eastwood and Strathmore furnaces and condensate lines; ice dams on University Hill roofs are a first-visit question. Later suburban-edge units are often newer but still fail when intake screens ice over. Heat-exchanger condition is the question, not a city-only dollar figure.",
   "syracuse-ny:hvac-installation":
-    "A Syracuse changeout has to name load and duct on older Eastwood, Strathmore, or University Hill stock versus a later suburban-edge subdivision. National Grid interconnection is not the issue — match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
+    "A Syracuse changeout has to name load and duct on older Eastwood, Strathmore, or University Hill stock versus a later suburban-edge subdivision. National Grid interconnection is not the issue, match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
   "syracuse-ny:emergency-hvac":
     "Use this Syracuse page when there is no heat after a lake-effect band or no cooling in a humid Central New York heat wave. Say so on the form. Emergency work is a different queue than a planned visit on a suburban-edge street.",
 
   "toledo-oh:ac-repair":
     "Toledo AC repair often starts on an Old West End or downtown house whose evaporator has run through humid Maumee summers, or on a west Toledo subdivision condenser that short-cycles in July. Ice on the coil is a diagnosis. Toledo Edison on the bill is not a Toledo repair price we invented.",
   "toledo-oh:furnace":
-    "Ice and freeze–thaw nights in Toledo take down older Old West End furnaces and condensate lines; Maumee-adjacent crawlspaces freeze first. West Toledo and South Toledo units are often newer but still fail on a sudden lake-effect snap. Heat-exchanger condition is the question — not a city-only dollar figure.",
+    "Ice and freeze–thaw nights in Toledo take down older Old West End furnaces and condensate lines; Maumee-adjacent crawlspaces freeze first. West Toledo and South Toledo units are often newer but still fail on a sudden lake-effect snap. Heat-exchanger condition is the question, not a city-only dollar figure.",
   "toledo-oh:hvac-installation":
-    "A Toledo changeout has to name load and duct on older downtown or Old West End stock versus a later west Toledo or South Toledo subdivision. Toledo Edison interconnection is not the issue — match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
+    "A Toledo changeout has to name load and duct on older downtown or Old West End stock versus a later west Toledo or South Toledo subdivision. Toledo Edison interconnection is not the issue, match, attic gain, and remaining flue are. National published ranges are the only numbers on this page.",
   "toledo-oh:emergency-hvac":
     "Use this Toledo page when there is no heat after a northwest Ohio ice event or no cooling in a humid Maumee heat wave. Say so on the form. Emergency work is a different queue than a planned visit on a west Toledo street.",
 };

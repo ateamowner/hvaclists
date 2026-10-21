@@ -14,7 +14,7 @@ export function organizationId() {
   return `${absoluteUrl("/")}#organization`;
 }
 
-/** City/hub publisher. Organization, not LocalBusiness — this directory is not a contractor. */
+/** City/hub publisher. Organization, not LocalBusiness, this directory is not a contractor. */
 export function publisherLocalBusiness(city: City) {
   return {
     "@context": "https://schema.org",
@@ -37,7 +37,7 @@ export function publisherLocalBusiness(city: City) {
   };
 }
 
-/** Homepage only. Directory publisher — no phone, address, reviews, or AggregateRating. */
+/** Homepage only. Directory publisher, no phone, address, reviews, or AggregateRating. */
 export function organizationSchema() {
   return {
     "@context": "https://schema.org",
@@ -51,7 +51,7 @@ export function organizationSchema() {
   };
 }
 
-/** Homepage only. No SearchAction — this site has no site search. */
+/** Homepage only. No SearchAction, this site has no site search. */
 export function websiteSchema() {
   return {
     "@context": "https://schema.org",
@@ -112,7 +112,7 @@ export function servicePageHeadline(city: City, service: Service) {
   return lockedH1(service, city);
 }
 
-/** ItemList of real listed HVAC companies — never AggregateRating. Empty → omit. */
+/** ItemList of real listed HVAC companies, never AggregateRating. Empty → omit. */
 export function listingsItemListSchema(
   city: City,
   service: Service,

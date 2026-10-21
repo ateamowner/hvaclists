@@ -1,10 +1,10 @@
 /**
- * Consumer-shell trust chips. Copy is locked — exactly these three.
+ * Consumer-shell trust chips. Copy is locked, exactly these three.
  */
 const items = [
   "No credit card",
   "Paid spots labeled",
-  "We hold your request",
+  "Reply within 1 business day",
 ] as const;
 
 export function TrustStrip({ className = "" }: { className?: string }) {

@@ -115,7 +115,7 @@ export default async function CityHubPage({
               className="block rounded-[14px] border border-border bg-card px-4 py-3 hover:border-primary"
             >
               <span className="font-medium">
-                Best {service.name} in {city.name} — {site.year}
+                Best {service.name} in {city.name}, {site.year}
               </span>
               <span className="mt-1 block text-sm text-muted-foreground">
                 {serviceCardBlurb(city, service)}

@@ -32,7 +32,7 @@ export function NearbyCityLinks({
               href={servicePath(item, serviceSlug)}
               className="inline-flex min-h-10 items-center underline-offset-2 hover:underline"
             >
-              Best {service?.name ?? "AC Repair"} in {item.name} — {site.year}
+              Best {service?.name ?? "AC Repair"} in {item.name}, {site.year}
             </Link>
           </li>
         ))}

@@ -3,8 +3,8 @@ import { site } from "@/config/site";
 import type { Listing } from "@/types/listing";
 
 const TIER_LABEL: Record<Listing["tier"], string> = {
-  featured: "Featured — paid placement",
-  exclusive: "Exclusive — paid placement",
+  featured: "Featured (paid placement)",
+  exclusive: "Exclusive (paid placement)",
   standard: "Listing",
 };
 
@@ -116,12 +116,12 @@ export function ListingsBlock({ listings }: { listings: Listing[] }) {
   );
 }
 
-/** Empty city × service — premium hold state. Form first; Featured stays labeled. */
+/** Empty city × service, premium hold state. Form first; Featured stays labeled. */
 export function EmptyListingState() {
   return (
     <div className="mt-4 rounded-[14px] border border-border bg-card p-5 shadow-[0_12px_32px_rgba(19,32,43,.10)]">
       <p className="font-heading text-lg font-semibold">
-        No public list here yet — your request still gets held for a match.
+        We are still verifying companies for this page. Send a request and we will follow up.
       </p>
       <p className="mt-2 text-sm text-muted-foreground">
         Usually follow up within one business day
@@ -140,13 +140,13 @@ export function EmptyListingState() {
             aria-hidden="true"
             className="mr-1.5 inline-block size-1.5 rounded-full bg-accent align-middle"
           />
-          Featured — paid placement
+          Featured (paid placement)
         </span>
         Paid spots are labeled. We do not invent companies.
       </p>
       <p className="mt-3 text-sm">
         <Link href="/for-pros/" className="underline underline-offset-2">
-          For pros — Get Featured
+          For pros, Get Featured
         </Link>
       </p>
     </div>

@@ -1,5 +1,5 @@
 /**
- * HVACLists site config — brand, domain, inbox, cities, and services.
+ * HVACLists site config, brand, domain, inbox, cities, and services.
  * Theme tokens live here so a rebrand is one file.
  */
 
@@ -21,7 +21,7 @@ export const site = {
     "HVAC company directory with city pages, labeled paid placements, and quote routing. We are not an HVAC contractor.",
   disclosure:
     "HVACLists is a directory of HVAC companies. Paid spots are labeled. We are not an HVAC contractor.",
-  /** HVAC niche palette — consumer shell v3. Keep these tokens on a shell copy. */
+  /** HVAC niche palette, consumer shell v3. Keep these tokens on a shell copy. */
   theme: {
     background: "#F3F6F8",
     foreground: "#15202b",
@@ -71,7 +71,7 @@ export const services: Service[] = [
     name: "AC Repair",
     formValue: "ac repair",
     blurb:
-      "A cooling system that is not keeping up, short-cycling, or icing in Miami Valley heat — diagnosis and a written repair scope.",
+      "A cooling system that is not keeping up, short-cycling, or icing in Miami Valley heat, diagnosis and a written repair scope.",
   },
   {
     slug: "furnace",
@@ -85,7 +85,7 @@ export const services: Service[] = [
     name: "HVAC Installation",
     formValue: "hvac installation",
     blurb:
-      "A full system or matched furnace-and-AC changeout: load, duct, and a written scope — not a same-day upsell.",
+      "A full system or matched furnace-and-AC changeout: load, duct, and a written scope, not a same-day upsell.",
   },
   {
     slug: "emergency-hvac",
@@ -105,10 +105,10 @@ export const formServiceTypes = [
 ] as const;
 
 export const formTimings = [
-  { value: "emergency", label: "Emergency — need someone now" },
+  { value: "emergency", label: "Emergency, need someone now" },
   { value: "this_week", label: "This week" },
   { value: "this_month", label: "This month" },
-  { value: "planning", label: "Planning — no rush" },
+  { value: "planning", label: "Planning, no rush" },
 ] as const;
 
 export const formPropertyTypes = [
@@ -140,7 +140,7 @@ export const cities: City[] = [
       "Dayton sits in the Miami Valley with older city lots, bungalows, two-stories, and mid-century houses. AES Ohio is the usual electric utility on the bill.",
     utility: "AES Ohio",
     housing:
-      "Victorian, Craftsman, and 1940s–60s bungalows on tighter lots than the suburbs — attics and closets that hide older furnaces.",
+      "Victorian, Craftsman, and 1940s–60s bungalows on tighter lots than the suburbs, attics and closets that hide older furnaces.",
     winter:
       "Miami Valley ice and freeze–thaw cycles punish older heat exchangers, inducer motors, and condensate lines that were never meant for a long ice event.",
     summer:
@@ -365,7 +365,7 @@ export const cities: City[] = [
       "Springfield is a Clark County city northeast of Dayton with older industrial-era housing. Confirm AES Ohio or the utility printed on your bill.",
     utility: "AES Ohio or the utility printed on your bill",
     housing:
-      "Older city stock — brick, two-stories, and houses that have seen decades of ice seasons and older furnaces.",
+      "Older city stock, brick, two-stories, and houses that have seen decades of ice seasons and older furnaces.",
     winter:
       "Ice storms are a regular Miami Valley and Clark County story. Heat-exchanger condition is the gate, not a slogan.",
     summer:
@@ -415,7 +415,7 @@ export const cities: City[] = [
       "Oakwood is a small inner-ring city immediately south of Dayton, with tree-lined streets and early 20th-century two-stories. AES Ohio is the usual electric utility.",
     utility: "AES Ohio",
     housing:
-      "Tudor, colonial, and foursquare houses on shaded lots — unfinished basements or short crawlspaces, not a 1990s slab subdivision.",
+      "Tudor, colonial, and foursquare houses on shaded lots, unfinished basements or short crawlspaces, not a 1990s slab subdivision.",
     winter:
       "Mature shade and older crawlspaces freeze first after a Miami Valley ice event; older furnaces and condensate lines on early 20th-century stock take the hit.",
     summer:
@@ -440,7 +440,7 @@ export const cities: City[] = [
       "West Carrollton sits on the Great Miami River immediately south of Dayton and north of Miamisburg, along the I-75 / Dixie Drive corridor. AES Ohio is the usual electric utility.",
     utility: "AES Ohio",
     housing:
-      "Postwar 1950s–70s ranches and split-levels plus older downtown stock on flatter river-valley lots — crawlspaces and unfinished basements, not a Tudor street or a hillside two-story.",
+      "Postwar 1950s–70s ranches and split-levels plus older downtown stock on flatter river-valley lots, crawlspaces and unfinished basements, not a Tudor street or a hillside two-story.",
     winter:
       "River-valley crawlspaces and unheated garage walls freeze first after a Miami Valley ice event; furnaces and condensate lines on postwar Dixie Drive stock take the hit.",
     summer:
@@ -465,7 +465,7 @@ export const cities: City[] = [
       "Trotwood sits on the northwest Dayton inner-ring along the Salem Avenue / SR 49 corridor, on flatter lots than a Miamisburg hillside. AES Ohio is the usual electric utility.",
     utility: "AES Ohio",
     housing:
-      "Postwar 1950s–70s ranches and modest two-stories on flatter lots — crawlspaces and garage closets, not a Tudor street or a river-bluff two-story.",
+      "Postwar 1950s–70s ranches and modest two-stories on flatter lots, crawlspaces and garage closets, not a Tudor street or a river-bluff two-story.",
     winter:
       "Flatter-lot crawlspaces and unheated garage walls freeze first after a Miami Valley ice event; furnaces and condensate lines on postwar Salem Avenue stock take the hit.",
     summer:
@@ -487,12 +487,12 @@ export const cities: City[] = [
       "brookville-oh",
     ],
     setting:
-      "Englewood sits northwest of Dayton where I-70 meets the National Road (US-40), with a small older downtown core along US-40 next to later interstate-adjacent subdivisions — not a Salem Avenue ranch town, not an airport-corridor tri-level suburb, and not a south I-75 river-valley city. AES Ohio is the usual electric utility.",
+      "Englewood sits northwest of Dayton where I-70 meets the National Road (US-40), with a small older downtown core along US-40 next to later interstate-adjacent subdivisions, not a Salem Avenue ranch town, not an airport-corridor tri-level suburb, and not a south I-75 river-valley city. AES Ohio is the usual electric utility.",
     utility: "AES Ohio",
     housing:
-      "Older National Road two-stories and modest downtown stock versus later I-70-adjacent subdivisions — basements or crawlspaces in the core, slabs and garage utility walls on later streets.",
+      "Older National Road two-stories and modest downtown stock versus later I-70-adjacent subdivisions, basements or crawlspaces in the core, slabs and garage utility walls on later streets.",
     winter:
-      "National Road crawlspaces freeze first after a Miami Valley polar-vortex; later lots fail at hose bibs and unheated garage walls — a different pattern than a Trotwood Salem-corridor ranch.",
+      "National Road crawlspaces freeze first after a Miami Valley polar-vortex; later lots fail at hose bibs and unheated garage walls, a different pattern than a Trotwood Salem-corridor ranch.",
     summer:
       "I-70-adjacent pads sit in more sun and interstate wind than the older US-40 downtown core. August AC load on a National Road two-story stacks upstairs; later subdivision slabs fail at a tired condenser on an unshaded lot. That is a coil and capacity question, not an Englewood price.",
     localNote:
@@ -512,12 +512,12 @@ export const cities: City[] = [
       "kettering-oh",
     ],
     setting:
-      "Riverside sits on Dayton's east inner-ring along the Springfield Street (SR 4) / Airway Road / Harshman corridor, against the Wright-Patterson fence-line and the Mad River / Huffman Dam valley — not a National Road / I-70 northwest town, not a Salem Avenue ranch suburb, and not a south I-75 river-valley city. AES Ohio is the usual electric utility.",
+      "Riverside sits on Dayton's east inner-ring along the Springfield Street (SR 4) / Airway Road / Harshman corridor, against the Wright-Patterson fence-line and the Mad River / Huffman Dam valley, not a National Road / I-70 northwest town, not a Salem Avenue ranch suburb, and not a south I-75 river-valley city. AES Ohio is the usual electric utility.",
     utility: "AES Ohio",
     housing:
-      "1940s–60s military-adjacent stock and Page Manor-era streets versus later east-side infill — crawlspaces and garage closets near the base, tighter lots along Springfield Street, not a later Beavercreek subdivision or a Huber brick-ranch grid.",
+      "1940s–60s military-adjacent stock and Page Manor-era streets versus later east-side infill, crawlspaces and garage closets near the base, tighter lots along Springfield Street, not a later Beavercreek subdivision or a Huber brick-ranch grid.",
     winter:
-      "Mad River flats and open base-adjacent lots freeze first after a Miami Valley ice event; older furnaces and condensate lines on postwar Airway / Harshman stock take the hit — a different pattern than an Englewood National Road crawlspace or a Trotwood Salem-corridor ranch.",
+      "Mad River flats and open base-adjacent lots freeze first after a Miami Valley ice event; older furnaces and condensate lines on postwar Airway / Harshman stock take the hit, a different pattern than an Englewood National Road crawlspace or a Trotwood Salem-corridor ranch.",
     summer:
       "Wright-Patt-adjacent pads sit in more sun and runway-corridor wind than a tree-lined inner-ring street. August AC load on a Springfield Street two-story stacks upstairs; later infill fails at a tired condenser on an unshaded lot. That is a coil and capacity question, not a Riverside price.",
     localNote:
@@ -537,12 +537,12 @@ export const cities: City[] = [
       "oakwood-oh",
     ],
     setting:
-      "Moraine is Dayton's south inner-ring city on the Dixie Drive and I-75 corridor, on the Great Miami River industrial flats — west of Kettering and Oakwood, north of West Carrollton and Miamisburg. Sellman, Pinnacle, Moraine Road, and Dryden Road sit beside the former GM Moraine Assembly and Delphi plants, not the Wright-Patterson / Springfield Street fence-line, not the National Road / I-70 northwest edge, and not the Salem Avenue ranch corridor. AES Ohio is the usual electric utility.",
+      "Moraine is Dayton's south inner-ring city on the Dixie Drive and I-75 corridor, on the Great Miami River industrial flats, west of Kettering and Oakwood, north of West Carrollton and Miamisburg. Sellman, Pinnacle, Moraine Road, and Dryden Road sit beside the former GM Moraine Assembly and Delphi plants, not the Wright-Patterson / Springfield Street fence-line, not the National Road / I-70 northwest edge, and not the Salem Avenue ranch corridor. AES Ohio is the usual electric utility.",
     utility: "AES Ohio",
     housing:
-      "Postwar ranch and tri-level houses on Dixie and industrial-adjacent streets, plus later south-Dayton infill. Crawlspaces and garage closets are the usual mechanicals — not an Oakwood Tudor basement and not a Centerville colonial attic.",
+      "Postwar ranch and tri-level houses on Dixie and industrial-adjacent streets, plus later south-Dayton infill. Crawlspaces and garage closets are the usual mechanicals, not an Oakwood Tudor basement and not a Centerville colonial attic.",
     winter:
-      "River-flat and industrial-corridor houses freeze first after Miami Valley ice. Condensate on older furnaces in crawlspaces and garage closets is the recurring no-heat note — a different failure than an east-side base-adjacent lot or a northwest National Road core.",
+      "River-flat and industrial-corridor houses freeze first after Miami Valley ice. Condensate on older furnaces in crawlspaces and garage closets is the recurring no-heat note, a different failure than an east-side base-adjacent lot or a northwest National Road core.",
     summer:
       "I-75 and Dixie pads take more sun and highway wind than a shaded inner-ring street. Upstairs AC load on two-stories stacks in August; a tired condenser on an unshaded industrial-adjacent lot is a coil and capacity question, not a Moraine price.",
     localNote:
@@ -562,12 +562,12 @@ export const cities: City[] = [
       "springboro-oh",
     ],
     setting:
-      "Bellbrook is an eastern Greene County suburb southeast of Dayton, Kettering, and Centerville, on the Sugarcreek Township side of Little Sugar Creek. AES Ohio is the usual electric utility. Historic downtown houses along Franklin Street and the Feedwire Road corridor sit next to later subdivision streets toward Centerville — not a Dixie Drive / I-75 industrial flat like Moraine, not a Wright-Patterson / Springfield Street fence-line like Riverside, and not a National Road / I-70 northwest town. Winter freeze hits unfinished basements on the older village stock first, then hose bibs and unheated garage walls on later lots.",
+      "Bellbrook is an eastern Greene County suburb southeast of Dayton, Kettering, and Centerville, on the Sugarcreek Township side of Little Sugar Creek. AES Ohio is the usual electric utility. Historic downtown houses along Franklin Street and the Feedwire Road corridor sit next to later subdivision streets toward Centerville, not a Dixie Drive / I-75 industrial flat like Moraine, not a Wright-Patterson / Springfield Street fence-line like Riverside, and not a National Road / I-70 northwest town. Winter freeze hits unfinished basements on the older village stock first, then hose bibs and unheated garage walls on later lots.",
     utility: "AES Ohio",
     housing:
-      "Older village two-stories and modest downtown houses along Franklin Street sit next to later Sugarcreek Township subdivision lots toward Centerville — unfinished basements or short crawlspaces in the historic core, slabs and garage utility walls on later streets. Not an Oakwood Tudor basement and not a Centerville colonial attic as the default.",
+      "Older village two-stories and modest downtown houses along Franklin Street sit next to later Sugarcreek Township subdivision lots toward Centerville, unfinished basements or short crawlspaces in the historic core, slabs and garage utility walls on later streets. Not an Oakwood Tudor basement and not a Centerville colonial attic as the default.",
     winter:
-      "Older village basements and crawlspaces along Franklin Street and Little Sugar Creek freeze first after a Miami Valley ice event; later subdivision lots toward Centerville fail at hose bibs and unheated garage walls — a different pattern than a Moraine river-flat crawlspace or a Riverside Mad River / base-adjacent lot.",
+      "Older village basements and crawlspaces along Franklin Street and Little Sugar Creek freeze first after a Miami Valley ice event; later subdivision lots toward Centerville fail at hose bibs and unheated garage walls, a different pattern than a Moraine river-flat crawlspace or a Riverside Mad River / base-adjacent lot.",
     summer:
       "Little Sugar Creek and Franklin Street two-stories stack upstairs cooling load in August; later Sugarcreek Township pads take more sun than the shaded village core. A tired condenser on an unshaded subdivision lot is a coil and capacity question, not a Bellbrook price.",
     localNote:
@@ -587,12 +587,12 @@ export const cities: City[] = [
       "west-carrollton-oh",
     ],
     setting:
-      "Springboro is a southern Warren County suburb between Centerville/Miamisburg and Franklin on the I-75 / OH-73 corridor, on the Clearcreek Township side. AES Ohio is the usual electric utility. Historic downtown houses along Main Street / OH-73 sit next to later subdivision streets toward Centerville and the Austin Road / I-75 interchange — not Bellbrook's Franklin Street / Little Sugar Creek Greene County village, not a Dixie Drive / I-75 industrial flat like Moraine, and not a West Carrollton river-valley ranch suburb. Winter freeze hits unfinished basements on the older village stock first, then hose bibs and unheated garage walls on later lots.",
+      "Springboro is a southern Warren County suburb between Centerville/Miamisburg and Franklin on the I-75 / OH-73 corridor, on the Clearcreek Township side. AES Ohio is the usual electric utility. Historic downtown houses along Main Street / OH-73 sit next to later subdivision streets toward Centerville and the Austin Road / I-75 interchange, not Bellbrook's Franklin Street / Little Sugar Creek Greene County village, not a Dixie Drive / I-75 industrial flat like Moraine, and not a West Carrollton river-valley ranch suburb. Winter freeze hits unfinished basements on the older village stock first, then hose bibs and unheated garage walls on later lots.",
     utility: "AES Ohio",
     housing:
-      "Older village two-stories and modest downtown houses along Main Street / OH-73 sit next to later Clearcreek Township subdivision lots toward Centerville and the Austin Road / I-75 interchange — unfinished basements or short crawlspaces in the historic core, slabs and garage utility walls on later streets. Not an Oakwood Tudor basement and not a Centerville colonial attic as the default.",
+      "Older village two-stories and modest downtown houses along Main Street / OH-73 sit next to later Clearcreek Township subdivision lots toward Centerville and the Austin Road / I-75 interchange, unfinished basements or short crawlspaces in the historic core, slabs and garage utility walls on later streets. Not an Oakwood Tudor basement and not a Centerville colonial attic as the default.",
     winter:
-      "Older village basements and crawlspaces along Main Street / OH-73 freeze first after a Miami Valley ice event; later subdivision lots toward Centerville and Austin Road fail at hose bibs and unheated garage walls — a different pattern than a Bellbrook Franklin Street / Little Sugar Creek crawlspace or a Moraine river-flat industrial corridor.",
+      "Older village basements and crawlspaces along Main Street / OH-73 freeze first after a Miami Valley ice event; later subdivision lots toward Centerville and Austin Road fail at hose bibs and unheated garage walls, a different pattern than a Bellbrook Franklin Street / Little Sugar Creek crawlspace or a Moraine river-flat industrial corridor.",
     summer:
       "Main Street / OH-73 two-stories stack upstairs cooling load in August; later Clearcreek Township pads toward Austin Road / I-75 take more sun and highway wind than the shaded village core. A tired condenser on an unshaded subdivision lot is a coil and capacity question, not a Springboro price.",
     localNote:
@@ -612,12 +612,12 @@ export const cities: City[] = [
       "dayton-oh",
     ],
     setting:
-      "Troy is the Miami County seat north of Tipp City on the I-75 corridor, built around a downtown Public Square and the Great Miami River levee. AES Ohio is the usual electric utility. Victorian and early-1900s houses on the blocks off the square and West Main Street sit next to later subdivision streets out toward the I-75 / OH-41 and OH-55 interchanges — not Tipp City's canal-era Main Street, not a Huber Heights brick-ranch grid, and not a south I-75 Warren County village like Springboro. Winter freeze hits stone and block basements in the older core first, then hose bibs and unheated garage walls on later lots.",
+      "Troy is the Miami County seat north of Tipp City on the I-75 corridor, built around a downtown Public Square and the Great Miami River levee. AES Ohio is the usual electric utility. Victorian and early-1900s houses on the blocks off the square and West Main Street sit next to later subdivision streets out toward the I-75 / OH-41 and OH-55 interchanges, not Tipp City's canal-era Main Street, not a Huber Heights brick-ranch grid, and not a south I-75 Warren County village like Springboro. Winter freeze hits stone and block basements in the older core first, then hose bibs and unheated garage walls on later lots.",
     utility: "AES Ohio",
     housing:
-      "Older two-and-a-half-story houses with stone or block basements around the Public Square and West Main Street sit next to 1960s–2000s ranches, split-levels, and colonials on later streets toward the I-75 interchanges — tight basement stairs and older duct runs downtown, slabs and garage utility walls on later lots. Not a Tipp City canal-era two-story and not a Huber Heights brick ranch as the default.",
+      "Older two-and-a-half-story houses with stone or block basements around the Public Square and West Main Street sit next to 1960s–2000s ranches, split-levels, and colonials on later streets toward the I-75 interchanges, tight basement stairs and older duct runs downtown, slabs and garage utility walls on later lots. Not a Tipp City canal-era two-story and not a Huber Heights brick ranch as the default.",
     winter:
-      "Stone and block basements near the Public Square and the Great Miami River freeze first after a Miami Valley ice event; open subdivision lots out toward I-75 catch more wind-driven snow and fail at hose bibs and unheated garage walls — a different pattern than a Tipp City downtown flue path or a Springboro village crawlspace.",
+      "Stone and block basements near the Public Square and the Great Miami River freeze first after a Miami Valley ice event; open subdivision lots out toward I-75 catch more wind-driven snow and fail at hose bibs and unheated garage walls, a different pattern than a Tipp City downtown flue path or a Springboro village crawlspace.",
     summer:
       "Tall downtown houses off the square stack upstairs cooling load in August; later pads near the I-75 / OH-41 interchange take more sun and highway wind than the tree-lined older blocks. A tired condenser on an unshaded subdivision lot is a coil and capacity question, not a Troy price.",
     localNote:
@@ -662,12 +662,12 @@ export const cities: City[] = [
       "dayton-oh",
     ],
     setting:
-      "Brookville is a small western Montgomery County city on I-70 at the SR 49 exit, about 15 miles west of downtown Dayton in the old Perry Township farm belt. AES Ohio is typical. A compact older downtown around Market Street sits next to later subdivision streets and rural-edge lots out toward the Preble County line — not Clayton's merged Randolph Township subdivisions, not Englewood's National Road core, and not Trotwood's Salem Avenue inner-ring ranches. For heating and cooling, that means two common jobs: older downtown and farmhouse systems with crawlspaces or unfinished basements, and later subdivision houses near the interchange.",
+      "Brookville is a small western Montgomery County city on I-70 at the SR 49 exit, about 15 miles west of downtown Dayton in the old Perry Township farm belt. AES Ohio is typical. A compact older downtown around Market Street sits next to later subdivision streets and rural-edge lots out toward the Preble County line, not Clayton's merged Randolph Township subdivisions, not Englewood's National Road core, and not Trotwood's Salem Avenue inner-ring ranches. For heating and cooling, that means two common jobs: older downtown and farmhouse systems with crawlspaces or unfinished basements, and later subdivision houses near the interchange.",
     utility: "AES Ohio",
     housing:
-      "Older downtown houses with crawlspaces and unfinished basements, Perry Township farmhouses on larger parcels, and later subdivision ranches and two-stories near the I-70 / SR 49 interchange — tight older access and add-on ducts versus slabs and garage utility walls on newer streets.",
+      "Older downtown houses with crawlspaces and unfinished basements, Perry Township farmhouses on larger parcels, and later subdivision ranches and two-stories near the I-70 / SR 49 interchange, tight older access and add-on ducts versus slabs and garage utility walls on newer streets.",
     winter:
-      "Downtown crawlspaces and long duct runs on rural-edge farmhouses chill first after a Miami Valley ice storm; later subdivision lots near I-70 more often lose heat to a frozen condensate line or a cold garage furnace closet — not a Clayton township, Englewood National Road, or Trotwood Salem-corridor pattern.",
+      "Downtown crawlspaces and long duct runs on rural-edge farmhouses chill first after a Miami Valley ice storm; later subdivision lots near I-70 more often lose heat to a frozen condensate line or a cold garage furnace closet, not a Clayton township, Englewood National Road, or Trotwood Salem-corridor pattern.",
     summer:
       "In August, unshaded farmhouses and tall older downtown houses run warm upstairs, and later pads near I-70 take full sun and highway wind on the condenser. That is a coil and capacity question, not a Brookville price.",
     localNote:
@@ -684,7 +684,7 @@ export const cities: City[] = [
       "Knoxville sits in the Tennessee Valley, with older Fort Sanders and downtown housing on one side and later west Knoxville subdivisions on the other. Knoxville Utilities Board (KUB) is the usual local utility on the bill; TVA generation is what most East Tennessee electric rates are built on.",
     utility: "Knoxville Utilities Board (KUB) / TVA on the bill",
     housing:
-      "Older Fort Sanders and downtown houses — tight lots, student-era duplexes, and mechanical closets that predate central air — versus west Knoxville subdivisions with later pads and simpler attics.",
+      "Older Fort Sanders and downtown houses, tight lots, student-era duplexes, and mechanical closets that predate central air, versus west Knoxville subdivisions with later pads and simpler attics.",
     winter:
       "East Tennessee winters are milder than a long ice event, but freeze nights still stop older furnaces, freeze condensate, and show up as no-heat calls after a clear, cold night.",
     summer:
@@ -703,7 +703,7 @@ export const cities: City[] = [
       "Madison sits on an isthmus between lakes, with older near-east housing on one side and later west-side subdivisions on the other. Madison Gas and Electric (MG&E) is the usual local utility on the bill.",
     utility: "Madison Gas and Electric (MG&E)",
     housing:
-      "Older near-east houses — tight lots, bungalows, and mechanical closets that have seen decades of ice dams — versus later west-side subdivisions with later pads and simpler attics.",
+      "Older near-east houses, tight lots, bungalows, and mechanical closets that have seen decades of ice dams, versus later west-side subdivisions with later pads and simpler attics.",
     winter:
       "Madison winters are a deep freeze: ice dams, frozen condensate, and no-heat calls after a polar snap. Older near-east furnaces take the hit first; west-side units still fail when intake screens ice over.",
     summer:
@@ -722,7 +722,7 @@ export const cities: City[] = [
       "Syracuse sits in Central New York south of Lake Ontario, with older Eastwood, Strathmore, and University Hill housing on one side and later suburban-edge streets on the other. National Grid is the usual local utility on the bill. Lake-effect snow off Ontario is the winter fact that shapes most HVAC calls.",
     utility: "National Grid",
     housing:
-      "Older Eastwood, Strathmore, and University Hill houses — tight lots, two-stories, and mechanical closets that have seen decades of lake-effect ice — versus later suburban-edge pads and simpler attics.",
+      "Older Eastwood, Strathmore, and University Hill houses, tight lots, two-stories, and mechanical closets that have seen decades of lake-effect ice, versus later suburban-edge pads and simpler attics.",
     winter:
       "Syracuse winters are lake-effect: heavy snow, ice dams, frozen condensate, and no-heat calls after a band sits over the city. Older Eastwood and Strathmore furnaces take the hit first; later units still fail when intake screens ice over.",
     summer:
@@ -741,7 +741,7 @@ export const cities: City[] = [
       "Toledo sits on the Maumee River in northwest Ohio, with older Old West End and downtown housing on one side and later west Toledo and South Toledo subdivisions on the other. Toledo Edison (FirstEnergy) is the usual local utility on the bill.",
     utility: "Toledo Edison (FirstEnergy)",
     housing:
-      "Older Old West End and downtown houses — tight lots, Victorians, and mechanical closets that predate central air — versus later west Toledo and South Toledo subdivisions with later pads and simpler attics.",
+      "Older Old West End and downtown houses, tight lots, Victorians, and mechanical closets that predate central air, versus later west Toledo and South Toledo subdivisions with later pads and simpler attics.",
     winter:
       "Northwest Ohio winters off the Maumee and Lake Erie bring ice, freeze–thaw, and no-heat calls after a lake-effect band. Older Old West End furnaces take the hit first; later west Toledo units still fail when condensate lines freeze.",
     summer:
@@ -807,7 +807,7 @@ export function servicePath(
 }
 
 export function lockedH1(service: Service, city: City): string {
-  return `Best ${service.name} in ${city.name} — ${site.year}`;
+  return `Best ${serviceTitleNoun[service.slug] ?? service.name} in ${city.name}, ${city.stateAbbr} (${site.year})`;
 }
 
 /** City hub title: descriptive and keeps "Best" (Anthony 10/16). Falls back to shorter forms for long city names. */
@@ -827,11 +827,11 @@ const serviceTitleNoun: Record<string, string> = {
   "emergency-hvac": "Emergency HVAC Repair",
 };
 
-/** Title tag: "Best <noun> in City, ST — year", keeping "Best" (Anthony 10/16); shorter fallbacks for long names. */
+/** Title tag: "Best <noun> in City, ST, year", keeping "Best" (Anthony 10/16); shorter fallbacks for long names. */
 export function pageTitle(service: Service, city: City): string {
   const noun = serviceTitleNoun[service.slug] ?? service.name;
   const options = [
-    `Best ${noun} in ${city.name}, ${city.stateAbbr} — ${site.year}`,
+    `Best ${noun} in ${city.name}, ${city.stateAbbr} (${site.year})`,
     `Best ${noun} in ${city.name}, ${city.stateAbbr}`,
     `Best ${service.name} in ${city.name}, ${city.stateAbbr}`,
   ];

@@ -61,7 +61,7 @@ export default function HomePage() {
       <section id="cities" className="mt-14">
         <h2 className="font-heading text-2xl font-semibold">Cities</h2>
         <p className="mt-2 max-w-2xl text-base text-muted-foreground">
-          Live markets only. Search by city name — we do not invent listings.
+          Live markets only. Search by city name, we do not invent listings.
         </p>
         <div className="mt-6">
           <CitySearchGrid
@@ -85,12 +85,12 @@ export default function HomePage() {
         </h2>
         <ol className="mt-4 grid gap-3 md:grid-cols-2">
           {[
-            "A locked H1: Best {Service} in {City} — 2026",
+            "A locked H1: Best {Service} in {City}, 2026",
             "A disclosure that this is a directory and paid spots are labeled",
             "How to choose: license, local jobs, written scope, reviews with addresses, who shows up, warranty, emergency vs planned",
-            "National cost ranges cited to Angi — not a local survey",
+            "National cost ranges cited to Angi, not a local survey",
             "Five FAQs that match the on-page questions in FAQPage JSON-LD",
-            "Listings from a data file, or an empty state with the quote form plus a Featured and For Pros path — no invented companies",
+            "Listings from a data file, or an empty state with the quote form plus a Featured and For Pros path, no invented companies",
           ].map((item) => (
             <li
               key={item}

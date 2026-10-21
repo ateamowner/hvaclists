@@ -12,7 +12,7 @@ export function ForProsBand() {
           href="/for-pros/"
           className="inline-flex h-11 items-center justify-center rounded-lg bg-primary px-5 text-[15px] leading-5 font-medium text-primary-foreground hover:bg-primary/90"
         >
-          Featured — $99/month
+          Featured ($99/month)
         </Link>
       </div>
     </section>

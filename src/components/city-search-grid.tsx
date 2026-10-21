@@ -38,7 +38,7 @@ export function CitySearchGrid({ cities }: { cities: CityCardItem[] }) {
 
       {filtered.length === 0 ? (
         <p className="mt-6 text-muted-foreground">
-          No cities match that name. Use the form — we still hold your request.
+          No cities match that name. Use the form, we still hold your request.
         </p>
       ) : (
         <ul className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -53,7 +53,7 @@ export function CitySearchGrid({ cities }: { cities: CityCardItem[] }) {
                 </h3>
                 <p className="mt-2 text-sm font-medium text-primary">HVAC / AC</p>
                 <p className="mt-4 text-sm font-medium underline underline-offset-2">
-                  Best AC Repair in {city.name} — {site.year}
+                  Best AC Repair in {city.name}, {site.year}
                 </p>
               </Link>
             </li>

@@ -3,7 +3,7 @@ import { Disclosure } from "@/components/disclosure";
 import { site } from "@/config/site";
 import { shareMeta } from "@/lib/share-meta";
 
-const title = `Privacy Policy — ${site.name}`;
+const title = `Privacy Policy, ${site.name}`;
 const description =
   `How ${site.name} collects quote-form data and shares it with HVAC companies.`;
 
@@ -43,7 +43,7 @@ export default function PrivacyPage() {
         </a>
         . We share the request with a company that covers your ZIP and service,
         including a paid listing on that URL when one exists. Until a listing
-        is live, we still take the request and hold it.
+        is live, we still take the request and follow up.
       </p>
 
       <h2 className="mt-8 font-heading text-2xl font-semibold">SMS</h2>
