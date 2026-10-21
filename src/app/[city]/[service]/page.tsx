@@ -20,6 +20,8 @@ import {
   getCity,
   getService,
   lockedH1,
+  MIN_INDEXABLE_LISTINGS,
+  plainTitle,
   pageTitle,
   servicePath,
   services,
@@ -62,10 +64,13 @@ export async function generateMetadata({
   const service = getService(serviceSlug);
   if (!city || !service) return {};
 
-  const title = pageTitle(service, city);
+  const thin =
+    getListings(city.slug, service.slug).length < MIN_INDEXABLE_LISTINGS;
+  const title = thin ? plainTitle(service, city) : pageTitle(service, city);
   const description = metaDescription(city, service);
   return {
     title,
+    ...(thin ? { robots: { index: false, follow: true } } : {}),
     description,
     alternates: { canonical: servicePath(city, service) },
     ...shareMeta(title, description, servicePath(city, service)),
@@ -82,7 +87,11 @@ export default async function ServicePage({
   const service = getService(serviceSlug);
   if (!city || !service) notFound();
 
-  const heading = lockedH1(service, city);
+  const listingsForHeading = getListings(city.slug, service.slug);
+  const heading =
+    listingsForHeading.length < MIN_INDEXABLE_LISTINGS
+      ? plainTitle(service, city)
+      : lockedH1(service, city);
   const intro = introParagraphs(city, service);
   const choose = howToChoose(city, service);
   const cost = costGuideCopy(city);

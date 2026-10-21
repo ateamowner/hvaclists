@@ -204,7 +204,7 @@ export function homeFaqs(): Faq[] {
     {
       question: "Which cities do you cover?",
       answer:
-        "Dayton / Miami Valley cities plus live markets such as Knoxville, TN. Each city has its own URL, use the homepage city list.",
+        "Dayton and Miami Valley cities. Each city has its own page; use the city list on the homepage.",
     },
   ];
 }

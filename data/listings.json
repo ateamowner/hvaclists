@@ -3632,5 +3632,173 @@
     "blurb": "Locally owned Dayton company since 1949 and a Carrier dealer with an in-house sheet metal shop; Brookville is on the Areas We Serve list on its home page (per company site). BBB Accredited since 1955 with an A+ rating. On the City of Dayton Registered Heating Contractors list as Butler HVAC Holding Company Inc (Lic No 1465, active as of 6/4/2026). Phone from butlerheating.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://butlerheating.com/",
     "tier": "standard",
     "profile_url": "https://butlerheating.com/"
+  },
+  {
+    "city_slug": "trotwood-oh",
+    "service_slug": "ac-repair",
+    "name": "McAfee Heating & Air",
+    "areas_served": [
+      "Trotwood",
+      "Dayton"
+    ],
+    "phone": "(937) 438-1976",
+    "license_id": "City of Dayton Heating Reg. 1552",
+    "blurb": "Kettering-based heating and cooling company (Hempstead Station Dr) that lists Trotwood on its service-areas page (per mcair.com). On the City of Dayton Registered Heating Contractors list as McAfee Heating & A/C (Lic No 1552, active as of 6/4/2026). Phone from mcair.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://www.mcair.com/service-areas/",
+    "tier": "standard",
+    "profile_url": "https://www.mcair.com/service-areas/"
+  },
+  {
+    "city_slug": "trotwood-oh",
+    "service_slug": "ac-repair",
+    "name": "Korrect Plumbing, Heating & Air Conditioning, Inc.",
+    "areas_served": [
+      "Trotwood",
+      "Dayton"
+    ],
+    "phone": "(937) 837-2333",
+    "license_id": "City of Dayton Heating Reg. 902",
+    "blurb": "Family-owned West Third Street company serving the Dayton area since 1950; Trotwood, OH is on the service-area list on its home page. Repairs and installs furnaces, boilers, and heat pumps, with 24/7 emergency service (per company site). On the City of Dayton Registered Heating Contractors list (Lic No 902, active as of 6/4/2026). Phone from korrectplumbing.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://korrectplumbing.com/",
+    "tier": "standard",
+    "profile_url": "https://korrectplumbing.com/"
+  },
+  {
+    "city_slug": "trotwood-oh",
+    "service_slug": "ac-repair",
+    "name": "Thomas & Galbraith Heating, Cooling & Plumbing",
+    "areas_served": [
+      "Trotwood",
+      "Dayton"
+    ],
+    "phone": "(513) 327-2578",
+    "license_id": "City of Dayton Heating Reg. 010855",
+    "blurb": "Southwest Ohio heating, cooling and plumbing company with a Trotwood page covering furnace, air conditioning and heat pump repair and installation, open 24/7. On the City of Dayton Registered Heating Contractors list (Lic No 010855, Le Saint Dr, Fairfield, active as of 6/4/2026). Phone from its Trotwood page. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://thomasgalbraith.com/location/trotwood-ohio/",
+    "tier": "standard",
+    "profile_url": "https://thomasgalbraith.com/location/trotwood-ohio/"
+  },
+  {
+    "city_slug": "trotwood-oh",
+    "service_slug": "furnace",
+    "name": "McAfee Heating & Air",
+    "areas_served": [
+      "Trotwood",
+      "Dayton"
+    ],
+    "phone": "(937) 438-1976",
+    "license_id": "City of Dayton Heating Reg. 1552",
+    "blurb": "Kettering-based heating and cooling company (Hempstead Station Dr) that lists Trotwood on its service-areas page (per mcair.com). On the City of Dayton Registered Heating Contractors list as McAfee Heating & A/C (Lic No 1552, active as of 6/4/2026). Phone from mcair.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://www.mcair.com/service-areas/",
+    "tier": "standard",
+    "profile_url": "https://www.mcair.com/service-areas/"
+  },
+  {
+    "city_slug": "trotwood-oh",
+    "service_slug": "furnace",
+    "name": "Korrect Plumbing, Heating & Air Conditioning, Inc.",
+    "areas_served": [
+      "Trotwood",
+      "Dayton"
+    ],
+    "phone": "(937) 837-2333",
+    "license_id": "City of Dayton Heating Reg. 902",
+    "blurb": "Family-owned West Third Street company serving the Dayton area since 1950; Trotwood, OH is on the service-area list on its home page. Repairs and installs furnaces, boilers, and heat pumps, with 24/7 emergency service (per company site). On the City of Dayton Registered Heating Contractors list (Lic No 902, active as of 6/4/2026). Phone from korrectplumbing.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://korrectplumbing.com/",
+    "tier": "standard",
+    "profile_url": "https://korrectplumbing.com/"
+  },
+  {
+    "city_slug": "trotwood-oh",
+    "service_slug": "furnace",
+    "name": "Thomas & Galbraith Heating, Cooling & Plumbing",
+    "areas_served": [
+      "Trotwood",
+      "Dayton"
+    ],
+    "phone": "(513) 327-2578",
+    "license_id": "City of Dayton Heating Reg. 010855",
+    "blurb": "Southwest Ohio heating, cooling and plumbing company with a Trotwood page covering furnace, air conditioning and heat pump repair and installation, open 24/7. On the City of Dayton Registered Heating Contractors list (Lic No 010855, Le Saint Dr, Fairfield, active as of 6/4/2026). Phone from its Trotwood page. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://thomasgalbraith.com/location/trotwood-ohio/",
+    "tier": "standard",
+    "profile_url": "https://thomasgalbraith.com/location/trotwood-ohio/"
+  },
+  {
+    "city_slug": "trotwood-oh",
+    "service_slug": "hvac-installation",
+    "name": "McAfee Heating & Air",
+    "areas_served": [
+      "Trotwood",
+      "Dayton"
+    ],
+    "phone": "(937) 438-1976",
+    "license_id": "City of Dayton Heating Reg. 1552",
+    "blurb": "Kettering-based heating and cooling company (Hempstead Station Dr) that lists Trotwood on its service-areas page (per mcair.com). On the City of Dayton Registered Heating Contractors list as McAfee Heating & A/C (Lic No 1552, active as of 6/4/2026). Phone from mcair.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://www.mcair.com/service-areas/",
+    "tier": "standard",
+    "profile_url": "https://www.mcair.com/service-areas/"
+  },
+  {
+    "city_slug": "trotwood-oh",
+    "service_slug": "hvac-installation",
+    "name": "Korrect Plumbing, Heating & Air Conditioning, Inc.",
+    "areas_served": [
+      "Trotwood",
+      "Dayton"
+    ],
+    "phone": "(937) 837-2333",
+    "license_id": "City of Dayton Heating Reg. 902",
+    "blurb": "Family-owned West Third Street company serving the Dayton area since 1950; Trotwood, OH is on the service-area list on its home page. Repairs and installs furnaces, boilers, and heat pumps, with 24/7 emergency service (per company site). On the City of Dayton Registered Heating Contractors list (Lic No 902, active as of 6/4/2026). Phone from korrectplumbing.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://korrectplumbing.com/",
+    "tier": "standard",
+    "profile_url": "https://korrectplumbing.com/"
+  },
+  {
+    "city_slug": "trotwood-oh",
+    "service_slug": "hvac-installation",
+    "name": "Thomas & Galbraith Heating, Cooling & Plumbing",
+    "areas_served": [
+      "Trotwood",
+      "Dayton"
+    ],
+    "phone": "(513) 327-2578",
+    "license_id": "City of Dayton Heating Reg. 010855",
+    "blurb": "Southwest Ohio heating, cooling and plumbing company with a Trotwood page covering furnace, air conditioning and heat pump repair and installation, open 24/7. On the City of Dayton Registered Heating Contractors list (Lic No 010855, Le Saint Dr, Fairfield, active as of 6/4/2026). Phone from its Trotwood page. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://thomasgalbraith.com/location/trotwood-ohio/",
+    "tier": "standard",
+    "profile_url": "https://thomasgalbraith.com/location/trotwood-ohio/"
+  },
+  {
+    "city_slug": "trotwood-oh",
+    "service_slug": "emergency-hvac",
+    "name": "McAfee Heating & Air",
+    "areas_served": [
+      "Trotwood",
+      "Dayton"
+    ],
+    "phone": "(937) 438-1976",
+    "license_id": "City of Dayton Heating Reg. 1552",
+    "blurb": "Kettering-based heating and cooling company (Hempstead Station Dr) that lists Trotwood on its service-areas page (per mcair.com). On the City of Dayton Registered Heating Contractors list as McAfee Heating & A/C (Lic No 1552, active as of 6/4/2026). Phone from mcair.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://www.mcair.com/service-areas/",
+    "tier": "standard",
+    "profile_url": "https://www.mcair.com/service-areas/"
+  },
+  {
+    "city_slug": "trotwood-oh",
+    "service_slug": "emergency-hvac",
+    "name": "Korrect Plumbing, Heating & Air Conditioning, Inc.",
+    "areas_served": [
+      "Trotwood",
+      "Dayton"
+    ],
+    "phone": "(937) 837-2333",
+    "license_id": "City of Dayton Heating Reg. 902",
+    "blurb": "Family-owned West Third Street company serving the Dayton area since 1950; Trotwood, OH is on the service-area list on its home page. Repairs and installs furnaces, boilers, and heat pumps, with 24/7 emergency service (per company site). On the City of Dayton Registered Heating Contractors list (Lic No 902, active as of 6/4/2026). Phone from korrectplumbing.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://korrectplumbing.com/",
+    "tier": "standard",
+    "profile_url": "https://korrectplumbing.com/"
+  },
+  {
+    "city_slug": "trotwood-oh",
+    "service_slug": "emergency-hvac",
+    "name": "Thomas & Galbraith Heating, Cooling & Plumbing",
+    "areas_served": [
+      "Trotwood",
+      "Dayton"
+    ],
+    "phone": "(513) 327-2578",
+    "license_id": "City of Dayton Heating Reg. 010855",
+    "blurb": "Southwest Ohio heating, cooling and plumbing company with a Trotwood page covering furnace, air conditioning and heat pump repair and installation, open 24/7. On the City of Dayton Registered Heating Contractors list (Lic No 010855, Le Saint Dr, Fairfield, active as of 6/4/2026). Phone from its Trotwood page. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://thomasgalbraith.com/location/trotwood-ohio/",
+    "tier": "standard",
+    "profile_url": "https://thomasgalbraith.com/location/trotwood-ohio/"
   }
 ]

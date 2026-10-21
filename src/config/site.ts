@@ -673,82 +673,6 @@ export const cities: City[] = [
     localNote:
       "Need HVAC repair in Brookville? Tell us if the house is an older downtown or Perry Township farmhouse near Market Street, or a later subdivision house near the I-70 / SR 49 interchange, what fuel heats it, and about how old the furnace and AC are. That tells the company that calls you what access, ductwork, and parts to plan for. Both kinds of house are usually on AES Ohio, and we do not invent a Brookville-only dollar figure.",
   },
-  {
-    slug: "knoxville-tn",
-    name: "Knoxville",
-    state: "Tennessee",
-    stateAbbr: "TN",
-    status: "live",
-    nearbySlugs: [],
-    setting:
-      "Knoxville sits in the Tennessee Valley, with older Fort Sanders and downtown housing on one side and later west Knoxville subdivisions on the other. Knoxville Utilities Board (KUB) is the usual local utility on the bill; TVA generation is what most East Tennessee electric rates are built on.",
-    utility: "Knoxville Utilities Board (KUB) / TVA on the bill",
-    housing:
-      "Older Fort Sanders and downtown houses, tight lots, student-era duplexes, and mechanical closets that predate central air, versus west Knoxville subdivisions with later pads and simpler attics.",
-    winter:
-      "East Tennessee winters are milder than a long ice event, but freeze nights still stop older furnaces, freeze condensate, and show up as no-heat calls after a clear, cold night.",
-    summer:
-      "Humid Knoxville summers load coils and make a tired condenser run all afternoon. An older Fort Sanders house holds moisture differently than a west Knoxville subdivision ranch.",
-    localNote:
-      "Confirm KUB or the utility printed on your bill before anyone talks efficiency. Fort Sanders access and a west Knoxville street are different jobs. We do not invent a Knoxville-only dollar figure.",
-  },
-  {
-    slug: "madison-wi",
-    name: "Madison",
-    state: "Wisconsin",
-    stateAbbr: "WI",
-    status: "live",
-    nearbySlugs: [],
-    setting:
-      "Madison sits on an isthmus between lakes, with older near-east housing on one side and later west-side subdivisions on the other. Madison Gas and Electric (MG&E) is the usual local utility on the bill.",
-    utility: "Madison Gas and Electric (MG&E)",
-    housing:
-      "Older near-east houses, tight lots, bungalows, and mechanical closets that have seen decades of ice dams, versus later west-side subdivisions with later pads and simpler attics.",
-    winter:
-      "Madison winters are a deep freeze: ice dams, frozen condensate, and no-heat calls after a polar snap. Older near-east furnaces take the hit first; west-side units still fail when intake screens ice over.",
-    summer:
-      "Humid Madison summers off the lakes load coils and make a tired condenser run all afternoon. An older near-east house holds moisture differently than a later west-side subdivision ranch.",
-    localNote:
-      "Confirm MG&E or the utility printed on your bill before anyone talks efficiency. Near-east access and a west-side street are different jobs. We do not invent a Madison-only dollar figure.",
-  },
-  {
-    slug: "syracuse-ny",
-    name: "Syracuse",
-    state: "New York",
-    stateAbbr: "NY",
-    status: "live",
-    nearbySlugs: [],
-    setting:
-      "Syracuse sits in Central New York south of Lake Ontario, with older Eastwood, Strathmore, and University Hill housing on one side and later suburban-edge streets on the other. National Grid is the usual local utility on the bill. Lake-effect snow off Ontario is the winter fact that shapes most HVAC calls.",
-    utility: "National Grid",
-    housing:
-      "Older Eastwood, Strathmore, and University Hill houses, tight lots, two-stories, and mechanical closets that have seen decades of lake-effect ice, versus later suburban-edge pads and simpler attics.",
-    winter:
-      "Syracuse winters are lake-effect: heavy snow, ice dams, frozen condensate, and no-heat calls after a band sits over the city. Older Eastwood and Strathmore furnaces take the hit first; later units still fail when intake screens ice over.",
-    summer:
-      "Humid Central New York summers load coils and make a tired condenser run all afternoon. An older Eastwood or University Hill house holds moisture differently than a later suburban-edge ranch.",
-    localNote:
-      "Confirm National Grid or the utility printed on your bill before anyone talks efficiency. Eastwood access and a suburban-edge street are different jobs. We do not invent a Syracuse-only dollar figure.",
-  },
-  {
-    slug: "toledo-oh",
-    name: "Toledo",
-    state: "Ohio",
-    stateAbbr: "OH",
-    status: "live",
-    nearbySlugs: [],
-    setting:
-      "Toledo sits on the Maumee River in northwest Ohio, with older Old West End and downtown housing on one side and later west Toledo and South Toledo subdivisions on the other. Toledo Edison (FirstEnergy) is the usual local utility on the bill.",
-    utility: "Toledo Edison (FirstEnergy)",
-    housing:
-      "Older Old West End and downtown houses, tight lots, Victorians, and mechanical closets that predate central air, versus later west Toledo and South Toledo subdivisions with later pads and simpler attics.",
-    winter:
-      "Northwest Ohio winters off the Maumee and Lake Erie bring ice, freeze–thaw, and no-heat calls after a lake-effect band. Older Old West End furnaces take the hit first; later west Toledo units still fail when condensate lines freeze.",
-    summer:
-      "Humid Maumee summers load coils and make a tired condenser run all afternoon. An older Old West End house holds moisture differently than a later west Toledo subdivision ranch.",
-    localNote:
-      "Confirm Toledo Edison or the utility printed on your bill before anyone talks efficiency. Old West End access and a west Toledo street are different jobs. We do not invent a Toledo-only dollar figure.",
-  },
 ];
 
 export const liveCitySlugs = cities
@@ -804,6 +728,14 @@ export function servicePath(
   const citySlug = typeof city === "string" ? city : city.slug;
   const serviceSlug = typeof service === "string" ? service : service.slug;
   return withTrailingSlash(`/${citySlug}/${serviceSlug}`);
+}
+
+/** Pages with fewer verified listings than this are noindexed, dropped from the sitemap, and lose "Best" in the title (Anthony 2026-10-21). */
+export const MIN_INDEXABLE_LISTINGS = 3;
+
+/** Plain title/H1 for a page that does not yet have enough verified listings. */
+export function plainTitle(service: Service, city: City): string {
+  return `${serviceTitleNoun[service.slug] ?? service.name} in ${city.name}, ${city.stateAbbr}`;
 }
 
 export function lockedH1(service: Service, city: City): string {
