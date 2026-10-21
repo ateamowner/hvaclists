@@ -2,11 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Disclosure } from "@/components/disclosure";
 import { liveCitySlugs, servicePath, site } from "@/config/site";
+import { shareMeta } from "@/lib/share-meta";
+
+const title = `For HVAC Companies: Featured Listings on ${site.name}`;
+const description =
+  `How contractors buy ${site.name} Featured (paid placement). $99/month self-serve on Stripe. Not exclusive. No lead-count SLA. The homeowner form has no credit-card field.`;
 
 export const metadata: Metadata = {
-  title: `For HVAC companies — ${site.name}`,
-  description: `How contractors buy ${site.name} Featured — paid placement. $99/month self-serve on Stripe. Not exclusive. No lead-count SLA. The homeowner form has no credit-card field.`,
+  title,
+  description,
   alternates: { canonical: "/for-pros/" },
+  ...shareMeta(title, description, "/for-pros/"),
 };
 
 export default function ForProsPage() {
@@ -34,21 +40,21 @@ export default function ForProsPage() {
           </p>
         </li>
         <li className="rounded-lg border border-border bg-card p-4">
-          <p className="font-semibold">Featured — paid placement</p>
+          <p className="font-semibold">Featured (paid placement)</p>
           <p className="mt-1 text-sm leading-6 text-muted-foreground">
-            A paid upgrade. It is visually labeled “Featured — paid placement”
+            A paid upgrade. It is visually labeled “Featured (paid placement)”
             so homeowners can tell it is an ad. Featured sits above standard.
             This is not exclusive. There is no lead-count SLA.
           </p>
           <p className="mt-3 text-sm leading-6">
-            HVACLists Featured — paid placement. $99/month subscription.
+            HVACLists Featured (paid placement). $99/month subscription.
             Checkout is on Stripe, not on the homeowner quote form.
           </p>
           <a
             href={site.featuredCheckoutUrl}
             className="mt-4 inline-flex h-11 items-center justify-center rounded-lg bg-primary px-5 text-[15px] leading-5 font-medium text-primary-foreground hover:bg-primary/90"
           >
-            Subscribe — $99/month
+            Subscribe, $99/month
           </a>
         </li>
       </ul>
@@ -66,13 +72,13 @@ export default function ForProsPage() {
       <p className="mt-3 leading-7">
         Every request posts to Formsubmit and emails {site.leadsEmail}. If a
         listing is live for that URL, we route to that company. If the URL is
-        empty, we still take the request and hold it — we do not invent a
+        empty, we still take the request and follow up, we do not invent a
         contractor to fill the gap.
       </p>
 
       <h2 className="mt-10 font-heading text-2xl font-semibold">Pricing</h2>
       <p className="mt-3 leading-7">
-        Featured — paid placement is $99/month, self-serve. Use the Subscribe
+        Featured (paid placement) is $99/month, self-serve. Use the Subscribe
         button above or{" "}
         <a href={site.featuredCheckoutUrl} className="underline">
           this Stripe checkout

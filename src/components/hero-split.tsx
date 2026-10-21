@@ -1,5 +1,5 @@
 /**
- * Shared directory conversion shell — hero split.
+ * Shared directory conversion shell, hero split.
  * Honesty / local copy on the left; form card on the right.
  * Niche palette stays in site.ts / CSS tokens.
  */

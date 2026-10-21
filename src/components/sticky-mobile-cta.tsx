@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { isForProsPath, isPrivacyPath, quoteHref } from "@/lib/shell";
 
 /**
- * Sticky mobile CTA — only <768. Hides when #quote is at least 40% in view.
+ * Sticky mobile CTA, only <768. Hides when #quote is at least 40% in view.
  * Never on /for-pros/ or /privacy/.
  */
 export function StickyMobileCta() {

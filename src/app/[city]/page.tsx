@@ -17,6 +17,7 @@ import {
   servicePath,
   services,
   site,
+  hubTitle,
 } from "@/config/site";
 import { hubFaqs, hubIntro, serviceCardBlurb } from "@/lib/content";
 import {
@@ -24,6 +25,7 @@ import {
   hubBreadcrumbs,
   publisherLocalBusiness,
 } from "@/lib/schema";
+import { shareMeta } from "@/lib/share-meta";
 
 export const dynamicParams = false;
 
@@ -40,12 +42,13 @@ export async function generateMetadata({
   const city = getCity(citySlug);
   if (!city) return {};
 
-  const title = `HVAC in ${city.name}, ${city.stateAbbr}`;
+  const title = hubTitle(city);
   const description = `${site.name} directory hub for ${city.name}. Open AC repair, furnace, HVAC installation, and emergency pages. Not a contractor.`;
   return {
     title,
     description,
     alternates: { canonical: cityPath(city) },
+    ...shareMeta(title, description, cityPath(city)),
   };
 }
 
@@ -88,7 +91,7 @@ export default async function CityHubPage({
         >
           <p className="text-sm font-medium text-primary">{city.state}</p>
           <h1 className="mt-2 font-heading tracking-tight">
-            HVAC in {city.name}, {city.stateAbbr}
+            {`HVAC in ${city.name}, ${city.stateAbbr}`}
           </h1>
           {intro.map((paragraph) => (
             <p key={paragraph} className="mt-4">
@@ -102,7 +105,7 @@ export default async function CityHubPage({
       <TrustStrip className="mt-10" />
 
       <h2 className="mt-10 font-heading text-xl font-semibold">
-        Services in {city.name}
+        {`Services in ${city.name}`}
       </h2>
       <ul className="mt-3 grid gap-3">
         {services.map((service) => (
@@ -112,7 +115,7 @@ export default async function CityHubPage({
               className="block rounded-[14px] border border-border bg-card px-4 py-3 hover:border-primary"
             >
               <span className="font-medium">
-                Best {service.name} in {city.name} — {site.year}
+                Best {service.name} in {city.name}, {site.year}
               </span>
               <span className="mt-1 block text-sm text-muted-foreground">
                 {serviceCardBlurb(city, service)}
