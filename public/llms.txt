@@ -12,6 +12,7 @@
 - [For HVAC companies](https://hvaclists.com/for-pros/)
 
 ## How listings work
+- Full method: https://hvaclists.com/how-we-list/
 - Every listed company comes from a public source cited on the page.
 - Homeowners can call a listed company directly or send a quote request; requests go to owner@ateamcontractings.com.
 - Featured (paid placement) is labeled on the page.
