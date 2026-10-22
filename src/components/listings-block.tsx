@@ -16,7 +16,10 @@ export function ListingsBlock({ listings }: { listings: Listing[] }) {
       </h2>
       <p className="mt-2 text-sm text-muted-foreground">
         {site.name} does not invent company names, phone numbers, or licenses.
-        Featured spots are paid and labeled.
+        Featured spots are paid and labeled.{" "}
+        <Link href="/how-we-list/" className="underline underline-offset-2">
+          How we list companies
+        </Link>
       </p>
 
       {listings.length === 0 ? (
