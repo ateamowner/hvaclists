@@ -15,3 +15,9 @@
 - Every listed company comes from a public source cited on the page.
 - Homeowners can call a listed company directly or send a quote request; requests go to owner@ateamcontractings.com.
 - Featured (paid placement) is labeled on the page.
+
+## Company profiles
+Independent profiles of heating and cooling companies people search for by name. Each shows Ohio OCILB license status, City of Dayton registration where it exists, services and areas as the company lists them, and the public sources. The companies did not write or pay for these pages.
+- [All company profiles](https://hvaclists.com/companies/)
+- [Cloverleaf Mechanical (Cloverleaf Heating, Air & Plumbing), Springfield, OH](https://hvaclists.com/companies/cloverleaf-mechanical-springfield-oh/): Ohio HVAC license HV.22959, active; ownership changed August 2025
+- [Korrect Plumbing, Heating & Air Conditioning, Dayton, OH](https://hvaclists.com/companies/korrect-plumbing-heating-air-dayton-oh/): Ohio HVAC licenses HV.48006 and HV.51236, plumbing PL.13223; City of Dayton heating registration 902
