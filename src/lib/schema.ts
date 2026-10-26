@@ -148,6 +148,10 @@ export function listingsItemListSchema(
               },
             }
           : {}),
+        ...(listing.bbb_url ? { sameAs: [listing.bbb_url] } : {}),
+        ...(listing.in_business_since
+          ? { foundingDate: String(listing.in_business_since) }
+          : {}),
         areaServed: listing.areas_served.map((area) => ({
           "@type": "City",
           name: area,
@@ -177,11 +181,34 @@ export function hubListingsItemListSchema(
         telephone: listing.phone,
         ...(listing.profile_url ? { url: listing.profile_url } : {}),
         ...(listing.license_id ? { identifier: listing.license_id } : {}),
+        ...(listing.bbb_url ? { sameAs: [listing.bbb_url] } : {}),
+        ...(listing.in_business_since
+          ? { foundingDate: String(listing.in_business_since) }
+          : {}),
         areaServed: listing.areas_served.map((area) => ({
           "@type": "City",
           name: area,
         })),
       },
     })),
+  };
+}
+
+/**
+ * WebPage with dateModified taken from the newest listing verify date on the
+ * page (never the build time). No date -> no dateModified.
+ */
+export function webPageSchema(path: string, name: string, dateModified?: string) {
+  const origin = site.url.replace(/\/$/, "");
+  const url = `${origin}${path.startsWith("/") ? path : `/${path}`}`.replace(/([^/])$/, "$1/");
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${url}#webpage`,
+    url,
+    name,
+    isPartOf: { "@id": `${origin}/#website` },
+    publisher: { "@id": organizationId() },
+    ...(dateModified ? { dateModified } : {}),
   };
 }
