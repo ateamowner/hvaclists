@@ -4,16 +4,25 @@
     "service_slug": "ac-repair",
     "name": "Day's Heating & Cooling, LLC",
     "areas_served": [
-      "Dayton",
       "Huber Heights",
-      "Fairborn",
-      "Riverside"
+      "Dayton",
+      "Fairborn"
     ],
     "phone": "(937) 620-6889",
     "license_id": "City of Dayton Heating Reg. 011120",
     "blurb": "Huber Heights-based family shop covering Dayton AC repair. Active on the City of Dayton Registered Heating Contractors list (as of 6/4/2026, Lic No 011120). Phone from days-hvac.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://days-hvac.com/",
     "tier": "standard",
-    "profile_url": "https://days-hvac.com/"
+    "profile_url": "https://days-hvac.com/",
+    "services": [
+      "Residential heating service",
+      "Residential cooling service"
+    ],
+    "bbb_url": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/days-heating-cooling-llc-0322-1440096987",
+    "field_sources": {
+      "services": "https://days-hvac.com/",
+      "areas_served": "https://days-hvac.com/"
+    },
+    "last_verified": "2026-10-26"
   },
   {
     "city_slug": "dayton-oh",
@@ -29,7 +38,21 @@
     "license_id": "City of Dayton Heating Reg. 010861",
     "blurb": "Independent Dayton HVAC shop (Titus Ave area). Active on the City of Dayton Registered Heating Contractors list (as of 6/4/2026, Lic No 010861). Phone from crabtreeheating.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://www.crabtreeheating.com/",
     "tier": "standard",
-    "profile_url": "https://www.crabtreeheating.com/"
+    "profile_url": "https://www.crabtreeheating.com/",
+    "services": [
+      "Heating",
+      "Air conditioning",
+      "AC installation and replacement",
+      "Indoor air quality and air filtration",
+      "24/7 emergency service"
+    ],
+    "emergency": true,
+    "bbb_url": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/crabtree-heating-air-conditioning-inc-0322-1722",
+    "field_sources": {
+      "services": "https://www.crabtreeheating.com/",
+      "emergency": "https://www.crabtreeheating.com/"
+    },
+    "last_verified": "2026-10-26"
   },
   {
     "city_slug": "dayton-oh",
@@ -38,14 +61,36 @@
     "areas_served": [
       "Dayton",
       "Kettering",
+      "Beavercreek",
       "Centerville",
-      "Beavercreek"
+      "Miamisburg",
+      "Springboro",
+      "Xenia",
+      "Fairborn",
+      "Bellbrook"
     ],
     "phone": "(937) 438-1976",
     "license_id": "City of Dayton Heating Reg. 1552",
     "blurb": "Kettering-based HVAC company serving Dayton-area AC repair. Active on the City of Dayton Registered Heating Contractors list (as of 6/4/2026, Lic No 1552). Phone from mcair.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://www.mcair.com/",
     "tier": "standard",
-    "profile_url": "https://www.mcair.com/"
+    "profile_url": "https://www.mcair.com/",
+    "services": [
+      "Heating",
+      "Air conditioning",
+      "Plumbing",
+      "Water treatment",
+      "Duct cleaning"
+    ],
+    "emergency": true,
+    "in_business_since": 1990,
+    "bbb_url": "https://www.bbb.org/us/oh/kettering/profile/heating-and-air-conditioning/mcafee-heating-air-conditioning-0322-6001510",
+    "field_sources": {
+      "services": "https://www.mcair.com/",
+      "emergency": "https://www.mcair.com/",
+      "in_business_since": "https://www.mcair.com/",
+      "areas_served": "https://www.mcair.com/"
+    },
+    "last_verified": "2026-10-26"
   },
   {
     "city_slug": "dayton-oh",
@@ -69,7 +114,9 @@
       "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF",
       "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/quality-heating-cooling-0322-5279",
       "https://www.qualityhtgcooling.com/about/contact-us/"
-    ]
+    ],
+    "bbb_url": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/quality-heating-cooling-0322-5279",
+    "last_verified": "2026-10-26"
   },
   {
     "city_slug": "dayton-oh",
@@ -93,7 +140,22 @@
     "sources": [
       "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF",
       "https://korrectplumbing.com/"
-    ]
+    ],
+    "services": [
+      "Heating",
+      "Air conditioning",
+      "Plumbing",
+      "Drain cleaning"
+    ],
+    "emergency": true,
+    "in_business_since": 1950,
+    "bbb_url": "https://www.bbb.org/us/oh/dayton/profile/plumber/korrect-plumbing-heating-air-conditioning-inc-0322-3822",
+    "field_sources": {
+      "services": "https://korrectplumbing.com/",
+      "emergency": "https://korrectplumbing.com/",
+      "in_business_since": "https://korrectplumbing.com/"
+    },
+    "last_verified": "2026-10-26"
   },
   {
     "city_slug": "dayton-oh",
@@ -116,7 +178,13 @@
     "sources": [
       "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF",
       "https://shanelkilgore.wixsite.com/kilgoresheatingair"
-    ]
+    ],
+    "in_business_since": 1984,
+    "bbb_url": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/kilgores-heating-air-conditioning-0322-3765",
+    "field_sources": {
+      "in_business_since": "https://shanelkilgore.wixsite.com/kilgoresheatingair"
+    },
+    "last_verified": "2026-10-26"
   },
   {
     "city_slug": "dayton-oh",
@@ -140,7 +208,20 @@
       "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF",
       "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/barker-heating-and-air-conditioning-0322-738",
       "https://www.barkerhvac.com/about"
-    ]
+    ],
+    "services": [
+      "Air conditioning",
+      "Furnaces",
+      "Heat pumps",
+      "Air handlers",
+      "Indoor air quality",
+      "Duct cleaning"
+    ],
+    "bbb_url": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/barker-heating-and-air-conditioning-0322-738",
+    "field_sources": {
+      "services": "https://www.barkerhvac.com/"
+    },
+    "last_verified": "2026-10-26"
   },
   {
     "city_slug": "dayton-oh",
@@ -164,7 +245,17 @@
       "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF",
       "https://www.peckservice.com/residential-heating",
       "https://www.peckservice.com/residential-cooling"
-    ]
+    ],
+    "services": [
+      "Residential and commercial heating",
+      "Air conditioning",
+      "Refrigeration"
+    ],
+    "bbb_url": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/peck-heating-air-conditioning-and-refrigeration-llc-0322-5004",
+    "field_sources": {
+      "services": "https://www.peckservice.com/"
+    },
+    "last_verified": "2026-10-26"
   },
   {
     "city_slug": "dayton-oh",
@@ -189,7 +280,21 @@
       "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF",
       "https://www.bbb.org/us/oh/beavercreek/profile/heating-and-air-conditioning/the-furnace-man-heating-cooling-llc-0322-22698",
       "https://thefurnacemanoh.com/"
-    ]
+    ],
+    "services": [
+      "AC repair",
+      "AC maintenance",
+      "AC replacement and installation",
+      "Heating repair",
+      "Indoor air quality"
+    ],
+    "emergency": true,
+    "bbb_url": "https://www.bbb.org/us/oh/beavercreek/profile/heating-and-air-conditioning/the-furnace-man-heating-cooling-llc-0322-22698",
+    "field_sources": {
+      "services": "https://thefurnacemanoh.com/",
+      "emergency": "https://thefurnacemanoh.com/"
+    },
+    "last_verified": "2026-10-26"
   },
   {
     "city_slug": "kettering-oh",
@@ -281,13 +386,38 @@
     "service_slug": "emergency-hvac",
     "name": "McAfee Heating & Air",
     "areas_served": [
-      "Dayton"
+      "Dayton",
+      "Kettering",
+      "Beavercreek",
+      "Centerville",
+      "Miamisburg",
+      "Springboro",
+      "Xenia",
+      "Fairborn",
+      "Bellbrook"
     ],
     "phone": "(937) 438-1976",
     "license_id": "City of Dayton Heating Reg. 1552",
     "blurb": "Kettering-based heating and cooling company (Hempstead Station Dr) that lists Dayton in its service area (per mcair.com). On the City of Dayton Registered Heating Contractors list as McAfee Heating & A/C (Lic No 1552, active as of 6/4/2026). Phone from mcair.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://www.mcair.com/",
     "tier": "standard",
-    "profile_url": "https://www.mcair.com/"
+    "profile_url": "https://www.mcair.com/",
+    "services": [
+      "Heating",
+      "Air conditioning",
+      "Plumbing",
+      "Water treatment",
+      "Duct cleaning"
+    ],
+    "emergency": true,
+    "in_business_since": 1990,
+    "bbb_url": "https://www.bbb.org/us/oh/kettering/profile/heating-and-air-conditioning/mcafee-heating-air-conditioning-0322-6001510",
+    "field_sources": {
+      "services": "https://www.mcair.com/",
+      "emergency": "https://www.mcair.com/",
+      "in_business_since": "https://www.mcair.com/",
+      "areas_served": "https://www.mcair.com/"
+    },
+    "last_verified": "2026-10-26"
   },
   {
     "city_slug": "dayton-oh",
@@ -300,7 +430,22 @@
     "license_id": "City of Dayton Heating Reg. 902",
     "blurb": "Family-owned West Third Street company serving the Dayton area since 1950; Dayton, OH is on the service-area list on its home page. Repairs and installs furnaces, boilers, and heat pumps, with 24/7 emergency service (per company site). On the City of Dayton Registered Heating Contractors list (Lic No 902, active as of 6/4/2026). Phone from korrectplumbing.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://korrectplumbing.com/",
     "tier": "standard",
-    "profile_url": "https://korrectplumbing.com/"
+    "profile_url": "https://korrectplumbing.com/",
+    "services": [
+      "Heating",
+      "Air conditioning",
+      "Plumbing",
+      "Drain cleaning"
+    ],
+    "emergency": true,
+    "in_business_since": 1950,
+    "bbb_url": "https://www.bbb.org/us/oh/dayton/profile/plumber/korrect-plumbing-heating-air-conditioning-inc-0322-3822",
+    "field_sources": {
+      "services": "https://korrectplumbing.com/",
+      "emergency": "https://korrectplumbing.com/",
+      "in_business_since": "https://korrectplumbing.com/"
+    },
+    "last_verified": "2026-10-26"
   },
   {
     "city_slug": "dayton-oh",
@@ -313,7 +458,24 @@
     "license_id": "City of Dayton Heating Reg. 1465 · Ohio HV47021 (per company site)",
     "blurb": "Locally owned Dayton company since 1949 and a Carrier dealer with an in-house sheet metal shop; Dayton is on the Areas We Serve list on its home page (per company site). BBB Accredited since 1955 with an A+ rating. On the City of Dayton Registered Heating Contractors list as Butler HVAC Holding Company Inc (Lic No 1465, active as of 6/4/2026). Phone from butlerheating.com. Sources: https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF and https://butlerheating.com/",
     "tier": "standard",
-    "profile_url": "https://butlerheating.com/"
+    "profile_url": "https://butlerheating.com/",
+    "services": [
+      "AC repair and installation",
+      "Furnace repair and installation",
+      "Ductless mini-splits",
+      "Boilers",
+      "Plumbing",
+      "Indoor air quality"
+    ],
+    "emergency": true,
+    "in_business_since": 1949,
+    "bbb_url": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/butler-heating-and-air-conditioning-0322-1084",
+    "field_sources": {
+      "services": "https://butlerheating.com/",
+      "emergency": "https://butlerheating.com/",
+      "in_business_since": "https://butlerheating.com/"
+    },
+    "last_verified": "2026-10-26"
   },
   {
     "city_slug": "kettering-oh",

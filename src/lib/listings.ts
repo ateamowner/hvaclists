@@ -63,3 +63,23 @@ export function getCityListings(citySlug: string): CityListingEntry[] {
       a.listing.name.localeCompare(b.listing.name)
   );
 }
+
+/** Newest last_verified date across these listings (real verify dates only, never the build time). */
+export function newestVerifiedDate(listings: Listing[]): string | undefined {
+  const dates = listings
+    .map((listing) => listing.last_verified)
+    .filter((d): d is string => typeof d === "string" && /^\d{4}-\d{2}-\d{2}$/.test(d))
+    .sort();
+  return dates.length ? dates[dates.length - 1] : undefined;
+}
+
+/** "2026-10-26" -> "October 26, 2026" (UTC, so the date never shifts). */
+export function formatVerifiedDate(iso: string): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+}

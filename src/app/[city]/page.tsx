@@ -25,9 +25,14 @@ import {
   faqPageSchema,
   hubBreadcrumbs,
   hubListingsItemListSchema,
+  webPageSchema,
   publisherLocalBusiness,
 } from "@/lib/schema";
-import { getCityListings } from "@/lib/listings";
+import {
+  formatVerifiedDate,
+  getCityListings,
+  newestVerifiedDate,
+} from "@/lib/listings";
 import { shareMeta } from "@/lib/share-meta";
 
 export const dynamicParams = false;
@@ -67,6 +72,9 @@ export default async function CityHubPage({
   const acRepair = getService("ac-repair");
   const questions = hubFaqs(city);
   const cityListings = getCityListings(city.slug);
+  const updated = newestVerifiedDate(
+    cityListings.map((entry) => entry.listing)
+  );
   const hubItemList = hubListingsItemListSchema(
     city,
     cityListings.map((entry) => entry.listing)
@@ -80,6 +88,7 @@ export default async function CityHubPage({
           publisherLocalBusiness(city),
           faqPageSchema(questions),
           hubBreadcrumbs(city),
+          webPageSchema(cityPath(city), hubTitle(city), updated),
           ...(hubItemList ? [hubItemList] : []),
         ]}
       />
@@ -100,8 +109,17 @@ export default async function CityHubPage({
         >
           <p className="text-sm font-medium text-primary">{city.state}</p>
           <h1 className="mt-2 font-heading tracking-tight">
-            {`HVAC in ${city.name}, ${city.stateAbbr}`}
+            {cityListings.length > 0
+              ? `HVAC Companies in ${city.name}, ${city.stateAbbr}`
+              : `HVAC in ${city.name}, ${city.stateAbbr}`}
           </h1>
+          {updated ? (
+            <p className="mt-2 text-sm text-muted-foreground">
+              Updated{" "}
+              <time dateTime={updated}>{formatVerifiedDate(updated)}</time>
+              {` · ${cityListings.length} verified ${cityListings.length === 1 ? "company" : "companies"}`}
+            </p>
+          ) : null}
           {intro.map((paragraph) => (
             <p key={paragraph} className="mt-4">
               {paragraph}
