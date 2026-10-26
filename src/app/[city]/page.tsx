@@ -110,7 +110,7 @@ export default async function CityHubPage({
           <p className="text-sm font-medium text-primary">{city.state}</p>
           <h1 className="mt-2 font-heading tracking-tight">
             {cityListings.length > 0
-              ? `HVAC Companies in ${city.name}, ${city.stateAbbr}`
+              ? `Best HVAC Companies in ${city.name}, ${city.stateAbbr}`
               : `HVAC in ${city.name}, ${city.stateAbbr}`}
           </h1>
           {updated ? (
