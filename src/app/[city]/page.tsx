@@ -98,6 +98,15 @@ export default async function CityHubPage({
               {paragraph}
             </p>
           ))}
+          {city.slug === "dayton-oh" ? (
+            <p className="mt-4">
+              Comparing companies? See our{" "}
+              <Link href="/best-hvac-companies-dayton-oh-2027/" className="underline">
+                best HVAC companies in Dayton for 2027
+              </Link>{" "}
+              list, every one checked against the city registry.
+            </p>
+          ) : null}
           <Disclosure className="mt-4" />
         </HeroSplit>
       </div>
