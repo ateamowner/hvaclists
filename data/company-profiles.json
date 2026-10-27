@@ -461,5 +461,470 @@
       }
     ],
     "checked": "2026-10-22"
+  },
+  {
+    "slug": "mcafee-heating-air-conditioning-kettering-oh",
+    "name": "McAfee Heating, Air Conditioning & Plumbing",
+    "legal_name": "McAfee Heating & Air Conditioning, LLC",
+    "also_known_as": [
+      "McAfee Heating & Air",
+      "McAfee Heating & Air Conditioning",
+      "McAfee Air Duct Cleaning"
+    ],
+    "listing_names": [
+      "McAfee Heating & Air"
+    ],
+    "schema_type": "HVACBusiness",
+    "title": "McAfee Heating & Air (Kettering, OH): License, Hours, Areas",
+    "meta_description": "McAfee Heating, Air Conditioning & Plumbing, Kettering: active Ohio HVAC HV.49998 and plumbing PL.19483 (OCILB, Oct 27, 2026), City of Dayton heating reg. 1552, posted hours, services and areas. Independent profile.",
+    "headline": "McAfee Heating, Air Conditioning & Plumbing: Kettering-based HVAC and plumbing company",
+    "base_location": "Kettering, OH",
+    "summary": [
+      "McAfee Heating, Air Conditioning & Plumbing is a family-run heating, cooling and plumbing company on Hempstead Station Drive in Kettering, just south of Dayton. The Ohio OCILB roster we downloaded on October 27, 2026 lists McAfee Heating & Air Conditioning, LLC with an active HVAC contractor license (HV.49998) and an active plumbing contractor license (PL.19483). The City of Dayton lists it as a registered heating contractor (1552) and a registered plumbing contractor (011107), active as of June 4, 2026.",
+      "The company says it has served the Miami Valley since 1990, and BBB records a business start of November 15, 1990. This page lists its posted hours, the towns it names, both state licenses with their holders and expiration dates, and a link to its BBB profile so you can check the current record yourself."
+    ],
+    "address": {
+      "street": "4750 Hempstead Station Drive",
+      "locality": "Kettering",
+      "region": "OH",
+      "postal_code": "45429",
+      "source": "https://www.mcair.com/contact-us/"
+    },
+    "phone": {
+      "number": "(937) 438-1976",
+      "source": "https://www.mcair.com/"
+    },
+    "website": "https://www.mcair.com/",
+    "facts": [
+      {
+        "label": "Hours posted",
+        "value": "Mon to Fri 8:00 AM to 5:00 PM; Saturday and Sunday emergency service; the contact page says 24/7 emergency service is available by phone.",
+        "source": "https://www.mcair.com/contact-us/"
+      },
+      {
+        "label": "After-hours pricing claim",
+        "value": "The site advertises \"8 to 8 Same Great Rate\" with no overtime charges. Confirm how that applies to your call.",
+        "source": "https://www.mcair.com/"
+      },
+      {
+        "label": "Address on the state license",
+        "value": "4770 Hempstead Station Dr, Ste C, Kettering, OH 45429 (OCILB). The site, BBB and City of Dayton lists use 4750 Hempstead Station Drive.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "BBB profile",
+        "value": "BBB of Dayton and Miami Valley has a profile for McAfee Heating & Air Conditioning (file opened May 8, 1992). It showed the business as not BBB accredited when we checked; open the profile for BBB's current details.",
+        "source": "https://www.bbb.org/us/oh/kettering/profile/heating-and-air-conditioning/mcafee-heating-air-conditioning-0322-6001510"
+      },
+      {
+        "label": "Management (per BBB)",
+        "value": "Gregory McAfee, President",
+        "source": "https://www.bbb.org/us/oh/kettering/profile/heating-and-air-conditioning/mcafee-heating-air-conditioning-0322-6001510"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.49998",
+        "holder": "Robert C Finch, for McAfee Heating & Air Conditioning, LLC",
+        "status": "Active (OCILB roster, Oct 27, 2026)",
+        "expires": "2027-01-09",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "Plumbing contractor license",
+        "number": "PL.19483",
+        "holder": "Bryan E Hayden, for McAfee Heating & Air Conditioning, LLC",
+        "status": "Active (OCILB roster, Oct 27, 2026)",
+        "expires": "2027-03-31",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "1552",
+        "holder": "McAfee Heating & A/C, 4750 Hempstead Station Dr",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered plumbing contractor",
+        "number": "011107",
+        "holder": "McAfee Heating & Air, 4750 Hempstead Station Dr.",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "Furnace repair, tune-ups and replacement",
+      "Heat pumps and dual-fuel systems",
+      "Air conditioning repair, tune-ups and replacement",
+      "Emergency heating and cooling service",
+      "Maintenance plans",
+      "Plumbing repair, leak detection and drain cleaning",
+      "Water heaters (tank and tankless)",
+      "Water softeners and whole-house water filtration",
+      "Duct cleaning and dryer vent cleaning",
+      "Whole-house air purifiers, media filters and UV lights"
+    ],
+    "services_source": "https://www.mcair.com/service-areas/kettering-oh/",
+    "areas_served": [
+      "Dayton",
+      "Kettering",
+      "Beavercreek",
+      "Centerville",
+      "Miamisburg",
+      "Springboro",
+      "Xenia",
+      "Fairborn",
+      "Bellbrook"
+    ],
+    "areas_source": "https://www.mcair.com/",
+    "notes": [
+      {
+        "title": "HVAC first, plumbing too",
+        "body": "McAfee is best known as a heating and air company, and it also holds an active Ohio plumbing license and a City of Dayton plumbing registration. That makes it a fit when a furnace or AC visit turns up a water heater or drain problem in the same house."
+      },
+      {
+        "title": "Check the hours before you call",
+        "body": "Regular office hours are weekdays 8 to 5. Weekends are emergency service. The site advertises the same rate from 8 AM to 8 PM, so ask how calls outside that window are priced."
+      },
+      {
+        "title": "Residential focus",
+        "body": "Its Kettering page says it works in single-family homes. If you need commercial HVAC, ask before you book."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to McAfee. To reach McAfee directly, call (937) 438-1976."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is McAfee Heating & Air licensed in Ohio?",
+        "answer": "Yes. The OCILB roster we downloaded on October 27, 2026 lists McAfee Heating & Air Conditioning, LLC with HVAC contractor license HV.49998 (held by Robert C Finch, expires January 9, 2027) and plumbing contractor license PL.19483 (held by Bryan E Hayden, expires March 31, 2027), both active."
+      },
+      {
+        "question": "Is McAfee registered with the City of Dayton?",
+        "answer": "Yes. The City of Dayton lists, active as of June 4, 2026, include McAfee as a registered heating contractor (1552) and a registered plumbing contractor (011107)."
+      },
+      {
+        "question": "What are McAfee's hours?",
+        "answer": "The contact page lists Monday to Friday, 8:00 AM to 5:00 PM, with emergency service on Saturday and Sunday and by phone around the clock."
+      },
+      {
+        "question": "Where is McAfee Heating & Air located?",
+        "answer": "The main office is at 4750 Hempstead Station Drive, Kettering, OH 45429, phone (937) 438-1976. The state license record uses 4770 Hempstead Station Dr, Ste C."
+      },
+      {
+        "question": "How long has McAfee been in business?",
+        "answer": "The company says it has served the Miami Valley since 1990. BBB lists the business start date as November 15, 1990."
+      },
+      {
+        "question": "What areas does McAfee serve?",
+        "answer": "Its site names Dayton, Kettering, Beavercreek, Centerville, Miamisburg, Springboro, Xenia, Fairborn and Bellbrook, and says it serves surrounding areas too."
+      },
+      {
+        "question": "Is HVACLists affiliated with McAfee?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "McAfee Heating, Air Conditioning & Plumbing home page (services, areas, since 1990)",
+        "url": "https://www.mcair.com/"
+      },
+      {
+        "label": "McAfee: contact page (hours, address)",
+        "url": "https://www.mcair.com/contact-us/"
+      },
+      {
+        "label": "McAfee: Kettering service page (services, residential focus)",
+        "url": "https://www.mcair.com/service-areas/kettering-oh/"
+      },
+      {
+        "label": "BBB profile: McAfee Heating & Air Conditioning",
+        "url": "https://www.bbb.org/us/oh/kettering/profile/heating-and-air-conditioning/mcafee-heating-air-conditioning-0322-6001510"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "City of Dayton Registered Plumbing Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 49998, plumbing 19483)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Oct 27, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-10-27"
+  },
+  {
+    "slug": "butler-heating-air-conditioning-dayton-oh",
+    "name": "Butler Heating & Air Conditioning",
+    "legal_name": "Butler HVAC Holding Company, Inc.",
+    "also_known_as": [
+      "Butler Heating, Air Conditioning & Plumbing",
+      "Butler Heating & Air Conditioning Repair"
+    ],
+    "listing_names": [
+      "Butler Heating & Air Conditioning"
+    ],
+    "schema_type": "HVACBusiness",
+    "title": "Butler Heating & Air Conditioning (Dayton, OH): License, Areas",
+    "meta_description": "Butler Heating & Air Conditioning, Dayton since 1949: active Ohio HVAC licenses HV.21945, HV.47021, HV.50893 and plumbing PL.21945 (OCILB, Oct 27, 2026), City of Dayton regs, 40 towns. Not Atlas Butler. Independent profile.",
+    "headline": "Butler Heating & Air Conditioning: Dayton HVAC and plumbing company since 1949",
+    "base_location": "Dayton, OH",
+    "summary": [
+      "Butler Heating & Air Conditioning is a Dayton heating, cooling and plumbing company with its main shop on Springfield Street near downtown and a second office on Corporate Way in the 45459 area. Its site says it has served Dayton and the Miami Valley since 1949, and BBB lists a business start of May 1, 1949. The Ohio OCILB roster we downloaded on October 27, 2026 shows three active HVAC contractor licenses and one active plumbing contractor license under Butler HVAC Holding Company, Inc., and the City of Dayton lists it as a registered heating contractor (1465) and plumbing contractor (1629).",
+      "People searching \"Butler heating\" often land on Atlas Butler, a separate Columbus company, or on businesses in Butler County. This page is about the Dayton company only: its licenses, the 40 towns it names, its services, and how to tell it apart."
+    ],
+    "address": {
+      "street": "120 Springfield Street",
+      "locality": "Dayton",
+      "region": "OH",
+      "postal_code": "45403",
+      "source": "https://butlerheating.com/about-us/"
+    },
+    "phone": {
+      "number": "(937) 253-8871",
+      "source": "https://butlerheating.com/about-us/"
+    },
+    "website": "https://butlerheating.com/",
+    "facts": [
+      {
+        "label": "Second office",
+        "value": "7026 Corporate Way, Suite 204, Dayton, OH 45459",
+        "source": "https://butlerheating.com/about-us/"
+      },
+      {
+        "label": "Hours",
+        "value": "The site advertises 24/7 service, and says its parts counter is open Monday through Saturday. We did not find posted counter hours, so call to confirm.",
+        "source": "https://butlerheating.com/about-us/"
+      },
+      {
+        "label": "Owners (per company site)",
+        "value": "Chris Bermick and Nick Lamb. BBB lists Chris Bermick as president and Nicolas Lamb as vice president.",
+        "source": "https://butlerheating.com/about-us/"
+      },
+      {
+        "label": "BBB profile",
+        "value": "BBB of Dayton and Miami Valley lists Butler Heating and Air Conditioning as accredited since April 1, 1955, with Gemin Heating & Air Conditioning as an alternate name. BBB's primary phone differs from the site's; we use the site number. Open the profile for BBB's current details.",
+        "source": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/butler-heating-and-air-conditioning-0322-1084"
+      },
+      {
+        "label": "Equipment and shop (company-stated)",
+        "value": "Carrier systems with a showroom, a Mitsubishi Diamond contractor badge, and an in-house sheet metal shop for custom ductwork.",
+        "source": "https://butlerheating.com/about-us/"
+      },
+      {
+        "label": "Team size (company-stated)",
+        "value": "More than 30 people",
+        "source": "https://butlerheating.com/about-us/"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.21945",
+        "holder": "Steven E Scothorn, for Butler HVAC Holding Company, Inc.",
+        "status": "Active (OCILB roster, Oct 27, 2026)",
+        "expires": "2027-09-30",
+        "note": "The site footer prints this as #HY21945.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "Plumbing contractor license",
+        "number": "PL.21945",
+        "holder": "Steven E Scothorn, for Butler HVAC Holding Company, Inc.",
+        "status": "Active (OCILB roster, Oct 27, 2026)",
+        "expires": "2027-09-30",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.47021",
+        "holder": "Christian D Bermick, for Butler HVAC Holding Company, Inc.",
+        "status": "Active (OCILB roster, Oct 27, 2026)",
+        "expires": "2027-06-07",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.50893",
+        "holder": "Tyler J Heinrich, for Butler HVAC Holding Company, Inc.",
+        "status": "Active (OCILB roster, Oct 27, 2026)",
+        "expires": "2028-11-06",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "1465",
+        "holder": "Butler HVAC Holding Company Inc, 120 Springfield St",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered plumbing contractor",
+        "number": "1629",
+        "holder": "Butler HVAC Holding Company Inc, 120 Springfield St.",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "AC repair, maintenance and installation",
+      "Furnace repair, maintenance and installation",
+      "Heat pumps",
+      "Ductless mini-splits",
+      "Boilers",
+      "Commercial HVAC",
+      "Indoor air quality",
+      "Custom ductwork (in-house sheet metal shop)",
+      "Plumbing repair and installation",
+      "Pipe repair",
+      "Water heaters, including tankless",
+      "Toilet repair and replacement",
+      "Water softeners",
+      "Expansion tanks",
+      "HVAC parts counter"
+    ],
+    "services_source": "https://butlerheating.com/service-area/",
+    "areas_served": [
+      "Alpha",
+      "Beavercreek",
+      "Bellbrook",
+      "Brookville",
+      "Casstown",
+      "Cedarville",
+      "Centerville",
+      "Clayton",
+      "Clifton",
+      "Dayton",
+      "Donnelsville",
+      "Englewood",
+      "Enon",
+      "Fairborn",
+      "Farmersville",
+      "Franklin",
+      "Germantown",
+      "Harveysburg",
+      "Huber Heights",
+      "Kettering",
+      "Ludlow Falls",
+      "Medway",
+      "Miamisburg",
+      "New Carlisle",
+      "New Lebanon",
+      "North Hampton",
+      "Oakwood",
+      "Phillipsburg",
+      "Potsdam",
+      "Spring Valley",
+      "Springboro",
+      "Springfield",
+      "Tipp City",
+      "Troy",
+      "Vandalia",
+      "Waynesville",
+      "West Milton",
+      "Wilberforce",
+      "Xenia",
+      "Yellow Springs"
+    ],
+    "areas_source": "https://butlerheating.com/service-area/",
+    "notes": [
+      {
+        "title": "Not Atlas Butler, not Butler County",
+        "body": "Atlas Butler Heating & Cooling is a separate company based in Columbus with its own Ohio licenses. Butler Heating & Air Conditioning on this page is the Dayton company at 120 Springfield Street, phone (937) 253-8871. The name has nothing to do with Butler County; most of the towns it names are in Montgomery, Greene, Miami, Clark and Warren counties."
+      },
+      {
+        "title": "Several license holders",
+        "body": "The state roster shows four active contractor licenses under Butler HVAC Holding Company, Inc.: HVAC licenses held by Steven E Scothorn, Christian D Bermick and Tyler J Heinrich, and a plumbing license held by Steven E Scothorn. For a permitted job, the permit will name one of them."
+      },
+      {
+        "title": "Best fit",
+        "body": "With a showroom, a parts counter and its own sheet metal shop, Butler fits full system replacements and duct changes as well as repairs. For a replacement, ask for the model numbers, efficiency ratings and labor warranty in writing, and compare at least one other quote."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Butler. To reach Butler directly, call (937) 253-8871."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Butler Heating & Air Conditioning licensed in Ohio?",
+        "answer": "Yes. The OCILB roster we downloaded on October 27, 2026 lists Butler HVAC Holding Company, Inc. with active HVAC contractor licenses HV.21945, HV.47021 and HV.50893 and active plumbing contractor license PL.21945."
+      },
+      {
+        "question": "Is Butler registered with the City of Dayton?",
+        "answer": "Yes. The City of Dayton lists, active as of June 4, 2026, include Butler HVAC Holding Company Inc as a registered heating contractor (1465) and a registered plumbing contractor (1629)."
+      },
+      {
+        "question": "Is Butler Heating in Dayton the same as Atlas Butler?",
+        "answer": "No. Atlas Butler Heating & Cooling is a separate Columbus company. Butler Heating & Air Conditioning is based at 120 Springfield Street in Dayton, with a second office at 7026 Corporate Way."
+      },
+      {
+        "question": "How long has Butler Heating been in business?",
+        "answer": "The company says it has served Dayton since 1949, and BBB lists a business start date of May 1, 1949. BBB shows it as accredited since 1955."
+      },
+      {
+        "question": "Does Butler do plumbing?",
+        "answer": "Yes. Its site lists plumbing repair and installation, pipe repair, water heaters, toilets, water softeners and expansion tanks, and it holds an Ohio plumbing contractor license (PL.21945) and a City of Dayton plumbing registration (1629)."
+      },
+      {
+        "question": "Which towns does Butler serve?",
+        "answer": "Its service-area page lists 40 towns, including Dayton, Kettering, Centerville, Beavercreek, Huber Heights, Fairborn, Xenia, Miamisburg, Springboro, Troy, Tipp City, Vandalia and Springfield."
+      },
+      {
+        "question": "Is HVACLists affiliated with Butler?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Butler Heating & Air Conditioning: About Us (history, owners, offices, services)",
+        "url": "https://butlerheating.com/about-us/"
+      },
+      {
+        "label": "Butler: service area and license numbers shown",
+        "url": "https://butlerheating.com/service-area/"
+      },
+      {
+        "label": "BBB profile: Butler Heating and Air Conditioning",
+        "url": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/butler-heating-and-air-conditioning-0322-1084"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "City of Dayton Registered Plumbing Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 21945, 47021, 50893; plumbing 21945)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Oct 27, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-10-27"
   }
 ]
