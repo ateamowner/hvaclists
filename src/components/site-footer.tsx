@@ -35,6 +35,11 @@ export function SiteFooter() {
           <p className="text-sm font-semibold">Site</p>
           <ul className="mt-2 space-y-1 text-sm">
             <li>
+              <Link href="/companies/" className="hover:underline">
+                Company profiles
+              </Link>
+            </li>
+            <li>
               <Link href="/for-pros/" className="hover:underline">
                 For HVAC companies
               </Link>

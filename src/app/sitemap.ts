@@ -8,6 +8,7 @@ import {
 } from "@/config/site";
 
 import { getListings } from "@/lib/listings";
+import { companyProfiles, profilePath } from "@/lib/company-profiles";
 import { MIN_INDEXABLE_LISTINGS } from "@/config/site";
 import {
   cityPageLastmod,
@@ -53,5 +54,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ]);
 
-  return [...staticRoutes, ...cityRoutes];
+  const profileLastmod = staticPageLastmod("data/company-profiles.json");
+  const profileRoutes = [
+    {
+      url: absoluteUrl("/companies/"),
+      lastModified: profileLastmod,
+      changeFrequency: "monthly" as const,
+      priority: 0.4,
+    },
+    ...companyProfiles.map((profile) => ({
+      url: absoluteUrl(profilePath(profile)),
+      lastModified: profileLastmod,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
+
+  return [...staticRoutes, ...cityRoutes, ...profileRoutes];
 }
