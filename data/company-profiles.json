@@ -926,5 +926,510 @@
       }
     ],
     "checked": "2026-10-27"
+  },
+  {
+    "slug": "a-abel-heating-air-conditioning-dayton-oh",
+    "name": "A-Abel Heating & Air Conditioning",
+    "legal_name": "A-Abel Heating and Air Conditioning, Inc.",
+    "also_known_as": [
+      "A-Abel",
+      "A-Abel Family of Companies",
+      "A Abel Heating & Air Inc"
+    ],
+    "listing_names": [
+      "A-Abel Heating and Air Conditioning, Inc."
+    ],
+    "schema_type": "HVACBusiness",
+    "title": "A-Abel Heating & Air (Dayton, OH): Ohio License, Areas",
+    "meta_description": "A-Abel Heating and Air Conditioning, Inc., 440 Congress Park Dr, Dayton (since 1937): Ohio HVAC HV.21951 and plumbing PL.21951 (OCILB, Oct 29, 2026), City of Dayton heating reg. 1536, services, towns. Independent profile.",
+    "headline": "A-Abel Heating & Air Conditioning: south Dayton HVAC company in the A-Abel family of companies",
+    "base_location": "Dayton / Centerville, OH",
+    "summary": [
+      "A-Abel Heating and Air Conditioning, Inc. is the HVAC company in the A-Abel Family of Companies, which also runs plumbing and electrical businesses from the same office at 440 Congress Park Drive in south Dayton, near Centerville. The Ohio OCILB roster we downloaded on October 29, 2026 lists the company (as A Abel Heating & Air Inc) with HVAC contractor license HV.21951 and plumbing contractor license PL.21951, both Active in renewal through December 31, 2026. The City of Dayton's registered heating contractor list (active as of June 4, 2026) carries it under registration 1536.",
+      "The A-Abel name dates to 1937, and BBB has listed the company as accredited since 1995. This page lists both state licenses and the sister plumbing company's records, the services and towns the site names, how scheduling and emergency calls work, and who runs the company."
+    ],
+    "address": {
+      "street": "440 Congress Park Dr",
+      "locality": "Dayton",
+      "region": "OH",
+      "postal_code": "45459",
+      "source": "https://a-abel.com/contact/"
+    },
+    "phone": {
+      "number": "(937) 434-4343",
+      "source": "https://a-abel.com/heating-and-air-conditioning/faqs/"
+    },
+    "website": "https://a-abel.com/",
+    "facts": [
+      {
+        "label": "Hours and scheduling",
+        "value": "The site says office staff take scheduling calls around the clock and that it offers same-day and 24/7 emergency repair, with emergency rates that may apply. We did not find posted office hours, so call to confirm.",
+        "source": "https://a-abel.com/heating-and-air-conditioning/repair/"
+      },
+      {
+        "label": "Response claim",
+        "value": "The site says 90% of service requests are handled within 48 hours.",
+        "source": "https://a-abel.com/about/"
+      },
+      {
+        "label": "Address on the state license",
+        "value": "440 Congress Park Dr, Centerville, OH 45459 (OCILB). The site and BBB use Dayton for the same address.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "BBB profile",
+        "value": "BBB of Dayton and Miami Valley lists A-Abel Heating and Air Conditioning, Inc. as accredited since April 18, 1995, with a business start of January 1, 1937 and incorporation on February 3, 1994. Open the profile for BBB's current details.",
+        "source": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/a-abel-heating-and-air-conditioning-inc-0322-35000007"
+      },
+      {
+        "label": "Management",
+        "value": "BBB lists Charles Norman as president. The site's owners section names Chuck Norman, who took over administrative and financial management of the A-Abel companies in 1992.",
+        "source": "https://a-abel.com/about/"
+      },
+      {
+        "label": "Sister companies",
+        "value": "The site says A-Abel has bought several independent service and trade businesses since 1997 and started its electrical company in 2008. A-Abel Plumbing Inc. holds its own licenses (see below).",
+        "source": "https://a-abel.com/about/"
+      },
+      {
+        "label": "Policies (per company site)",
+        "value": "Technicians are licensed and bonded, background-checked and drug-tested, and A-Abel says it does not use subcontractors. Free estimates, maintenance plans and financing are offered.",
+        "source": "https://a-abel.com/heating-and-air-conditioning/faqs/"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.21951",
+        "holder": "James P Cain, for A Abel Heating & Air Inc",
+        "status": "Active in renewal (OCILB roster, Oct 29, 2026)",
+        "expires": "2026-12-31",
+        "note": "BBB lists the same license and expiration date.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "Plumbing contractor license",
+        "number": "PL.21951",
+        "holder": "James P Cain, for A Abel Heating & Air Inc",
+        "status": "Active in renewal (OCILB roster, Oct 29, 2026)",
+        "expires": "2026-12-31",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "1536",
+        "holder": "A-Abel Htg + Air Cond Inc, 440 Congress Pk Dr",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "Plumbing contractor license (sister company A-Abel Plumbing Inc.)",
+        "number": "PL.50316",
+        "holder": "Chalmer N Hirth, for Aabel Plumbing Inc",
+        "status": "Active (OCILB roster, Oct 29, 2026)",
+        "expires": "2027-09-22",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered plumbing contractor (sister company A-Abel Plumbing Inc.)",
+        "number": "1693",
+        "holder": "A-Abel Plumbing Inc., 440 Congress Park Dr",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "Air conditioning repair, maintenance and replacement",
+      "Furnace repair, tune-ups and replacement",
+      "Heat pumps and hybrid (dual-fuel) systems",
+      "Ductless mini-split systems",
+      "Geothermal systems (per BBB)",
+      "Boilers and oil burners (per BBB)",
+      "Air duct cleaning",
+      "Indoor air quality testing, air purification and humidifiers",
+      "24/7 emergency heating and cooling repair",
+      "Maintenance plans",
+      "Commercial HVAC service (per BBB)",
+      "Plumbing, water heaters and drain cleaning (A-Abel Plumbing)",
+      "Electrical, generators and whole-house surge protection (A-Abel Electric)"
+    ],
+    "services_source": "https://a-abel.com/",
+    "areas_served": [
+      "Dayton",
+      "Kettering",
+      "Beavercreek",
+      "Centerville",
+      "Huber Heights",
+      "Fairborn",
+      "Vandalia",
+      "Miamisburg",
+      "Oakwood",
+      "Bellbrook"
+    ],
+    "areas_source": "https://a-abel.com/heating-and-air-conditioning/repair/",
+    "related_links": [
+      {
+        "href": "/kettering-oh/ac-repair/",
+        "label": "AC repair in Kettering, OH",
+        "why": "where A-Abel is listed on HVACLists"
+      },
+      {
+        "href": "/dayton-oh/furnace/",
+        "label": "Furnace repair in Dayton, OH",
+        "why": "compare other licensed Dayton HVAC companies"
+      },
+      {
+        "href": "/centerville-oh/furnace/",
+        "label": "Furnace repair in Centerville, OH",
+        "why": "closest city page to A-Abel's office"
+      },
+      {
+        "href": "/centerville-oh/ac-repair/",
+        "label": "AC repair in Centerville, OH",
+        "why": "on A-Abel's listed service area"
+      },
+      {
+        "href": "/beavercreek-oh/hvac-installation/",
+        "label": "HVAC installation in Beavercreek, OH",
+        "why": "on A-Abel's listed service area"
+      },
+      {
+        "href": "/oakwood-oh/emergency-hvac/",
+        "label": "Emergency HVAC in Oakwood, OH",
+        "why": "after-hours heating and cooling"
+      }
+    ],
+    "notes": [
+      {
+        "title": "One office, three trades",
+        "body": "A-Abel runs heating and air, plumbing and electrical companies from one Congress Park Drive office. The HVAC company holds HVAC and plumbing licenses (HV.21951 and PL.21951), and the separate A-Abel Plumbing Inc. has its own state license (PL.50316) and City of Dayton plumbing registration (1693). For a job that crosses trades, like a furnace swap that needs a gas line, ask which A-Abel company and license will be on the permit."
+      },
+      {
+        "title": "Licenses are in renewal",
+        "body": "Both HV.21951 and PL.21951 show \"Active in renewal\" in the state roster, with a December 31, 2026 expiration. That is a normal status near the end of a license term. Check the OCILB lookup in January if you are booking a large job."
+      },
+      {
+        "title": "Best fit",
+        "body": "Households in south Dayton, Kettering, Centerville and Oakwood that want one company for HVAC, plumbing and electrical work, plus generator installs and maintenance plans. For a system replacement, get the model numbers, efficiency ratings and labor warranty in writing and compare at least one other quote."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to A-Abel. To reach A-Abel directly, call (937) 434-4343."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is A-Abel Heating & Air licensed in Ohio?",
+        "answer": "Yes. The OCILB roster we downloaded on October 29, 2026 lists A Abel Heating & Air Inc with HVAC contractor license HV.21951 and plumbing contractor license PL.21951, both held by James P Cain, status Active in renewal, expiring December 31, 2026."
+      },
+      {
+        "question": "Is A-Abel registered with the City of Dayton?",
+        "answer": "Yes. The City of Dayton registered heating contractor list, active as of June 4, 2026, shows A-Abel Heating + Air Conditioning Inc. with registration 1536. The sister company A-Abel Plumbing Inc. is a registered plumbing contractor (1693)."
+      },
+      {
+        "question": "Where is A-Abel located?",
+        "answer": "440 Congress Park Dr, Dayton, OH 45459, near Centerville. The state license record lists the same address in Centerville. Phone: (937) 434-4343."
+      },
+      {
+        "question": "Does A-Abel offer 24/7 emergency service?",
+        "answer": "Yes, per its site: same-day and 24/7 emergency repair, with emergency rates that may apply. The office takes scheduling calls around the clock."
+      },
+      {
+        "question": "How long has A-Abel been in business?",
+        "answer": "The A-Abel name dates to 1937, per the company site and BBB. BBB lists the current corporation as incorporated in 1994 and accredited since April 18, 1995."
+      },
+      {
+        "question": "What areas does A-Abel serve?",
+        "answer": "Its heating repair page names Dayton, Kettering, Beavercreek, Centerville, Huber Heights, Fairborn, Vandalia, Miamisburg, Oakwood and Bellbrook. Its FAQ says it also serves the northern Cincinnati area; call to confirm your address."
+      },
+      {
+        "question": "Who owns A-Abel?",
+        "answer": "BBB lists Charles Norman as president. The company site describes A-Abel as a family business and names Chuck Norman among its owners."
+      },
+      {
+        "question": "Is HVACLists affiliated with A-Abel?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "A-Abel home page (services, since 1937, scheduling)",
+        "url": "https://a-abel.com/"
+      },
+      {
+        "label": "A-Abel: about page (owners, acquisitions since 1997, 48-hour claim)",
+        "url": "https://a-abel.com/about/"
+      },
+      {
+        "label": "A-Abel: contact page (address)",
+        "url": "https://a-abel.com/contact/"
+      },
+      {
+        "label": "A-Abel: heating repair page (service areas, 24/7 emergency repair)",
+        "url": "https://a-abel.com/heating-and-air-conditioning/repair/"
+      },
+      {
+        "label": "A-Abel: FAQ page (phone, technician policies, free estimates)",
+        "url": "https://a-abel.com/heating-and-air-conditioning/faqs/"
+      },
+      {
+        "label": "BBB profile: A-Abel Heating and Air Conditioning, Inc.",
+        "url": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/a-abel-heating-and-air-conditioning-inc-0322-35000007"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "City of Dayton Registered Plumbing Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 21951, plumbing 21951, plumbing 50316)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Oct 29, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-10-29"
+  },
+  {
+    "slug": "barker-heating-air-conditioning-dayton-oh",
+    "name": "Barker Heating & Air Conditioning",
+    "legal_name": "Barker Heating and Air Conditioning",
+    "also_known_as": [
+      "Barker HVAC",
+      "Barker Heating & A/C",
+      "Barker Furnace Company"
+    ],
+    "listing_names": [
+      "Barker Heating & Air Conditioning"
+    ],
+    "schema_type": "HVACBusiness",
+    "title": "Barker Heating & Air (Dayton, OH): Ohio License, Since 1918",
+    "meta_description": "Barker Heating & Air Conditioning, 637 Watervliet Ave, Dayton: woman-owned Bryant dealer founded 1918, Ohio HVAC license HV.44462 (OCILB, Oct 29, 2026), City of Dayton heating reg. 009877, services. Independent profile.",
+    "headline": "Barker Heating & Air Conditioning: woman-owned Dayton HVAC company founded in 1918",
+    "base_location": "Dayton, OH",
+    "summary": [
+      "Barker Heating & Air Conditioning is a woman-owned heating and cooling company on Watervliet Avenue in Dayton. It installs, repairs and maintains furnaces, air conditioners and heat pumps for homes and light commercial buildings and is a Bryant Factory Authorized Dealer. The state license number on its site, 44462, matches Ohio HVAC contractor license HV.44462 in the OCILB roster we downloaded on October 29, 2026, and the City of Dayton's registered heating contractor list (active as of June 4, 2026) carries it under registration 009877.",
+      "The company says it was established in 1918, and BBB has listed it as accredited since 1948. This page lists its license and city registration, who runs it, its services and maintenance plan, and what we could not confirm, such as posted hours and a list of towns."
+    ],
+    "address": {
+      "street": "637 Watervliet Ave",
+      "locality": "Dayton",
+      "region": "OH",
+      "postal_code": "45420",
+      "source": "https://www.barkerhvac.com/about"
+    },
+    "phone": {
+      "number": "(937) 222-2275",
+      "source": "https://www.barkerhvac.com/"
+    },
+    "website": "https://www.barkerhvac.com/",
+    "facts": [
+      {
+        "label": "Hours",
+        "value": "We did not find posted hours on the Barker site. Its maintenance agreement mentions priority 24-hour emergency service for plan members. Call to confirm hours for everyone else.",
+        "source": "https://www.barkerhvac.com/services"
+      },
+      {
+        "label": "Ownership (per BBB)",
+        "value": "Malia M. Ferguson, President/Owner; Matthew Ferguson, Vice President. The site describes Barker as woman-owned.",
+        "source": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/barker-heating-and-air-conditioning-0322-738"
+      },
+      {
+        "label": "History",
+        "value": "The site says Barker was established in 1918. BBB lists a business start of January 1, 1918, a BBB file opened in 1934, accreditation since May 1, 1948, and the alternate name Barker Furnace Company.",
+        "source": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/barker-heating-and-air-conditioning-0322-738"
+      },
+      {
+        "label": "Affiliations (per company site)",
+        "value": "Bryant Factory Authorized Dealer, Bryant Circle of Champions, NATE, BBB Dayton and the Dayton Area Chamber of Commerce.",
+        "source": "https://www.barkerhvac.com/about"
+      },
+      {
+        "label": "Maintenance agreement (per company site)",
+        "value": "Priority service, priority 24-hour emergency service and 10% off diagnostics, parts and labor for members.",
+        "source": "https://www.barkerhvac.com/services"
+      },
+      {
+        "label": "Financing",
+        "value": "Through the Bryant Retail Financing Program, subject to credit approval.",
+        "source": "https://www.barkerhvac.com/financing"
+      },
+      {
+        "label": "BBB profile",
+        "value": "BBB of Dayton and Miami Valley profile. Open it for BBB's current details.",
+        "source": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/barker-heating-and-air-conditioning-0322-738"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.44462",
+        "holder": "Matthew W Ferguson, for Barker Heating & A/C",
+        "status": "Active (OCILB roster, Oct 29, 2026)",
+        "expires": "2027-12-19",
+        "note": "The site lists \"State of Ohio HVAC Contractors License # 44462\". BBB still shows a December 19, 2026 expiration. The roster we downloaded shows the renewed term, effective December 20, 2026 and running to December 19, 2027.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "009877",
+        "holder": "Barker Heating & A/C, 637 Watervliet Av",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "New furnace, air conditioner and heat pump installation (Bryant)",
+      "Hybrid (dual-fuel) systems and air handlers",
+      "Upgrade and replacement, with free in-home consultation and equipment sizing",
+      "Heating and air conditioning repair",
+      "Preventative maintenance and annual maintenance agreements",
+      "Extended equipment and labor warranties",
+      "Indoor air quality: air purifiers, filtration, UV, humidifiers and dehumidifiers",
+      "Ventilation and carbon monoxide protection",
+      "Zoning and programmable thermostats",
+      "Whole-house duct and dryer vent cleaning",
+      "Light commercial HVAC installation and service"
+    ],
+    "services_source": "https://www.barkerhvac.com/services",
+    "areas_served": [
+      "Dayton"
+    ],
+    "areas_source": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/barker-heating-and-air-conditioning-0322-738",
+    "related_links": [
+      {
+        "href": "/dayton-oh/hvac-installation/",
+        "label": "HVAC installation in Dayton, OH",
+        "why": "where Barker is listed on HVACLists"
+      },
+      {
+        "href": "/dayton-oh/furnace/",
+        "label": "Furnace repair in Dayton, OH",
+        "why": "compare other licensed Dayton HVAC companies"
+      },
+      {
+        "href": "/dayton-oh/ac-repair/",
+        "label": "AC repair in Dayton, OH",
+        "why": "compare other licensed Dayton HVAC companies"
+      },
+      {
+        "href": "/dayton-oh/emergency-hvac/",
+        "label": "Emergency HVAC in Dayton, OH",
+        "why": "after-hours heating and cooling"
+      },
+      {
+        "href": "/kettering-oh/hvac-installation/",
+        "label": "HVAC installation in Kettering, OH",
+        "why": "next-door city page"
+      },
+      {
+        "href": "/riverside-oh/furnace/",
+        "label": "Furnace repair in Riverside, OH",
+        "why": "next-door city page"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Long Dayton history, small footprint",
+        "body": "Barker has been in Dayton since 1918 and BBB-accredited since 1948. The site keeps things short: no posted hours, no list of towns, and no online price list. BBB describes the service area as \"Dayton and surrounding areas\", so if you are outside the city, call to confirm."
+      },
+      {
+        "title": "License checks out",
+        "body": "The license number on Barker's site matches active OCILB HVAC license HV.44462, and the company is on the City of Dayton heating contractor list. Barker is an HVAC company, not a plumber, so for a water heater or gas line beyond the furnace, ask whether it does that work."
+      },
+      {
+        "title": "Best fit",
+        "body": "Bryant system replacements and yearly maintenance for homes and small businesses in and around Dayton. For a replacement, get the model numbers, efficiency ratings, and equipment and labor warranty terms in writing, and compare at least one other quote."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Barker. To reach Barker directly, call (937) 222-2275."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Barker Heating & Air Conditioning licensed in Ohio?",
+        "answer": "Yes. The license number on its site, 44462, matches Ohio HVAC contractor license HV.44462, which is active in the OCILB roster we downloaded on October 29, 2026. The license holder is Matthew W Ferguson for Barker Heating & A/C, and the renewed term runs to December 19, 2027."
+      },
+      {
+        "question": "Is Barker registered with the City of Dayton?",
+        "answer": "Yes. The City of Dayton registered heating contractor list, active as of June 4, 2026, shows Barker Heating & A/C at 637 Watervliet Av with registration 009877."
+      },
+      {
+        "question": "Where is Barker Heating & Air Conditioning?",
+        "answer": "637 Watervliet Avenue, Dayton, OH 45420. Phone: (937) 222-2275."
+      },
+      {
+        "question": "How old is Barker Heating & Air?",
+        "answer": "The company says it was established in 1918. BBB lists a 1918 business start and accreditation since May 1, 1948."
+      },
+      {
+        "question": "Who owns Barker Heating & Air Conditioning?",
+        "answer": "BBB lists Malia M. Ferguson as president and owner, and Matthew Ferguson as vice president. The site describes Barker as woman-owned."
+      },
+      {
+        "question": "What brand does Barker install?",
+        "answer": "Barker is a Bryant Factory Authorized Dealer, per its site, and offers Bryant furnaces, air conditioners, heat pumps, hybrid systems and indoor air quality products."
+      },
+      {
+        "question": "What are Barker's hours?",
+        "answer": "We did not find posted hours on its site. Its maintenance plan includes priority 24-hour emergency service for members. Call (937) 222-2275 to confirm."
+      },
+      {
+        "question": "Is HVACLists affiliated with Barker?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Barker Heating & Air Conditioning home page (phone, services)",
+        "url": "https://www.barkerhvac.com/"
+      },
+      {
+        "label": "Barker: about page (woman-owned, since 1918, license number, address)",
+        "url": "https://www.barkerhvac.com/about"
+      },
+      {
+        "label": "Barker: services page (installation, maintenance agreement, IAQ, commercial)",
+        "url": "https://www.barkerhvac.com/services"
+      },
+      {
+        "label": "Barker: indoor air quality page",
+        "url": "https://www.barkerhvac.com/indoor-air-quality"
+      },
+      {
+        "label": "Barker: financing page",
+        "url": "https://www.barkerhvac.com/financing"
+      },
+      {
+        "label": "BBB profile: Barker Heating and Air Conditioning",
+        "url": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/barker-heating-and-air-conditioning-0322-738"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 44462)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Oct 29, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-10-29"
   }
 ]
