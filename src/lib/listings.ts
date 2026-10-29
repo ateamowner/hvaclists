@@ -32,3 +32,34 @@ export function getListings(citySlug: string, serviceSlug: string): Listing[] {
     )
     .sort((a, b) => TIER_ORDER[a.tier] - TIER_ORDER[b.tier]);
 }
+
+export type CityListingEntry = {
+  listing: Listing;
+  /** Service slugs on this city where the company is listed. */
+  serviceSlugs: string[];
+};
+
+/** Unique companies listed anywhere on a city, for the city hub. Paid tiers first, then A to Z. */
+export function getCityListings(citySlug: string): CityListingEntry[] {
+  const rows = Array.isArray(listingsData) ? listingsData : [];
+  const byName = new Map<string, CityListingEntry>();
+  for (const listing of rows.filter(isListing)) {
+    if (listing.city_slug !== citySlug) continue;
+    const existing = byName.get(listing.name);
+    if (existing) {
+      if (!existing.serviceSlugs.includes(listing.service_slug)) {
+        existing.serviceSlugs.push(listing.service_slug);
+      }
+      if (TIER_ORDER[listing.tier] < TIER_ORDER[existing.listing.tier]) {
+        existing.listing = listing;
+      }
+    } else {
+      byName.set(listing.name, { listing, serviceSlugs: [listing.service_slug] });
+    }
+  }
+  return [...byName.values()].sort(
+    (a, b) =>
+      TIER_ORDER[a.listing.tier] - TIER_ORDER[b.listing.tier] ||
+      a.listing.name.localeCompare(b.listing.name)
+  );
+}
