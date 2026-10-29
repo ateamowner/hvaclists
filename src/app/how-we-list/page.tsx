@@ -36,8 +36,8 @@ const faqs = [
     answer: `No. Standard listings are free and are not for sale. A company can buy a Featured spot, and every Featured spot is labeled "paid placement" on the page so you can tell it is an ad.`,
   },
   {
-    question: `Why doesn't ${site.name} show star ratings?`,
-    answer: `We only publish facts we can point to: the company name, phone, areas served, and its registration or license number with the source. We do not copy or invent star ratings or review counts.`,
+    question: `Does ${site.name} rate or score companies?`,
+    answer: `No. We do not give companies our own star score, and we do not invent ratings or review counts. We publish facts we can point to: the company name, phone, areas served, and its registration or license number with the source. To read reviews, look up the company's own BBB or Google Business profile.`,
   },
   {
     question: `Why do some pages have no companies listed?`,
@@ -80,7 +80,7 @@ export default function HowWeListPage() {
       </h1>
       <p className="mt-4 leading-7">
         {site.name} is a directory of HVAC contractors in Dayton and the Miami Valley.
-        We are not a HVAC contractor and we do not send a truck. Right now the site
+        We are not an HVAC contractor and we do not send a truck. Right now the site
         lists {companyCount} companies across {pageCount} city and service
         pages. This page explains how a company gets on a page, how the list is
         ordered, and what we will not do.
@@ -113,9 +113,8 @@ export default function HowWeListPage() {
       </h2>
       <p className="mt-3 leading-7">
         Featured companies (paid placement) appear first and carry a label.
-        Standard listings are free. For those we weigh registration or license
-        status, public review history, and years in business, and we pick up to
-        three per page. We do not sell the order of standard listings.
+        Standard listings are free, and their order is not for sale. A
+        company that cannot be checked against a public source is left off.
       </p>
 
       <h2 className="mt-8 font-heading text-2xl font-semibold">
