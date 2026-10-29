@@ -19,7 +19,7 @@ import {
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["/", "/privacy/", "/for-pros/", "/how-we-list/"].map((path) => ({
+  const staticRoutes = ["/", "/privacy/", "/for-pros/", "/best-hvac-companies-dayton-oh-2027/", "/how-we-list/"].map((path) => ({
     url: absoluteUrl(path),
     lastModified:
       path === "/"
