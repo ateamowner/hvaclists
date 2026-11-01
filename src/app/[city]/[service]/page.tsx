@@ -42,6 +42,11 @@ import {
   servicePageBreadcrumbs,
 } from "@/lib/schema";
 import { shareMeta } from "@/lib/share-meta";
+import {
+  SeasonalSection,
+  seasonalCostGuide,
+  seasonalFaqs,
+} from "@/seasonal";
 
 export const dynamicParams = false;
 
@@ -94,8 +99,8 @@ export default async function ServicePage({
       : lockedH1(service, city);
   const intro = introParagraphs(city, service);
   const choose = howToChoose(city, service);
-  const cost = costGuideCopy(city);
-  const questions = faqs(city, service);
+  const cost = seasonalCostGuide(city, service) ?? costGuideCopy(city);
+  const questions = seasonalFaqs(city, service, faqs(city, service));
   const listings = getListings(city.slug, service.slug);
   const empty = listings.length === 0;
 
@@ -144,6 +149,7 @@ export default async function ServicePage({
 
       <HowToChoose content={choose} />
       <CostGuide content={cost} />
+      <SeasonalSection city={city} service={service} />
       <FaqList faqs={questions} />
       {empty ? null : <ListingsBlock listings={listings} />}
       <RelatedServiceLinks city={city} current={service} />
