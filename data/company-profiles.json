@@ -1431,5 +1431,770 @@
       }
     ],
     "checked": "2026-10-29"
+  },
+  {
+    "slug": "summers-plumbing-heating-cooling-dayton-oh",
+    "name": "Summers Plumbing Heating & Cooling (Dayton)",
+    "legal_name": "Summers of Dayton, Inc.",
+    "also_known_as": [
+      "Summers Heating and Cooling Dayton",
+      "Summers PHC",
+      "Summers of Dayton"
+    ],
+    "listing_names": [
+      "Summers Plumbing Heating & Cooling"
+    ],
+    "schema_type": "HVACBusiness",
+    "title": "Summers Heating & Cooling Dayton: Registration, Services",
+    "meta_description": "Summers Plumbing Heating & Cooling (Summers of Dayton), Centerville: City of Dayton heating reg. 1994, furnace, heat pump, AC and indoor air services, 40 listed towns, and what the Ohio license roster shows. Independent profile.",
+    "headline": "Summers Heating & Cooling in Dayton: the Centerville branch of a multi-state HVAC and plumbing company",
+    "base_location": "Centerville / Dayton, OH",
+    "summary": [
+      "Most searches for \"Summers heating and cooling\" are for the Indiana company, but Summers Plumbing Heating & Cooling also runs one Ohio branch, on Compark Road in Centerville, south of Dayton. The Dayton branch repairs and replaces furnaces, boilers, heat pumps, air conditioners and ductless mini-splits, and does duct cleaning, duct sealing and indoor air work, along with plumbing. The City of Dayton's registered heating contractor list (active as of June 4, 2026) carries it as Summers of Dayton under registration 1994, and the plumbing list carries Summers of Dayton, Inc. under 1843.",
+      "This page covers the Dayton branch's heating and cooling side: its city registrations, its services and the towns it names, its posted coupon hours, and one licensing detail worth asking about before a furnace or AC replacement."
+    ],
+    "address": {
+      "street": "93 Compark Rd.",
+      "locality": "Centerville",
+      "region": "OH",
+      "postal_code": "45459",
+      "source": "https://summersphc.com/dayton/"
+    },
+    "phone": {
+      "number": "(937) 400-3920",
+      "source": "https://summersphc.com/dayton/"
+    },
+    "website": "https://summersphc.com/dayton/",
+    "facts": [
+      {
+        "label": "Other addresses on public records",
+        "value": "City of Dayton heating list and BBB: 55 R Compark Rd, Centerville, OH 45459. City of Dayton plumbing list: 93 F Compark Road. Same Compark Road complex as the site address.",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "Hours",
+        "value": "The Dayton page advertises 24/7 emergency plumbing and HVAC service. Its coupons list Monday to Friday, 8 AM to 5 PM. Call to confirm hours for a non-emergency visit.",
+        "source": "https://summersphc.com/dayton/"
+      },
+      {
+        "label": "Technician screening (per company site)",
+        "value": "The site says every plumber and HVAC technician is drug tested, licensed and trained, and background checked.",
+        "source": "https://summersphc.com/dayton/"
+      },
+      {
+        "label": "Tune-up guarantee (per company site)",
+        "value": "A posted furnace tune-up coupon says that if the furnace breaks down after the tune-up, the company will refund the money, with conditions. Read the coupon terms before you book.",
+        "source": "https://summersphc.com/dayton/"
+      },
+      {
+        "label": "BBB profile",
+        "value": "Summers Plumbing Heating & Cooling of Dayton has its own BBB profile (BBB of Dayton and Miami Valley). Open the profile for BBB's current details.",
+        "source": "https://www.bbb.org/us/oh/centerville/profile/heating-and-air-conditioning/summers-plumbing-heating-cooling-of-dayton-0322-29535"
+      },
+      {
+        "label": "Company history",
+        "value": "The site says Summers has served customers since 1969. That date belongs to the wider Summers company, which is headquartered in Indiana; the Dayton page calls Dayton its only current Ohio location.",
+        "source": "https://summersphc.com/dayton/"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "1994",
+        "holder": "Summers of Dayton, 55 R Compark Rd",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered plumbing contractor",
+        "number": "1843",
+        "holder": "Summers of Dayton, Inc, 93 F Compark Road",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "License number shown on the Summers website",
+        "number": "26672",
+        "status": "Not verified to Summers (OCILB roster, Nov 3, 2026)",
+        "note": "The Summers Dayton site footer shows \"Plumbing License: 26672\" and no separate HVAC license number. In the Ohio OCILB roster we downloaded on November 3, 2026, HV.26672 and PL.26672 are both active, but both are listed under Ace Hardware Home Services Inc in Fairborn, not under a Summers name, and we found no active OCILB HVAC or plumbing contractor license under a Summers company name. Ask the company which Ohio HVAC license will be on your permit.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      }
+    ],
+    "services": [
+      "Furnace repair, maintenance and replacement",
+      "Boilers",
+      "Heat pumps",
+      "Air conditioning repair, maintenance and installation",
+      "Ductless mini-splits",
+      "24/7 emergency heating and cooling repair",
+      "Duct cleaning and duct sealing",
+      "Air purification, HEPA filtration and UV lights",
+      "Whole-home humidifiers",
+      "Indoor air quality checks",
+      "Plumbing, drains and water heaters (same branch)"
+    ],
+    "services_source": "https://summersphc.com/dayton/",
+    "areas_served": [
+      "Beavercreek",
+      "Bellbrook",
+      "Blanchester",
+      "Brookville",
+      "Centerville",
+      "Clayton",
+      "Dayton",
+      "Englewood",
+      "Enon",
+      "Fairborn",
+      "Franklin",
+      "Germantown",
+      "Hamilton",
+      "Huber Heights",
+      "Kettering",
+      "Lebanon",
+      "Maineville",
+      "Mason",
+      "Medway",
+      "Miamisburg",
+      "Middletown",
+      "Monroe",
+      "Moraine",
+      "New Carlisle",
+      "Oakwood",
+      "Riverside",
+      "South Lebanon",
+      "Spring Valley",
+      "Springboro",
+      "Springfield",
+      "Tipp City",
+      "Trenton",
+      "Troy",
+      "Vandalia",
+      "Waynesville",
+      "West Carrollton",
+      "West Chester",
+      "Wilmington",
+      "Xenia",
+      "Yellow Springs"
+    ],
+    "areas_source": "https://summersphc.com/dayton/",
+    "related_links": [
+      {
+        "href": "/west-carrollton-oh/furnace/",
+        "label": "Furnace repair in West Carrollton, OH",
+        "why": "where Summers is listed on HVACLists"
+      },
+      {
+        "href": "/west-carrollton-oh/ac-repair/",
+        "label": "AC repair in West Carrollton, OH",
+        "why": "where Summers is listed on HVACLists"
+      },
+      {
+        "href": "/moraine-oh/hvac-installation/",
+        "label": "HVAC installation in Moraine, OH",
+        "why": "where Summers is listed on HVACLists"
+      },
+      {
+        "href": "/riverside-oh/emergency-hvac/",
+        "label": "Emergency HVAC in Riverside, OH",
+        "why": "where Summers is listed on HVACLists"
+      },
+      {
+        "href": "/centerville-oh/furnace/",
+        "label": "Furnace repair in Centerville, OH",
+        "why": "compare licensed HVAC companies near the Compark Rd office"
+      },
+      {
+        "href": "/dayton-oh/furnace/",
+        "label": "Furnace repair in Dayton, OH",
+        "why": "compare other licensed Dayton HVAC companies"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Dayton branch, Indiana headquarters",
+        "body": "Summers' Dayton page calls Dayton its only current location in Ohio, and its BBB headquarters profile is in Brownsburg, Indiana. If you searched \"Summers heating and cooling\" from the Dayton area, the Centerville office at (937) 400-3920 is the one that serves you."
+      },
+      {
+        "title": "Ask which Ohio HVAC license covers the job",
+        "body": "The City of Dayton heating registration (1994) is active under Summers of Dayton. The only state license number on the website, 26672, shows up on the Ohio roster under a different company name, and we found no OCILB HVAC license under a Summers name. That does not mean anything is wrong, but for a furnace, boiler or AC replacement that needs a mechanical permit, ask who will pull it and which Ohio HV license number is on it."
+      },
+      {
+        "title": "Best fit",
+        "body": "Households that want one company for heating, cooling, indoor air and plumbing, including emergency calls. For a system replacement, get the model numbers, efficiency ratings, labor warranty and permit plan in writing and compare at least one other quote."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Summers. To reach the Dayton branch directly, call (937) 400-3920."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is there a Summers Heating & Cooling in Dayton, Ohio?",
+        "answer": "Yes. Summers Plumbing Heating & Cooling has a Dayton-area branch at 93 Compark Rd., Centerville, OH 45459, phone (937) 400-3920. The Summers site calls it the company's only current Ohio location."
+      },
+      {
+        "question": "Is Summers registered as a heating contractor with the City of Dayton?",
+        "answer": "Yes. The City of Dayton registered heating contractor list, active as of June 4, 2026, shows Summers of Dayton with registration 1994. The plumbing list shows Summers of Dayton, Inc. with registration 1843."
+      },
+      {
+        "question": "Does Summers Dayton have an Ohio HVAC license?",
+        "answer": "We could not confirm one. The website shows only license number 26672, which the OCILB roster we downloaded on November 3, 2026 lists as active under Ace Hardware Home Services Inc in Fairborn, and we found no OCILB HVAC contractor license under a Summers company name. Ask Summers which Ohio HVAC license covers your job and check it at the OCILB eLicense lookup."
+      },
+      {
+        "question": "What HVAC services does Summers offer in Dayton?",
+        "answer": "Its Dayton page lists furnace and boiler repair and replacement, heat pumps, air conditioning, ductless mini-splits, duct cleaning and sealing, air purification with HEPA and UV, humidifiers and 24/7 emergency repair."
+      },
+      {
+        "question": "Does Summers Dayton offer emergency furnace repair?",
+        "answer": "The Dayton page says it is available 24/7 for emergency plumbing and HVAC problems, such as a furnace that stops working."
+      },
+      {
+        "question": "Is the Dayton Summers the same company as Summers in Indiana?",
+        "answer": "It is part of the same Summers company. BBB shows the headquarters in Brownsburg, Indiana, with the Centerville office as its Dayton location."
+      },
+      {
+        "question": "Which towns does Summers Dayton serve?",
+        "answer": "Its Dayton page lists 40 towns, including Dayton, Kettering, Centerville, Beavercreek, Huber Heights, Miamisburg, Moraine, Riverside, West Carrollton, Springboro, Xenia, Fairborn, Troy, Springfield, Middletown, Mason and West Chester."
+      },
+      {
+        "question": "Is HVACLists affiliated with Summers?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Summers Plumbing Heating & Cooling Dayton page (address, phone, services, towns, coupons, license footer)",
+        "url": "https://summersphc.com/dayton/"
+      },
+      {
+        "label": "BBB profile: Summers Plumbing Heating & Cooling of Dayton",
+        "url": "https://www.bbb.org/us/oh/centerville/profile/heating-and-air-conditioning/summers-plumbing-heating-cooling-of-dayton-0322-29535"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "City of Dayton Registered Plumbing Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (license 26672)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 3, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-03"
+  },
+  {
+    "slug": "thomas-galbraith-heating-cooling-plumbing",
+    "name": "Thomas & Galbraith Heating, Cooling & Plumbing",
+    "legal_name": "Thomas & Galbraith",
+    "also_known_as": [
+      "Thomas & Galbraith Heating, Cooling, Plumbing & Electrical",
+      "Thomas and Galbraith"
+    ],
+    "listing_names": [
+      "Thomas & Galbraith Heating, Cooling & Plumbing"
+    ],
+    "schema_type": "HVACBusiness",
+    "title": "Thomas & Galbraith HVAC (Cincinnati & Dayton): HV License",
+    "meta_description": "Thomas & Galbraith Heating, Cooling & Plumbing: Ohio HVAC license HV.49040 (OCILB, Nov 3, 2026), City of Dayton heating reg. 010855, furnace, AC and heat pump services, Dayton and Centerville offices, 50 towns. Independent profile.",
+    "headline": "Thomas & Galbraith: Cincinnati-based heating and cooling company with Dayton and Centerville offices",
+    "base_location": "Fairfield (Cincinnati area) and Dayton, OH",
+    "summary": [
+      "Thomas & Galbraith is a southwest Ohio heating, cooling, plumbing and electrical company headquartered at 9520 LeSaint Drive in Fairfield, north of Cincinnati, with offices it lists in Dayton (Webster Street), Centerville and Mason. On the HVAC side it repairs and replaces furnaces, air conditioners, heat pumps, boilers and ductless systems, and does indoor air quality and duct cleaning, around the clock. The Ohio OCILB roster we downloaded on November 3, 2026 shows active HVAC contractor license HV.49040 under the Thomas & Galbraith name, matching the number printed on its site, and the City of Dayton lists it as a registered heating contractor (010855), active as of June 4, 2026.",
+      "This page covers the heating and cooling side for Dayton-area homeowners: which license numbers check out, which offices and towns it names, its membership plan, and a mismatch in the plumbing license numbers printed on its own site."
+    ],
+    "address": {
+      "street": "9520 LeSaint Drive",
+      "locality": "Fairfield",
+      "region": "OH",
+      "postal_code": "45014",
+      "source": "https://thomasgalbraith.com/"
+    },
+    "phone": {
+      "number": "(513) 327-2578",
+      "source": "https://thomasgalbraith.com/"
+    },
+    "website": "https://thomasgalbraith.com/",
+    "facts": [
+      {
+        "label": "Other offices listed",
+        "value": "Dayton: 6344 Webster Street, Dayton, OH 45414. Centerville: 93 W Franklin St, Ste 305, Centerville, OH 45459. Mason: 8563 Mason Montgomery Rd, Ste 30 C, Mason, OH 45040.",
+        "source": "https://thomasgalbraith.com/"
+      },
+      {
+        "label": "Hours",
+        "value": "The site advertises 24-hour service, and BBB lists the headquarters as open 24 hours, 7 days.",
+        "source": "https://www.bbb.org/us/oh/fairfield/profile/heating-and-air-conditioning/thomas-galbraith-heating-cooling-plumbing-0292-90013473"
+      },
+      {
+        "label": "Ownership (per BBB)",
+        "value": "BBB notes that Thomas & Galbraith, previously under Williams Comfort Air, was acquired by The Wrench Group. BBB lists Adam Hanekamp as general manager.",
+        "source": "https://www.bbb.org/us/oh/fairfield/profile/heating-and-air-conditioning/thomas-galbraith-heating-cooling-plumbing-0292-90013473"
+      },
+      {
+        "label": "Company history",
+        "value": "The site says the company has offered its service approach since 1977. BBB lists the current business as started December 31, 2014.",
+        "source": "https://www.bbb.org/us/oh/fairfield/profile/heating-and-air-conditioning/thomas-galbraith-heating-cooling-plumbing-0292-90013473"
+      },
+      {
+        "label": "Carrier award (per company site)",
+        "value": "The site says the company received Carrier's 2026 President's Award.",
+        "source": "https://thomasgalbraith.com/"
+      },
+      {
+        "label": "Membership plan",
+        "value": "The site advertises a True Comfort Membership with priority service, continuous discounts and 24/7 emergency service.",
+        "source": "https://thomasgalbraith.com/"
+      },
+      {
+        "label": "BBB profile",
+        "value": "BBB Cincinnati lists the Fairfield headquarters, with the Dayton Webster Street office as a second location. Open the profile for BBB's current details.",
+        "source": "https://www.bbb.org/us/oh/fairfield/profile/heating-and-air-conditioning/thomas-galbraith-heating-cooling-plumbing-0292-90013473"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.49040",
+        "holder": "Roger W Elkins, for Thomas & Galbraith",
+        "status": "Active (OCILB roster, Nov 3, 2026)",
+        "expires": "2027-11-22",
+        "note": "Matches the Ohio HVAC license printed on the company site (HV-49040). The roster shows the current term as effective November 23, 2026, and lists an out-of-state mailing address for this license record.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "010855",
+        "holder": "Thomas & Galbraith, 9520 Le Saint Drive",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "Plumbing contractor license",
+        "number": "PL.51014",
+        "holder": "Adam C Hanekamp, for Thomas & Galbraith",
+        "status": "Active (OCILB roster, Nov 3, 2026)",
+        "expires": "2027-02-25",
+        "note": "Matches the Ohio plumbing license in the site footer and the Fairfield LeSaint Dr address.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered plumbing contractor",
+        "number": "010843",
+        "holder": "Thomas & Galbraith, 6344 Webster St",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "24/7 HVAC repair",
+      "Furnace repair, maintenance and replacement",
+      "Air conditioning repair, maintenance and replacement",
+      "Heat pumps",
+      "Boilers",
+      "Ductless systems",
+      "Indoor air quality and duct cleaning",
+      "Plumbing, drains and water heaters",
+      "Electrical repair, panels and surge protection",
+      "Generator installation and repair"
+    ],
+    "services_source": "https://thomasgalbraith.com/",
+    "areas_served": [
+      "Dayton",
+      "Beavercreek",
+      "Bellbrook",
+      "Centerville",
+      "Englewood",
+      "Fairborn",
+      "Franklin",
+      "Germantown",
+      "Huber Heights",
+      "Kettering",
+      "Miamisburg",
+      "Moraine",
+      "Oakwood",
+      "Riverside",
+      "Springboro",
+      "Springfield",
+      "Tipp City",
+      "Trotwood",
+      "Troy",
+      "Vandalia",
+      "Waynesville",
+      "West Carrollton",
+      "Lebanon",
+      "Middletown",
+      "Hamilton",
+      "Fairfield",
+      "Mason",
+      "West Chester",
+      "Wilmington",
+      "Oxford",
+      "Anderson Township",
+      "Blue Ash",
+      "Cheviot",
+      "Colerain",
+      "Forest Park",
+      "Indian Hill",
+      "Kenwood",
+      "Loveland",
+      "Montgomery",
+      "Norwood",
+      "Oakley",
+      "Sharonville",
+      "Springdale",
+      "Covington, KY",
+      "Erlanger, KY",
+      "Florence, KY",
+      "Fort Thomas, KY",
+      "Independence, KY",
+      "Maysville, KY",
+      "Newport, KY"
+    ],
+    "areas_source": "https://thomasgalbraith.com/location/",
+    "related_links": [
+      {
+        "href": "/trotwood-oh/furnace/",
+        "label": "Furnace repair in Trotwood, OH",
+        "why": "where Thomas & Galbraith is listed on HVACLists"
+      },
+      {
+        "href": "/trotwood-oh/ac-repair/",
+        "label": "AC repair in Trotwood, OH",
+        "why": "where Thomas & Galbraith is listed on HVACLists"
+      },
+      {
+        "href": "/trotwood-oh/hvac-installation/",
+        "label": "HVAC installation in Trotwood, OH",
+        "why": "where Thomas & Galbraith is listed on HVACLists"
+      },
+      {
+        "href": "/trotwood-oh/emergency-hvac/",
+        "label": "Emergency HVAC in Trotwood, OH",
+        "why": "where Thomas & Galbraith is listed on HVACLists"
+      },
+      {
+        "href": "/dayton-oh/furnace/",
+        "label": "Furnace repair in Dayton, OH",
+        "why": "compare other licensed Dayton HVAC companies"
+      },
+      {
+        "href": "/centerville-oh/hvac-installation/",
+        "label": "HVAC installation in Centerville, OH",
+        "why": "compare companies near its Centerville office"
+      }
+    ],
+    "notes": [
+      {
+        "title": "HVAC license checks out",
+        "body": "The Ohio HVAC number on the site, HV-49040, is active on the OCILB roster under Thomas & Galbraith, and the company is a registered heating contractor with the City of Dayton (010855). For a furnace or AC replacement, that is the license that should be on the mechanical permit."
+      },
+      {
+        "title": "Two Ohio plumbing numbers on its own site",
+        "body": "The site's license line lists Ohio plumbing PL.49661, while its footer lists PL.51014. In the OCILB roster we downloaded on November 3, 2026, PL.51014 is active under Thomas & Galbraith in Fairfield, and PL.49661 is active under a different company, Buckeye Heating, Cooling & Plumbing in Worthington. If your job includes plumbing, check PL.51014 and ask whose license will be on the permit."
+      },
+      {
+        "title": "Cincinnati company with a Dayton office",
+        "body": "Headquarters and most of the named towns are in Greater Cincinnati and northern Kentucky. For Dayton-area work, the Webster Street office on the north side and the Centerville office are the relevant ones."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Thomas & Galbraith. To reach the company directly, call (513) 327-2578."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does Thomas & Galbraith have an Ohio HVAC license?",
+        "answer": "Yes. The OCILB roster we downloaded on November 3, 2026 lists Thomas & Galbraith with HVAC contractor license HV.49040, active, held by Roger W Elkins, expiring November 22, 2027. The same number is printed on the company's site."
+      },
+      {
+        "question": "Is Thomas & Galbraith a registered heating contractor in Dayton?",
+        "answer": "Yes. The City of Dayton registered heating contractor list, active as of June 4, 2026, includes Thomas & Galbraith (9520 Le Saint Drive) with registration 010855. It is also a registered plumbing contractor (010843, 6344 Webster St)."
+      },
+      {
+        "question": "Does Thomas & Galbraith have a Dayton office?",
+        "answer": "Yes. The site lists a Dayton office at 6344 Webster Street, Dayton, OH 45414, and a Centerville office at 93 W Franklin St, Ste 305. The headquarters is at 9520 LeSaint Drive in Fairfield."
+      },
+      {
+        "question": "Is Thomas & Galbraith open 24/7 for furnace and AC repair?",
+        "answer": "The site advertises 24/7 HVAC repair, including holidays, and BBB lists the headquarters as open 24 hours every day."
+      },
+      {
+        "question": "Why does the Thomas & Galbraith site show two plumbing license numbers?",
+        "answer": "Its license line lists PL.49661 and its footer lists PL.51014. The state roster shows PL.51014 under Thomas & Galbraith and PL.49661 under Buckeye Heating, Cooling & Plumbing in Worthington. We could not confirm why both appear."
+      },
+      {
+        "question": "Who owns Thomas & Galbraith?",
+        "answer": "BBB says the company, previously under Williams Comfort Air, was acquired by The Wrench Group, a national home services group."
+      },
+      {
+        "question": "Which Dayton-area towns does Thomas & Galbraith serve?",
+        "answer": "Its locations page names Dayton, Beavercreek, Bellbrook, Centerville, Englewood, Fairborn, Huber Heights, Kettering, Miamisburg, Trotwood, Troy, Vandalia, West Carrollton and other towns, along with Greater Cincinnati and northern Kentucky."
+      },
+      {
+        "question": "Is HVACLists affiliated with Thomas & Galbraith?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Thomas & Galbraith home page (services, offices, license numbers, hours)",
+        "url": "https://thomasgalbraith.com/"
+      },
+      {
+        "label": "Thomas & Galbraith: Trotwood, OH page",
+        "url": "https://thomasgalbraith.com/location/trotwood-ohio/"
+      },
+      {
+        "label": "Thomas & Galbraith: locations page (service area)",
+        "url": "https://thomasgalbraith.com/location/"
+      },
+      {
+        "label": "BBB profile: Thomas & Galbraith Heating, Cooling & Plumbing",
+        "url": "https://www.bbb.org/us/oh/fairfield/profile/heating-and-air-conditioning/thomas-galbraith-heating-cooling-plumbing-0292-90013473"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "City of Dayton Registered Plumbing Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 49040; plumbing 51014 and 49661)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 3, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-03"
+  },
+  {
+    "slug": "days-heating-cooling-huber-heights-oh",
+    "name": "Day's Heating & Cooling",
+    "legal_name": "Day's Heating & Cooling LLC",
+    "also_known_as": [
+      "Days Heating and Cooling",
+      "Day's HVAC",
+      "Days HVAC Huber Heights"
+    ],
+    "listing_names": [
+      "Day's Heating & Cooling, LLC"
+    ],
+    "schema_type": "HVACBusiness",
+    "title": "Day's Heating & Cooling (Huber Heights): HVAC License, Hours",
+    "meta_description": "Day's Heating & Cooling LLC, Huber Heights, OH: Ohio HVAC license HV.50607 (OCILB, Nov 3, 2026) held by owner Shane O Day, City of Dayton heating reg. 011120, posted hours, furnace, AC, heat pump and mini-split service. Independent profile.",
+    "headline": "Day's Heating & Cooling: owner-run residential HVAC company in Huber Heights",
+    "base_location": "Huber Heights, OH",
+    "summary": [
+      "Day's Heating & Cooling LLC is a small, family-owned residential HVAC company based in Huber Heights, serving Dayton, Fairborn and nearby communities. It repairs, installs and maintains furnaces, air conditioners, heat pumps and ductless mini-splits. The site says the business has served the area since 2022 and that its team has more than 20 years of hands-on experience. The license number printed on its site, 50607, matches Ohio HVAC contractor license HV.50607 in the OCILB roster we downloaded on November 3, 2026, active and held by Shane O Day.",
+      "The City of Dayton's registered heating contractor list (active as of June 4, 2026) carries Day's Heating & Cooling, LLC under registration 011120. This page lists those records, the company's posted hours, its services and equipment, and what to ask a small shop before a replacement."
+    ],
+    "phone": {
+      "number": "(937) 620-6889",
+      "source": "https://days-hvac.com/"
+    },
+    "website": "https://days-hvac.com/",
+    "facts": [
+      {
+        "label": "Location",
+        "value": "Huber Heights, OH. The state license record and the City of Dayton list give a Huber Heights street address that the city list marks as a home phone listing, so we do not republish it. The company does not post a street address on its site.",
+        "source": "https://days-hvac.com/about-us/"
+      },
+      {
+        "label": "Hours",
+        "value": "Monday to Friday 8:00 AM to 6:00 PM, closed Saturday and Sunday, with 24-hour emergency service, per the contact page.",
+        "source": "https://days-hvac.com/contact/"
+      },
+      {
+        "label": "Email",
+        "value": "info@days-hvac.com",
+        "source": "https://days-hvac.com/contact/"
+      },
+      {
+        "label": "Equipment",
+        "value": "The site names Ruud as one of its most trusted brands and lists furnaces, air conditioners, heat pumps, ductless systems, smart thermostats, whole-home humidifiers, UV lights and whole-home air purifiers.",
+        "source": "https://days-hvac.com/products/"
+      },
+      {
+        "label": "Business history (per company site)",
+        "value": "Serving the community since 2022, with over 20 years of hands-on HVAC experience. The OCILB roster shows the current license term as effective April 30, 2026.",
+        "source": "https://days-hvac.com/about-us/"
+      },
+      {
+        "label": "Financing",
+        "value": "The site has a financing page. Ask for the lender and terms in writing before you sign.",
+        "source": "https://days-hvac.com/financing/"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.50607",
+        "holder": "Shane O Day, for Day's Heating & Cooling LLC",
+        "status": "Active (OCILB roster, Nov 3, 2026)",
+        "expires": "2027-04-29",
+        "note": "Matches \"OH License # 50607\" in the company's site footer.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "011120",
+        "holder": "Day's Heating & Cooling, LLC",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "Furnace repair, replacement and maintenance",
+      "Air conditioning repair, installation and tune-ups",
+      "Heat pumps",
+      "Ductless mini-split systems",
+      "Full system replacements",
+      "24-hour emergency service",
+      "Smart thermostats",
+      "Whole-home humidifiers",
+      "UV lights and whole-home air purifiers"
+    ],
+    "services_source": "https://days-hvac.com/about-us/",
+    "areas_served": [
+      "Huber Heights",
+      "Dayton",
+      "Fairborn"
+    ],
+    "areas_source": "https://days-hvac.com/",
+    "related_links": [
+      {
+        "href": "/dayton-oh/ac-repair/",
+        "label": "AC repair in Dayton, OH",
+        "why": "where Day's is listed on HVACLists"
+      },
+      {
+        "href": "/huber-heights-oh/furnace/",
+        "label": "Furnace repair in Huber Heights, OH",
+        "why": "compare licensed HVAC companies near its home base"
+      },
+      {
+        "href": "/huber-heights-oh/ac-repair/",
+        "label": "AC repair in Huber Heights, OH",
+        "why": "compare licensed HVAC companies near its home base"
+      },
+      {
+        "href": "/fairborn-oh/furnace/",
+        "label": "Furnace repair in Fairborn, OH",
+        "why": "another town Day's names"
+      },
+      {
+        "href": "/dayton-oh/furnace/",
+        "label": "Furnace repair in Dayton, OH",
+        "why": "compare other licensed Dayton HVAC companies"
+      },
+      {
+        "href": "/dayton-oh/emergency-hvac/",
+        "label": "Emergency HVAC in Dayton, OH",
+        "why": "after-hours heating and cooling help"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Owner holds the license",
+        "body": "The state HVAC license is held by Shane O Day for the LLC, and the number matches the one on the company site. The site's reviews name Shane as the technician, so on a small job you are likely dealing with the license holder directly."
+      },
+      {
+        "title": "Small shop, short history under this name",
+        "body": "The business has operated under this name since 2022, per its site, though it cites 20+ years of experience. Weekday hours are 8 to 6 with 24-hour emergency service. For a system replacement, ask about the labor warranty, who registers the manufacturer warranty, and whether the job will be permitted."
+      },
+      {
+        "title": "Best fit",
+        "body": "Homes in Huber Heights, Dayton, Fairborn and nearby towns that want an owner-run shop for furnace and AC repair, tune-ups or a Ruud system replacement. Get the model numbers and price in writing and compare at least one other quote on a full replacement."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Day's Heating & Cooling. To reach the company directly, call (937) 620-6889."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Day's Heating & Cooling licensed in Ohio?",
+        "answer": "Yes. The license number on its site, 50607, is Ohio HVAC contractor license HV.50607 in the OCILB roster we downloaded on November 3, 2026, active, held by Shane O Day for Day's Heating & Cooling LLC, expiring April 29, 2027."
+      },
+      {
+        "question": "Is Day's Heating & Cooling registered with the City of Dayton?",
+        "answer": "Yes. The City of Dayton registered heating contractor list, active as of June 4, 2026, includes Day's Heating & Cooling, LLC with registration 011120."
+      },
+      {
+        "question": "Where is Day's Heating & Cooling located?",
+        "answer": "It is based in Huber Heights, OH, and serves Dayton, Fairborn and nearby communities. The site does not post a shop address. Phone: (937) 620-6889."
+      },
+      {
+        "question": "What are Day's Heating & Cooling's hours?",
+        "answer": "Monday to Friday 8 AM to 6 PM, closed Saturday and Sunday, with 24-hour emergency service, per its contact page."
+      },
+      {
+        "question": "What brands does Day's Heating & Cooling install?",
+        "answer": "The site names Ruud as one of its most trusted brands and says it works with other suppliers too, listed on its products page."
+      },
+      {
+        "question": "Does Day's Heating & Cooling install ductless mini-splits and heat pumps?",
+        "answer": "Yes. Its about page lists furnaces, air conditioners, heat pumps and ductless mini-split systems for residential service, installation and maintenance."
+      },
+      {
+        "question": "Who owns Day's Heating & Cooling?",
+        "answer": "The site describes it as family owned and operated. The state HVAC license is held by Shane O Day for the LLC."
+      },
+      {
+        "question": "Is HVACLists affiliated with Day's Heating & Cooling?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Day's Heating & Cooling home page (service area, phone, license number)",
+        "url": "https://days-hvac.com/"
+      },
+      {
+        "label": "Day's Heating & Cooling: about page (since 2022, services)",
+        "url": "https://days-hvac.com/about-us/"
+      },
+      {
+        "label": "Day's Heating & Cooling: contact page (hours, email)",
+        "url": "https://days-hvac.com/contact/"
+      },
+      {
+        "label": "Day's Heating & Cooling: products page (brands, add-ons)",
+        "url": "https://days-hvac.com/products/"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 50607)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 3, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-03"
   }
 ]
