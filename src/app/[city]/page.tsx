@@ -6,6 +6,7 @@ import { Disclosure } from "@/components/disclosure";
 import { FaqList } from "@/components/faq-list";
 import { HeroSplit } from "@/components/hero-split";
 import { NearbyCityLinks } from "@/components/internal-links";
+import { HubListings } from "@/components/hub-listings";
 import { JsonLd } from "@/components/json-ld";
 import { QuoteFormLoader } from "@/components/quote-form-loader";
 import { TrustStrip } from "@/components/trust-strip";
@@ -23,8 +24,10 @@ import { hubFaqs, hubIntro, serviceCardBlurb } from "@/lib/content";
 import {
   faqPageSchema,
   hubBreadcrumbs,
+  hubListingsItemListSchema,
   publisherLocalBusiness,
 } from "@/lib/schema";
+import { getCityListings } from "@/lib/listings";
 import { shareMeta } from "@/lib/share-meta";
 
 export const dynamicParams = false;
@@ -63,6 +66,11 @@ export default async function CityHubPage({
 
   const acRepair = getService("ac-repair");
   const questions = hubFaqs(city);
+  const cityListings = getCityListings(city.slug);
+  const hubItemList = hubListingsItemListSchema(
+    city,
+    cityListings.map((entry) => entry.listing)
+  );
   const intro = hubIntro(city);
 
   return (
@@ -72,6 +80,7 @@ export default async function CityHubPage({
           publisherLocalBusiness(city),
           faqPageSchema(questions),
           hubBreadcrumbs(city),
+          ...(hubItemList ? [hubItemList] : []),
         ]}
       />
       <Breadcrumbs
@@ -112,6 +121,8 @@ export default async function CityHubPage({
       </div>
 
       <TrustStrip className="mt-10" />
+
+      <HubListings city={city} entries={cityListings} />
 
       <h2 className="mt-10 font-heading text-xl font-semibold">
         {`Services in ${city.name}`}
