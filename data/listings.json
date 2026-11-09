@@ -58,7 +58,7 @@
     "license_id": "City of Dayton Heating Reg. 1534 · Ohio OCILB HV.15310 (per BBB, exp. 3/31/2027)",
     "blurb": "Old Troy Pike shop on Dayton's north side, in business since 1986 and owner-run. Furnace repair, replacement, and emergency service. BBB Accredited since 2003. Active on the City of Dayton registered heating contractor list (as of 6/4/2026).",
     "tier": "standard",
-    "profile_url": "https://www.qualityhtgcooling.com/",
+    "profile_url": "",
     "address": {
       "street": "3784 Old Troy Pike",
       "locality": "Dayton",
@@ -67,8 +67,7 @@
     },
     "sources": [
       "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF",
-      "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/quality-heating-cooling-0322-5279",
-      "https://www.qualityhtgcooling.com/about/contact-us/"
+      "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/quality-heating-cooling-0322-5279"
     ]
   },
   {
