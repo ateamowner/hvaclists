@@ -40,6 +40,11 @@ export function SiteFooter() {
               </Link>
             </li>
             <li>
+              <Link href="/how-we-list/" className="hover:underline">
+                How we list companies
+              </Link>
+            </li>
+            <li>
               <Link href="/privacy/" className="hover:underline">
                 Privacy
               </Link>
