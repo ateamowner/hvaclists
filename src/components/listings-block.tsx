@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { site } from "@/config/site";
 import type { Listing } from "@/types/listing";
+import { profileForListing, profilePath } from "@/lib/company-profiles";
 
 const TIER_LABEL: Record<Listing["tier"], string> = {
   featured: "Featured (paid placement)",
@@ -99,6 +100,16 @@ export function ListingsBlock({ listings }: { listings: Listing[] }) {
                       </a>
                     </span>
                   ))}
+                </p>
+              ) : null}
+              {profileForListing(listing.name) ? (
+                <p className="mt-3">
+                  <a
+                    href={profilePath(profileForListing(listing.name)!)}
+                    className="text-sm font-medium underline underline-offset-2"
+                  >
+                    {`${listing.name.replace(/, Inc\.$/, "")} profile: licenses, services, areas`}
+                  </a>
                 </p>
               ) : null}
               {listing.name ? (

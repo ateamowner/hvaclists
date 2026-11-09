@@ -1,0 +1,465 @@
+[
+  {
+    "slug": "cloverleaf-mechanical-springfield-oh",
+    "name": "Cloverleaf Mechanical",
+    "legal_name": "Cloverleaf Mechanical LLC",
+    "also_known_as": [
+      "Cloverleaf Heating, Air & Plumbing",
+      "Cloverleaf Heating, Air and Plumbing"
+    ],
+    "listing_names": [],
+    "schema_type": "HVACBusiness",
+    "title": "Cloverleaf Mechanical (Springfield, OH): HVAC License & Owner",
+    "meta_description": "Cloverleaf Mechanical LLC, now Cloverleaf Heating, Air & Plumbing, 1230 Mitchell Blvd, Springfield, OH: active Ohio HVAC license HV.22959, 2025 ownership change, services, 50+ listed towns.",
+    "headline": "Cloverleaf Mechanical (Cloverleaf Heating, Air & Plumbing), Springfield, OH",
+    "base_location": "Springfield, OH",
+    "summary": [
+      "Cloverleaf Mechanical LLC is a heating and cooling contractor at 1230 Mitchell Blvd. in Springfield (Clark County), Ohio, that now markets itself as Cloverleaf Heating, Air & Plumbing. The Ohio Construction Industry Licensing Board roster we downloaded on October 22, 2026 shows its HVAC contractor license, HV.22959, as active through March 31, 2027, with Ronald E. Hovda as the license holder.",
+      "The company's site says ownership changed in August 2025, when Jonathon, whose family has run SouthTowne Plumbing, took over and added plumbing to Cloverleaf's HVAC work. That may be why older listings show a different phone number and why some directories have flagged the business. The details below sort out which records are current."
+    ],
+    "address": {
+      "street": "1230 Mitchell Blvd",
+      "locality": "Springfield",
+      "region": "OH",
+      "postal_code": "45503",
+      "source": "https://callcloverleaf.com/"
+    },
+    "phone": {
+      "number": "(937) 504-5299",
+      "source": "https://callcloverleaf.com/"
+    },
+    "website": "https://callcloverleaf.com/",
+    "facts": [
+      {
+        "label": "Phone on the state license record",
+        "value": "(937) 342-1952, the number older listings and BBB show. The company's current site lists (937) 504-5299.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ownership",
+        "value": "Changed hands in August 2025 (per the company's About page)",
+        "source": "https://callcloverleaf.com/about"
+      },
+      {
+        "label": "Business history",
+        "value": "BBB lists business started May 1, 2000 and incorporated March 27, 2003",
+        "source": "https://www.bbb.org/us/oh/springfield/profile/heating-and-air-conditioning/cloverleaf-mechanical-llc-0322-40000971"
+      },
+      {
+        "label": "Hours listed",
+        "value": "8:00 AM to 4:00 PM; 24/7 emergency service for members (per the company)",
+        "source": "https://callcloverleaf.com/"
+      },
+      {
+        "label": "Fees it advertises",
+        "value": "No service call fee during normal business hours and free estimates (per the company; confirm when you book)",
+        "source": "https://callcloverleaf.com/about"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.22959",
+        "holder": "Ronald E Hovda, for Cloverleaf Mechanical LLC",
+        "status": "Active (OCILB roster, Oct 22, 2026)",
+        "expires": "2027-03-31",
+        "note": "Effective date on the roster: April 1, 2026. The roster still names the pre-2025 owner as license holder. We found no Ohio plumbing (PL) contractor license under the Cloverleaf Mechanical LLC name in the same roster, so ask which license covers plumbing work.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      }
+    ],
+    "services": [
+      "Furnace, heat pump and central AC installation",
+      "Heating and AC repair (any make or model, per the company)",
+      "HVAC maintenance",
+      "Indoor air quality: purifiers, humidifiers, dehumidifiers, filtration",
+      "Duct cleaning",
+      "Gas line installation and repair",
+      "Plumbing repair: leaks and clogs",
+      "Water heaters, tank and tankless",
+      "Water softeners",
+      "Sewer camera inspection",
+      "Garbage disposals",
+      "Backflow inspection certifications",
+      "Hose bibs and spigots",
+      "Commercial plumbing remodels",
+      "24/7 emergency service (membership)"
+    ],
+    "services_source": "https://callcloverleaf.com/springfield-ohio-heating-and-cooling-services",
+    "areas_served": [
+      "Alcony",
+      "Beavercreek",
+      "Bellefontaine",
+      "Brandt",
+      "Brighton",
+      "Cable",
+      "Catawba",
+      "Cedarville",
+      "Christiansburg",
+      "Clifton",
+      "Dayton",
+      "Donnelsville",
+      "Enon",
+      "Fairborn",
+      "Green Meadows",
+      "Harmony",
+      "Holiday Valley",
+      "Huber Heights",
+      "Jamestown",
+      "Jeffersonville",
+      "Lafayette",
+      "Lawrenceville",
+      "London",
+      "Marysville",
+      "Mechanicsburg",
+      "Medway",
+      "Midway",
+      "Milford Center",
+      "Mutual",
+      "New Carlisle",
+      "North Hampton",
+      "North Lewisburg",
+      "Northridge",
+      "Park Layne",
+      "Pitchin",
+      "Plain City",
+      "Plattsburg",
+      "Riverside",
+      "Selma",
+      "South Charleston",
+      "South Solon",
+      "South Vienna",
+      "St. Paris",
+      "Tipp City",
+      "Tremont City",
+      "Urbana",
+      "Vandalia",
+      "Vienna",
+      "West Jefferson",
+      "Wilberforce",
+      "Woodstock",
+      "Xenia",
+      "Yellow Springs"
+    ],
+    "areas_source": "https://callcloverleaf.com/service-area",
+    "related_links": [
+      {
+        "href": "/springfield-oh/furnace/",
+        "label": "Furnace repair in Springfield, OH",
+        "why": "verified HVAC companies that serve Springfield"
+      },
+      {
+        "href": "/springfield-oh/ac-repair/",
+        "label": "AC repair in Springfield, OH",
+        "why": "compare other licensed options"
+      },
+      {
+        "href": "/springfield-oh/emergency-hvac/",
+        "label": "Emergency HVAC in Springfield, OH",
+        "why": "after-hours heating and cooling"
+      },
+      {
+        "href": "/fairborn-oh/furnace/",
+        "label": "Furnace repair in Fairborn, OH",
+        "why": "on Cloverleaf's listed service area"
+      },
+      {
+        "href": "/huber-heights-oh/ac-repair/",
+        "label": "AC repair in Huber Heights, OH",
+        "why": "on Cloverleaf's listed service area"
+      },
+      {
+        "href": "/xenia-oh/furnace/",
+        "label": "Furnace repair in Xenia, OH",
+        "why": "on Cloverleaf's listed service area"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Why BBB shows an alert",
+        "body": "The BBB profile for Cloverleaf Mechanical LLC (BBB of Dayton and Miami Valley) showed an \"out of business known or suspected\" alert and no rating when we checked, with Ron Hovda listed as owner and (937) 342-1952 as the phone. The company's own site says it is still operating at 1230 Mitchell Blvd. under new ownership since August 2025, with (937) 504-5299 as the number. Call the number on the current website."
+      },
+      {
+        "title": "License holder vs. owner",
+        "body": "Ohio HVAC licenses are issued to a qualifying individual for a company. As of October 22, 2026 the state roster still lists Ronald E. Hovda as the HVAC license holder for Cloverleaf Mechanical LLC. After an ownership change it is reasonable to ask who now holds the license your permit will be pulled under."
+      },
+      {
+        "title": "Not on our Dayton-area listings yet",
+        "body": "HVACLists lists companies on a city page only after checking them against a registration list or the company's own service-area page and having three verified companies for that page. Cloverleaf is not on our city pages yet; the Springfield pages linked above compare companies that are."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Cloverleaf. To reach Cloverleaf directly, call (937) 504-5299."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Cloverleaf Mechanical licensed in Ohio?",
+        "answer": "Yes. The Ohio OCILB roster we downloaded on October 22, 2026 lists Cloverleaf Mechanical LLC with HVAC contractor license HV.22959, status Active, expiring March 31, 2027. The license holder on the roster is Ronald E. Hovda."
+      },
+      {
+        "question": "Is Cloverleaf Mechanical still in business?",
+        "answer": "The company's website says it is operating as Cloverleaf Heating, Air & Plumbing at 1230 Mitchell Blvd., Springfield, under new ownership since August 2025. Its BBB profile showed an out-of-business alert when we checked, which may reflect the old phone number and owner. Call (937) 504-5299, the number on the current site."
+      },
+      {
+        "question": "Who owns Cloverleaf Mechanical now?",
+        "answer": "Per the company's About page, Jonathon, whose family has run SouthTowne Plumbing, took over Cloverleaf in August 2025. The state HVAC license roster still lists Ronald E. Hovda as the license holder."
+      },
+      {
+        "question": "What is Cloverleaf's phone number and address?",
+        "answer": "The current website lists (937) 504-5299 at 1230 Mitchell Blvd, Springfield, OH 45503. The state license record and BBB still show the older number, (937) 342-1952."
+      },
+      {
+        "question": "What areas does Cloverleaf serve?",
+        "answer": "Its service-area page lists 53 places, including Springfield, Dayton, Beavercreek, Fairborn, Huber Heights, Xenia, Yellow Springs, Enon, New Carlisle, Urbana, London and Marysville."
+      },
+      {
+        "question": "Does Cloverleaf charge a service call fee?",
+        "answer": "The company says it does not charge a service call fee during normal business hours and does not charge for estimates; members also get no service call fee after hours. Confirm the terms when you book."
+      },
+      {
+        "question": "Is HVACLists affiliated with Cloverleaf?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Cloverleaf Heating, Air & Plumbing: home page (phone, address, hours)",
+        "url": "https://callcloverleaf.com/"
+      },
+      {
+        "label": "Cloverleaf: About page (August 2025 ownership change, fees)",
+        "url": "https://callcloverleaf.com/about"
+      },
+      {
+        "label": "Cloverleaf: service area",
+        "url": "https://callcloverleaf.com/service-area"
+      },
+      {
+        "label": "Cloverleaf: heating and cooling services",
+        "url": "https://callcloverleaf.com/springfield-ohio-heating-and-cooling-services"
+      },
+      {
+        "label": "Cloverleaf: plumbing services",
+        "url": "https://callcloverleaf.com/springfield-ohio-plumbing-services"
+      },
+      {
+        "label": "BBB profile: Cloverleaf Mechanical LLC",
+        "url": "https://www.bbb.org/us/oh/springfield/profile/heating-and-air-conditioning/cloverleaf-mechanical-llc-0322-40000971"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC license 22959)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB contractor roster download (generated Oct 22, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-10-22"
+  },
+  {
+    "slug": "korrect-plumbing-heating-air-dayton-oh",
+    "name": "Korrect Plumbing, Heating & Air Conditioning",
+    "legal_name": "Korrect Plumbing, Heating & Air Conditioning, Inc",
+    "also_known_as": [
+      "Korrect Plumbing",
+      "Korrect Heating & Air"
+    ],
+    "listing_names": [
+      "Korrect Plumbing, Heating & Air Conditioning, Inc."
+    ],
+    "schema_type": "HVACBusiness",
+    "title": "Korrect Plumbing, Heating & Air (Dayton): HVAC Licenses, Areas",
+    "meta_description": "Korrect Plumbing, Heating & Air Conditioning, Dayton (since 1950): two active Ohio HVAC licenses plus a plumbing license, City of Dayton heating registration 902, services and service area. Independent profile.",
+    "headline": "Korrect Plumbing, Heating & Air Conditioning: Dayton HVAC and plumbing since 1950",
+    "base_location": "Dayton, OH",
+    "summary": [
+      "Korrect Plumbing, Heating & Air Conditioning, Inc. is a family-owned heating, cooling, plumbing and drain company on West Third Street in Dayton, with a second office in Troy. Its site says it has served Dayton since 1950 and is now in its fourth generation. The Ohio Construction Industry Licensing Board roster we downloaded on October 22, 2026 lists two active HVAC contractor licenses and one active plumbing contractor license under the company name, and it is on the City of Dayton Registered Heating Contractors list (registration 902).",
+      "On the heating and cooling side it lists furnaces, boilers, heat pumps, rooftop units, ductless mini-splits, AC repair and installation, indoor air quality and a maintenance plan. It says its technicians are not paid on commission and that 24/7 emergency service has no surge pricing. HVACLists lists it on 85 heating and cooling pages across the Miami Valley, linked below."
+    ],
+    "address": {
+      "street": "7967 W Third St",
+      "locality": "Dayton",
+      "region": "OH",
+      "postal_code": "45417",
+      "source": "https://korrectplumbing.com/"
+    },
+    "phone": {
+      "number": "(937) 837-2333",
+      "source": "https://korrectplumbing.com/"
+    },
+    "website": "https://korrectplumbing.com/",
+    "facts": [
+      {
+        "label": "Second office",
+        "value": "16 S Cherry St #D, Troy, OH 45373",
+        "source": "https://korrectplumbing.com/"
+      },
+      {
+        "label": "In business since",
+        "value": "1950; family-owned, fourth generation (per the company)",
+        "source": "https://korrectplumbing.com/"
+      },
+      {
+        "label": "Sales model",
+        "value": "Non-commission technicians (per the company)",
+        "source": "https://korrectplumbing.com/"
+      },
+      {
+        "label": "Emergency service",
+        "value": "24/7, with no surge pricing (per the company)",
+        "source": "https://korrectplumbing.com/"
+      },
+      {
+        "label": "Service radius",
+        "value": "About 20 to 25 miles from downtown Dayton, covering 40+ communities in Montgomery, Greene, Warren, Miami and Preble counties (per the company)",
+        "source": "https://korrectplumbing.com/areas-we-serve"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating (mechanical) contractor",
+        "number": "902",
+        "holder": "Korrect Plbg, Htg & A/C, 7967 W Third Street",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered plumbing contractor",
+        "number": "1244",
+        "holder": "Korrect Plbg, Htg & A/C, 7967 W Third St",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.48006",
+        "holder": "Shawn Arnold, for Korrect Plumbing, Heating & Air Conditioning, Inc",
+        "status": "Active (OCILB roster, Oct 22, 2026)",
+        "expires": "2027-07-13",
+        "note": "The state roster lists the address as 7970 W 3rd St, Dayton, OH 45427, which differs from the 7967 W Third St address on the company site and the City of Dayton lists.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.51236",
+        "holder": "Zachary R Grosh, for Korrect Plumbing, Heating & Air Conditioning, Inc",
+        "status": "Active (OCILB roster, Oct 22, 2026)",
+        "expires": "2029-07-09",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "Plumbing contractor license",
+        "number": "PL.13223",
+        "holder": "Craig M Storck, for Korrect Plumbing, Heating & Air Conditioning, Inc",
+        "status": "Active (OCILB roster, Oct 22, 2026)",
+        "expires": "2027-09-30",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      }
+    ],
+    "services": [
+      "Furnaces",
+      "Boilers",
+      "Heat pumps",
+      "Heating installation and repair",
+      "AC repair",
+      "AC installation",
+      "AC maintenance",
+      "Ductless mini-splits",
+      "Rooftop systems",
+      "Indoor air quality: air purifiers, humidifiers",
+      "Comfort Care maintenance plan",
+      "Plumbing, water heaters and water softeners",
+      "Drain cleaning, hydro jetting, video inspection",
+      "Trenchless sewer restoration and drain lining",
+      "Backflows and gas lines",
+      "Bathtub and shower remodeling"
+    ],
+    "services_source": "https://korrectplumbing.com/",
+    "areas_served": [
+      "Montgomery County",
+      "Greene County",
+      "Warren County",
+      "Miami County",
+      "Preble County"
+    ],
+    "areas_source": "https://korrectplumbing.com/areas-we-serve",
+    "notes": [
+      {
+        "title": "Good fit for",
+        "body": "Homeowners anywhere in the Dayton ring who want one company for heating, cooling, plumbing and drains, and older homes with boilers or clay sewer laterals. Its site names Piqua, Waynesville, Eaton, Springfield and West Milton as the outer edges of its service area."
+      },
+      {
+        "title": "Two addresses on West Third Street",
+        "body": "The company site and City of Dayton lists use 7967 W Third St (45417). The state license roster uses 7970 W 3rd St (45427). Search by company name or license number rather than address when you check records."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Korrect. To reach Korrect directly, call (937) 837-2333."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Korrect Plumbing, Heating & Air Conditioning licensed?",
+        "answer": "Yes. The Ohio OCILB roster we downloaded on October 22, 2026 lists two active HVAC contractor licenses (HV.48006, Shawn Arnold, expires July 13, 2027; HV.51236, Zachary R Grosh, expires July 9, 2029) and one active plumbing contractor license (PL.13223, Craig M Storck, expires September 30, 2027). The City of Dayton lists it as registered heating contractor 902 and plumbing contractor 1244, active as of June 4, 2026."
+      },
+      {
+        "question": "How long has Korrect been in business?",
+        "answer": "The company says it has served Dayton since 1950 and is family-owned in its fourth generation."
+      },
+      {
+        "question": "What areas does Korrect serve?",
+        "answer": "Its site says it works within about 20 to 25 miles of downtown Dayton, covering 40+ communities in Montgomery, Greene, Warren, Miami and Preble counties, from Piqua to Waynesville and Eaton to Springfield. HVACLists lists it on furnace, AC repair, installation and emergency pages for 22 Miami Valley cities."
+      },
+      {
+        "question": "Does Korrect offer 24/7 emergency HVAC service?",
+        "answer": "Yes, per its site: 24/7 emergency heating, cooling and plumbing service with no surge pricing."
+      },
+      {
+        "question": "Are Korrect's technicians paid on commission?",
+        "answer": "The company says no. Its site states its technicians are not commission salespeople."
+      },
+      {
+        "question": "What is Korrect's phone number and address?",
+        "answer": "(937) 837-2333. Offices at 7967 W Third St, Dayton, OH 45417 and 16 S Cherry St #D, Troy, OH 45373."
+      },
+      {
+        "question": "Is HVACLists affiliated with Korrect?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Korrect Plumbing, Heating & Air Conditioning: home page (services, offices, history)",
+        "url": "https://korrectplumbing.com/"
+      },
+      {
+        "label": "Korrect: areas we serve (radius and counties)",
+        "url": "https://korrectplumbing.com/areas-we-serve"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "City of Dayton Registered Plumbing Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 48006, 51236; plumbing 13223)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB contractor roster download (generated Oct 22, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-10-22"
+  }
+]
