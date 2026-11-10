@@ -15,6 +15,14 @@ import path from "node:path";
  * the Dayton hub, not all 100+ URLs. If git history is unavailable the date is
  * omitted rather than faked with the build time.
  *
+ * Page-scoped template changes: a commit whose message carries the trailer
+ * `Lastmod-Scope: seasonal` does not move the shared template date. Use it only
+ * when the template edits are hooks that render nothing unless a page is listed
+ * in src/seasonal/registry.ts. Those pages are dated from their registry line
+ * and their block file instead (see seasonalDates), so a seasonal block bumps
+ * only the pages that show it. src/lib/lastmod.ts itself is not page content
+ * and is left out of the template date.
+ *
  * actions/checkout makes a shallow clone, so the first call deepens it with
  * `git fetch --unshallow` (checkout leaves the token in place for this). If the
  * history is still shallow, dates are omitted because blame would only see the
@@ -188,6 +196,65 @@ function listingDates(file: string): Map<string, Date> {
   return map;
 }
 
+const SCOPE_TRAILER = /^Lastmod-Scope:\s*seasonal\s*$/m;
+
+/** True when a commit (or everything a merge brings in) is marked page-scoped. */
+function isScopedCommit(sha: string, parents: string[], pathspecs: string[]): boolean {
+  if (parents.length <= 1) {
+    const body = git(["log", "-1", "--format=%B", sha]);
+    return !!body && SCOPE_TRAILER.test(body);
+  }
+  const out = git([
+    "log",
+    "--no-merges",
+    "--format=%B%x01",
+    `${parents[0]}..${sha}`,
+    "--",
+    ...pathspecs,
+  ]);
+  if (out === null) return false;
+  const bodies = out.split("\x01").map((b) => b.trim()).filter(Boolean);
+  return bodies.length > 0 && bodies.every((b) => SCOPE_TRAILER.test(b));
+}
+
+/** Newest commit date on the shared template, skipping page-scoped commits. */
+function templateDate(pathspecs: string[]): Date | undefined {
+  if (!haveHistory()) return undefined;
+  const out = git(["log", "--format=%H %cI %P", "--", ...pathspecs])?.trim();
+  if (!out) return undefined;
+  for (const line of out.split("\n")) {
+    const [sha, iso, ...parents] = line.trim().split(/\s+/);
+    if (!sha || !iso) continue;
+    if (!isScopedCommit(sha, parents, pathspecs)) return new Date(iso);
+  }
+  return undefined;
+}
+
+const SEASONAL_DIR = "src/seasonal";
+const SEASONAL_REGISTRY = `${SEASONAL_DIR}/registry.ts`;
+
+/**
+ * Newest date per "city:service" listed in src/seasonal/registry.ts: the
+ * registry line itself, its block file, and the shared src/seasonal/index.tsx.
+ */
+function seasonalDates(): Map<string, Date> {
+  const map = keyedCopyDates(SEASONAL_REGISTRY);
+  const blockDates = new Map<string, Date | undefined>();
+  for (const line of readLines(SEASONAL_REGISTRY)) {
+    const m = line.match(/^\s+"([a-z0-9-]+:[a-z0-9-]+)":\s*"([a-z0-9-]+)"/);
+    if (!m) continue;
+    const [, key, block] = m;
+    if (!blockDates.has(block)) {
+      blockDates.set(
+        block,
+        lastCommitDate([`${SEASONAL_DIR}/${block}.tsx`, `${SEASONAL_DIR}/index.tsx`])
+      );
+    }
+    bump(map, key, blockDates.get(block));
+  }
+  return map;
+}
+
 const TEMPLATE_PATHS = [
   "src/app/layout.tsx",
   ":(literal)src/app/[city]",
@@ -209,6 +276,7 @@ let cache:
       city: Map<string, Date>;
       copy: Map<string, Date>;
       listings: Map<string, Date>;
+      seasonal: Map<string, Date>;
     }
   | undefined;
 
@@ -217,28 +285,32 @@ function load() {
   // Shared template date excludes the per-page data files (their own
   // per-line dates are applied below) so a new listing does not bump every URL.
   const templatePaths = TEMPLATE_PATHS.filter((p) => !PAGE_DATA.includes(p));
-  const excludes = PAGE_DATA.map((p) => `:(exclude)${p}`);
+  const excludes = [...PAGE_DATA, "src/lib/lastmod.ts"].map(
+    (p) => `:(exclude)${p}`
+  );
   const existing = templatePaths.filter((p) =>
     existsSync(path.join(root, p.replace(/^:\(literal\)/, "")))
   );
-  const out = existing.length && haveHistory()
-    ? git(["log", "-1", "--format=%cI", "--", ...existing, ...excludes])?.trim()
+  const templ = existing.length
+    ? templateDate([...existing, ...excludes])
     : undefined;
   const cityBlocks = cityBlockDates("src/config/site.ts");
   cache = {
-    template: newest(out ? new Date(out) : undefined, cityBlocks.outside),
+    template: newest(templ, cityBlocks.outside),
     city: cityBlocks.map,
     copy: keyedCopyDates("src/lib/local-copy.ts"),
     listings: listingDates("data/listings.json"),
+    seasonal: seasonalDates(),
   };
   return cache;
 }
 
 /** lastmod for a top-level static page such as "/privacy/". */
 export function staticPageLastmod(pageFile: string): Date | undefined {
-  return newest(
-    lastCommitDate([pageFile, "src/app/layout.tsx", "src/components"])
+  const paths = [pageFile, "src/app/layout.tsx", "src/components"].filter((p) =>
+    existsSync(path.join(root, p))
   );
+  return paths.length ? templateDate(paths) : undefined;
 }
 
 /** lastmod for /<city>/<service>/. */
@@ -248,7 +320,13 @@ export function servicePageLastmod(
 ): Date | undefined {
   const d = load();
   const key = `${citySlug}:${serviceSlug}`;
-  return newest(d.template, d.city.get(citySlug), d.copy.get(key), d.listings.get(key));
+  return newest(
+    d.template,
+    d.city.get(citySlug),
+    d.copy.get(key),
+    d.listings.get(key),
+    d.seasonal.get(key)
+  );
 }
 
 /** lastmod for the /<city>/ hub: newest of the city block and its listings. */
