@@ -2196,5 +2196,498 @@
       }
     ],
     "checked": "2026-11-03"
+  },
+  {
+    "slug": "peck-heating-air-conditioning-refrigeration-dayton-oh",
+    "name": "Peck Heating, Air Conditioning & Refrigeration, LLC",
+    "legal_name": "Peck Heating, A/C & Refrigeration LLC",
+    "also_known_as": [
+      "Peck Heating and Air",
+      "Peck Heating & Air Conditioning",
+      "Peck Service",
+      "Peck HVAC Dayton"
+    ],
+    "listing_names": [
+      "Peck Heating, Air Conditioning & Refrigeration, LLC"
+    ],
+    "schema_type": "HVACBusiness",
+    "title": "Peck Heating & Air (Dayton, N Dixie Dr): License, Services",
+    "meta_description": "Peck Heating, Air Conditioning & Refrigeration, 6518 N Dixie Dr, Dayton: Ohio HVAC license HV.49014 (OCILB, Nov 10, 2026), City of Dayton heating reg. 1435, 50+ years, 24/7 calls, labor warranties, and commercial refrigeration. Independent profile.",
+    "headline": "Peck Heating, Air Conditioning & Refrigeration: north Dayton HVAC and commercial refrigeration",
+    "base_location": "Dayton, OH",
+    "summary": [
+      "Peck Heating, Air Conditioning & Refrigeration is a family-owned HVAC contractor on N Dixie Dr in north Dayton. Its site says it has over 50 years of experience installing, repairing and maintaining residential and commercial heating and cooling, plus commercial refrigeration such as walk-in freezers, which most residential HVAC shops don't handle. It offers free estimates, same-day responses and 24/7 emergency calls.",
+      "The Ohio OCILB roster we downloaded on November 10, 2026 lists HVAC contractor license HV.49014, active, held by Scott D Peck for Peck Heating, A/C & Refrigeration LLC at 6518 N Dixie Dr. The City of Dayton's registered heating contractor list (active as of June 4, 2026) carries it under registration 1435. This is a different company from Peck, Hannaford & Briggs in Cincinnati."
+    ],
+    "address": {
+      "street": "6518 N Dixie Dr",
+      "locality": "Dayton",
+      "region": "OH",
+      "postal_code": "45414",
+      "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+    },
+    "phone": {
+      "number": "(937) 890-6611",
+      "source": "https://www.peckservice.com/residential-heating"
+    },
+    "website": "https://www.peckservice.com/",
+    "facts": [
+      {
+        "label": "Experience",
+        "value": "Over 50 years in HVAC and refrigeration, per the home and about pages.",
+        "source": "https://www.peckservice.com/about"
+      },
+      {
+        "label": "Warranty",
+        "value": "A 30-day service warranty on all labor, a two-year labor warranty on residential heating and cooling installations, and two-year and 10-year labor warranties with service contracts. Manufacturer warranties are also available.",
+        "source": "https://www.peckservice.com/"
+      },
+      {
+        "label": "Response",
+        "value": "The site says it responds to inquiries the same day, offers same-day service and free estimates, and takes 24/7 emergency calls.",
+        "source": "https://www.peckservice.com/about"
+      },
+      {
+        "label": "Memberships",
+        "value": "The site says it is a member of the BBB and the Dayton Chamber of Commerce.",
+        "source": "https://www.peckservice.com/"
+      },
+      {
+        "label": "Ownership",
+        "value": "Family-owned and locally operated, per the home page.",
+        "source": "https://www.peckservice.com/"
+      },
+      {
+        "label": "Hours",
+        "value": "The site's hours widget did not load when we checked, so call to confirm office hours.",
+        "source": "https://www.peckservice.com/about"
+      },
+      {
+        "label": "License date",
+        "value": "The OCILB roster shows the current HV.49014 license effective October 25, 2026.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.49014",
+        "holder": "Scott D Peck, for Peck Heating, A/C & Refrigeration LLC (6518 N Dixie Dr)",
+        "status": "Active (OCILB roster, Nov 10, 2026)",
+        "expires": "2027-10-24",
+        "note": "We did not find a license number printed on the company website.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "1435",
+        "holder": "Peck Heating AC & Refrigeration LLC, 6518 N Dixie Dr",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "Gas and electric furnace installation, repair and maintenance",
+      "Heat pumps",
+      "Ductless mini-splits",
+      "Propane heating systems",
+      "Radiant heating",
+      "Boiler installation, repair and maintenance",
+      "Central air conditioning installation, repair and maintenance",
+      "PTAC units",
+      "Residential refrigeration service",
+      "Commercial heating and cooling",
+      "Commercial refrigeration",
+      "24/7 emergency repair"
+    ],
+    "services_source": "https://www.peckservice.com/residential-heating",
+    "areas_served": [
+      "Dayton",
+      "Surrounding areas"
+    ],
+    "areas_source": "https://www.peckservice.com/about",
+    "related_links": [
+      {
+        "href": "/dayton-oh/hvac-installation/",
+        "label": "HVAC installation in Dayton, OH",
+        "why": "where Peck is listed on HVACLists"
+      },
+      {
+        "href": "/dayton-oh/furnace/",
+        "label": "Furnace repair in Dayton, OH",
+        "why": "compare other licensed Dayton HVAC companies"
+      },
+      {
+        "href": "/dayton-oh/ac-repair/",
+        "label": "AC repair in Dayton, OH",
+        "why": "compare other licensed Dayton HVAC companies"
+      },
+      {
+        "href": "/dayton-oh/emergency-hvac/",
+        "label": "Emergency HVAC in Dayton, OH",
+        "why": "after-hours heating and cooling help"
+      },
+      {
+        "href": "/vandalia-oh/furnace/",
+        "label": "Furnace repair in Vandalia, OH",
+        "why": "just north of Peck's N Dixie Dr shop"
+      },
+      {
+        "href": "/huber-heights-oh/furnace/",
+        "label": "Furnace repair in Huber Heights, OH",
+        "why": "nearby town north of Dayton"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Which Peck is this?",
+        "body": "This is the Dayton company at 6518 N Dixie Dr, phone (937) 890-6611, OCILB HV.49014, City of Dayton heating registration 1435. Peck, Hannaford & Briggs in Cincinnati is a separate company with its own licenses."
+      },
+      {
+        "title": "License checks out",
+        "body": "The state roster shows an active HVAC contractor license at the N Dixie Dr address under the Peck name, and the company is on the City of Dayton registered heating list. The site doesn't print the number, so this page lists it."
+      },
+      {
+        "title": "Best fit",
+        "body": "Homes and businesses in north Dayton that want one contractor for heating, cooling and refrigeration, especially restaurants or shops with walk-in coolers. On a system replacement, get the equipment model numbers and labor warranty in writing and compare at least one other quote."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Peck. To reach the company directly, call (937) 890-6611."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Peck Heating & Air licensed in Ohio?",
+        "answer": "Yes. The OCILB roster we downloaded on November 10, 2026 lists HVAC contractor license HV.49014, active, held by Scott D Peck for Peck Heating, A/C & Refrigeration LLC, expiring October 24, 2027."
+      },
+      {
+        "question": "Is Peck Heating & Air registered with the City of Dayton?",
+        "answer": "Yes. The City of Dayton registered heating contractor list, active as of June 4, 2026, includes Peck Heating AC & Refrigeration LLC at 6518 N Dixie Dr with registration 1435."
+      },
+      {
+        "question": "Where is Peck Heating & Air located?",
+        "answer": "6518 N Dixie Dr, Dayton, OH 45414, per the state license record and City of Dayton list. Phone: (937) 890-6611."
+      },
+      {
+        "question": "Does Peck offer emergency HVAC service?",
+        "answer": "Yes. Its heating and cooling pages say it provides a 24/7 emergency callout service."
+      },
+      {
+        "question": "What warranty does Peck offer?",
+        "answer": "The site lists a 30-day service warranty on all labor, a two-year labor warranty on residential heating and cooling installations, and two-year and 10-year labor warranties with service contracts."
+      },
+      {
+        "question": "Does Peck service commercial refrigeration?",
+        "answer": "Yes. Commercial refrigeration is one of its main service lines, alongside commercial and residential heating and cooling."
+      },
+      {
+        "question": "Does Peck install mini-splits and heat pumps?",
+        "answer": "Yes. Its residential heating page lists gas and electric furnaces, heat pumps, mini-splits, propane systems, radiant heating and boilers, and its cooling page lists mini-splits and PTAC units."
+      },
+      {
+        "question": "Is HVACLists affiliated with Peck Heating & Air?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Peck Heating, Air Conditioning & Refrigeration home page (experience, warranties, memberships)",
+        "url": "https://www.peckservice.com/"
+      },
+      {
+        "label": "Peck: about page (same-day service, 24/7 repairs)",
+        "url": "https://www.peckservice.com/about"
+      },
+      {
+        "label": "Peck: residential heating page (services, warranty, phone)",
+        "url": "https://www.peckservice.com/residential-heating"
+      },
+      {
+        "label": "Peck: residential cooling page (services, warranty)",
+        "url": "https://www.peckservice.com/residential-cooling"
+      },
+      {
+        "label": "Peck: contact page",
+        "url": "https://www.peckservice.com/contact"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 49014)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 10, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-10"
+  },
+  {
+    "slug": "tanner-heating-air-conditioning-dayton-oh",
+    "name": "Tanner Heating & Air Conditioning, Inc.",
+    "legal_name": "Tanner Heating/Air Conditioning, Inc.",
+    "also_known_as": [
+      "Tanner Heating and Air",
+      "Tanner Heating",
+      "Tanner HVAC",
+      "Tanner Heating and Air Conditioning Dayton"
+    ],
+    "listing_names": [
+      "Tanner Heating & Air Conditioning, Inc."
+    ],
+    "schema_type": "HVACBusiness",
+    "title": "Tanner Heating & Air (Dayton, since 1986): License, Areas",
+    "meta_description": "Tanner Heating & Air Conditioning, 2238 E River Rd, Dayton/Moraine: Ohio HVAC license HV.18786 (OCILB, Nov 10, 2026), City of Dayton heating reg. 616, family-run since 1986, NATE techs, Carrier dealer, hours and towns. Independent profile.",
+    "headline": "Tanner Heating & Air Conditioning: family-run Dayton HVAC contractor since 1986",
+    "base_location": "Dayton / Moraine, OH",
+    "summary": [
+      "Tanner Heating & Air Conditioning is a family-owned heating and cooling company at 2238 E River Rd, south of Dayton near Moraine. Bob Tanner started it in 1986 with his sons Tom and Dave, after decades running Airtron, the heating and cooling company he grew from a 1951 sheet metal shop. It serves homes and businesses across Montgomery, Greene, Miami and Warren County with furnace, heat pump and AC repair and installation, indoor air quality, maintenance agreements and commercial design-build.",
+      "The Ohio OCILB roster we downloaded on November 10, 2026 lists HVAC contractor license HV.18786 and plumbing contractor license PL.18786, both active, held by David M Tanner for Tanner Heating/Air Conditioning, Inc. at the E River Rd address. The company's site prints the number as #18785 (see the note below). The City of Dayton's registered heating contractor list (active as of June 4, 2026) carries it under registration 616."
+    ],
+    "address": {
+      "street": "2238 E River Rd",
+      "locality": "Dayton",
+      "region": "OH",
+      "postal_code": "45439",
+      "source": "https://www.tannerhvac.com/"
+    },
+    "phone": {
+      "number": "(937) 299-2500",
+      "source": "https://www.tannerhvac.com/"
+    },
+    "website": "https://www.tannerhvac.com/",
+    "facts": [
+      {
+        "label": "Hours",
+        "value": "Monday to Friday, 8 AM to 4 PM, per the site's business data. The background page says it offers 24-hour emergency service.",
+        "source": "https://www.tannerhvac.com/about/company-background.php"
+      },
+      {
+        "label": "History",
+        "value": "Bob Tanner started Marathon Sheet Metal in 1951, renamed it Airtron in 1965, and later led Airtron's multi-state growth. He started Tanner Heating and Air Conditioning in 1986 with sons Tom and Dave, and it remains family-owned.",
+        "source": "https://www.tannerhvac.com/about/company-background.php"
+      },
+      {
+        "label": "Technicians",
+        "value": "The site says all technicians are NATE-certified and get continuing manufacturer training.",
+        "source": "https://www.tannerhvac.com/about/company-background.php"
+      },
+      {
+        "label": "Dealer and memberships",
+        "value": "Carrier Factory Authorized Dealer; member of ACCA, ABC, the Home Builders Association of Dayton, DACHA and the Air Conditioning Contractors of Ohio.",
+        "source": "https://www.tannerhvac.com/about/credentials.php"
+      },
+      {
+        "label": "BBB",
+        "value": "The credentials page says Tanner has been a BBB Accredited Business since 1991. Open the BBB profile for its current details.",
+        "source": "https://www.bbb.org/us/oh/moraine/profile/heating-and-air-conditioning/tanner-heating-air-conditioning-inc-0322-6357"
+      },
+      {
+        "label": "Maintenance agreements",
+        "value": "Plans include regularly scheduled maintenance, no emergency service fees and priority service; the Gold package adds free labor and standard parts on regular maintenance.",
+        "source": "https://www.tannerhvac.com/services/maintenance-agreements.php"
+      },
+      {
+        "label": "Pricing approach",
+        "value": "The background page says it gives a detailed proposal with up-front, clear pricing.",
+        "source": "https://www.tannerhvac.com/about/company-background.php"
+      },
+      {
+        "label": "Email",
+        "value": "info@tannerhvac.com, per the site's business data.",
+        "source": "https://www.tannerhvac.com/"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.18786",
+        "holder": "David M Tanner, for Tanner Heating/Air Conditioning, Inc. (2238 E River Rd, Moraine)",
+        "status": "Active (OCILB roster, Nov 10, 2026)",
+        "expires": "2028-09-30",
+        "note": "The company site prints \"License OH#18785\". The state roster has no 18785 record under Tanner; the active records at this address are 18786.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "Plumbing contractor license",
+        "number": "PL.18786",
+        "holder": "David M Tanner, for Tanner Heating/Air Conditioning, Inc.",
+        "status": "Active (OCILB roster, Nov 10, 2026)",
+        "expires": "2028-09-30",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "616",
+        "holder": "Tanner Htg/Air Conditioning, 2238 E River Rd",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "Air conditioning repair and service, all makes and models",
+      "High-efficiency AC installation",
+      "Furnace and heat pump repair, all makes and models",
+      "High-efficiency furnace and heat pump installation",
+      "Indoor air quality",
+      "Maintenance agreements",
+      "Commercial heating and cooling",
+      "Commercial design/build",
+      "24-hour emergency service"
+    ],
+    "services_source": "https://www.tannerhvac.com/",
+    "areas_served": [
+      "Dayton",
+      "Oakwood",
+      "Kettering",
+      "Centerville",
+      "Beavercreek",
+      "Bellbrook",
+      "Springboro",
+      "Troy",
+      "Vandalia",
+      "Waynesville",
+      "Greene County",
+      "Miami County",
+      "Montgomery County",
+      "Warren County"
+    ],
+    "areas_source": "https://www.tannerhvac.com/about/company-background.php",
+    "related_links": [
+      {
+        "href": "/kettering-oh/ac-repair/",
+        "label": "AC repair in Kettering, OH",
+        "why": "where Tanner is listed on HVACLists"
+      },
+      {
+        "href": "/kettering-oh/furnace/",
+        "label": "Furnace repair in Kettering, OH",
+        "why": "compare licensed HVAC companies near its shop"
+      },
+      {
+        "href": "/centerville-oh/furnace/",
+        "label": "Furnace repair in Centerville, OH",
+        "why": "a town Tanner names"
+      },
+      {
+        "href": "/bellbrook-oh/ac-repair/",
+        "label": "AC repair in Bellbrook, OH",
+        "why": "a town Tanner names"
+      },
+      {
+        "href": "/oakwood-oh/furnace/",
+        "label": "Furnace repair in Oakwood, OH",
+        "why": "a town Tanner names"
+      },
+      {
+        "href": "/moraine-oh/hvac-installation/",
+        "label": "HVAC installation in Moraine, OH",
+        "why": "Tanner's state license address is in Moraine"
+      }
+    ],
+    "notes": [
+      {
+        "title": "License number mismatch on the site",
+        "body": "Tanner's site footer and background page say \"License OH#18785\". The state roster we pulled on November 10, 2026 shows Tanner's active HVAC and plumbing licenses as HV.18786 and PL.18786 at the same E River Rd address, held by David M Tanner. It looks like a one-digit typo on the site, but ask which license number will be on your permit."
+      },
+      {
+        "title": "Long family track record",
+        "body": "The Tanner family has been in Dayton heating and cooling since 1951, and this company since 1986. It is a Carrier Factory Authorized Dealer with NATE-certified technicians."
+      },
+      {
+        "title": "Best fit",
+        "body": "Homes in Kettering, Oakwood, Centerville and Bellbrook that want an established Carrier dealer for a furnace, heat pump or AC replacement, or a maintenance plan with priority service. Office hours end at 4 PM on weekdays, so use the emergency line after hours. Get a written proposal and compare at least one other quote on a full system."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Tanner. To reach the company directly, call (937) 299-2500."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Tanner Heating & Air Conditioning licensed in Ohio?",
+        "answer": "Yes. The OCILB roster we downloaded on November 10, 2026 lists HVAC contractor license HV.18786 and plumbing contractor license PL.18786, both active, held by David M Tanner for Tanner Heating/Air Conditioning, Inc., expiring September 30, 2028. The company's site prints the number as 18785."
+      },
+      {
+        "question": "Is Tanner registered with the City of Dayton?",
+        "answer": "Yes. The City of Dayton registered heating contractor list, active as of June 4, 2026, includes Tanner Htg/Air Conditioning at 2238 E River Rd with registration 616."
+      },
+      {
+        "question": "Where is Tanner Heating & Air Conditioning located?",
+        "answer": "2238 E River Rd, Dayton, OH 45439 (the state record lists the city as Moraine). Phone: (937) 299-2500."
+      },
+      {
+        "question": "What are Tanner's hours?",
+        "answer": "Monday to Friday, 8 AM to 4 PM, per the site's business data, with 24-hour emergency service."
+      },
+      {
+        "question": "How long has Tanner been in business?",
+        "answer": "Since 1986, when Bob Tanner and his sons Tom and Dave started it. The family's heating and cooling work in Dayton goes back to 1951."
+      },
+      {
+        "question": "What brands does Tanner install?",
+        "answer": "Tanner is a Carrier Factory Authorized Dealer, per its credentials page."
+      },
+      {
+        "question": "Which areas does Tanner serve?",
+        "answer": "Its background page names Oakwood, Kettering, Centerville, Beavercreek, Bellbrook, Springboro, Troy, Vandalia and Waynesville, plus Greene, Miami, Montgomery and Warren County."
+      },
+      {
+        "question": "Is HVACLists affiliated with Tanner Heating & Air Conditioning?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tanner Heating and Air Conditioning home page (address, phone, hours data, license line)",
+        "url": "https://www.tannerhvac.com/"
+      },
+      {
+        "label": "Tanner: company background (history, service area, license line)",
+        "url": "https://www.tannerhvac.com/about/company-background.php"
+      },
+      {
+        "label": "Tanner: credentials (NATE, Carrier, associations, BBB since 1991)",
+        "url": "https://www.tannerhvac.com/about/credentials.php"
+      },
+      {
+        "label": "Tanner: heating/furnace service",
+        "url": "https://www.tannerhvac.com/services/heating-furnace.php"
+      },
+      {
+        "label": "Tanner: air conditioning service",
+        "url": "https://www.tannerhvac.com/services/air-conditioning.php"
+      },
+      {
+        "label": "Tanner: maintenance agreements",
+        "url": "https://www.tannerhvac.com/services/maintenance-agreements.php"
+      },
+      {
+        "label": "BBB profile: Tanner Heating & Air Conditioning, Inc.",
+        "url": "https://www.bbb.org/us/oh/moraine/profile/heating-and-air-conditioning/tanner-heating-air-conditioning-inc-0322-6357"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC and plumbing 18786)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 10, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-10"
   }
 ]
