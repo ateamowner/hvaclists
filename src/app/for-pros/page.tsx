@@ -6,7 +6,7 @@ import { shareMeta } from "@/lib/share-meta";
 
 const title = `For HVAC Companies: Featured Listings on ${site.name}`;
 const description =
-  `How contractors buy ${site.name} Featured (paid placement). $99/month self-serve on Stripe. Not exclusive. No lead-count SLA. The homeowner form has no credit-card field.`;
+  `How contractors buy ${site.name} Featured (paid placement): $99/month, self-serve on Stripe. Featured puts your business in the top spot on every page you're listed on. No lead guarantee.`;
 
 export const metadata: Metadata = {
   title,
@@ -42,13 +42,23 @@ export default function ForProsPage() {
         <li className="rounded-lg border border-border bg-card p-4">
           <p className="font-semibold">Featured (paid placement)</p>
           <p className="mt-1 text-sm leading-6 text-muted-foreground">
-            A paid upgrade. It is visually labeled “Featured (paid placement)”
-            so homeowners can tell it is an ad. Featured sits above standard.
-            This is not exclusive. There is no lead-count SLA.
+            $99/month Featured puts your business in the top spot on every page
+            you&apos;re listed on: each city and service page on {site.name}
+            that lists your company. It is labeled “Featured (paid placement)”
+            so homeowners can tell it is an ad. If another company on the same
+            page is also Featured, Featured listings share the top of that
+            page, above every standard listing.
+          </p>
+          <p className="mt-1 text-sm leading-6 text-muted-foreground">
+            Featured does not change where any page ranks in Google and does
+            not add you to pages you are not listed on. Leads are not
+            guaranteed: we do not promise any number of calls, quote requests,
+            or jobs.
           </p>
           <p className="mt-3 text-sm leading-6">
-            HVACLists Featured (paid placement). $99/month subscription.
-            Checkout is on Stripe, not on the homeowner quote form.
+            {site.name} Featured (paid placement): $99/month subscription.
+            Checkout is handled securely by Stripe; this site never sees or
+            stores your card number.
           </p>
           <a
             href={site.featuredCheckoutUrl}
@@ -66,8 +76,8 @@ export default function ForProsPage() {
         The form collects required phone, email, ZIP, service type, timing, and
         privacy consent. SMS consent is on the form. Name, property type, and
         message sit behind More details. Hidden fields carry page URL, city,
-        state, and service. There is no credit-card field on the homeowner
-        quote form.
+        state, and service. The homeowner quote form never asks for a card
+        number.
       </p>
       <p className="mt-3 leading-7">
         Every request posts to Formsubmit and emails {site.leadsEmail}. If a
@@ -83,11 +93,12 @@ export default function ForProsPage() {
         <a href={site.featuredCheckoutUrl} className="underline">
           this Stripe checkout
         </a>
-        . Featured is not exclusive. There is no lead-count SLA.
+        . Checkout is handled securely by Stripe; this site never sees or
+        stores your card number. Featured puts your business in the top spot
+        on every page you&apos;re listed on. Leads are not guaranteed.
       </p>
       <p className="mt-3 leading-7">
-        Standard listing city rates are not published on this page. Do not send
-        card numbers to the homeowner form.
+        Standard listing city rates are not published on this page.
       </p>
       <p className="mt-3 leading-7">
         Contact:{" "}

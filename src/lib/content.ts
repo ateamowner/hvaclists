@@ -229,7 +229,7 @@ export function hubFaqs(city: City): Faq[] {
     },
     {
       question: `How do contractors get on this ${city.name} page?`,
-      answer: `See the For Pros page. Companies can buy a labeled Featured (paid placement). There is no credit-card field on the homeowner form.`,
+      answer: `See the For Pros page. Companies can buy a labeled Featured (paid placement), $99/month, which puts your business in the top spot on every page you're listed on. Leads are not guaranteed. Checkout is handled securely by Stripe; this site never sees or stores card numbers.`,
     },
   ];
 }

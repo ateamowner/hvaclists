@@ -14,16 +14,18 @@ export function StickyMobileCta() {
 
   useEffect(() => {
     const form = document.getElementById("quote");
-    if (!form) {
-      setQuoteInView(false);
-      return;
-    }
+    if (!form) return;
     const observer = new IntersectionObserver(
       ([entry]) => setQuoteInView(entry.intersectionRatio >= 0.4),
       { threshold: [0, 0.4, 1] }
     );
     observer.observe(form);
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+      // Reset on route change so a stale "in view" state does not hide the
+      // bar on the next page.
+      setQuoteInView(false);
+    };
   }, [pathname]);
 
   if (isForProsPath(pathname) || isPrivacyPath(pathname)) return null;
