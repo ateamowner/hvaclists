@@ -2689,5 +2689,496 @@
       }
     ],
     "checked": "2026-11-10"
+  },
+  {
+    "slug": "the-furnace-man-heating-cooling-beavercreek-oh",
+    "name": "The Furnace Man Heating & Cooling, LLC",
+    "legal_name": "The Furnace Man Heating & Cooling LLC",
+    "also_known_as": [
+      "The Furnace Man",
+      "Furnace Man Dayton",
+      "The Furnace Man Beavercreek",
+      "Furnace Man Heating and Cooling"
+    ],
+    "listing_names": [
+      "The Furnace Man Heating & Cooling, LLC"
+    ],
+    "schema_type": "HVACBusiness",
+    "title": "The Furnace Man (Beavercreek, OH): HVAC License, Services",
+    "meta_description": "The Furnace Man Heating & Cooling, 3900 Indian Ripple Rd, Beavercreek: Ohio HVAC license HV.46663 (OCILB, Nov 12, 2026), City of Dayton heating reg. 1986, owner-run since 2011, 24/7 emergency service, geothermal and radiant heat. Independent profile.",
+    "headline": "The Furnace Man: owner-run Beavercreek HVAC contractor serving Dayton since 2011",
+    "base_location": "Beavercreek, OH",
+    "summary": [
+      "The Furnace Man Heating & Cooling is an owner-run HVAC company at 3900 Indian Ripple Rd in Beavercreek that serves Dayton and the surrounding suburbs. Its BBB profile shows the business started in September 2011, with Johny Constandinidis as owner. It repairs and installs furnaces, central AC, heat pumps and ductless mini-splits, and it also works on geothermal systems, radiant heating and water heaters, which not every HVAC shop handles. It offers 24/7 emergency service.",
+      "The Ohio OCILB roster we downloaded on November 12, 2026 lists HVAC contractor license HV.46663, active, held by Johnny G Costandinidis for The Furnace Man Heating & Cooling LLC, expiring March 1, 2027. The City of Dayton's registered heating contractor list (active as of June 4, 2026) carries it under registration 1986 at the Indian Ripple Rd address.",
+      "\"The furnace man\" is also a generic phrase and a name used by unrelated companies elsewhere, so this page covers only the Beavercreek company."
+    ],
+    "address": {
+      "street": "3900 Indian Ripple Rd",
+      "locality": "Beavercreek",
+      "region": "OH",
+      "postal_code": "45440",
+      "source": "https://thefurnacemanoh.com/contact-us/"
+    },
+    "phone": {
+      "number": "(937) 660-5473",
+      "source": "https://thefurnacemanoh.com/contact-us/"
+    },
+    "website": "https://thefurnacemanoh.com/",
+    "facts": [
+      {
+        "label": "Emergency service",
+        "value": "The site advertises 24/7 emergency service at (937) 660-5473. It does not publish regular office hours.",
+        "source": "https://thefurnacemanoh.com/contact-us/"
+      },
+      {
+        "label": "Office line",
+        "value": "The contact page and BBB profile list (937) 427-4105 for the office.",
+        "source": "https://thefurnacemanoh.com/contact-us/"
+      },
+      {
+        "label": "Owner and start date",
+        "value": "Its BBB profile lists Mr. Johny Constandinidis as owner, a business start of September 23, 2011, and LLC incorporation on September 26, 2011. The state roster spells the license holder's name Johnny G Costandinidis.",
+        "source": "https://www.bbb.org/us/oh/beavercreek/profile/heating-and-air-conditioning/the-furnace-man-heating-cooling-llc-0322-22698"
+      },
+      {
+        "label": "BBB",
+        "value": "Its BBB profile shows it as accredited since June 5, 2017, and lists the same OCILB license number, HV.46663. Open the profile for current details.",
+        "source": "https://www.bbb.org/us/oh/beavercreek/profile/heating-and-air-conditioning/the-furnace-man-heating-cooling-llc-0322-22698"
+      },
+      {
+        "label": "Brands",
+        "value": "The AC page says it sells Ruud, Carrier and AirEase equipment, among other brands.",
+        "source": "https://thefurnacemanoh.com/air-conditioning-replacement-installation/"
+      },
+      {
+        "label": "Offers",
+        "value": "The home page shows coupons for an AC tune-up, a discount on a new system, free second opinions on HVAC systems, and 0% financing. Ask for current terms before you book.",
+        "source": "https://thefurnacemanoh.com/"
+      },
+      {
+        "label": "Guarantee",
+        "value": "The site advertises a 100% satisfaction guarantee. Ask what it covers before you sign.",
+        "source": "https://thefurnacemanoh.com/"
+      },
+      {
+        "label": "Geothermal",
+        "value": "It has a detailed geothermal page and says it can install geothermal heat pumps in existing homes, including homes with baseboard heat (using a ducted system alongside the baseboard).",
+        "source": "https://thefurnacemanoh.com/geo-thermal-heating-cooling-systems-dayton-oh/"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.46663",
+        "holder": "Johnny G Costandinidis, for The Furnace Man Heating & Cooling LLC (265 Towncrest Dr, Beavercreek)",
+        "status": "Active (OCILB roster, Nov 12, 2026)",
+        "expires": "2027-03-01",
+        "note": "We did not find a license number printed on the company website. The BBB profile shows the same number and expiration.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "1986",
+        "holder": "The Furnace Man Heating & Cooling, 3900 Indian Ripple Rd",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "Furnace repair",
+      "Emergency furnace repair",
+      "Heating installation and replacement",
+      "AC repair",
+      "AC preventive maintenance and tune-ups",
+      "AC replacement and installation",
+      "Heat pumps",
+      "Ductless mini-splits",
+      "Geothermal heating and cooling",
+      "Radiant heating repair and installation",
+      "Water heater repair, sales and installation",
+      "Commercial heating and air conditioning",
+      "Commercial air quality",
+      "24/7 emergency service"
+    ],
+    "services_source": "https://thefurnacemanoh.com/",
+    "areas_served": [
+      "Dayton",
+      "Beavercreek",
+      "Surrounding Dayton suburbs"
+    ],
+    "areas_source": "https://thefurnacemanoh.com/",
+    "related_links": [
+      {
+        "href": "/dayton-oh/hvac-installation/",
+        "label": "HVAC installation in Dayton, OH",
+        "why": "where The Furnace Man is listed on HVACLists"
+      },
+      {
+        "href": "/dayton-oh/furnace/",
+        "label": "Furnace repair in Dayton, OH",
+        "why": "compare licensed Dayton furnace contractors"
+      },
+      {
+        "href": "/dayton-oh/emergency-hvac/",
+        "label": "Emergency HVAC in Dayton, OH",
+        "why": "The Furnace Man advertises 24/7 emergency service"
+      },
+      {
+        "href": "/dayton-oh/ac-repair/",
+        "label": "AC repair in Dayton, OH",
+        "why": "its main service area"
+      },
+      {
+        "href": "/beavercreek-oh/furnace/",
+        "label": "Furnace repair in Beavercreek, OH",
+        "why": "its shop is on Indian Ripple Rd"
+      },
+      {
+        "href": "/beavercreek-oh/ac-repair/",
+        "label": "AC repair in Beavercreek, OH",
+        "why": "its home town"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Which Furnace Man is this?",
+        "body": "This is the Beavercreek company at 3900 Indian Ripple Rd, phone (937) 660-5473, OCILB HV.46663, City of Dayton heating registration 1986. Other businesses that call themselves \"the furnace man\" are not related."
+      },
+      {
+        "title": "License checks out",
+        "body": "The state roster shows an active HVAC contractor license under the company's legal name, and the company is on the City of Dayton registered heating list. The license record uses a Towncrest Dr address in Beavercreek rather than the Indian Ripple Rd shop."
+      },
+      {
+        "title": "Best fit",
+        "body": "Homes in Dayton and Beavercreek that want an owner-run shop for a furnace or AC replacement, or that have geothermal, boiler or radiant systems many companies won't service. On a full system replacement, get the proposal in writing and compare at least one other quote."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to The Furnace Man. To reach the company directly, call (937) 660-5473."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is The Furnace Man licensed in Ohio?",
+        "answer": "Yes. The OCILB roster we downloaded on November 12, 2026 lists HVAC contractor license HV.46663, active, held by Johnny G Costandinidis for The Furnace Man Heating & Cooling LLC, expiring March 1, 2027."
+      },
+      {
+        "question": "Is The Furnace Man registered with the City of Dayton?",
+        "answer": "Yes. The City of Dayton registered heating contractor list, active as of June 4, 2026, includes The Furnace Man Heating & Cooling at 3900 Indian Ripple Rd with registration 1986."
+      },
+      {
+        "question": "Where is The Furnace Man located?",
+        "answer": "3900 Indian Ripple Rd, Beavercreek, OH 45440. Emergency line: (937) 660-5473. Office: (937) 427-4105."
+      },
+      {
+        "question": "Does The Furnace Man offer emergency service?",
+        "answer": "Yes. Its site advertises 24/7 emergency service. It does not publish regular office hours, so call to confirm scheduling."
+      },
+      {
+        "question": "How long has The Furnace Man been in business?",
+        "answer": "Since 2011. Its BBB profile lists a business start date of September 23, 2011."
+      },
+      {
+        "question": "Does The Furnace Man install geothermal systems?",
+        "answer": "Yes. It has a geothermal heating and cooling page and also lists radiant heating repair and installation."
+      },
+      {
+        "question": "What brands does The Furnace Man sell?",
+        "answer": "Its AC page names Ruud, Carrier and AirEase, among other brands."
+      },
+      {
+        "question": "Is HVACLists affiliated with The Furnace Man?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "The Furnace Man home page (services, 24/7 service, offers, service area)",
+        "url": "https://thefurnacemanoh.com/"
+      },
+      {
+        "label": "The Furnace Man: about us",
+        "url": "https://thefurnacemanoh.com/about-us/"
+      },
+      {
+        "label": "The Furnace Man: contact us (address, emergency and office phones)",
+        "url": "https://thefurnacemanoh.com/contact-us/"
+      },
+      {
+        "label": "The Furnace Man: heating installation",
+        "url": "https://thefurnacemanoh.com/heating-installation-dayton-ohio/"
+      },
+      {
+        "label": "The Furnace Man: AC replacement and installation (brands)",
+        "url": "https://thefurnacemanoh.com/air-conditioning-replacement-installation/"
+      },
+      {
+        "label": "The Furnace Man: geothermal heating and cooling",
+        "url": "https://thefurnacemanoh.com/geo-thermal-heating-cooling-systems-dayton-oh/"
+      },
+      {
+        "label": "BBB profile: The Furnace Man Heating & Cooling, LLC (owner, start date, accredited since 2017, HV.46663)",
+        "url": "https://www.bbb.org/us/oh/beavercreek/profile/heating-and-air-conditioning/the-furnace-man-heating-cooling-llc-0322-22698"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 46663)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 12, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-12"
+  },
+  {
+    "slug": "crabtree-heating-air-conditioning-dayton-oh",
+    "name": "Crabtree Heating & Air Conditioning, Inc.",
+    "legal_name": "Crabtree Heating & A/C Inc",
+    "also_known_as": [
+      "Crabtree HVAC",
+      "Crabtree Heating",
+      "Crabtree Heating and Air",
+      "Crabtree Heating Dayton"
+    ],
+    "listing_names": [
+      "Crabtree Heating & Air Conditioning, Inc."
+    ],
+    "schema_type": "HVACBusiness",
+    "title": "Crabtree Heating & Air (Dayton, Titus Ave): License, Services",
+    "meta_description": "Crabtree Heating & Air Conditioning, 2216 Titus Ave, Dayton: Ohio HVAC license HV.19177 (OCILB, Nov 12, 2026, active in renewal), City of Dayton heating reg. 010861, Carrier dealer, 24/7 emergency service and counties served. Independent profile.",
+    "headline": "Crabtree Heating & Air Conditioning: independent HVAC shop on Titus Ave in north Dayton",
+    "base_location": "Dayton, OH",
+    "summary": [
+      "Crabtree Heating & Air Conditioning, Inc. (Crabtree HVAC on its website) is an independent heating and cooling company at 2216 Titus Ave in north Dayton. It installs and services furnaces, boilers, heat pumps, central air, ductless mini-splits and indoor air quality equipment, sells maintenance plans, and advertises 24/7 emergency service across Montgomery, Miami and Warren County. Carrier's dealer locator lists it as a Carrier dealer at the Titus Ave address.",
+      "The license number on its site, HV19177, matches the Ohio OCILB roster we downloaded on November 12, 2026: HVAC contractor license HV.19177, held by Dean A Crabtree for Crabtree Heating & A/C Inc, status \"Active in Renewal\" with a current term ending December 31, 2026. The City of Dayton's registered heating contractor list (active as of June 4, 2026) carries it under registration 010861."
+    ],
+    "address": {
+      "street": "2216 Titus Ave",
+      "locality": "Dayton",
+      "region": "OH",
+      "postal_code": "45414",
+      "source": "https://www.crabtreeheating.com/"
+    },
+    "phone": {
+      "number": "(937) 898-1184",
+      "source": "https://www.crabtreeheating.com/"
+    },
+    "website": "https://www.crabtreeheating.com/",
+    "facts": [
+      {
+        "label": "Emergency service",
+        "value": "The home page advertises 24/7 emergency HVAC service. It does not publish regular office hours.",
+        "source": "https://www.crabtreeheating.com/"
+      },
+      {
+        "label": "Guarantee",
+        "value": "The home page advertises a 100% satisfaction guarantee. Ask what it covers before you sign.",
+        "source": "https://www.crabtreeheating.com/"
+      },
+      {
+        "label": "Maintenance plans",
+        "value": "Plans include annual tune-ups, priority service and discounted repairs, per the services page.",
+        "source": "https://www.crabtreeheating.com/services"
+      },
+      {
+        "label": "Carrier dealer",
+        "value": "Carrier's dealer locator lists Crabtree Heating at 2216 Titus Ave as a Carrier dealer.",
+        "source": "https://www.carrier.com/residential/en/us/dealers/oh/dayton/2216-titus-avenue-9027149-loc"
+      },
+      {
+        "label": "Email",
+        "value": "jason@crabtreeheating.com, per the site footer.",
+        "source": "https://www.crabtreeheating.com/"
+      },
+      {
+        "label": "Other phone numbers",
+        "value": "The services page shows (937) 828-5024 next to its emergency service link, and the Carrier locator shows (937) 280-5623. The main number on every page of its site is (937) 898-1184.",
+        "source": "https://www.crabtreeheating.com/services"
+      },
+      {
+        "label": "Address on records",
+        "value": "The site and Carrier list 2216 Titus Ave. The City of Dayton list shows 2218 Titus Avenue, and the state license record uses a Vandalia mailing address.",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "Copyright line",
+        "value": "The site footer reads \"© 1977-2024 by Crabtree Heating & Air Conditioning Inc.\"",
+        "source": "https://www.crabtreeheating.com/"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.19177",
+        "holder": "Dean A Crabtree, for Crabtree Heating & A/C Inc (121 Hartshorn Dr, Vandalia)",
+        "status": "Active in Renewal (OCILB roster, Nov 12, 2026)",
+        "expires": "2026-12-31",
+        "note": "Matches \"OH Lic # HV19177\" on the company site. \"Active in Renewal\" means the license is current and the renewal is in process; check the OCILB lookup after December 31, 2026 for the new term.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "010861",
+        "holder": "Crabtree Heating & A/C Inc, 2218 Titus Avenue",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "Furnace installation and replacement (gas and electric)",
+      "Boiler services",
+      "Heat pumps",
+      "Radiant heating systems",
+      "Air conditioning installation and replacement",
+      "AC repair and maintenance",
+      "Ductless mini-split systems",
+      "Evaporative coolers",
+      "Air purification and filtration (including UV purifiers and air scrubbers)",
+      "Humidity control",
+      "Ventilation improvements",
+      "Maintenance plans",
+      "24/7 emergency service"
+    ],
+    "services_source": "https://www.crabtreeheating.com/services",
+    "areas_served": [
+      "Dayton",
+      "Montgomery County",
+      "Miami County",
+      "Warren County"
+    ],
+    "areas_source": "https://www.crabtreeheating.com/",
+    "related_links": [
+      {
+        "href": "/dayton-oh/ac-repair/",
+        "label": "AC repair in Dayton, OH",
+        "why": "where Crabtree is listed on HVACLists"
+      },
+      {
+        "href": "/dayton-oh/furnace/",
+        "label": "Furnace repair in Dayton, OH",
+        "why": "compare licensed HVAC companies near Titus Ave"
+      },
+      {
+        "href": "/huber-heights-oh/furnace/",
+        "label": "Furnace repair in Huber Heights, OH",
+        "why": "Montgomery County, close to its north Dayton shop"
+      },
+      {
+        "href": "/vandalia-oh/ac-repair/",
+        "label": "AC repair in Vandalia, OH",
+        "why": "its state license record uses a Vandalia address"
+      },
+      {
+        "href": "/tipp-city-oh/hvac-installation/",
+        "label": "HVAC installation in Tipp City, OH",
+        "why": "Miami County, which Crabtree serves"
+      },
+      {
+        "href": "/springboro-oh/furnace/",
+        "label": "Furnace repair in Springboro, OH",
+        "why": "Warren County, which Crabtree serves"
+      }
+    ],
+    "notes": [
+      {
+        "title": "License checks out, renewal pending",
+        "body": "The HV19177 number on Crabtree's site is a state HVAC contractor license under the company name. On November 12, 2026 the roster showed it as \"Active in Renewal\" with the current term ending December 31, 2026, which is normal late in a license cycle. The company is also on the City of Dayton registered heating list."
+      },
+      {
+        "title": "Carrier equipment, independent shop",
+        "body": "Crabtree is a Carrier dealer per Carrier's locator, and its services run from furnaces and boilers to mini-splits, evaporative coolers and whole-home air purification."
+      },
+      {
+        "title": "Best fit",
+        "body": "Homes in north Dayton, Huber Heights, Vandalia and the Miami County towns that want a local independent shop for a furnace or AC replacement, or a maintenance plan with priority service. On a full system, get a written proposal and compare at least one other quote."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Crabtree. To reach the company directly, call (937) 898-1184."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Crabtree Heating & Air Conditioning licensed in Ohio?",
+        "answer": "Yes. The OCILB roster we downloaded on November 12, 2026 lists HVAC contractor license HV.19177, held by Dean A Crabtree for Crabtree Heating & A/C Inc, with status Active in Renewal and the current term ending December 31, 2026. The number matches the one on Crabtree's site."
+      },
+      {
+        "question": "Is Crabtree registered with the City of Dayton?",
+        "answer": "Yes. The City of Dayton registered heating contractor list, active as of June 4, 2026, includes Crabtree Heating & A/C Inc at 2218 Titus Avenue with registration 010861."
+      },
+      {
+        "question": "Where is Crabtree Heating & Air Conditioning located?",
+        "answer": "2216 Titus Ave, Dayton, OH 45414, per its site. Phone: (937) 898-1184."
+      },
+      {
+        "question": "Does Crabtree offer emergency service?",
+        "answer": "Yes. Its home page advertises 24/7 emergency HVAC service. Regular office hours are not published."
+      },
+      {
+        "question": "Is Crabtree a Carrier dealer?",
+        "answer": "Yes. Carrier's dealer locator lists Crabtree Heating at 2216 Titus Ave in Dayton."
+      },
+      {
+        "question": "Does Crabtree offer maintenance plans?",
+        "answer": "Yes. Its services page lists maintenance plans with annual tune-ups, priority service and discounted repairs."
+      },
+      {
+        "question": "Which areas does Crabtree serve?",
+        "answer": "Its site footer names Montgomery, Miami and Warren County, from its shop in Dayton."
+      },
+      {
+        "question": "Is HVACLists affiliated with Crabtree Heating & Air Conditioning?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Crabtree HVAC home page (address, phone, license line, counties, 24/7 service, guarantee)",
+        "url": "https://www.crabtreeheating.com/"
+      },
+      {
+        "label": "Crabtree: services (heating, cooling, air quality, maintenance plans)",
+        "url": "https://www.crabtreeheating.com/services"
+      },
+      {
+        "label": "Crabtree: furnaces",
+        "url": "https://www.crabtreeheating.com/furnaces"
+      },
+      {
+        "label": "Crabtree: AC installation and replacement",
+        "url": "https://www.crabtreeheating.com/ac-installation-and-replacement"
+      },
+      {
+        "label": "Crabtree: air filtration and air purifiers",
+        "url": "https://www.crabtreeheating.com/air-filtration-and-air-purifiers"
+      },
+      {
+        "label": "Carrier dealer locator: Crabtree Heating, 2216 Titus Ave",
+        "url": "https://www.carrier.com/residential/en/us/dealers/oh/dayton/2216-titus-avenue-9027149-loc"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 19177)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 12, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-12"
   }
 ]
