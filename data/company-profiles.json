@@ -3180,5 +3180,235 @@
       }
     ],
     "checked": "2026-11-12"
+  },
+  {
+    "slug": "kilgores-heating-air-conditioning-dayton-oh",
+    "name": "Kilgore's Heating & Air Conditioning",
+    "legal_name": "Kilgore Heating & A/C Co",
+    "also_known_as": [
+      "Kilgore's Heating & Air",
+      "Kilgore Heating and Air",
+      "Kilgores Heating",
+      "Kilgore Heating & AC",
+      "Kilgore's Heating Dayton"
+    ],
+    "listing_names": [
+      "Kilgore's Heating & Air Conditioning"
+    ],
+    "schema_type": "HVACBusiness",
+    "title": "Kilgore's Heating & Air (Dayton, since 1984): License, Hours",
+    "meta_description": "Kilgore's Heating & Air Conditioning, 1836 N Gettysburg Ave, Dayton: Ohio HVAC license HV.19476 (OCILB, Nov 17, 2026), City of Dayton heating reg. 009857, weekday hours, weekend emergency service, Carrier and Payne. Independent profile.",
+    "headline": "Kilgore's Heating & Air Conditioning: owner-run HVAC shop on N Gettysburg Ave in west Dayton since 1984",
+    "base_location": "Dayton, OH",
+    "summary": [
+      "Kilgore's Heating & Air Conditioning is a locally owned heating and cooling company at 1836 N Gettysburg Ave in west Dayton. Jeffrey Kilgore started it in 1984 and still owns it, per its site and BBB profile. It services and repairs air conditioners, furnaces, heat pumps, humidifiers and boilers, installs Carrier and Payne equipment in homes, does some commercial installs, and also offers housing inspections and certifications.",
+      "The license number on its site, OH License #19476, matches the Ohio OCILB roster we downloaded on November 17, 2026: HVAC contractor license HV.19476, held by Jeffrey O Kilgore for Kilgore Heating & A/C Co at the N Gettysburg Ave address, active through March 31, 2027. The City of Dayton's registered heating contractor list (active as of June 4, 2026) carries it under registration 009857."
+    ],
+    "address": {
+      "street": "1836 N Gettysburg Ave",
+      "locality": "Dayton",
+      "region": "OH",
+      "postal_code": "45417",
+      "source": "https://shanelkilgore.wixsite.com/kilgoresheatingair"
+    },
+    "phone": {
+      "number": "(937) 279-0555",
+      "source": "https://shanelkilgore.wixsite.com/kilgoresheatingair"
+    },
+    "website": "https://shanelkilgore.wixsite.com/kilgoresheatingair",
+    "facts": [
+      {
+        "label": "Hours",
+        "value": "Appointments Monday to Friday, 8 AM to 5 PM, with some Saturday appointments, per the services page. Emergency service is offered on weekends.",
+        "source": "https://shanelkilgore.wixsite.com/kilgoresheatingair/page3"
+      },
+      {
+        "label": "Since",
+        "value": "1984. The site says Jeffrey Kilgore established the company that year, and BBB lists an April 4, 1984 business start with Jeffrey O. Kilgore as owner.",
+        "source": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/kilgores-heating-air-conditioning-0322-3765"
+      },
+      {
+        "label": "Equipment",
+        "value": "Carrier and Payne. The site says Kilgore's is an authorized Carrier dealer and offers Payne as a lower-cost line, with free estimates on installs.",
+        "source": "https://shanelkilgore.wixsite.com/kilgoresheatingair/page2"
+      },
+      {
+        "label": "Housing inspections",
+        "value": "The site says it provides housing inspections and certifications, which can matter for rental and sale inspections.",
+        "source": "https://shanelkilgore.wixsite.com/kilgoresheatingair/page3"
+      },
+      {
+        "label": "Other numbers",
+        "value": "Fax (937) 279-0357 per the site. BBB also lists (937) 223-1916 as another phone number.",
+        "source": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/kilgores-heating-air-conditioning-0322-3765"
+      },
+      {
+        "label": "BBB",
+        "value": "Its BBB profile shows it as accredited since May 9, 2016, with license number 19476 on file. Open the profile for current details.",
+        "source": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/kilgores-heating-air-conditioning-0322-3765"
+      },
+      {
+        "label": "Website",
+        "value": "The company site is a short Wix page that still says \"Celebrating 30 years,\" so it has not been updated in some time. Call to confirm current services and hours.",
+        "source": "https://shanelkilgore.wixsite.com/kilgoresheatingair"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.19476",
+        "holder": "Jeffrey O Kilgore, for Kilgore Heating & A/C Co (1836 N Gettysburg Ave, Dayton)",
+        "status": "Active (OCILB roster, Nov 17, 2026)",
+        "expires": "2027-03-31",
+        "note": "Matches \"OH License #19476\" on the company site and the number on its BBB profile. The state record uses ZIP 45427; the site and BBB use 45417.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "009857",
+        "holder": "Kilgore Heating & AC, 1836 N. Gettysburg Av",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "Furnace service and repair",
+      "Air conditioner service and repair",
+      "Heat pump service and repair",
+      "Boiler service and repair",
+      "Humidifiers",
+      "Residential HVAC equipment installation (Carrier and Payne)",
+      "Commercial equipment installation",
+      "Seasonal maintenance (spring and fall specials)",
+      "Weekend emergency service",
+      "Housing inspections and certifications"
+    ],
+    "services_source": "https://shanelkilgore.wixsite.com/kilgoresheatingair/page3",
+    "areas_served": [
+      "Dayton",
+      "Surrounding Dayton area (no town list published)"
+    ],
+    "areas_source": "https://shanelkilgore.wixsite.com/kilgoresheatingair",
+    "related_links": [
+      {
+        "href": "/dayton-oh/furnace/",
+        "label": "Furnace repair in Dayton, OH",
+        "why": "where Kilgore's is listed on HVACLists"
+      },
+      {
+        "href": "/dayton-oh/ac-repair/",
+        "label": "AC repair in Dayton, OH",
+        "why": "compare licensed AC repair near N Gettysburg Ave"
+      },
+      {
+        "href": "/dayton-oh/emergency-hvac/",
+        "label": "Emergency HVAC in Dayton, OH",
+        "why": "Kilgore's offers emergency service on weekends"
+      },
+      {
+        "href": "/dayton-oh/hvac-installation/",
+        "label": "HVAC installation in Dayton, OH",
+        "why": "compare Carrier and other installers"
+      },
+      {
+        "href": "/trotwood-oh/furnace/",
+        "label": "Furnace repair in Trotwood, OH",
+        "why": "next door to its west Dayton shop"
+      },
+      {
+        "href": "/englewood-oh/ac-repair/",
+        "label": "AC repair in Englewood, OH",
+        "why": "north of its west Dayton shop"
+      }
+    ],
+    "notes": [
+      {
+        "title": "License checks out",
+        "body": "The number on Kilgore's site is an active state HVAC contractor license held by the owner, Jeffrey O Kilgore, at the shop address, and the company is on the City of Dayton registered heating list. BBB shows the same number."
+      },
+      {
+        "title": "Small, long-running shop",
+        "body": "Kilgore's has been at the same N Gettysburg Ave address with the same owner for decades. Its website is minimal and dated, so the phone is the best way to confirm current hours, services and pricing."
+      },
+      {
+        "title": "Best fit",
+        "body": "West and north Dayton homes (and nearby Trotwood) that want an owner-run shop for furnace, AC, heat pump or boiler service, a Carrier or Payne replacement, or a housing inspection. On a full system, get a written proposal and compare at least one other quote."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Kilgore's. To reach the company directly, call (937) 279-0555."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Kilgore's Heating & Air Conditioning licensed in Ohio?",
+        "answer": "Yes. The OCILB roster we downloaded on November 17, 2026 lists HVAC contractor license HV.19476, held by Jeffrey O Kilgore for Kilgore Heating & A/C Co at 1836 N Gettysburg Ave, Dayton, active through March 31, 2027. The number matches the one on its site and BBB profile."
+      },
+      {
+        "question": "Is Kilgore's registered with the City of Dayton?",
+        "answer": "Yes. The City of Dayton registered heating contractor list, active as of June 4, 2026, includes Kilgore Heating & AC at 1836 N. Gettysburg Av with registration 009857."
+      },
+      {
+        "question": "Where is Kilgore's Heating & Air Conditioning located?",
+        "answer": "1836 N Gettysburg Ave, Dayton, OH 45417, per its site and BBB. Phone: (937) 279-0555."
+      },
+      {
+        "question": "What are Kilgore's hours?",
+        "answer": "Appointments Monday to Friday, 8 AM to 5 PM, with some Saturday appointments, per its site. It offers emergency service on weekends."
+      },
+      {
+        "question": "What brands does Kilgore's install?",
+        "answer": "Carrier and Payne. The site says it is an authorized Carrier dealer and offers Payne equipment as a more affordable option."
+      },
+      {
+        "question": "How long has Kilgore's been in business?",
+        "answer": "Since 1984, when Jeffrey Kilgore founded it, per its site. BBB lists an April 4, 1984 start, with Jeffrey O. Kilgore as owner."
+      },
+      {
+        "question": "Does Kilgore's do housing inspections?",
+        "answer": "Yes. Its services page says it provides housing inspections and certifications in addition to HVAC service, repair and installation."
+      },
+      {
+        "question": "Which areas does Kilgore's serve?",
+        "answer": "Dayton and the surrounding area, per its site. It does not publish a list of towns, so call to confirm it covers your address."
+      },
+      {
+        "question": "Is HVACLists affiliated with Kilgore's Heating & Air Conditioning?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Kilgore's home page (since 1984, address, phone, fax, OH License #19476)",
+        "url": "https://shanelkilgore.wixsite.com/kilgoresheatingair"
+      },
+      {
+        "label": "Kilgore's: products (Carrier and Payne)",
+        "url": "https://shanelkilgore.wixsite.com/kilgoresheatingair/page2"
+      },
+      {
+        "label": "Kilgore's: services and promotions (services, hours, weekend emergency, inspections)",
+        "url": "https://shanelkilgore.wixsite.com/kilgoresheatingair/page3"
+      },
+      {
+        "label": "BBB profile: Kilgore's Heating & Air Conditioning (accredited since 2016, owner, start date, license 19476)",
+        "url": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/kilgores-heating-air-conditioning-0322-3765"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 19476)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 17, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-17"
   }
 ]
