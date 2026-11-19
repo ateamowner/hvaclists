@@ -3410,5 +3410,579 @@
       }
     ],
     "checked": "2026-11-17"
+  },
+  {
+    "slug": "logan-services-ac-heat-plumbing-vandalia-oh",
+    "name": "Logan Services A/C, Heat & Plumbing",
+    "legal_name": "Logan Services, Inc.",
+    "also_known_as": [
+      "Logan Services",
+      "Logan Services Inc",
+      "Logan Heating and Air",
+      "Logan AC & Heat Services",
+      "Logan Services Dayton",
+      "Logan Services Vandalia",
+      "Logan HVAC"
+    ],
+    "listing_names": [],
+    "schema_type": "HVACBusiness",
+    "title": "Logan Services (Dayton/Vandalia): HVAC Licenses, Hours, Areas",
+    "meta_description": "Logan Services A/C, Heat & Plumbing, 1200 Industrial Park Dr, Vandalia: Ohio HVAC licenses HV.48313 and HV.49774 plus plumbing PL.49774 (OCILB, Nov 19, 2026), City of Dayton regs 009878 and 011100, office hours, 24/7 calls, Trane dealer. Independent profile.",
+    "headline": "Logan Services A/C, Heat & Plumbing: Dayton-founded Trane dealer with 250+ staff and a Vandalia headquarters",
+    "base_location": "Vandalia, OH",
+    "summary": [
+      "Logan Services A/C, Heat & Plumbing (Logan Services, Inc.) is a family-owned residential heating, cooling, plumbing and sewer and drain company headquartered at 1200 Industrial Park Dr in Vandalia, just north of Dayton. Its site says it was founded in 1969, now has more than 250 employees, and also runs offices in Columbus, Cincinnati and Fort Loramie. It calls itself the nation's number one volume residential Trane dealer, also sells Daikin, and offers free same-day estimates with next-day installation on new heating and cooling systems.",
+      "The Ohio OCILB roster we downloaded on November 19, 2026 lists two active HVAC contractor licenses for Logan Services, Inc.: HV.48313 (William B Mullins), expiring June 20, 2027, and HV.49774 (Jordan B Meyer), expiring May 31, 2027, both on a 9181A N Dixie Dr, Dayton record address. It also lists plumbing contractor license PL.49774 (Jordan B Meyer) at 1200 Industrial Park Dr, Vandalia, expiring May 31, 2027. The City of Dayton's registered contractor lists (active as of June 4, 2026) carry Logan Services Inc. as a heating contractor (registration 009878) and a plumbing contractor (registration 011100)."
+    ],
+    "address": {
+      "street": "1200 Industrial Park Dr",
+      "locality": "Vandalia",
+      "region": "OH",
+      "postal_code": "45377",
+      "source": "https://www.logan-inc.com/contact-us/"
+    },
+    "phone": {
+      "number": "(937) 224-3200",
+      "source": "https://www.logan-inc.com/contact-us/"
+    },
+    "website": "https://www.logan-inc.com/",
+    "facts": [
+      {
+        "label": "Office hours",
+        "value": "Monday to Thursday 8 AM to 7 PM, Friday 8 AM to 5 PM, Saturday 8 AM to 1 PM, per the contact page. On-call staff handle bookings and emergencies after hours and on weekends, and the contact page says it is available 24/7 for service calls at (800) 564-2611.",
+        "source": "https://www.logan-inc.com/contact-us/"
+      },
+      {
+        "label": "Since",
+        "value": "1969, per the about page. BBB lists a 1969 business start, a 1998 local start date and incorporation on December 21, 1995.",
+        "source": "https://www.logan-inc.com/about-us/"
+      },
+      {
+        "label": "Size and offices",
+        "value": "More than 250 employees, per the about page. Offices: Vandalia (Dayton area), 2219 Westbrooke Dr in Columbus, 5179 Fishwick Dr in Cincinnati and 29 N Main St in Fort Loramie.",
+        "source": "https://www.logan-inc.com/contact-us/"
+      },
+      {
+        "label": "Brands",
+        "value": "Trane and Daikin for heating and cooling; Navien tankless and State water heaters for plumbing, per the about page. The home page describes Logan as the nation's number one volume residential Trane dealer (a company claim).",
+        "source": "https://www.logan-inc.com/about-us/"
+      },
+      {
+        "label": "Estimates and installs",
+        "value": "Free same-day in-home estimates and next-day installation on new heating and cooling systems, per the home and about pages.",
+        "source": "https://www.logan-inc.com/"
+      },
+      {
+        "label": "Training",
+        "value": "Logan runs paid installer, service and plumbing apprenticeship programs and a training center, per the about page.",
+        "source": "https://www.logan-inc.com/about-us/"
+      },
+      {
+        "label": "Management",
+        "value": "BBB lists James Meyer as owner and Ashley Pleiman as president.",
+        "source": "https://www.bbb.org/us/oh/vandalia/profile/heating-and-air-conditioning/logan-services-ac-heat-plumbing-0322-19000118"
+      },
+      {
+        "label": "BBB",
+        "value": "BBB shows Logan Services as accredited since July 2, 2001, under the alternate names Logan Services, Inc. and A/C and Heat Services, with four locations. Open the profile for current details and complaint history.",
+        "source": "https://www.bbb.org/us/oh/vandalia/profile/heating-and-air-conditioning/logan-services-ac-heat-plumbing-0322-19000118"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.48313",
+        "holder": "William B Mullins, for Logan Services, Inc. (9181A N Dixie Dr, Dayton)",
+        "status": "Active (OCILB roster, Nov 19, 2026)",
+        "expires": "2027-06-20",
+        "note": "BBB lists the same number and expiration date.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.49774",
+        "holder": "Jordan B Meyer, for Logan Services, Inc. (9181A N Dixie Dr, Dayton)",
+        "status": "Active (OCILB roster, Nov 19, 2026)",
+        "expires": "2027-05-31",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "Plumbing contractor license",
+        "number": "PL.49774",
+        "holder": "Jordan B Meyer, for Logan Services Inc (1200 Industrial Park Dr, Vandalia)",
+        "status": "Active (OCILB roster, Nov 19, 2026)",
+        "expires": "2027-05-31",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "009878",
+        "holder": "Logan Services Inc., 1200 Industrial Park",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered plumbing contractor",
+        "number": "011100",
+        "holder": "Logan Services Inc., 1200 Industrial Park Drive",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "AC repair, installation and maintenance",
+      "Furnace repair, replacement and maintenance",
+      "Heat pump repair, installation and maintenance",
+      "Ductless HVAC systems",
+      "24/7 emergency heating and cooling service",
+      "Ductwork, duct cleaning, duct sealing (Aeroseal) and duct repair",
+      "Indoor air quality: humidifiers, UV lights, air cleaners",
+      "Water heater repair and replacement, including tankless",
+      "Drain cleaning, hydro jetting and sewer camera inspection",
+      "Sewer and main line repair and replacement",
+      "Pipe repair and whole-home repiping",
+      "Water filters and softeners, sump pumps, faucets, fixtures and disposals"
+    ],
+    "services_source": "https://www.logan-inc.com/dayton/",
+    "areas_served": [
+      "Dayton",
+      "Vandalia",
+      "Huber Heights",
+      "Kettering",
+      "Centerville",
+      "Beavercreek",
+      "Fairborn",
+      "Xenia",
+      "Miamisburg",
+      "Springboro",
+      "Englewood",
+      "Trotwood",
+      "Troy",
+      "Tipp City",
+      "Piqua",
+      "Springfield",
+      "Sidney",
+      "Greenville",
+      "Eaton",
+      "Urbana",
+      "Bellefontaine",
+      "Montgomery, Greene, Miami, Clark, Champaign, Preble, Logan, Darke, Shelby and Auglaize counties",
+      "Columbus and Cincinnati areas (separate offices)"
+    ],
+    "areas_source": "https://www.logan-inc.com/dayton/",
+    "related_links": [
+      {
+        "href": "/vandalia-oh/furnace/",
+        "label": "Furnace repair in Vandalia, OH",
+        "why": "Logan's headquarters is on Industrial Park Dr in Vandalia"
+      },
+      {
+        "href": "/dayton-oh/furnace/",
+        "label": "Furnace repair in Dayton, OH",
+        "why": "Logan is a City of Dayton registered heating contractor"
+      },
+      {
+        "href": "/dayton-oh/emergency-hvac/",
+        "label": "Emergency HVAC in Dayton, OH",
+        "why": "Logan takes service calls 24/7"
+      },
+      {
+        "href": "/huber-heights-oh/ac-repair/",
+        "label": "AC repair in Huber Heights, OH",
+        "why": "next door to its Vandalia headquarters"
+      },
+      {
+        "href": "/dayton-oh/hvac-installation/",
+        "label": "HVAC installation in Dayton, OH",
+        "why": "compare Trane and other installers before a replacement"
+      },
+      {
+        "href": "/tipp-city-oh/furnace/",
+        "label": "Furnace repair in Tipp City, OH",
+        "why": "a Miami County town on its service list"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Licenses check out",
+        "body": "Logan Services, Inc. holds two active state HVAC contractor licenses and one active plumbing contractor license, and it is registered with the City of Dayton for both heating and plumbing. BBB shows HV.48313, which matches the state roster."
+      },
+      {
+        "title": "One BBB license number does not match",
+        "body": "BBB also lists plumbing license PL.50488 for Logan. On the November 19, 2026 OCILB roster, PL.50488 is an active license for Shorty's Plumbing LLC in Columbus, not Logan Services (that record's phone number is the same one on Logan's PL.49774 record). For plumbing work, the license we can tie to Logan Services by name is PL.49774."
+      },
+      {
+        "title": "Large company, sales-style estimates",
+        "body": "Logan is one of the largest residential HVAC companies in the Dayton area, with free same-day estimates and next-day installs. That speed is useful in a no-heat emergency. On a full system replacement, get the model numbers, efficiency ratings, warranty terms and total price in writing and compare at least one other quote before signing."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Logan. To reach the company directly, call (937) 224-3200."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Logan Services licensed in Ohio?",
+        "answer": "Yes. The OCILB roster we downloaded on November 19, 2026 lists HVAC contractor licenses HV.48313 (William B Mullins, through June 20, 2027) and HV.49774 (Jordan B Meyer, through May 31, 2027), and plumbing contractor license PL.49774 (Jordan B Meyer, through May 31, 2027), all for Logan Services, Inc."
+      },
+      {
+        "question": "Is Logan Services registered with the City of Dayton?",
+        "answer": "Yes. The City of Dayton lists active as of June 4, 2026 include Logan Services Inc. as a registered heating contractor (registration 009878) and a registered plumbing contractor (registration 011100)."
+      },
+      {
+        "question": "Where is Logan Services located?",
+        "answer": "Its Dayton-area headquarters is 1200 Industrial Park Dr, Vandalia, OH 45377. Phone: (937) 224-3200, or (800) 564-2611 for 24/7 service. It also has offices in Columbus, Cincinnati and Fort Loramie."
+      },
+      {
+        "question": "What are Logan Services' hours?",
+        "answer": "Office hours are Monday to Thursday 8 AM to 7 PM, Friday 8 AM to 5 PM and Saturday 8 AM to 1 PM. On-call staff take bookings and emergency calls after hours and on weekends, per its contact page."
+      },
+      {
+        "question": "How long has Logan Services been in business?",
+        "answer": "Since 1969, per its about page. BBB lists 1969 as the business start and shows the company as BBB accredited since July 2, 2001."
+      },
+      {
+        "question": "What brands does Logan install?",
+        "answer": "Trane and Daikin heating and cooling equipment, and Navien tankless and State water heaters, per its about page. It describes itself as the nation's number one volume residential Trane dealer."
+      },
+      {
+        "question": "Does Logan Services do plumbing and drain work?",
+        "answer": "Yes. It offers residential plumbing, water heaters, drain cleaning, hydro jetting, sewer camera inspection, sewer and main line repair and repiping, and holds plumbing license PL.49774 and City of Dayton plumbing registration 011100."
+      },
+      {
+        "question": "Which areas does Logan serve around Dayton?",
+        "answer": "Its Dayton page lists towns across Montgomery, Greene, Miami, Clark, Champaign, Preble, Logan, Darke, Shelby and Auglaize counties, including Vandalia, Huber Heights, Kettering, Centerville, Beavercreek, Xenia, Troy, Tipp City, Piqua, Springfield, Sidney, Greenville and Eaton."
+      },
+      {
+        "question": "Is HVACLists affiliated with Logan Services?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Logan Services home page (since 1969, Trane dealer claim, same-day estimates, next-day installs, Vandalia address)",
+        "url": "https://www.logan-inc.com/"
+      },
+      {
+        "label": "Logan Services: Dayton page (services, service area towns and counties)",
+        "url": "https://www.logan-inc.com/dayton/"
+      },
+      {
+        "label": "Logan Services: about us (history, 250+ staff, brands, apprenticeships)",
+        "url": "https://www.logan-inc.com/about-us/"
+      },
+      {
+        "label": "Logan Services: contact us (office hours, four offices, phones, 24/7 calls)",
+        "url": "https://www.logan-inc.com/contact-us/"
+      },
+      {
+        "label": "Logan Services: residential plumbing",
+        "url": "https://www.logan-inc.com/plumbing/"
+      },
+      {
+        "label": "BBB profile: Logan Services A/C, Heat & Plumbing (accredited since 2001, management, locations, license numbers)",
+        "url": "https://www.bbb.org/us/oh/vandalia/profile/heating-and-air-conditioning/logan-services-ac-heat-plumbing-0322-19000118"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "City of Dayton Registered Plumbing Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 48313 and 49774, plumbing 49774 and 50488)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 19, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-19"
+  },
+  {
+    "slug": "seiter-services-xenia-oh",
+    "name": "Seiter Services",
+    "legal_name": "Seiter Services LLC",
+    "also_known_as": [
+      "Seiter Services LLC",
+      "Seiter Heating and Cooling",
+      "Seiter Services Xenia",
+      "Seiter Services Dayton",
+      "Seiter HVAC"
+    ],
+    "listing_names": [],
+    "schema_type": "HVACBusiness",
+    "title": "Seiter Services (Xenia/Dayton): HVAC License, Branches, Areas",
+    "meta_description": "Seiter Services LLC, Xenia and Dayton (Springboro West Rd) branches: Ohio HVAC license HV.45693 (OCILB, Nov 19, 2026), City of Dayton heating reg. 010408, Bryant dealer since 2008, 26 towns served, plumbing license check. Independent profile.",
+    "headline": "Seiter Services: Greene County family HVAC company and Bryant dealer with Xenia and south Dayton branches",
+    "base_location": "Xenia, OH",
+    "summary": [
+      "Seiter Services is a family-owned heating, cooling and water conditioning company based in Xenia that has served the Miami Valley since 2008, per its site. Owner and operations manager Chris Seiter runs it from two branches: 590 US-42 East in Xenia and 3024 Springboro West Rd in south Dayton (45439). It is a Bryant Factory Authorized Dealer, uses NATE-certified technicians, and installs and repairs furnaces, air conditioners, heat pumps, ductless systems, boilers, water heaters and water softeners. Its service area page says it now also offers plumbing as the new owner of Southtown Heating & Cooling.",
+      "The Ohio OCILB roster we downloaded on November 19, 2026 lists HVAC contractor license HV.45693, held by Christopher A Seiter for Seiter Services LLC (670 Kinsey Rd, Xenia), active through March 25, 2028. The City of Dayton's registered heating contractor list (active as of June 4, 2026) carries Seiter Services LLC at 3024 Springboro West under registration 010408. We did not find an OCILB plumbing contractor license under Seiter Services."
+    ],
+    "address": {
+      "street": "590 US-42 East",
+      "locality": "Xenia",
+      "region": "OH",
+      "postal_code": "45385",
+      "source": "https://www.seiterservices.com/contact-us/"
+    },
+    "phone": {
+      "number": "(937) 507-3372",
+      "source": "https://www.seiterservices.com/"
+    },
+    "website": "https://www.seiterservices.com/",
+    "facts": [
+      {
+        "label": "Branches",
+        "value": "Xenia branch at 590 US-42 East, Xenia 45385, and Dayton branch at 3024 Springboro West Rd, Dayton 45439, per the contact page. The state license record uses 670 Kinsey Rd, Xenia.",
+        "source": "https://www.seiterservices.com/contact-us/"
+      },
+      {
+        "label": "Since",
+        "value": "2008, per the home and about pages.",
+        "source": "https://www.seiterservices.com/about-us/"
+      },
+      {
+        "label": "Owner",
+        "value": "Chris Seiter, owner and operations manager, per the about page.",
+        "source": "https://www.seiterservices.com/about-us/"
+      },
+      {
+        "label": "Equipment",
+        "value": "Bryant. The site and Bryant's dealer locator list Seiter Services as a Bryant Factory Authorized Dealer at the Xenia address.",
+        "source": "https://www.bryant.com/en/us/dealers/oh/xenia/590-us-42-east-bry-11312-loc"
+      },
+      {
+        "label": "Credentials",
+        "value": "NATE-certified HVAC technicians and ACCA membership, and the company says it completed Dayton Power & Light participating-contractor training, per the about page.",
+        "source": "https://www.seiterservices.com/about-us/"
+      },
+      {
+        "label": "Southtown Heating & Cooling",
+        "value": "The service area page says Seiter Services is the new owner of Southtown Heating & Cooling and now offers plumbing.",
+        "source": "https://www.seiterservices.com/about-us/service-area/"
+      },
+      {
+        "label": "22Q discount",
+        "value": "Because of a family connection to 22Q (DiGeorge syndrome), Seiter offers $322.22 off a new complete heating and air system and $32.22 off any service of $100 or more to customers who complete a short 22Q awareness quiz, per the about page.",
+        "source": "https://www.seiterservices.com/about-us/"
+      },
+      {
+        "label": "Pricing and guarantee",
+        "value": "Upfront guaranteed pricing, financing, free same-day installation estimates and a 100% satisfaction guarantee on HVAC projects, per the home page. It also offers a priority maintenance plan.",
+        "source": "https://www.seiterservices.com/"
+      },
+      {
+        "label": "BBB",
+        "value": "The company's about page refers to its BBB rating. Open the BBB profile for current accreditation details.",
+        "source": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/seiter-services-llc-0322-16848"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.45693",
+        "holder": "Christopher A Seiter, for Seiter Services LLC (670 Kinsey Rd, Xenia)",
+        "status": "Active (OCILB roster, Nov 19, 2026)",
+        "expires": "2028-03-25",
+        "note": "No OCILB plumbing (PL) contractor license was found under Seiter Services LLC on the same roster.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered heating contractor",
+        "number": "010408",
+        "holder": "Seiter Services LLC, 3024 Springboro West",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "Furnace and heating repair, installation and maintenance",
+      "Air conditioning repair, installation and maintenance",
+      "Heat pumps",
+      "Ductless AC",
+      "Boilers",
+      "Bryant system installation",
+      "Indoor air quality and precision tune-ups",
+      "HVAC home automation",
+      "Water heaters",
+      "Water conditioning and softeners",
+      "Leak detection and plumbing repairs",
+      "Drain cleaning",
+      "Priority maintenance plan",
+      "Light commercial HVAC and plumbing for small businesses"
+    ],
+    "services_source": "https://www.seiterservices.com/",
+    "areas_served": [
+      "Alpha",
+      "Beavercreek",
+      "Bellbrook",
+      "Bowersville",
+      "Cedarville",
+      "Centerville",
+      "Clayton",
+      "Clifton",
+      "Dayton",
+      "Englewood",
+      "Enon",
+      "Fairborn",
+      "Harveysburg",
+      "Jamestown",
+      "Kettering",
+      "Medway",
+      "Moraine",
+      "New Carlisle",
+      "Spring Valley",
+      "Springboro",
+      "Vandalia",
+      "Waynesville",
+      "Wilberforce",
+      "Wilmington",
+      "Xenia",
+      "Yellow Springs"
+    ],
+    "areas_source": "https://www.seiterservices.com/about-us/service-area/",
+    "related_links": [
+      {
+        "href": "/xenia-oh/furnace/",
+        "label": "Furnace repair in Xenia, OH",
+        "why": "Seiter's home base on US-42 East"
+      },
+      {
+        "href": "/beavercreek-oh/ac-repair/",
+        "label": "AC repair in Beavercreek, OH",
+        "why": "a Greene County town on its service list"
+      },
+      {
+        "href": "/fairborn-oh/furnace/",
+        "label": "Furnace repair in Fairborn, OH",
+        "why": "a Greene County town on its service list"
+      },
+      {
+        "href": "/kettering-oh/hvac-installation/",
+        "label": "HVAC installation in Kettering, OH",
+        "why": "compare Bryant and other installers"
+      },
+      {
+        "href": "/moraine-oh/furnace/",
+        "label": "Furnace repair in Moraine, OH",
+        "why": "near its Springboro West Rd branch"
+      },
+      {
+        "href": "/springboro-oh/ac-repair/",
+        "label": "AC repair in Springboro, OH",
+        "why": "south of its Dayton branch and on its town list"
+      }
+    ],
+    "notes": [
+      {
+        "title": "HVAC license checks out",
+        "body": "HV.45693 is an active state HVAC contractor license held by the owner, Christopher A Seiter, and Seiter Services is on the City of Dayton registered heating contractor list for its Springboro West Rd branch."
+      },
+      {
+        "title": "Plumbing: ask for the license",
+        "body": "Seiter's site advertises plumbing, drain cleaning and leak detection, and says it took over Southtown Heating & Cooling. We did not find an Ohio plumbing contractor license under Seiter Services LLC or a City of Dayton plumbing registration. For plumbing beyond water heaters and softeners, ask which licensed plumbing contractor will do the work, or compare licensed plumbers on PlumberLists."
+      },
+      {
+        "title": "Best fit",
+        "body": "Greene County and south Dayton homes (Xenia, Beavercreek, Fairborn, Bellbrook, Kettering, Moraine, Centerville) that want a family-run Bryant dealer for furnace, AC or heat pump service and replacement, or a water softener. On a full system, get the model numbers, efficiency ratings and total price in writing and compare at least one other quote."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Seiter. To reach the company directly, call (937) 507-3372."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Seiter Services licensed in Ohio?",
+        "answer": "Yes, for HVAC. The OCILB roster we downloaded on November 19, 2026 lists HVAC contractor license HV.45693, held by Christopher A Seiter for Seiter Services LLC, active through March 25, 2028. We did not find a plumbing contractor license under Seiter Services LLC."
+      },
+      {
+        "question": "Is Seiter Services registered with the City of Dayton?",
+        "answer": "Yes, as a heating contractor. The City of Dayton list active as of June 4, 2026 includes Seiter Services LLC at 3024 Springboro West with registration 010408."
+      },
+      {
+        "question": "Where is Seiter Services located?",
+        "answer": "It has a Xenia branch at 590 US-42 East, Xenia, OH 45385 and a Dayton branch at 3024 Springboro West Rd, Dayton, OH 45439. Phone: (937) 507-3372."
+      },
+      {
+        "question": "How long has Seiter Services been in business?",
+        "answer": "Since 2008, per its site. Chris Seiter is the owner and operations manager."
+      },
+      {
+        "question": "What brand does Seiter install?",
+        "answer": "Bryant. Seiter is a Bryant Factory Authorized Dealer, per its site and Bryant's dealer locator."
+      },
+      {
+        "question": "Does Seiter Services do plumbing?",
+        "answer": "Its site lists plumbing, drain cleaning, leak detection, water heaters and water conditioning, and says it took over Southtown Heating & Cooling. Because we did not find an Ohio plumbing contractor license under Seiter Services, ask who holds the plumbing license before booking plumbing work."
+      },
+      {
+        "question": "What is the Seiter 22Q discount?",
+        "answer": "Customers who complete a short 22Q (DiGeorge syndrome) awareness quiz can get $322.22 off a new complete heating and air system or $32.22 off any service of $100 or more, per its about page. Confirm current terms with the company."
+      },
+      {
+        "question": "Which areas does Seiter Services serve?",
+        "answer": "Its service area page lists Alpha, Beavercreek, Bellbrook, Bowersville, Cedarville, Centerville, Clayton, Clifton, Dayton, Englewood, Enon, Fairborn, Harveysburg, Jamestown, Kettering, Medway, Moraine, New Carlisle, Spring Valley, Springboro, Vandalia, Waynesville, Wilberforce, Wilmington, Xenia and Yellow Springs."
+      },
+      {
+        "question": "Is HVACLists affiliated with Seiter Services?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Seiter Services home page (since 2008, services, Bryant dealer, guarantees, phone)",
+        "url": "https://www.seiterservices.com/"
+      },
+      {
+        "label": "Seiter Services: about us (owner, NATE, ACCA, 22Q discount)",
+        "url": "https://www.seiterservices.com/about-us/"
+      },
+      {
+        "label": "Seiter Services: areas we serve (26 towns, Southtown Heating & Cooling)",
+        "url": "https://www.seiterservices.com/about-us/service-area/"
+      },
+      {
+        "label": "Seiter Services: contact us (Xenia and Dayton branches)",
+        "url": "https://www.seiterservices.com/contact-us/"
+      },
+      {
+        "label": "Seiter Services: Xenia page",
+        "url": "https://www.seiterservices.com/xenia/"
+      },
+      {
+        "label": "Bryant dealer locator: Seiter Services, Xenia",
+        "url": "https://www.bryant.com/en/us/dealers/oh/xenia/590-us-42-east-bry-11312-loc"
+      },
+      {
+        "label": "BBB profile: Seiter Services, LLC",
+        "url": "https://www.bbb.org/us/oh/dayton/profile/heating-and-air-conditioning/seiter-services-llc-0322-16848"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 45693)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 19, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-19"
   }
 ]
