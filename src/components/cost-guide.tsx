@@ -24,7 +24,7 @@ export function CostGuide({ content }: { content: Content }) {
         </cite>
       </p>
       {content.extraCitations.map((item) => (
-        <p key={item.href} className="mt-3 text-base leading-7">
+        <p key={`${item.href}::${item.line}`} className="mt-3 text-base leading-7">
           {item.line}{" "}
           <cite className="not-italic">
             Source:{" "}
