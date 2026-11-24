@@ -3984,5 +3984,635 @@
       }
     ],
     "checked": "2026-11-19"
+  },
+  {
+    "slug": "choice-comfort-services-vandalia-oh",
+    "name": "Choice Comfort Services",
+    "legal_name": "Choice Comfort Services Inc",
+    "also_known_as": [
+      "Choice Comfort",
+      "Choice Comfort Services Inc",
+      "Choice Comfort Vandalia",
+      "Choice Comfort heating and air",
+      "MyChoiceComfort",
+      "B&K Heating Inc (a Choice Comfort Services company)"
+    ],
+    "listing_names": [],
+    "schema_type": "HVACBusiness",
+    "title": "Choice Comfort Services (Vandalia): HVAC and Plumbing Licenses",
+    "meta_description": "Choice Comfort Services Inc, 150 N Dixie Dr, Vandalia: Ohio HVAC licenses HV.18319 and HV.51868 and plumbing license PL.18319 (OCILB, Nov 24, 2026), City of Dayton plumbing reg. 010100, hours, Carrier dealer, 29 towns. Independent profile.",
+    "headline": "Choice Comfort Services: Vandalia heating, cooling and plumbing company and Carrier dealer for the north Dayton suburbs",
+    "base_location": "Vandalia, OH",
+    "summary": [
+      "Choice Comfort Services is a locally owned heating, air conditioning and plumbing company headquartered at 150 N Dixie Dr in Vandalia. Its team page lists Paul Broerman as founder and Amy Broerman as president, with separate HVAC and plumbing managers. It repairs, replaces and maintains furnaces, heat pumps, boilers, geothermal systems, central air and ductless mini-splits, handles duct work and indoor air quality, and does plumbing repair, water heaters and fixture installs. It is an authorized Carrier dealer and sells MyChoiceComfort maintenance memberships. Its site also says it took over customers of B&K Heating, Inc.",
+      "The Ohio OCILB roster we downloaded on November 24, 2026 lists three active contractor licenses for Choice Comfort Services Inc: HVAC license HV.18319 and plumbing license PL.18319, both held by Jerry M Sturgill and active through September 30, 2028, and HVAC license HV.51868, held by Shaun A McCoppin and active through August 28, 2027. The City of Dayton's registered plumbing contractor list (active as of June 4, 2026) carries Choice Comfort Services at 150 N Dixie Dr under registration 010100. We did not find it on the city's registered heating contractor list."
+    ],
+    "address": {
+      "street": "150 N Dixie Dr",
+      "locality": "Vandalia",
+      "region": "OH",
+      "postal_code": "45377",
+      "source": "https://www.choicecomfort.com/about-us/hours-and-location"
+    },
+    "phone": {
+      "number": "(937) 982-5055",
+      "source": "https://www.choicecomfort.com/"
+    },
+    "website": "https://www.choicecomfort.com/",
+    "facts": [
+      {
+        "label": "Hours",
+        "value": "Monday to Friday, 8 AM to 5 PM; closed Saturday and Sunday, with 24-hour emergency service every day, per the hours and location page.",
+        "source": "https://www.choicecomfort.com/about-us/hours-and-location"
+      },
+      {
+        "label": "Since",
+        "value": "The home page says Choice Comfort was founded in 2012 and has served customers since 2012. The about page says it has helped Ohio customers for more than 25 years. BBB lists a February 2012 BBB file, December 2011 incorporation and a 1965 business start. The dates conflict; ask the company if history matters to you.",
+        "source": "https://www.choicecomfort.com/"
+      },
+      {
+        "label": "Leadership",
+        "value": "Paul Broerman, founder; Amy Broerman, president; plus a general manager, HVAC manager, plumbing manager and a crew of HVAC technicians, installers and a plumber, per the team page. BBB lists Paul F. Broerman as owner.",
+        "source": "https://www.choicecomfort.com/about-us/meet-the-team"
+      },
+      {
+        "label": "Brands",
+        "value": "Authorized Carrier dealer, per the awards and affiliations page. The about and brands pages also name Infinity, Payne, iWave, Aprilaire and Honeywell, and the awards page lists A.O. Smith water heaters.",
+        "source": "https://www.choicecomfort.com/about-us/awards-and-affiliations"
+      },
+      {
+        "label": "Maintenance plans",
+        "value": "MyChoiceComfort preventative maintenance memberships for heating and cooling systems, per the home page.",
+        "source": "https://www.choicecomfort.com/"
+      },
+      {
+        "label": "Payment and financing",
+        "value": "Accepts cash, Visa, MasterCard and Discover at the time of service, and offers financing through Wells Fargo for those who qualify, subject to credit approval, per the financing page.",
+        "source": "https://www.choicecomfort.com/about-us/financing"
+      },
+      {
+        "label": "B&K Heating",
+        "value": "A page on the site titled \"B&K Heating, Inc, A Choice Comfort Services Company\" tells B&K customers it has partnered with Choice Comfort Services for heating, cooling and plumbing service.",
+        "source": "https://www.choicecomfort.com/about-us/bkheatingac.html"
+      },
+      {
+        "label": "Electrical",
+        "value": "The about page says its team includes skilled electricians. Our license check covered only HVAC and plumbing; ask for the electrical license number on any electrical proposal.",
+        "source": "https://www.choicecomfort.com/about-us"
+      },
+      {
+        "label": "Other phones",
+        "value": "BBB lists (937) 898-5252 and the state license record lists (937) 974-1030. The website uses (937) 982-5055.",
+        "source": "https://www.bbb.org/us/oh/vandalia/profile/heating-and-air-conditioning/choice-comfort-services-inc-0322-24196"
+      },
+      {
+        "label": "BBB",
+        "value": "BBB shows Choice Comfort Services, Inc. as accredited since February 29, 2012 (read from BBB's profile text on November 24, 2026; our direct fetch timed out). BBB prints its HVAC license as \"HY.18319\"; the state roster number is HV.18319. Open the profile for current details.",
+        "source": "https://www.bbb.org/us/oh/vandalia/profile/heating-and-air-conditioning/choice-comfort-services-inc-0322-24196"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.18319",
+        "holder": "Jerry M Sturgill, for Choice Comfort Services Inc (PO Box 17, Vandalia)",
+        "status": "Active (OCILB roster, Nov 24, 2026)",
+        "expires": "2028-09-30",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.51868",
+        "holder": "Shaun A McCoppin, for Choice Comfort Services Inc (PO Box 17, Vandalia)",
+        "status": "Active (OCILB roster, Nov 24, 2026)",
+        "expires": "2027-08-28",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "Plumbing contractor license",
+        "number": "PL.18319",
+        "holder": "Jerry M Sturgill, for Choice Comfort Services Inc (PO Box 17, Vandalia)",
+        "status": "Active (OCILB roster, Nov 24, 2026)",
+        "expires": "2028-09-30",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "City of Dayton",
+        "credential": "Registered plumbing contractor",
+        "number": "010100",
+        "holder": "Choice Comfort Services, 150 N Dixie Dr",
+        "status": "Active as of 6/4/2026 (latest city list)",
+        "note": "Not found on the City of Dayton registered heating contractor list of the same date.",
+        "source": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      }
+    ],
+    "services": [
+      "Furnace repair, replacement, installation and tune-ups",
+      "Heat pump repair and installation",
+      "Boilers and radiator systems",
+      "Geothermal heating and cooling",
+      "Oil to gas conversion",
+      "AC repair, replacement, installation and maintenance",
+      "Ductless mini-splits",
+      "Thermostats and zoning",
+      "Duct work repair, replacement and duct cleaning",
+      "Air handlers",
+      "Indoor air quality and ventilation",
+      "Plumbing repair and emergency plumbing",
+      "Water heater repair and replacement",
+      "Toilets, sinks, faucets, disposals and sump pumps",
+      "Leak detection and water treatment",
+      "MyChoiceComfort maintenance memberships"
+    ],
+    "services_source": "https://www.choicecomfort.com/",
+    "areas_served": [
+      "Beavercreek",
+      "Bellbrook",
+      "Brookville",
+      "Carlisle",
+      "Casstown",
+      "Centerville",
+      "Clayton",
+      "Covington",
+      "Dayton",
+      "Englewood",
+      "Fairborn",
+      "Fletcher",
+      "Huber Heights",
+      "Kettering",
+      "Laura",
+      "Ludlow Falls",
+      "Miamisburg",
+      "Moraine",
+      "New Carlisle",
+      "Oakwood",
+      "Piqua",
+      "Pleasant Hill",
+      "Riverside",
+      "Tipp City",
+      "Trotwood",
+      "Troy",
+      "Vandalia",
+      "West Carrollton",
+      "West Milton"
+    ],
+    "areas_source": "https://www.choicecomfort.com/",
+    "related_links": [
+      {
+        "href": "/vandalia-oh/furnace/",
+        "label": "Furnace repair in Vandalia, OH",
+        "why": "Choice Comfort's home base on N Dixie Dr"
+      },
+      {
+        "href": "/vandalia-oh/ac-repair/",
+        "label": "AC repair in Vandalia, OH",
+        "why": "compare AC repair near its shop"
+      },
+      {
+        "href": "/tipp-city-oh/hvac-installation/",
+        "label": "HVAC installation in Tipp City, OH",
+        "why": "a town on its service list, and it installs Carrier systems"
+      },
+      {
+        "href": "/huber-heights-oh/furnace/",
+        "label": "Furnace repair in Huber Heights, OH",
+        "why": "a town on its service list"
+      },
+      {
+        "href": "/englewood-oh/ac-repair/",
+        "label": "AC repair in Englewood, OH",
+        "why": "a town on its service list"
+      },
+      {
+        "href": "/troy-oh/emergency-hvac/",
+        "label": "Emergency HVAC in Troy, OH",
+        "why": "it offers 24-hour emergency service in Troy and nearby towns"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Licenses check out",
+        "body": "Choice Comfort Services Inc holds two active state HVAC contractor licenses and an active state plumbing contractor license, and it is a City of Dayton registered plumbing contractor."
+      },
+      {
+        "title": "Dayton heating permits",
+        "body": "We did not find Choice Comfort on the City of Dayton registered heating contractor list dated June 4, 2026. If your home is inside Dayton city limits and you are replacing a furnace or AC, ask who will pull the city heating permit."
+      },
+      {
+        "title": "Best fit",
+        "body": "Vandalia, Huber Heights, Tipp City, Troy, Englewood and other north Dayton suburb homes that want one company for heating, cooling and everyday plumbing, with a Carrier dealer for replacements. On a full system, get the model numbers, efficiency ratings and total installed price in writing and compare at least one other quote."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Choice Comfort. To reach the company directly, call (937) 982-5055."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Choice Comfort Services licensed in Ohio?",
+        "answer": "Yes. The OCILB roster we downloaded on November 24, 2026 lists HVAC licenses HV.18319 (Jerry M Sturgill, through September 30, 2028) and HV.51868 (Shaun A McCoppin, through August 28, 2027), and plumbing license PL.18319 (Jerry M Sturgill, through September 30, 2028), all for Choice Comfort Services Inc."
+      },
+      {
+        "question": "Is Choice Comfort registered with the City of Dayton?",
+        "answer": "For plumbing, yes: the City of Dayton list active as of June 4, 2026 includes Choice Comfort Services at 150 N Dixie Dr with registration 010100. We did not find it on the city's heating contractor list, so ask about the heating permit for jobs inside Dayton city limits."
+      },
+      {
+        "question": "Where is Choice Comfort Services located?",
+        "answer": "150 N Dixie Dr, Vandalia, OH 45377, per its hours and location page. Phone: (937) 982-5055."
+      },
+      {
+        "question": "What are Choice Comfort's hours?",
+        "answer": "Monday to Friday, 8 AM to 5 PM, closed weekends, with 24-hour emergency service every day, per its hours and location page."
+      },
+      {
+        "question": "Who owns Choice Comfort Services?",
+        "answer": "Its team page lists Paul Broerman as founder and Amy Broerman as president. BBB lists Paul F. Broerman as owner."
+      },
+      {
+        "question": "What brands does Choice Comfort install?",
+        "answer": "It is an authorized Carrier dealer and also names Infinity, Payne, iWave, Aprilaire, Honeywell and A.O. Smith water heaters on its site."
+      },
+      {
+        "question": "Does Choice Comfort do plumbing?",
+        "answer": "Yes. It holds state plumbing license PL.18319 and is a City of Dayton registered plumbing contractor. Its site lists plumbing repair, emergency plumbing, water heaters, fixtures, sump pumps and leak detection."
+      },
+      {
+        "question": "Does Choice Comfort offer financing?",
+        "answer": "Yes, through Wells Fargo for those who qualify, subject to credit approval. It takes cash, Visa, MasterCard and Discover at the time of service."
+      },
+      {
+        "question": "Which areas does Choice Comfort serve?",
+        "answer": "Its service area pages cover Beavercreek, Bellbrook, Brookville, Carlisle, Casstown, Centerville, Clayton, Covington, Dayton, Englewood, Fairborn, Fletcher, Huber Heights, Kettering, Laura, Ludlow Falls, Miamisburg, Moraine, New Carlisle, Oakwood, Piqua, Pleasant Hill, Riverside, Tipp City, Trotwood, Troy, Vandalia, West Carrollton and West Milton."
+      },
+      {
+        "question": "Is HVACLists affiliated with Choice Comfort Services?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Choice Comfort home page (founded 2012, services, MyChoiceComfort, phone, service area links)",
+        "url": "https://www.choicecomfort.com/"
+      },
+      {
+        "label": "Choice Comfort: about us (Vandalia HQ, 25+ years claim, brands, electricians)",
+        "url": "https://www.choicecomfort.com/about-us"
+      },
+      {
+        "label": "Choice Comfort: hours and location",
+        "url": "https://www.choicecomfort.com/about-us/hours-and-location"
+      },
+      {
+        "label": "Choice Comfort: meet the team (founder, president, managers)",
+        "url": "https://www.choicecomfort.com/about-us/meet-the-team"
+      },
+      {
+        "label": "Choice Comfort: HVAC brands we carry",
+        "url": "https://www.choicecomfort.com/about-us/brands-we-carry"
+      },
+      {
+        "label": "Choice Comfort: awards and affiliations (Carrier dealer, A.O. Smith)",
+        "url": "https://www.choicecomfort.com/about-us/awards-and-affiliations"
+      },
+      {
+        "label": "Choice Comfort: financing (Wells Fargo, payment methods)",
+        "url": "https://www.choicecomfort.com/about-us/financing"
+      },
+      {
+        "label": "Choice Comfort: B&K Heating page",
+        "url": "https://www.choicecomfort.com/about-us/bkheatingac.html"
+      },
+      {
+        "label": "Choice Comfort: Vandalia service page",
+        "url": "https://www.choicecomfort.com/service-area/vandalia"
+      },
+      {
+        "label": "BBB profile: Choice Comfort Services, Inc.",
+        "url": "https://www.bbb.org/us/oh/vandalia/profile/heating-and-air-conditioning/choice-comfort-services-inc-0322-24196"
+      },
+      {
+        "label": "City of Dayton Registered Plumbing Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026; not listed)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 18319, 51868; plumbing 18319)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 24, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-24"
+  },
+  {
+    "slug": "albert-services-dayton-oh",
+    "name": "Albert Services",
+    "legal_name": "Albert Services, Inc",
+    "also_known_as": [
+      "Albert Services Inc",
+      "Albert Services LLC",
+      "Albert Heating and Cooling",
+      "Albert HVAC",
+      "Albert Heating, Air Conditioning, Plumbing & Electrical Repair",
+      "Walsh and Son's"
+    ],
+    "listing_names": [],
+    "schema_type": "HVACBusiness",
+    "title": "Albert Services (Dayton, since 1998): HVAC, Plumbing Licenses",
+    "meta_description": "Albert Services, 2044 S Alex Rd, Dayton (45449): Ohio HVAC license HV.10606 and plumbing license PL.10606 (OCILB, Nov 24, 2026), owner Tim Walsh, veteran owned since 1998, 24/7 emergencies, 25 towns. Independent profile.",
+    "headline": "Albert Services: veteran-owned Dayton heating, cooling, plumbing and electrical company run by the Walsh family since 1998",
+    "base_location": "Dayton, OH",
+    "summary": [
+      "Albert Services is a family-run heating, air conditioning, plumbing, drain and electrical company at 2044 S Alex Rd, Suite A, south of Dayton (ZIP 45449). Owner Tim Walsh founded it in 1998, and his son Patrick has worked in the office since 2013, back when the company was called Walsh and Son's, per its about page. The site describes it as veteran owned and operated, independent and not owned by private equity, and says its technicians do not work on commission. It offers true 24/7 emergency service.",
+      "The Ohio OCILB roster we downloaded on November 24, 2026 lists HVAC contractor license HV.10606 and plumbing contractor license PL.10606, both held by Timothy J Walsh for Albert Services, Inc at 2044 S Alex Rd and active through September 30, 2028. We did not find Albert Services on the City of Dayton registered heating or plumbing contractor lists dated June 4, 2026."
+    ],
+    "address": {
+      "street": "2044 S Alex Rd, Suite A",
+      "locality": "Dayton",
+      "region": "OH",
+      "postal_code": "45449",
+      "source": "https://www.alberthvac.com/contact-us/"
+    },
+    "phone": {
+      "number": "(937) 444-4357",
+      "source": "https://www.alberthvac.com/contact-us/"
+    },
+    "website": "https://www.alberthvac.com/",
+    "facts": [
+      {
+        "label": "Hours",
+        "value": "The contact page says Albert Services is available 24/7 for emergencies. The pages we read do not publish regular office hours.",
+        "source": "https://www.alberthvac.com/contact-us/"
+      },
+      {
+        "label": "Since",
+        "value": "1998. The site says it has served Dayton homeowners since 1998, and BBB lists an October 1, 1998 business start with a BBB file opened March 22, 1999.",
+        "source": "https://www.bbb.org/us/oh/dayton/profile/plumber/albert-services-0322-7003964"
+      },
+      {
+        "label": "Owner and family",
+        "value": "The about page names owner Tim Walsh, his son Patrick (in the office since 2013) and his wife Wendy, who worked in the office during the early years. It says the company was once named Walsh and Son's. BBB lists Timothy Walsh as general manager and owner.",
+        "source": "https://www.alberthvac.com/about-us/"
+      },
+      {
+        "label": "Veteran owned and independent",
+        "value": "The site footer says \"Veteran Owned & Operated Since 1998.\" The about page says the company has stayed independent, has no shareholders, and that its technicians do not work on commission.",
+        "source": "https://www.alberthvac.com/about-us/"
+      },
+      {
+        "label": "Services",
+        "value": "Furnaces, heat pumps, boilers and air handlers; AC repair, installation and maintenance; ductless mini-splits, thermostats and humidity control; plumbing repair, water heaters (tank and tankless), gas lines, repiping and leak repair; drain cleaning, hydro jetting, rooter service, trenchless sewer repair and camera inspection; slab leak detection; water softeners and water testing; and electrical panels, outlets, lighting, ceiling fans and CO and smoke detectors.",
+        "source": "https://www.alberthvac.com/"
+      },
+      {
+        "label": "Maintenance plan",
+        "value": "The Genius Club, a home maintenance program covering HVAC, plumbing and electrical systems, per the company's blog post.",
+        "source": "https://www.alberthvac.com/genius-club-maintenance-plans/"
+      },
+      {
+        "label": "Financing",
+        "value": "Through Wisetack: projects up to $25,000, terms of 3 to 120 months, APRs from 0% to 35.9% based on credit, with a prequalification check that the page says does not affect your credit score.",
+        "source": "https://www.alberthvac.com/financing/"
+      },
+      {
+        "label": "Specials",
+        "value": "The specials page lists offers such as an $86 furnace tune-up, $49 water heater flush or $99 tankless flush, $99 boiler or oil furnace clean and check, $250 off a partial or $500 off a full HVAC system replacement, and a 5% senior discount. Offers are marked limited time, so confirm current terms.",
+        "source": "https://www.alberthvac.com/specials/"
+      },
+      {
+        "label": "Electrical",
+        "value": "The site sells electrical work. Our license check covered only HVAC and plumbing; ask for the electrical license number on any electrical proposal.",
+        "source": "https://www.alberthvac.com/"
+      },
+      {
+        "label": "BBB",
+        "value": "BBB lists Albert Services as a Limited Liability Company (the state license record says Albert Services, Inc), not BBB accredited, with Lisa Browers as office manager and an alternate name \"T P S We Fix What Your Husband Repairs.\" Open the profile for current details.",
+        "source": "https://www.bbb.org/us/oh/dayton/profile/plumber/albert-services-0322-7003964"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.10606",
+        "holder": "Timothy J Walsh, for Albert Services, Inc (2044 S Alex Rd, Dayton)",
+        "status": "Active (OCILB roster, Nov 24, 2026)",
+        "expires": "2028-09-30",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "Plumbing contractor license",
+        "number": "PL.10606",
+        "holder": "Timothy J Walsh, for Albert Services, Inc (2044 S Alex Rd, Dayton)",
+        "status": "Active (OCILB roster, Nov 24, 2026)",
+        "expires": "2028-09-30",
+        "note": "Albert Services was not found on the City of Dayton registered heating or plumbing contractor lists active as of 6/4/2026.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      }
+    ],
+    "services": [
+      "Furnace repair, installation, replacement and maintenance",
+      "Heat pump repair and installation",
+      "Boiler and oil furnace service",
+      "Air handlers and duct work repair",
+      "AC repair, installation, replacement and maintenance",
+      "Ductless mini-splits",
+      "Thermostats and whole-home humidity control",
+      "Plumbing repair and emergency plumbing",
+      "Tank and tankless water heaters",
+      "Gas line installation",
+      "Re-piping, leak detection and water leak repair",
+      "Drain cleaning, hydro jetting and rooter service",
+      "Trenchless sewer repair and sewer camera inspection",
+      "Slab leak detection and repair",
+      "Water softeners and water quality testing",
+      "Electrical panels, outlets, lighting, ceiling fans, GFCI, CO and smoke detectors",
+      "Genius Club maintenance plan"
+    ],
+    "services_source": "https://www.alberthvac.com/",
+    "areas_served": [
+      "Beavercreek",
+      "Bellbrook",
+      "Centerville",
+      "Clayton",
+      "Dayton",
+      "Englewood",
+      "Fairborn",
+      "Franklin",
+      "Germantown",
+      "Huber Heights",
+      "Kettering",
+      "Lebanon",
+      "Miamisburg",
+      "Middletown",
+      "Riverside",
+      "Springboro",
+      "Springfield",
+      "Sugarcreek Township",
+      "Tipp City",
+      "Trotwood",
+      "Troy",
+      "Vandalia",
+      "Washington Township",
+      "West Carrollton",
+      "Xenia"
+    ],
+    "areas_source": "https://www.alberthvac.com/service-areas/",
+    "related_links": [
+      {
+        "href": "/miamisburg-oh/furnace/",
+        "label": "Furnace repair in Miamisburg, OH",
+        "why": "near its S Alex Rd shop (ZIP 45449) and on its town list"
+      },
+      {
+        "href": "/west-carrollton-oh/ac-repair/",
+        "label": "AC repair in West Carrollton, OH",
+        "why": "near its S Alex Rd shop and on its town list"
+      },
+      {
+        "href": "/dayton-oh/furnace/",
+        "label": "Furnace repair in Dayton, OH",
+        "why": "compare City of Dayton registered heating contractors for jobs inside city limits"
+      },
+      {
+        "href": "/centerville-oh/hvac-installation/",
+        "label": "HVAC installation in Centerville, OH",
+        "why": "a town on its service list"
+      },
+      {
+        "href": "/springboro-oh/furnace/",
+        "label": "Furnace repair in Springboro, OH",
+        "why": "a town on its service list"
+      },
+      {
+        "href": "/kettering-oh/emergency-hvac/",
+        "label": "Emergency HVAC in Kettering, OH",
+        "why": "Albert advertises 24/7 emergency service in Kettering and nearby towns"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Licenses check out",
+        "body": "HV.10606 and PL.10606 are active state HVAC and plumbing contractor licenses held by the owner, Timothy J Walsh, for Albert Services at its S Alex Rd address."
+      },
+      {
+        "title": "Dayton city permits",
+        "body": "We did not find Albert Services on the City of Dayton registered heating or plumbing contractor lists dated June 4, 2026. Its shop address (ZIP 45449) is south of the city, but if your home is inside Dayton city limits, ask who will pull the city permit."
+      },
+      {
+        "title": "Best fit",
+        "body": "South Dayton suburb homes (Miami Township, West Carrollton, Miamisburg, Centerville, Kettering, Springboro) that want an independent, owner-run company for heating, cooling, plumbing, drains and basic electrical under one phone number. On a full system replacement, get the equipment brand, model numbers and total installed price in writing and compare at least one other quote."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Albert Services. To reach the company directly, call (937) 444-4357."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Albert Services licensed in Ohio?",
+        "answer": "Yes. The OCILB roster we downloaded on November 24, 2026 lists HVAC contractor license HV.10606 and plumbing contractor license PL.10606, both held by Timothy J Walsh for Albert Services, Inc and active through September 30, 2028."
+      },
+      {
+        "question": "Is Albert Services registered with the City of Dayton?",
+        "answer": "We did not find it on the City of Dayton registered heating or plumbing contractor lists active as of June 4, 2026. For a permitted job inside Dayton city limits, ask who will pull the city permit."
+      },
+      {
+        "question": "Where is Albert Services located?",
+        "answer": "2044 S Alex Rd, Suite A, Dayton, OH 45449, per its contact page, the state license record and BBB. Phone: (937) 444-4357."
+      },
+      {
+        "question": "Is Albert Services open 24/7?",
+        "answer": "Its contact page says it is available 24/7 for emergencies, and BBB's description says it offers true 24-hour emergency service. Regular office hours are not published on the pages we read."
+      },
+      {
+        "question": "Who owns Albert Services?",
+        "answer": "Tim Walsh, per the about page and BBB. The about page says the company has been family run since 1998, was once named Walsh and Son's, and is veteran owned and operated."
+      },
+      {
+        "question": "Is Albert Services locally owned?",
+        "answer": "Its about page says yes: it has stayed independent, has no shareholders and is not owned by a private equity firm, and its technicians do not work on commission."
+      },
+      {
+        "question": "Does Albert Services do plumbing and electrical work?",
+        "answer": "Yes. It holds state plumbing license PL.10606, and its site lists plumbing, drains, sewer, slab leak and water heater work along with electrical panels, outlets and lighting. Our license check covered HVAC and plumbing only, so ask for the electrical license number on electrical jobs."
+      },
+      {
+        "question": "Does Albert Services offer financing?",
+        "answer": "Yes, through Wisetack, for projects up to $25,000 with terms of 3 to 120 months and APRs from 0% to 35.9% depending on credit, per its financing page."
+      },
+      {
+        "question": "Which areas does Albert Services serve?",
+        "answer": "Its service areas page lists Beavercreek, Bellbrook, Centerville, Clayton, Dayton, Englewood, Fairborn, Franklin, Germantown, Huber Heights, Kettering, Lebanon, Miamisburg, Middletown, Riverside, Springboro, Springfield, Sugarcreek Township, Tipp City, Trotwood, Troy, Vandalia, Washington Township, West Carrollton and Xenia."
+      },
+      {
+        "question": "Is HVACLists affiliated with Albert Services?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Albert Services home page (since 1998, services, specials, veteran owned)",
+        "url": "https://www.alberthvac.com/"
+      },
+      {
+        "label": "Albert Services: about us (Tim Walsh, Walsh and Son's, independent, no commission)",
+        "url": "https://www.alberthvac.com/about-us/"
+      },
+      {
+        "label": "Albert Services: contact us (address, phone, 24/7 emergencies)",
+        "url": "https://www.alberthvac.com/contact-us/"
+      },
+      {
+        "label": "Albert Services: our team",
+        "url": "https://www.alberthvac.com/our-team/"
+      },
+      {
+        "label": "Albert Services: service areas (25 towns)",
+        "url": "https://www.alberthvac.com/service-areas/"
+      },
+      {
+        "label": "Albert Services: financing (Wisetack)",
+        "url": "https://www.alberthvac.com/financing/"
+      },
+      {
+        "label": "Albert Services: Genius Club maintenance plans",
+        "url": "https://www.alberthvac.com/genius-club-maintenance-plans/"
+      },
+      {
+        "label": "Albert Services: specials",
+        "url": "https://www.alberthvac.com/specials/"
+      },
+      {
+        "label": "BBB profile: Albert Services",
+        "url": "https://www.bbb.org/us/oh/dayton/profile/plumber/albert-services-0322-7003964"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026; not listed)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "City of Dayton Registered Plumbing Contractors list (active as of 6/4/2026; not listed)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 10606, plumbing 10606)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 24, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-24"
   }
 ]
