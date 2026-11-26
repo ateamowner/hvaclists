@@ -4614,5 +4614,610 @@
       }
     ],
     "checked": "2026-11-24"
+  },
+  {
+    "slug": "watkins-heating-cooling-springboro-oh",
+    "name": "Watkins Heating & Cooling",
+    "legal_name": "Watkins Heating & Cooling",
+    "also_known_as": [
+      "Watkins Heating and Cooling",
+      "Watkins HVAC",
+      "Watkins Heating Springboro",
+      "Watkins Heating & Cooling Dayton"
+    ],
+    "listing_names": [],
+    "schema_type": "HVACBusiness",
+    "title": "Watkins Heating & Cooling (Springboro, since 1992): License, Prices, Offices",
+    "meta_description": "Watkins Heating & Cooling, 10 Parker Dr, Springboro: Ohio HVAC license HV.15876 and PL.15876 (OCILB, Nov 26, 2026), offices in Dayton and Mason, 24/7 emergency service, $99 furnace diagnostic, posted repair and furnace prices. Independent profile.",
+    "headline": "Watkins Heating & Cooling: family HVAC company in Springboro with a south Dayton office and posted prices",
+    "base_location": "Springboro, OH",
+    "summary": [
+      "Watkins Heating & Cooling is a family-owned residential and light commercial heating and air conditioning company headquartered at 10 Parker Dr in Springboro, with a second Miami Valley office at 480 Congress Park Dr in south Dayton (Centerville area) and a third in Mason. Its about page says HVAC is a three-generation family trade: Dave Watkins learned it in the Air National Guard and ran a commercial and industrial company with his sons, and in 1992 his son Randy turned the business toward homeowners. David Watkins, Randy's son, has led the company as CEO for about the past decade, per the site. BBB lists Lisa Watkins as president and David Watkins as vice president of operations, and shows the business accredited since November 4, 1997.",
+      "The Ohio OCILB roster we downloaded on November 26, 2026 lists HVAC contractor license HV.15876 and plumbing contractor license PL.15876, both held by Randy M Watkins for Watkins Heating & Cooling at 10 Parker Dr, Springboro, active through September 30, 2028. BBB shows the same license number and expiration. Watkins sells and services furnaces, air conditioners, heat pumps, boilers, oil furnaces, geothermal heat pumps, ductless mini-splits, water heater replacement and indoor air quality products, offers 24/7 emergency service, and is a Trane Comfort Specialist dealer. It also publishes typical repair and replacement prices on its site."
+    ],
+    "address": {
+      "street": "10 Parker Dr",
+      "locality": "Springboro",
+      "region": "OH",
+      "postal_code": "45066",
+      "source": "https://www.watkinsheating.com/contact/"
+    },
+    "phone": {
+      "number": "(937) 748-0220",
+      "source": "https://www.watkinsheating.com/contact/"
+    },
+    "website": "https://www.watkinsheating.com/",
+    "facts": [
+      {
+        "label": "Hours",
+        "value": "The home page says Watkins offers 24/7 emergency service, including weekends and holidays, with after-hours charges of an extra $40 Monday to Saturday or $80 on Sundays and holidays. The site does not publish office hours, so none are shown here.",
+        "source": "https://www.watkinsheating.com/"
+      },
+      {
+        "label": "Offices",
+        "value": "Springboro: 10 Parker Dr, Springboro, OH 45066, (937) 748-0220. Dayton: 480 Congress Park Dr, Dayton, OH 45459, (937) 434-8898 (BBB lists this branch as Centerville). Mason: 4457 Bethany Rd, Suite B100, Mason, OH 45040, (513) 398-0110. Email: dispatch@watkinsheating.com.",
+        "source": "https://www.watkinsheating.com/contact/"
+      },
+      {
+        "label": "Since",
+        "value": "1992. The about page says Randy Watkins shifted the family company to homeowners in 1992, and BBB lists a 1/1/1992 start. The Springboro and commercial pages say \"since 1993.\"",
+        "source": "https://www.watkinsheating.com/about/"
+      },
+      {
+        "label": "Leadership",
+        "value": "The about page says David Watkins has led the company as CEO for the past decade. BBB lists Mrs. Lisa Watkins as president, Mr. David Watkins as vice president of operations and Mr. Jerod Long as sales manager.",
+        "source": "https://www.bbb.org/us/oh/springboro/profile/heating-and-air-conditioning/watkins-heating-cooling-0322-19001783"
+      },
+      {
+        "label": "Posted repair prices",
+        "value": "Flat $99 furnace diagnostic, including travel. The furnace repair pricing page lists typical ranges such as capacitor $120 to $300, flame sensor $150 to $350, thermostat $100 to $900, blower motor $380 to $800, control board $250 to $900, draft inducer motor $400 to $1,000 and heat exchanger $1,300 to $2,600. Final prices come from the on-site quote.",
+        "source": "https://www.watkinsheating.com/repair/furnace-repair-pricing/"
+      },
+      {
+        "label": "Posted furnace replacement prices",
+        "value": "The furnace pricing page puts typical Miami Valley furnace replacement at $2,900 to $8,700, averaging about $5,800: base 80% AFUE models $2,900 to $4,000, mid-range 95% AFUE $4,000 to $6,000, and premium 97% AFUE modulating models $6,000 to $8,700.",
+        "source": "https://www.watkinsheating.com/replace/furnace-pricing/"
+      },
+      {
+        "label": "Guarantees",
+        "value": "The about page lists a One Year Buy-It-Back Guarantee, a Right-Size Guarantee and a lifetime workmanship guarantee, and says installs and service are done by trained employees, not subcontractors, with an in-house trade school.",
+        "source": "https://www.watkinsheating.com/about/"
+      },
+      {
+        "label": "Brand and awards",
+        "value": "Independent Trane Comfort Specialist dealer; a 2017 company post says Watkins was a charter member of Trane's Comfort Specialist program, which began in 1999. Another 2017 post says the Dayton BBB gave Watkins its Eclipse Award for Integrity in the 21 to 70 employee category.",
+        "source": "https://www.watkinsheating.com/blog/partner/trane-comfort-specialist-since-1999/"
+      },
+      {
+        "label": "Current offers",
+        "value": "The specials page lists 0% APR for 72 months with $0 down on Trane systems (with credit approval) and factory rebates of $1,000 on a Trane 20 TruComfort variable-speed system, $750 on a Trane 18 variable-speed system and $500 on a Trane 17 multi-speed system. Confirm terms at the estimate.",
+        "source": "https://www.watkinsheating.com/specials/"
+      },
+      {
+        "label": "Commercial",
+        "value": "The commercial page says Watkins services office buildings, places of worship, retail spaces and light manufacturing along the I-75 corridor from north Cincinnati to south Dayton.",
+        "source": "https://www.watkinsheating.com/commercial-hvac-service/"
+      },
+      {
+        "label": "BBB",
+        "value": "BBB shows Watkins Heating & Cooling as accredited since November 4, 1997 and lists two locations, Springboro and Centerville. Open the profile for current rating and complaint details.",
+        "source": "https://www.bbb.org/us/oh/springboro/profile/heating-and-air-conditioning/watkins-heating-cooling-0322-19001783"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.15876",
+        "holder": "Randy M Watkins, for Watkins Heating & Cooling (10 Parker Dr, Springboro)",
+        "status": "Active (OCILB roster, Nov 26, 2026)",
+        "expires": "2028-09-30",
+        "note": "BBB records show license 15876 issued by OCILB, expiring 9/30/2028.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "authority": "Ohio OCILB",
+        "credential": "Plumbing contractor license",
+        "number": "PL.15876",
+        "holder": "Randy M Watkins, for Watkins Heating & Cooling (10 Parker Dr, Springboro)",
+        "status": "Active (OCILB roster, Nov 26, 2026)",
+        "expires": "2028-09-30",
+        "note": "Watkins is not on the City of Dayton registered heating or plumbing contractor lists active as of 6/4/2026. For a job inside Dayton city limits, ask who will pull the city permit.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      }
+    ],
+    "services": [
+      "Furnace repair, tune-ups and replacement",
+      "Air conditioner repair, tune-ups and replacement",
+      "Heat pump repair and replacement",
+      "Geothermal heat pumps",
+      "Ductless mini-splits",
+      "Boiler repair",
+      "Oil furnace repair",
+      "Water heater replacement",
+      "Furnace filters",
+      "Indoor air quality products",
+      "24/7 emergency HVAC service",
+      "Commercial HVAC for offices, churches, retail and light manufacturing",
+      "Trane systems (Trane Comfort Specialist dealer)"
+    ],
+    "services_source": "https://www.watkinsheating.com/",
+    "areas_served": [
+      "Beavercreek",
+      "Bellbrook",
+      "Centerville",
+      "Dayton",
+      "Fairborn",
+      "Germantown",
+      "Kettering",
+      "Miamisburg",
+      "Moraine",
+      "Spring Valley",
+      "Sugarcreek Township",
+      "Washington Township",
+      "West Alexandria",
+      "West Carrollton",
+      "Woodbourne-Hyde Park",
+      "Xenia",
+      "Carlisle",
+      "Franklin",
+      "Middletown",
+      "Springboro",
+      "Waynesville",
+      "Also covered by its location pages: Lebanon, Mason and Milford"
+    ],
+    "areas_source": "https://www.watkinsheating.com/reviews/dayton-oh/",
+    "related_links": [
+      {
+        "href": "/springboro-oh/furnace/",
+        "label": "Furnace repair in Springboro, OH",
+        "why": "Watkins is headquartered on Parker Dr in Springboro"
+      },
+      {
+        "href": "/springboro-oh/hvac-installation/",
+        "label": "HVAC installation in Springboro, OH",
+        "why": "it posts furnace replacement prices and Trane system offers"
+      },
+      {
+        "href": "/centerville-oh/ac-repair/",
+        "label": "AC repair in Centerville, OH",
+        "why": "its south Dayton office is on Congress Park Dr, which BBB lists as Centerville"
+      },
+      {
+        "href": "/kettering-oh/furnace/",
+        "label": "Furnace repair in Kettering, OH",
+        "why": "a town on its Dayton office service list"
+      },
+      {
+        "href": "/miamisburg-oh/emergency-hvac/",
+        "label": "Emergency HVAC in Miamisburg, OH",
+        "why": "Watkins advertises 24/7 emergency service, and Miamisburg is on its list"
+      },
+      {
+        "href": "/dayton-oh/furnace/",
+        "label": "Furnace repair in Dayton, OH",
+        "why": "compare City of Dayton registered heating contractors for jobs inside city limits"
+      }
+    ],
+    "notes": [
+      {
+        "title": "License checks out",
+        "body": "HV.15876 and PL.15876 are active state HVAC and plumbing contractor licenses tied to Watkins Heating & Cooling at 10 Parker Dr, Springboro, and BBB shows the same license number and expiration."
+      },
+      {
+        "title": "Prices you can check before calling",
+        "body": "Watkins posts typical repair and replacement prices on its site, including a flat $99 furnace diagnostic. Use those ranges to sanity-check any quote, from Watkins or anyone else, and remember the after-hours surcharge of $40 (Monday to Saturday) or $80 (Sundays and holidays)."
+      },
+      {
+        "title": "Best fit",
+        "body": "South Dayton, Centerville, Kettering, Springboro and Warren County homes that want an established family company with a Trane focus, its own employees and posted prices. It is not on the City of Dayton contractor lists, so for work inside Dayton city limits confirm permitting before you sign."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Watkins. To reach the company directly, call (937) 748-0220."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Watkins Heating & Cooling licensed in Ohio?",
+        "answer": "Yes. The OCILB roster we downloaded on November 26, 2026 lists HVAC contractor license HV.15876 and plumbing contractor license PL.15876, both held by Randy M Watkins for Watkins Heating & Cooling at 10 Parker Dr, Springboro, active through September 30, 2028."
+      },
+      {
+        "question": "Is Watkins registered with the City of Dayton?",
+        "answer": "No. Watkins does not appear on the City of Dayton registered heating or plumbing contractor lists active as of June 4, 2026. For work inside Dayton city limits, ask who will pull the permit."
+      },
+      {
+        "question": "Where is Watkins Heating & Cooling located?",
+        "answer": "The main office is 10 Parker Dr, Springboro, OH 45066, phone (937) 748-0220. It also has a Dayton office at 480 Congress Park Dr, Dayton 45459, phone (937) 434-8898, and a Mason office at 4457 Bethany Rd, Suite B100, phone (513) 398-0110."
+      },
+      {
+        "question": "Does Watkins offer 24/7 emergency service?",
+        "answer": "Yes. Its home page says it offers 24/7 emergency service, including weekends and holidays, with an extra $40 after hours Monday to Saturday or $80 on Sundays and holidays."
+      },
+      {
+        "question": "How much does Watkins charge for a furnace diagnostic?",
+        "answer": "A flat $99, including travel, per its furnace repair pricing page. The page lists typical repair ranges from about $100 for minor fixes up to $2,600 for a heat exchanger."
+      },
+      {
+        "question": "How much does a new furnace cost from Watkins?",
+        "answer": "Its furnace pricing page puts typical Miami Valley furnace replacement at $2,900 to $8,700, averaging about $5,800, depending on efficiency (80%, 95% or 97% AFUE), size and installation needs."
+      },
+      {
+        "question": "Who owns Watkins Heating & Cooling?",
+        "answer": "The Watkins family. The about page says Randy Watkins turned the family company toward homeowners in 1992 and his son David has led it as CEO for about a decade. BBB lists Lisa Watkins as president and David Watkins as vice president of operations. The state licenses are held by Randy M Watkins."
+      },
+      {
+        "question": "How long has Watkins been in business?",
+        "answer": "Since 1992 per its about page and BBB (some pages on its site say 1993). BBB shows it accredited since November 4, 1997."
+      },
+      {
+        "question": "What brands does Watkins install?",
+        "answer": "Watkins is an independent Trane Comfort Specialist dealer and says it was a charter member of that program. It services other brands as well, plus boilers, oil furnaces and geothermal systems."
+      },
+      {
+        "question": "Which areas does Watkins serve?",
+        "answer": "Its Dayton office covers Beavercreek, Bellbrook, Centerville, Dayton, Fairborn, Germantown, Kettering, Miamisburg, Moraine, Spring Valley, Sugarcreek Township, Washington Township, West Alexandria, West Carrollton, Woodbourne-Hyde Park and Xenia. Its Springboro office covers Carlisle, Franklin, Middletown, Springboro and Waynesville, and it also has pages for Lebanon, Mason and Milford."
+      },
+      {
+        "question": "Is HVACLists affiliated with Watkins Heating & Cooling?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Watkins Heating & Cooling home page (24/7 emergency service, after-hours charges)",
+        "url": "https://www.watkinsheating.com/"
+      },
+      {
+        "label": "Watkins: about (family history, 1992, guarantees, employees)",
+        "url": "https://www.watkinsheating.com/about/"
+      },
+      {
+        "label": "Watkins: contact (three offices, phones, email)",
+        "url": "https://www.watkinsheating.com/contact/"
+      },
+      {
+        "label": "Watkins: Dayton office page (towns served)",
+        "url": "https://www.watkinsheating.com/reviews/dayton-oh/"
+      },
+      {
+        "label": "Watkins: Springboro office page (towns served, \"since 1993\")",
+        "url": "https://www.watkinsheating.com/reviews/springboro-oh/"
+      },
+      {
+        "label": "Watkins: furnace repair pricing ($99 diagnostic, typical repair costs)",
+        "url": "https://www.watkinsheating.com/repair/furnace-repair-pricing/"
+      },
+      {
+        "label": "Watkins: furnace replacement pricing",
+        "url": "https://www.watkinsheating.com/replace/furnace-pricing/"
+      },
+      {
+        "label": "Watkins: specials (Trane rebates, 0% APR 72 months)",
+        "url": "https://www.watkinsheating.com/specials/"
+      },
+      {
+        "label": "Watkins: commercial HVAC",
+        "url": "https://www.watkinsheating.com/commercial-hvac-service/"
+      },
+      {
+        "label": "Watkins: geothermal heat pumps",
+        "url": "https://www.watkinsheating.com/replace/geothermal-heat-pumps/"
+      },
+      {
+        "label": "Watkins blog: Trane Comfort Specialist since 1999 (May 1, 2017)",
+        "url": "https://www.watkinsheating.com/blog/partner/trane-comfort-specialist-since-1999/"
+      },
+      {
+        "label": "Watkins blog: BBB Eclipse Award (May 1, 2017)",
+        "url": "https://www.watkinsheating.com/blog/partner/bbb-eclipse-award/"
+      },
+      {
+        "label": "BBB profile: Watkins Heating & Cooling",
+        "url": "https://www.bbb.org/us/oh/springboro/profile/heating-and-air-conditioning/watkins-heating-cooling-0322-19001783"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "City of Dayton Registered Plumbing Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/256/Registered-Plumbing-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC and plumbing 15876)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 26, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-26"
+  },
+  {
+    "slug": "deer-heating-cooling-fairborn-oh",
+    "name": "Deer Heating & Cooling",
+    "legal_name": "Deer Heating-Cooling",
+    "also_known_as": [
+      "Deer Heating and Cooling",
+      "Deer Heating-Cooling",
+      "Deer HVAC Fairborn",
+      "Deer Heating & Cooling Fairborn"
+    ],
+    "listing_names": [],
+    "schema_type": "HVACBusiness",
+    "title": "Deer Heating & Cooling (Fairborn, since 1996): License, Owner, Hours",
+    "meta_description": "Deer Heating & Cooling, 351 N Broad St, Fairborn: Ohio HVAC license HV.47732 (OCILB, Nov 26, 2026), owner Mike Hall since 2015, founded 1996, Trane dealer, 7 AM to 11 PM daily, offers and service area. Independent profile.",
+    "headline": "Deer Heating & Cooling: locally owned Fairborn HVAC company since 1996",
+    "base_location": "Fairborn, OH",
+    "summary": [
+      "Deer Heating & Cooling is a residential and light commercial heating and air conditioning company at 351 N Broad St in Fairborn. Its about page says Charles Deer founded it in May 1996 and that Mike Hall, who had worked for the company for eight years, bought it in May 2015. The site calls it locally owned and family-owned. The Fairborn Daily Herald described it as a faith-based business when it reported in December 2020 on the company's 12th annual Christmas ham giveaway, where it gave away 250 hams.",
+      "The Ohio OCILB roster we downloaded on November 26, 2026 lists HVAC contractor license HV.47732, held by Michael A Hall for Deer Heating-Cooling at 351 N Broad St, Fairborn, active through July 28, 2028; the site shows \"License: #47732, Ohio.\" Deer installs, repairs and maintains furnaces, air conditioners, heat pumps and ductless mini-splits, works on water heaters, indoor air quality and duct cleaning, thermostats and controls, and light commercial systems. It is a Trane dealer, services all major brands, and says its technicians are not paid on commission."
+    ],
+    "address": {
+      "street": "351 N Broad St",
+      "locality": "Fairborn",
+      "region": "OH",
+      "postal_code": "45324",
+      "source": "https://deerheatingandcooling.com/contact-us"
+    },
+    "phone": {
+      "number": "(937) 879-3337",
+      "source": "https://deerheatingandcooling.com/contact-us"
+    },
+    "website": "https://deerheatingandcooling.com/",
+    "facts": [
+      {
+        "label": "Hours",
+        "value": "The contact page lists hours of operation as 7:00 AM to 11:00 PM, Monday through Sunday, and office hours as 7:30 AM to 5 PM, Monday through Sunday. Other online listings show different hours, so confirm when you call.",
+        "source": "https://deerheatingandcooling.com/contact-us"
+      },
+      {
+        "label": "Since",
+        "value": "May 1996, founded by Charles Deer, per the about page. Mike Hall bought the business in May 2015 after eight years with the company.",
+        "source": "https://deerheatingandcooling.com/about-us"
+      },
+      {
+        "label": "Email",
+        "value": "info@deerheatingcooling.com, per the contact page.",
+        "source": "https://deerheatingandcooling.com/contact-us"
+      },
+      {
+        "label": "How they work",
+        "value": "The site says Deer runs background checks on its technicians, uses NATE-certified techs, calls 15 minutes before arriving, gives free estimates on new installations, and does not pay technicians commissions.",
+        "source": "https://deerheatingandcooling.com/"
+      },
+      {
+        "label": "Guarantees",
+        "value": "The site lists 100% satisfaction on all work and installs, system replacement if performance fails, and up to a 10-year labor warranty on qualifying new installations.",
+        "source": "https://deerheatingandcooling.com/about-us"
+      },
+      {
+        "label": "Maintenance plan",
+        "value": "The maintenance page describes a plan called the Service Efficiency Agreement (SEA) for scheduled system care. No price is posted.",
+        "source": "https://deerheatingandcooling.com/services/hvac-maintenance"
+      },
+      {
+        "label": "Financing and offers",
+        "value": "The financing and specials pages list up to 60 months at 0% with approved credit (financing pages for Trane and Ruud products), manufacturer rebates up to $2,000 on new installations, a 5% military discount and $25 off any service. Offers cannot be combined.",
+        "source": "https://deerheatingandcooling.com/specials"
+      },
+      {
+        "label": "Payment",
+        "value": "The specials page lists American Express, Discover, MasterCard, Visa, cash, personal check and money order.",
+        "source": "https://deerheatingandcooling.com/specials"
+      },
+      {
+        "label": "Community",
+        "value": "The Fairborn Daily Herald (December 24, 2020) covered Deer's annual Christmas ham giveaway, then in its 12th year, when the company gave away 250 hams and bags of potatoes.",
+        "source": "https://www.fairborndailyherald.com/2020/12/24/deers-ham-day-is-in-the-christmas-spirit/"
+      },
+      {
+        "label": "BBB",
+        "value": "BBB has a profile for Deer Heating and Cooling in Fairborn. Our direct fetch of the profile was blocked on November 26, 2026, so we link to it rather than repeat its details.",
+        "source": "https://www.bbb.org/us/oh/fairborn/profile/heating-and-air-conditioning/deer-heating-and-cooling-0322-12000278"
+      }
+    ],
+    "licenses": [
+      {
+        "authority": "Ohio OCILB",
+        "credential": "HVAC contractor license",
+        "number": "HV.47732",
+        "holder": "Michael A Hall, for Deer Heating-Cooling (351 N Broad St, Fairborn)",
+        "status": "Active (OCILB roster, Nov 26, 2026)",
+        "expires": "2028-07-28",
+        "note": "Matches \"License: #47732, Ohio\" on the website. No OCILB plumbing (PL) license was found under the Deer name or address, and Deer is not on the City of Dayton registered heating contractor list active as of 6/4/2026.",
+        "source": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      }
+    ],
+    "services": [
+      "Furnace installation, repair and maintenance",
+      "Air conditioner installation, repair and maintenance",
+      "Heat pump installation, repair and maintenance",
+      "Ductless mini-split installation, repair and maintenance",
+      "Water heater installation, repair and maintenance",
+      "Indoor air quality, including duct cleaning",
+      "Thermostats and HVAC controls",
+      "Light commercial HVAC",
+      "Service Efficiency Agreement maintenance plan",
+      "Trane equipment (Trane dealer); services all major brands"
+    ],
+    "services_source": "https://deerheatingandcooling.com/services",
+    "areas_served": [
+      "Brookville",
+      "Centerville",
+      "Clayton",
+      "Dayton",
+      "Englewood",
+      "Fairborn",
+      "Franklin",
+      "Miamisburg",
+      "New Carlisle",
+      "Springboro",
+      "Springfield",
+      "Tipp City",
+      "Troy",
+      "Urbana",
+      "Vandalia",
+      "Waynesville",
+      "Xenia"
+    ],
+    "areas_source": "https://deerheatingandcooling.com/services",
+    "related_links": [
+      {
+        "href": "/fairborn-oh/furnace/",
+        "label": "Furnace repair in Fairborn, OH",
+        "why": "Deer's shop is on N Broad St in Fairborn"
+      },
+      {
+        "href": "/fairborn-oh/ac-repair/",
+        "label": "AC repair in Fairborn, OH",
+        "why": "Deer's home base, and AC repair is a core service"
+      },
+      {
+        "href": "/xenia-oh/hvac-installation/",
+        "label": "HVAC installation in Xenia, OH",
+        "why": "a Greene County town on its service list"
+      },
+      {
+        "href": "/vandalia-oh/furnace/",
+        "label": "Furnace repair in Vandalia, OH",
+        "why": "a town on its service list"
+      },
+      {
+        "href": "/tipp-city-oh/ac-repair/",
+        "label": "AC repair in Tipp City, OH",
+        "why": "a town on its service list"
+      },
+      {
+        "href": "/dayton-oh/furnace/",
+        "label": "Furnace repair in Dayton, OH",
+        "why": "compare City of Dayton registered heating contractors for jobs inside city limits"
+      }
+    ],
+    "notes": [
+      {
+        "title": "License checks out",
+        "body": "HV.47732 is an active state HVAC contractor license held by owner Michael A Hall for Deer Heating-Cooling at 351 N Broad St, Fairborn, and it matches the number on the company's website."
+      },
+      {
+        "title": "Water heaters and Dayton permits",
+        "body": "Deer lists water heater installation, but we found no state plumbing contractor license under its name or address, and it is not on the City of Dayton heating contractor list. Ask who pulls the permit for a water heater swap or for any job inside Dayton city limits."
+      },
+      {
+        "title": "Best fit",
+        "body": "Fairborn, Xenia, Vandalia, Tipp City and north Dayton-area homes that want a long-running, owner-operated Trane dealer with no-commission technicians and long daily hours. For a full system replacement, get the price and rebate terms in writing and compare at least one other licensed HVAC contractor."
+      },
+      {
+        "title": "What this page is not",
+        "body": "HVACLists has not hired this company and does not publish star ratings or review counts. Quote requests from this page go to HVACLists, not to Deer. To reach the company directly, call (937) 879-3337."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Deer Heating & Cooling licensed in Ohio?",
+        "answer": "Yes. The OCILB roster we downloaded on November 26, 2026 lists HVAC contractor license HV.47732, held by Michael A Hall for Deer Heating-Cooling at 351 N Broad St, Fairborn, active through July 28, 2028. The site shows license #47732."
+      },
+      {
+        "question": "Is Deer registered with the City of Dayton?",
+        "answer": "No. Deer does not appear on the City of Dayton registered heating contractor list active as of June 4, 2026. For work inside Dayton city limits, ask who will pull the permit."
+      },
+      {
+        "question": "Where is Deer Heating & Cooling located?",
+        "answer": "351 N Broad St, Fairborn, OH 45324, per its website and the state license record. Phone: (937) 879-3337. Email: info@deerheatingcooling.com."
+      },
+      {
+        "question": "What are Deer Heating & Cooling's hours?",
+        "answer": "The contact page lists hours of operation as 7 AM to 11 PM every day, with office hours of 7:30 AM to 5 PM every day. Other listings show different hours, so confirm when you call."
+      },
+      {
+        "question": "Who owns Deer Heating & Cooling?",
+        "answer": "Mike Hall (Michael A Hall, the state license holder). The about page says he bought the company in May 2015 after working there for eight years. Charles Deer founded it in May 1996."
+      },
+      {
+        "question": "What brands does Deer install?",
+        "answer": "Deer is a Trane dealer and services all major brands. Its financing page also covers Ruud products, and the site has a Mitsubishi page."
+      },
+      {
+        "question": "Does Deer offer financing or discounts?",
+        "answer": "Yes. Its pages list up to 60 months at 0% with approved credit, manufacturer rebates up to $2,000 on new installations, a 5% military discount and $25 off any service. Offers cannot be combined."
+      },
+      {
+        "question": "Does Deer have a maintenance plan?",
+        "answer": "Yes. It offers a Service Efficiency Agreement (SEA) for scheduled heating and cooling maintenance. No price is posted on the site."
+      },
+      {
+        "question": "Does Deer work on water heaters?",
+        "answer": "Its site lists water heater installation, repair and maintenance. We found no state plumbing contractor license under Deer's name, so ask who handles permits for a replacement."
+      },
+      {
+        "question": "Which areas does Deer Heating & Cooling serve?",
+        "answer": "Its service pages list Brookville, Centerville, Clayton, Dayton, Englewood, Fairborn, Franklin, Miamisburg, New Carlisle, Springboro, Springfield, Tipp City, Troy, Urbana, Vandalia, Waynesville and Xenia."
+      },
+      {
+        "question": "Is HVACLists affiliated with Deer Heating & Cooling?",
+        "answer": "No. HVACLists is an independent directory. This profile was compiled from public records and the company's own site, and the company did not write or pay for it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Deer Heating & Cooling home page (since 1996, services, Trane, no commissions, license #47732)",
+        "url": "https://deerheatingandcooling.com/"
+      },
+      {
+        "label": "Deer: about us (Charles Deer 1996, Mike Hall 2015, guarantees)",
+        "url": "https://deerheatingandcooling.com/about-us"
+      },
+      {
+        "label": "Deer: contact (address, phone, email, hours)",
+        "url": "https://deerheatingandcooling.com/contact-us"
+      },
+      {
+        "label": "Deer: services (towns served)",
+        "url": "https://deerheatingandcooling.com/services"
+      },
+      {
+        "label": "Deer: HVAC maintenance (Service Efficiency Agreement)",
+        "url": "https://deerheatingandcooling.com/services/hvac-maintenance"
+      },
+      {
+        "label": "Deer: water heaters",
+        "url": "https://deerheatingandcooling.com/services/water-heaters"
+      },
+      {
+        "label": "Deer: commercial HVAC",
+        "url": "https://deerheatingandcooling.com/services/commercial-hvac"
+      },
+      {
+        "label": "Deer: financing (Trane and Ruud)",
+        "url": "https://deerheatingandcooling.com/financing"
+      },
+      {
+        "label": "Deer: specials and payment methods",
+        "url": "https://deerheatingandcooling.com/specials"
+      },
+      {
+        "label": "Fairborn Daily Herald: Deer's \"Ham Day\" is in the Christmas spirit (Dec 24, 2020)",
+        "url": "https://www.fairborndailyherald.com/2020/12/24/deers-ham-day-is-in-the-christmas-spirit/"
+      },
+      {
+        "label": "BBB profile: Deer Heating and Cooling (link only; direct fetch blocked Nov 26, 2026)",
+        "url": "https://www.bbb.org/us/oh/fairborn/profile/heating-and-air-conditioning/deer-heating-and-cooling-0322-12000278"
+      },
+      {
+        "label": "City of Dayton Registered Heating Contractors list (active as of 6/4/2026)",
+        "url": "https://www.daytonohio.gov/DocumentCenter/View/254/Registered-Heating-Contractors-PDF"
+      },
+      {
+        "label": "Ohio OCILB license lookup (HVAC 47732)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/LicenseLookup.aspx"
+      },
+      {
+        "label": "Ohio OCILB HVAC and plumbing contractor roster download (generated Nov 26, 2026)",
+        "url": "https://elicense4.com.ohio.gov/Lookup/GenerateRoster.aspx"
+      }
+    ],
+    "checked": "2026-11-26"
   }
 ]
