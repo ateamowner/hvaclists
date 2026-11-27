@@ -6,7 +6,7 @@ import { shareMeta } from "@/lib/share-meta";
 
 const title = `For HVAC Companies: Featured Listings on ${site.name}`;
 const description =
-  `How contractors buy ${site.name} Featured (paid placement). $99/month self-serve on Stripe. Not exclusive. No lead-count SLA. The homeowner form has no credit-card field.`;
+  `How contractors buy ${site.name} Featured (paid placement). $99/month self-serve on Stripe. Not exclusive. No lead-count SLA. No credit card on the homeowner form.`;
 
 export const metadata: Metadata = {
   title,

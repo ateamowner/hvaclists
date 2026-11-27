@@ -69,8 +69,8 @@ const paidCount = companies.filter((c) =>
   c.tiers.some((t) => t !== "standard")
 ).length;
 
-const title = `Best HVAC Companies in Dayton, OH (2027): ${companies.length} Registered Contractors`;
-const description = `${companies.length} Dayton heating and cooling companies we checked against the City of Dayton heating contractor registry. Listed A to Z, not ranked, paid spots labeled.`;
+const title = `Best HVAC Companies in Dayton, OH (2027)`;
+const description = `Dayton HVAC companies checked against the City of Dayton heating contractor registry. Listed A to Z, not ranked, paid spots labeled.`;
 
 export const metadata: Metadata = {
   title,
