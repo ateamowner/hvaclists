@@ -133,6 +133,9 @@ export function listingsItemListSchema(
         telephone: listing.phone,
         description: listing.blurb,
         ...(listing.profile_url ? { url: listing.profile_url } : {}),
+        ...((listing.bbb_profile || listing.google_profile)
+          ? { sameAs: [listing.bbb_profile || listing.google_profile] }
+          : {}),
         ...(listing.license_id
           ? { identifier: listing.license_id }
           : {}),

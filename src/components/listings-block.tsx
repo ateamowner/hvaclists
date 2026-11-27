@@ -8,6 +8,20 @@ const TIER_LABEL: Record<Listing["tier"], string> = {
   standard: "Listing",
 };
 
+
+function directoryProfile(listing: Listing): { url: string; label: string } | null {
+  if (listing.bbb_profile) {
+    return { url: listing.bbb_profile, label: `View ${listing.name} on BBB` };
+  }
+  if (listing.google_profile) {
+    return {
+      url: listing.google_profile,
+      label: `View ${listing.name} on Google`,
+    };
+  }
+  return null;
+}
+
 export function ListingsBlock({ listings }: { listings: Listing[] }) {
   return (
     <section id="listings" className="mt-10">
@@ -25,8 +39,11 @@ export function ListingsBlock({ listings }: { listings: Listing[] }) {
       {listings.length === 0 ? (
         <EmptyListingState />
       ) : (
+        <>
         <ul className="mt-4 space-y-3">
-          {listings.map((listing) => (
+          {listings.map((listing) => {
+            const profile = directoryProfile(listing);
+            return (
             <li
               key={`${listing.tier}-${listing.name}`}
               className="rounded-[14px] border border-border bg-card p-4 shadow-[0_12px_32px_rgba(19,32,43,.10)]"
@@ -49,8 +66,13 @@ export function ListingsBlock({ listings }: { listings: Listing[] }) {
                 )}
               </div>
               <h3 className="mt-2 font-heading text-lg font-semibold">
-                {listing.profile_url ? (
-                  <a href={listing.profile_url} className="hover:underline">
+                {profile ? (
+                  <a
+                    href={profile.url}
+                    className="hover:underline"
+                    rel="nofollow noopener"
+                    target="_blank"
+                  >
                     {listing.name}
                   </a>
                 ) : (
@@ -101,6 +123,19 @@ export function ListingsBlock({ listings }: { listings: Listing[] }) {
                   ))}
                 </p>
               ) : null}
+              {profile ? (
+                <p className="mt-3">
+                  <a
+                    href={profile.url}
+                    className="text-sm font-medium underline underline-offset-2"
+                    rel="nofollow noopener"
+                    target="_blank"
+                  >
+                    {profile.label}
+                  </a>
+                </p>
+              ) : null}
+
               {listing.name ? (
                 <p className="mt-3">
                   <a
@@ -112,8 +147,15 @@ export function ListingsBlock({ listings }: { listings: Listing[] }) {
                 </p>
               ) : null}
             </li>
-          ))}
+            );
+          })}
         </ul>
+        <p className="mt-4 text-xs leading-5 text-muted-foreground">
+          {site.name} does not copy star ratings or review counts. When a
+          company has a BBB or Google Business profile we could verify, the
+          card links to that profile.
+        </p>
+        </>
       )}
     </section>
   );
