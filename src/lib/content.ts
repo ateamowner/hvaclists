@@ -163,7 +163,7 @@ export function faqs(city: City, service: Service): Faq[] {
     },
     {
       question: `What happens after I submit the form on this ${city.name} page?`,
-      answer: `The static form posts to Formsubmit and emails ${site.leadsEmail}. We store the request and route it to a company that covers your ZIP and service type when one is available. Expect a phone call from a local HVAC company, not from a ${site.name} tech. If no company is live on this URL yet, we still take the request and follow up.`,
+      answer: `The static form posts to Formsubmit and is delivered to the ${site.name} inbox. We store the request and route it to a company that covers your ZIP and service type when one is available. Expect a phone call from a local HVAC company, not from a ${site.name} tech. If no company is live on this URL yet, we still take the request and follow up.`,
     },
     {
       question:
@@ -194,7 +194,7 @@ export function homeFaqs(): Faq[] {
     {
       question: "What happens after I submit the form?",
       answer:
-        "We route the request to a company that covers your ZIP, or follow up with you directly. Requests go to owner@ateamcontractings.com. We do not invent companies to fill empty slots.",
+        "We route the request to a company that covers your ZIP, or follow up with you directly. Requests go to the HVACLists inbox. We do not invent companies to fill empty slots.",
     },
     {
       question: "Do you invent star ratings or city-specific prices?",

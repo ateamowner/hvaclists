@@ -62,11 +62,8 @@ export default function SourcesPage() {
       <p className="mt-4 text-base leading-7">
         {site.name} cites national published ranges and official guidance. We
         do not invent city-specific prices, star ratings, or license numbers.
-        If a page is wrong, email{" "}
-        <a href={`mailto:${site.email}`} className="underline underline-offset-2">
-          {site.email}
-        </a>
-        .
+        If a page is wrong, use the quote form on this site with the page
+        link.
       </p>
       <ul className="mt-8 space-y-4">
         {sources.map((source) => (

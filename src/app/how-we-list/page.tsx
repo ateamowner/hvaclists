@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     question: `How do I get a listing fixed or removed?`,
-    answer: `Email ${site.email} with the page link and what is wrong. We check the public source again and correct or remove the listing.`,
+    answer: `Send a correction through the quote form on this site with the page link and what is wrong. We check the public source again and correct or remove the listing.`,
   },
 ];
 
@@ -143,11 +143,8 @@ export default function HowWeListPage() {
         Corrections
       </h2>
       <p className="mt-3 leading-7">
-        See something wrong? Email{" "}
-        <a href={`mailto:${site.email}`} className="underline">
-          {site.email}
-        </a>{" "}
-        with the page link. Companies that want a labeled Featured spot can
+        See something wrong? Send a correction through the quote form on this
+        site with the page link. Companies that want a labeled Featured spot can
         start on the <Link href="/for-pros/" className="underline">For HVAC companies</Link>{" "}
         page.
       </p>

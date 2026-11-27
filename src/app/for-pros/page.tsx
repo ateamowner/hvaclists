@@ -70,8 +70,9 @@ export default function ForProsPage() {
         quote form.
       </p>
       <p className="mt-3 leading-7">
-        Every request posts to Formsubmit and emails {site.leadsEmail}. If a
-        listing is live for that URL, we route to that company. If the URL is
+        Every request posts to Formsubmit and is delivered to the{" "}
+        {site.name} inbox. If a listing is live for that URL, we route to
+        that company. If the URL is
         empty, we still take the request and follow up, we do not invent a
         contractor to fill the gap.
       </p>
@@ -90,11 +91,7 @@ export default function ForProsPage() {
         card numbers to the homeowner form.
       </p>
       <p className="mt-3 leading-7">
-        Contact:{" "}
-        <a href={`mailto:${site.email}`} className="underline">
-          {site.email}
-        </a>
-        .
+        Questions: use the quote form on this site.
       </p>
 
       <h2 className="mt-10 font-heading text-2xl font-semibold">Live URLs</h2>
