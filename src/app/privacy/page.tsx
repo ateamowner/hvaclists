@@ -37,11 +37,8 @@ export default function PrivacyPage() {
 
       <h2 className="mt-8 font-heading text-2xl font-semibold">How we use it</h2>
       <p className="mt-3 leading-7">
-        The static form posts to Formsubmit, which emails{" "}
-        <a href={`mailto:${site.leadsEmail}`} className="underline">
-          {site.leadsEmail}
-        </a>
-        . We share the request with a company that covers your ZIP and service,
+        The static form posts to Formsubmit, which delivers the request to
+        the {site.name} inbox. We share the request with a company that covers your ZIP and service,
         including a paid listing on that URL when one exists. Until a listing
         is live, we still take the request and follow up.
       </p>
@@ -63,11 +60,7 @@ export default function PrivacyPage() {
 
       <h2 className="mt-8 font-heading text-2xl font-semibold">Contact</h2>
       <p className="mt-3 leading-7">
-        Questions:{" "}
-        <a href={`mailto:${site.email}`} className="underline">
-          {site.email}
-        </a>
-        .
+        Questions: use the quote form on this site.
       </p>
     </article>
   );

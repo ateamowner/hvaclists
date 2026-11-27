@@ -58,25 +58,6 @@ function writeDraft(key: string, draft: Draft) {
   drafts.set(key, draft);
 }
 
-function mailtoHref(draft: Draft, city?: City, service?: Service): string {
-  const subject = encodeURIComponent(`${site.name} quote request`);
-  const lines = [
-    `Name: ${draft.name}`,
-    `Phone: ${draft.phone}`,
-    `Email: ${draft.email}`,
-    `ZIP: ${draft.zip}`,
-    `Service: ${draft.service_type}`,
-    `Timing: ${draft.timing}`,
-    `Property type: ${draft.property_type || "(not given)"}`,
-    `City: ${city?.name ?? ""}`,
-    `Service page: ${service?.slug ?? ""}`,
-    `Message: ${draft.message}`,
-    `SMS consent: ${draft.sms_consent ? "yes" : "no"}`,
-  ];
-  const body = encodeURIComponent(lines.join("\n"));
-  return `mailto:${site.leadsEmail}?subject=${subject}&body=${body}`;
-}
-
 type QuoteFormProps = {
   city?: City;
   service?: Service;
@@ -378,11 +359,7 @@ export function QuoteForm({ city, service, listingId, compact }: QuoteFormProps)
         Send request
       </button>
       <p className="mt-3 text-xs leading-5 text-muted-foreground">
-        If the form cannot send, email{" "}
-        <a href={mailtoHref(draft, city, service)} className="underline">
-          {site.leadsEmail}
-        </a>{" "}
-        with the same details.
+        If the form cannot send, try again in a moment. No credit card.
       </p>
     </form>
   );

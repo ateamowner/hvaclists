@@ -49,11 +49,6 @@ export function SiteFooter() {
                 Privacy
               </Link>
             </li>
-            <li>
-              <a href={`mailto:${site.email}`} className="hover:underline">
-                {site.email}
-              </a>
-            </li>
           </ul>
         </div>
       </div>
