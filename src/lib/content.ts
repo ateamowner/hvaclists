@@ -235,7 +235,7 @@ export function hubFaqs(city: City): Faq[] {
 }
 
 export function metaDescription(city: City, service: Service): string {
-  return `${lockedH1(service, city)}. Compare listed companies, read national cost ranges, and request a callback. ${site.name} is a directory, not an HVAC contractor.`;
+  return `${lockedH1(service, city)}. Compare listed companies and request a callback. ${site.name} is a directory, not a contractor.`;
 }
 
 function joinAnd(names: string[]): string {
